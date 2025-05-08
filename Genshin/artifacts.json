@@ -1,0 +1,2045 @@
+{
+    "Initiate": {
+        "link": "https://genshin-impact.fandom.com/wiki/Initiate",
+        "quality": [
+            1
+        ],
+        "pieces": [
+            {
+                "name": "Initiate's Flower",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Initiate/Initiate's Flower.png"
+            },
+            {
+                "name": "Initiate's Feather",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Initiate/Initiate's Feather.png"
+            }
+        ],
+        "bonuses": [
+            ""
+        ]
+    },
+    "Adventurer": {
+        "link": "https://genshin-impact.fandom.com/wiki/Adventurer",
+        "quality": [
+            1,
+            2,
+            3
+        ],
+        "pieces": [
+            {
+                "name": "Adventurer's Flower",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Adventurer/Adventurer's Flower.png"
+            },
+            {
+                "name": "Adventurer's Tail Feather",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Adventurer/Adventurer's Tail Feather.png"
+            },
+            {
+                "name": "Adventurer's Pocket Watch",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Adventurer/Adventurer's Pocket Watch.png"
+            },
+            {
+                "name": "Adventurer's Golden Goblet",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Adventurer/Adventurer's Golden Goblet.png"
+            },
+            {
+                "name": "Adventurer's Bandana",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Adventurer/Adventurer's Bandana.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Max HP increased by 1000.",
+            "4 Piece: Opening a chest regenerates 30% Max HP over 5s."
+        ]
+    },
+    "Lucky Dog": {
+        "link": "https://genshin-impact.fandom.com/wiki/Lucky_Dog",
+        "quality": [
+            1,
+            2,
+            3
+        ],
+        "pieces": [
+            {
+                "name": "Lucky Dog's Clover",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Lucky Dog/Lucky Dog's Clover.png"
+            },
+            {
+                "name": "Lucky Dog's Eagle Feather",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Lucky Dog/Lucky Dog's Eagle Feather.png"
+            },
+            {
+                "name": "Lucky Dog's Hourglass",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Lucky Dog/Lucky Dog's Hourglass.png"
+            },
+            {
+                "name": "Lucky Dog's Goblet",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Lucky Dog/Lucky Dog's Goblet.png"
+            },
+            {
+                "name": "Lucky Dog's Silver Circlet",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Lucky Dog/Lucky Dog's Silver Circlet.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: DEF increased by 100.",
+            "4 Piece: Picking up Mora restores 300 HP."
+        ]
+    },
+    "Traveling Doctor": {
+        "link": "https://genshin-impact.fandom.com/wiki/Traveling_Doctor",
+        "quality": [
+            1,
+            2,
+            3
+        ],
+        "pieces": [
+            {
+                "name": "Traveling Doctor's Silver Lotus",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Traveling Doctor/Traveling Doctor's Silver Lotus.png"
+            },
+            {
+                "name": "Traveling Doctor's Owl Feather",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Traveling Doctor/Traveling Doctor's Owl Feather.png"
+            },
+            {
+                "name": "Traveling Doctor's Pocket Watch",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Traveling Doctor/Traveling Doctor's Pocket Watch.png"
+            },
+            {
+                "name": "Traveling Doctor's Medicine Pot",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Traveling Doctor/Traveling Doctor's Medicine Pot.png"
+            },
+            {
+                "name": "Traveling Doctor's Handkerchief",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Traveling Doctor/Traveling Doctor's Handkerchief.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Increases incoming healing by 20%.",
+            "4 Piece: Using Elemental Burst restores 20% HP."
+        ]
+    },
+    "Resolution of Sojourner": {
+        "link": "https://genshin-impact.fandom.com/wiki/Resolution_of_Sojourner",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Heart of Comradeship",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Resolution of Sojourner/Heart of Comradeship.png"
+            },
+            {
+                "name": "Feather of Homecoming",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Resolution of Sojourner/Feather of Homecoming.png"
+            },
+            {
+                "name": "Sundial of the Sojourner",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Resolution of Sojourner/Sundial of the Sojourner.png"
+            },
+            {
+                "name": "Goblet of the Sojourner",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Resolution of Sojourner/Goblet of the Sojourner.png"
+            },
+            {
+                "name": "Crown of Parting",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Resolution of Sojourner/Crown of Parting.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: ATK +18%.",
+            "4 Piece: Increases Charged Attack CRIT Rate by 30%."
+        ]
+    },
+    "Tiny Miracle": {
+        "link": "https://genshin-impact.fandom.com/wiki/Tiny_Miracle",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Tiny Miracle's Flower",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Tiny Miracle/Tiny Miracle's Flower.png"
+            },
+            {
+                "name": "Tiny Miracle's Feather",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Tiny Miracle/Tiny Miracle's Feather.png"
+            },
+            {
+                "name": "Tiny Miracle's Hourglass",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Tiny Miracle/Tiny Miracle's Hourglass.png"
+            },
+            {
+                "name": "Tiny Miracle's Goblet",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Tiny Miracle/Tiny Miracle's Goblet.png"
+            },
+            {
+                "name": "Tiny Miracle's Earrings",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Tiny Miracle/Tiny Miracle's Earrings.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: All Elemental RES increased by 20%.",
+            "4 Piece: Incoming Elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
+        ]
+    },
+    "Berserker": {
+        "link": "https://genshin-impact.fandom.com/wiki/Berserker",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Berserker's Rose",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Berserker/Berserker's Rose.png"
+            },
+            {
+                "name": "Berserker's Indigo Feather",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Berserker/Berserker's Indigo Feather.png"
+            },
+            {
+                "name": "Berserker's Timepiece",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Berserker/Berserker's Timepiece.png"
+            },
+            {
+                "name": "Berserker's Bone Goblet",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Berserker/Berserker's Bone Goblet.png"
+            },
+            {
+                "name": "Berserker's Battle Mask",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Berserker/Berserker's Battle Mask.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: CRIT Rate +12%",
+            "4 Piece: When HP is below 70%, CRIT Rate increases by an additional 24%."
+        ]
+    },
+    "Instructor": {
+        "link": "https://genshin-impact.fandom.com/wiki/Instructor",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Instructor's Brooch",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Instructor/Instructor's Brooch.png"
+            },
+            {
+                "name": "Instructor's Feather Accessory",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Instructor/Instructor's Feather Accessory.png"
+            },
+            {
+                "name": "Instructor's Pocket Watch",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Instructor/Instructor's Pocket Watch.png"
+            },
+            {
+                "name": "Instructor's Tea Cup",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Instructor/Instructor's Tea Cup.png"
+            },
+            {
+                "name": "Instructor's Cap",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Instructor/Instructor's Cap.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Increases Elemental Mastery by 80.",
+            "4 Piece: Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s."
+        ]
+    },
+    "The Exile": {
+        "link": "https://genshin-impact.fandom.com/wiki/The_Exile",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Exile's Flower",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/The Exile/Exile's Flower.png"
+            },
+            {
+                "name": "Exile's Feather",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/The Exile/Exile's Feather.png"
+            },
+            {
+                "name": "Exile's Pocket Watch",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/The Exile/Exile's Pocket Watch.png"
+            },
+            {
+                "name": "Exile's Goblet",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/The Exile/Exile's Goblet.png"
+            },
+            {
+                "name": "Exile's Circlet",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/The Exile/Exile's Circlet.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Energy Recharge +20%",
+            "4 Piece: Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack."
+        ]
+    },
+    "Defender's Will": {
+        "link": "https://genshin-impact.fandom.com/wiki/Defender%27s_Will",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Guardian's Flower",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Defender's Will/Guardian's Flower.png"
+            },
+            {
+                "name": "Guardian's Sigil",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Defender's Will/Guardian's Sigil.png"
+            },
+            {
+                "name": "Guardian's Clock",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Defender's Will/Guardian's Clock.png"
+            },
+            {
+                "name": "Guardian's Vessel",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Defender's Will/Guardian's Vessel.png"
+            },
+            {
+                "name": "Guardian's Band",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Defender's Will/Guardian's Band.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: DEF +30%",
+            "4 Piece: For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%."
+        ]
+    },
+    "Brave Heart": {
+        "link": "https://genshin-impact.fandom.com/wiki/Brave_Heart",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Medal of the Brave",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Brave Heart/Medal of the Brave.png"
+            },
+            {
+                "name": "Prospect of the Brave",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Brave Heart/Prospect of the Brave.png"
+            },
+            {
+                "name": "Fortitude of the Brave",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Brave Heart/Fortitude of the Brave.png"
+            },
+            {
+                "name": "Outset of the Brave",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Brave Heart/Outset of the Brave.png"
+            },
+            {
+                "name": "Crown of the Brave",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Brave Heart/Crown of the Brave.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: ATK +18%.",
+            "4 Piece: Increases DMG by 30% against opponents with more than 50% HP."
+        ]
+    },
+    "Martial Artist": {
+        "link": "https://genshin-impact.fandom.com/wiki/Martial_Artist",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Martial Artist's Red Flower",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Martial Artist/Martial Artist's Red Flower.png"
+            },
+            {
+                "name": "Martial Artist's Feather Accessory",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Martial Artist/Martial Artist's Feather Accessory.png"
+            },
+            {
+                "name": "Martial Artist's Water Hourglass",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Martial Artist/Martial Artist's Water Hourglass.png"
+            },
+            {
+                "name": "Martial Artist's Wine Cup",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Martial Artist/Martial Artist's Wine Cup.png"
+            },
+            {
+                "name": "Martial Artist's Bandana",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Martial Artist/Martial Artist's Bandana.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Normal and Charged Attack DMG +15%",
+            "4 Piece: After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s."
+        ]
+    },
+    "Gambler": {
+        "link": "https://genshin-impact.fandom.com/wiki/Gambler",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Gambler's Brooch",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Gambler/Gambler's Brooch.png"
+            },
+            {
+                "name": "Gambler's Feather Accessory",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Gambler/Gambler's Feather Accessory.png"
+            },
+            {
+                "name": "Gambler's Pocket Watch",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Gambler/Gambler's Pocket Watch.png"
+            },
+            {
+                "name": "Gambler's Dice Cup",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Gambler/Gambler's Dice Cup.png"
+            },
+            {
+                "name": "Gambler's Earrings",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Gambler/Gambler's Earrings.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Increases Elemental Skill DMG by 20%.",
+            "4 Piece: Defeating an opponent has a 100% chance to remove Elemental Skill CD. Can only occur once every 15s."
+        ]
+    },
+    "Scholar": {
+        "link": "https://genshin-impact.fandom.com/wiki/Scholar",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Scholar's Bookmark",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Scholar/Scholar's Bookmark.png"
+            },
+            {
+                "name": "Scholar's Quill Pen",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Scholar/Scholar's Quill Pen.png"
+            },
+            {
+                "name": "Scholar's Clock",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Scholar/Scholar's Clock.png"
+            },
+            {
+                "name": "Scholar's Ink Cup",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Scholar/Scholar's Ink Cup.png"
+            },
+            {
+                "name": "Scholar's Lens",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Scholar/Scholar's Lens.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Energy Recharge +20%",
+            "4 Piece: Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s."
+        ]
+    },
+    "Prayers for Wisdom": {
+        "link": "https://genshin-impact.fandom.com/wiki/Prayers_for_Wisdom",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Tiara of Thunder",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Prayers for Wisdom/Tiara of Thunder.png"
+            }
+        ],
+        "bonuses": [
+            "1 Piece: Affected by Electro for 40% less time."
+        ]
+    },
+    "Prayers for Destiny": {
+        "link": "https://genshin-impact.fandom.com/wiki/Prayers_for_Destiny",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Tiara of Torrents",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Prayers for Destiny/Tiara of Torrents.png"
+            }
+        ],
+        "bonuses": [
+            "1 Piece: Affected by Hydro for 40% less time."
+        ]
+    },
+    "Prayers for Illumination": {
+        "link": "https://genshin-impact.fandom.com/wiki/Prayers_for_Illumination",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Tiara of Flame",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Prayers for Illumination/Tiara of Flame.png"
+            }
+        ],
+        "bonuses": [
+            "1 Piece: Affected by Pyro for 40% less time."
+        ]
+    },
+    "Prayers to Springtime": {
+        "link": "https://genshin-impact.fandom.com/wiki/Prayers_to_Springtime",
+        "quality": [
+            3,
+            4
+        ],
+        "pieces": [
+            {
+                "name": "Tiara of Frost",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Prayers to Springtime/Tiara of Frost.png"
+            }
+        ],
+        "bonuses": [
+            "1 Piece: Affected by Cryo for 40% less time."
+        ]
+    },
+    "Gladiator's Finale": {
+        "link": "https://genshin-impact.fandom.com/wiki/Gladiator%27s_Finale",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Gladiator's Nostalgia",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Gladiator's Finale/Gladiator's Nostalgia.png"
+            },
+            {
+                "name": "Gladiator's Destiny",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Gladiator's Finale/Gladiator's Destiny.png"
+            },
+            {
+                "name": "Gladiator's Longing",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Gladiator's Finale/Gladiator's Longing.png"
+            },
+            {
+                "name": "Gladiator's Intoxication",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Gladiator's Finale/Gladiator's Intoxication.png"
+            },
+            {
+                "name": "Gladiator's Triumphus",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Gladiator's Finale/Gladiator's Triumphus.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: ATK +18%.",
+            "4 Piece: If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
+        ]
+    },
+    "Wanderer's Troupe": {
+        "link": "https://genshin-impact.fandom.com/wiki/Wanderer%27s_Troupe",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Troupe's Dawnlight",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Wanderer's Troupe/Troupe's Dawnlight.png"
+            },
+            {
+                "name": "Bard's Arrow Feather",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Wanderer's Troupe/Bard's Arrow Feather.png"
+            },
+            {
+                "name": "Concert's Final Hour",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Wanderer's Troupe/Concert's Final Hour.png"
+            },
+            {
+                "name": "Wanderer's String-Kettle",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Wanderer's Troupe/Wanderer's String-Kettle.png"
+            },
+            {
+                "name": "Conductor's Top Hat",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Wanderer's Troupe/Conductor's Top Hat.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Increases Elemental Mastery by 80.",
+            "4 Piece: Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
+        ]
+    },
+    "Noblesse Oblige": {
+        "link": "https://genshin-impact.fandom.com/wiki/Noblesse_Oblige",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Royal Flora",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Noblesse Oblige/Royal Flora.png"
+            },
+            {
+                "name": "Royal Plume",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Noblesse Oblige/Royal Plume.png"
+            },
+            {
+                "name": "Royal Pocket Watch",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Noblesse Oblige/Royal Pocket Watch.png"
+            },
+            {
+                "name": "Royal Silver Urn",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Noblesse Oblige/Royal Silver Urn.png"
+            },
+            {
+                "name": "Royal Masque",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Noblesse Oblige/Royal Masque.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Elemental Burst DMG +20%",
+            "4 Piece: Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack."
+        ]
+    },
+    "Bloodstained Chivalry": {
+        "link": "https://genshin-impact.fandom.com/wiki/Bloodstained_Chivalry",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Bloodstained Flower of Iron",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Bloodstained Chivalry/Bloodstained Flower of Iron.png"
+            },
+            {
+                "name": "Bloodstained Black Plume",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Bloodstained Chivalry/Bloodstained Black Plume.png"
+            },
+            {
+                "name": "Bloodstained Final Hour",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Bloodstained Chivalry/Bloodstained Final Hour.png"
+            },
+            {
+                "name": "Bloodstained Chevalier's Goblet",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Bloodstained Chivalry/Bloodstained Chevalier's Goblet.png"
+            },
+            {
+                "name": "Bloodstained Iron Mask",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Bloodstained Chivalry/Bloodstained Iron Mask.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Physical DMG Bonus +25%",
+            "4 Piece: After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
+        ]
+    },
+    "Maiden Beloved": {
+        "link": "https://genshin-impact.fandom.com/wiki/Maiden_Beloved",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Maiden's Distant Love",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Maiden Beloved/Maiden's Distant Love.png"
+            },
+            {
+                "name": "Maiden's Heart-Stricken Infatuation",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Maiden Beloved/Maiden's Heart-Stricken Infatuation.png"
+            },
+            {
+                "name": "Maiden's Passing Youth",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Maiden Beloved/Maiden's Passing Youth.png"
+            },
+            {
+                "name": "Maiden's Fleeting Leisure",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Maiden Beloved/Maiden's Fleeting Leisure.png"
+            },
+            {
+                "name": "Maiden's Fading Beauty",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Maiden Beloved/Maiden's Fading Beauty.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Character Healing Effectiveness +15%",
+            "4 Piece: Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."
+        ]
+    },
+    "Viridescent Venerer": {
+        "link": "https://genshin-impact.fandom.com/wiki/Viridescent_Venerer",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "In Remembrance of Viridescent Fields",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Viridescent Venerer/In Remembrance of Viridescent Fields.png"
+            },
+            {
+                "name": "Viridescent Arrow Feather",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Viridescent Venerer/Viridescent Arrow Feather.png"
+            },
+            {
+                "name": "Viridescent Venerer's Determination",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Viridescent Venerer/Viridescent Venerer's Determination.png"
+            },
+            {
+                "name": "Viridescent Venerer's Vessel",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Viridescent Venerer/Viridescent Venerer's Vessel.png"
+            },
+            {
+                "name": "Viridescent Venerer's Diadem",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Viridescent Venerer/Viridescent Venerer's Diadem.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Anemo DMG Bonus +15%",
+            "4 Piece: Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
+        ]
+    },
+    "Archaic Petra": {
+        "link": "https://genshin-impact.fandom.com/wiki/Archaic_Petra",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Flower of Creviced Cliff",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Archaic Petra/Flower of Creviced Cliff.png"
+            },
+            {
+                "name": "Feather of Jagged Peaks",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Archaic Petra/Feather of Jagged Peaks.png"
+            },
+            {
+                "name": "Sundial of Enduring Jade",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Archaic Petra/Sundial of Enduring Jade.png"
+            },
+            {
+                "name": "Goblet of Chiseled Crag",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Archaic Petra/Goblet of Chiseled Crag.png"
+            },
+            {
+                "name": "Mask of Solitude Basalt",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Archaic Petra/Mask of Solitude Basalt.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Geo DMG Bonus +15%",
+            "4 Piece: Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+        ]
+    },
+    "Retracing Bolide": {
+        "link": "https://genshin-impact.fandom.com/wiki/Retracing_Bolide",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Summer Night's Bloom",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Retracing Bolide/Summer Night's Bloom.png"
+            },
+            {
+                "name": "Summer Night's Finale",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Retracing Bolide/Summer Night's Finale.png"
+            },
+            {
+                "name": "Summer Night's Moment",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Retracing Bolide/Summer Night's Moment.png"
+            },
+            {
+                "name": "Summer Night's Waterballoon",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Retracing Bolide/Summer Night's Waterballoon.png"
+            },
+            {
+                "name": "Summer Night's Mask",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Retracing Bolide/Summer Night's Mask.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Increases Shield Strength by 35%.",
+            "4 Piece: While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
+        ]
+    },
+    "Thundersoother": {
+        "link": "https://genshin-impact.fandom.com/wiki/Thundersoother",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Thundersoother's Heart",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Thundersoother/Thundersoother's Heart.png"
+            },
+            {
+                "name": "Thundersoother's Plume",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Thundersoother/Thundersoother's Plume.png"
+            },
+            {
+                "name": "Hour of Soothing Thunder",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Thundersoother/Hour of Soothing Thunder.png"
+            },
+            {
+                "name": "Thundersoother's Goblet",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Thundersoother/Thundersoother's Goblet.png"
+            },
+            {
+                "name": "Thundersoother's Diadem",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Thundersoother/Thundersoother's Diadem.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Electro RES increased by 40%.",
+            "4 Piece: Increases DMG against opponents affected by Electro by 35%."
+        ]
+    },
+    "Thundering Fury": {
+        "link": "https://genshin-impact.fandom.com/wiki/Thundering_Fury",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Thunderbird's Mercy",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Thundering Fury/Thunderbird's Mercy.png"
+            },
+            {
+                "name": "Survivor of Catastrophe",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Thundering Fury/Survivor of Catastrophe.png"
+            },
+            {
+                "name": "Hourglass of Thunder",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Thundering Fury/Hourglass of Thunder.png"
+            },
+            {
+                "name": "Omen of Thunderstorm",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Thundering Fury/Omen of Thunderstorm.png"
+            },
+            {
+                "name": "Thunder Summoner's Crown",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Thundering Fury/Thunder Summoner's Crown.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Electro DMG Bonus +15%",
+            "4 Piece: Increases DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s."
+        ]
+    },
+    "Lavawalker": {
+        "link": "https://genshin-impact.fandom.com/wiki/Lavawalker",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Lavawalker's Resolution",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Lavawalker/Lavawalker's Resolution.png"
+            },
+            {
+                "name": "Lavawalker's Salvation",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Lavawalker/Lavawalker's Salvation.png"
+            },
+            {
+                "name": "Lavawalker's Torment",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Lavawalker/Lavawalker's Torment.png"
+            },
+            {
+                "name": "Lavawalker's Epiphany",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Lavawalker/Lavawalker's Epiphany.png"
+            },
+            {
+                "name": "Lavawalker's Wisdom",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Lavawalker/Lavawalker's Wisdom.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Pyro RES increased by 40%.",
+            "4 Piece: Increases DMG against opponents affected by Pyro by 35%."
+        ]
+    },
+    "Crimson Witch of Flames": {
+        "link": "https://genshin-impact.fandom.com/wiki/Crimson_Witch_of_Flames",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Witch's Flower of Blaze",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Crimson Witch of Flames/Witch's Flower of Blaze.png"
+            },
+            {
+                "name": "Witch's Ever-Burning Plume",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Crimson Witch of Flames/Witch's Ever-Burning Plume.png"
+            },
+            {
+                "name": "Witch's End Time",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Crimson Witch of Flames/Witch's End Time.png"
+            },
+            {
+                "name": "Witch's Heart Flames",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Crimson Witch of Flames/Witch's Heart Flames.png"
+            },
+            {
+                "name": "Witch's Scorching Hat",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Crimson Witch of Flames/Witch's Scorching Hat.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Pyro DMG Bonus +15%",
+            "4 Piece: Increases Overloaded and Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks."
+        ]
+    },
+    "Blizzard Strayer": {
+        "link": "https://genshin-impact.fandom.com/wiki/Blizzard_Strayer",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Snowswept Memory",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Blizzard Strayer/Snowswept Memory.png"
+            },
+            {
+                "name": "Icebreaker's Resolve",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Blizzard Strayer/Icebreaker's Resolve.png"
+            },
+            {
+                "name": "Frozen Homeland's Demise",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Blizzard Strayer/Frozen Homeland's Demise.png"
+            },
+            {
+                "name": "Frost-Weaved Dignity",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Blizzard Strayer/Frost-Weaved Dignity.png"
+            },
+            {
+                "name": "Broken Rime's Echo",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Blizzard Strayer/Broken Rime's Echo.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Cryo DMG Bonus +15%",
+            "4 Piece: When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%."
+        ]
+    },
+    "Heart of Depth": {
+        "link": "https://genshin-impact.fandom.com/wiki/Heart_of_Depth",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Gilded Corsage",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Heart of Depth/Gilded Corsage.png"
+            },
+            {
+                "name": "Gust of Nostalgia",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Heart of Depth/Gust of Nostalgia.png"
+            },
+            {
+                "name": "Copper Compass",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Heart of Depth/Copper Compass.png"
+            },
+            {
+                "name": "Goblet of Thundering Deep",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Heart of Depth/Goblet of Thundering Deep.png"
+            },
+            {
+                "name": "Wine-Stained Tricorne",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Heart of Depth/Wine-Stained Tricorne.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Hydro DMG Bonus +15%",
+            "4 Piece: After using an Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
+        ]
+    },
+    "Tenacity of the Millelith": {
+        "link": "https://genshin-impact.fandom.com/wiki/Tenacity_of_the_Millelith",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Flower of Accolades",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Tenacity of the Millelith/Flower of Accolades.png"
+            },
+            {
+                "name": "Ceremonial War-Plume",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Tenacity of the Millelith/Ceremonial War-Plume.png"
+            },
+            {
+                "name": "Orichalceous Time-Dial",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Tenacity of the Millelith/Orichalceous Time-Dial.png"
+            },
+            {
+                "name": "Noble's Pledging Vessel",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Tenacity of the Millelith/Noble's Pledging Vessel.png"
+            },
+            {
+                "name": "General's Ancient Helm",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Tenacity of the Millelith/General's Ancient Helm.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: HP +20%",
+            "4 Piece: When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+        ]
+    },
+    "Pale Flame": {
+        "link": "https://genshin-impact.fandom.com/wiki/Pale_Flame",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Stainless Bloom",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Pale Flame/Stainless Bloom.png"
+            },
+            {
+                "name": "Wise Doctor's Pinion",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Pale Flame/Wise Doctor's Pinion.png"
+            },
+            {
+                "name": "Moment of Cessation",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Pale Flame/Moment of Cessation.png"
+            },
+            {
+                "name": "Surpassing Cup",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Pale Flame/Surpassing Cup.png"
+            },
+            {
+                "name": "Mocking Mask",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Pale Flame/Mocking Mask.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Physical DMG Bonus +25%",
+            "4 Piece: When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
+        ]
+    },
+    "Shimenawa's Reminiscence": {
+        "link": "https://genshin-impact.fandom.com/wiki/Shimenawa%27s_Reminiscence",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Entangling Bloom",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Shimenawa's Reminiscence/Entangling Bloom.png"
+            },
+            {
+                "name": "Shaft of Remembrance",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Shimenawa's Reminiscence/Shaft of Remembrance.png"
+            },
+            {
+                "name": "Morning Dew's Moment",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Shimenawa's Reminiscence/Morning Dew's Moment.png"
+            },
+            {
+                "name": "Hopeful Heart",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Shimenawa's Reminiscence/Hopeful Heart.png"
+            },
+            {
+                "name": "Capricious Visage",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Shimenawa's Reminiscence/Capricious Visage.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: ATK +18%",
+            "4 Piece: When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
+        ]
+    },
+    "Emblem of Severed Fate": {
+        "link": "https://genshin-impact.fandom.com/wiki/Emblem_of_Severed_Fate",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Magnificent Tsuba",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Emblem of Severed Fate/Magnificent Tsuba.png"
+            },
+            {
+                "name": "Sundered Feather",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Emblem of Severed Fate/Sundered Feather.png"
+            },
+            {
+                "name": "Storm Cage",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Emblem of Severed Fate/Storm Cage.png"
+            },
+            {
+                "name": "Scarlet Vessel",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Emblem of Severed Fate/Scarlet Vessel.png"
+            },
+            {
+                "name": "Ornate Kabuto",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Emblem of Severed Fate/Ornate Kabuto.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Energy Recharge +20%",
+            "4 Piece: Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way."
+        ]
+    },
+    "Husk of Opulent Dreams": {
+        "link": "https://genshin-impact.fandom.com/wiki/Husk_of_Opulent_Dreams",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Bloom Times",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Husk of Opulent Dreams/Bloom Times.png"
+            },
+            {
+                "name": "Plume of Luxury",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Husk of Opulent Dreams/Plume of Luxury.png"
+            },
+            {
+                "name": "Song of Life",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Husk of Opulent Dreams/Song of Life.png"
+            },
+            {
+                "name": "Calabash of Awakening",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Husk of Opulent Dreams/Calabash of Awakening.png"
+            },
+            {
+                "name": "Skeletal Hat",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Husk of Opulent Dreams/Skeletal Hat.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: DEF +30%",
+            "4 Piece: A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions:",
+            "When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s.",
+            "When off the field, the character gains 1 stack every 3s.",
+            "Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus.",
+            "When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
+        ]
+    },
+    "Ocean-Hued Clam": {
+        "link": "https://genshin-impact.fandom.com/wiki/Ocean-Hued_Clam",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Sea-Dyed Blossom",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Ocean-Hued Clam/Sea-Dyed Blossom.png"
+            },
+            {
+                "name": "Deep Palace's Plume",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Ocean-Hued Clam/Deep Palace's Plume.png"
+            },
+            {
+                "name": "Cowry of Parting",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Ocean-Hued Clam/Cowry of Parting.png"
+            },
+            {
+                "name": "Pearl Cage",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Ocean-Hued Clam/Pearl Cage.png"
+            },
+            {
+                "name": "Crown of Watatsumi",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Ocean-Hued Clam/Crown of Watatsumi.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Healing Bonus +15%.",
+            "4 Piece: When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing).",
+            "At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing.",
+            "(This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses).",
+            "Only one Sea-Dyed Foam can be produced every 3.5 seconds.",
+            "Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing).",
+            "There can be no more than one Sea-Dyed Foam active at any given time.",
+            "This effect can still be triggered even when the character who is using this artifact set is not on the field."
+        ]
+    },
+    "Vermillion Hereafter": {
+        "link": "https://genshin-impact.fandom.com/wiki/Vermillion_Hereafter",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Flowering Life",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Vermillion Hereafter/Flowering Life.png"
+            },
+            {
+                "name": "Feather of Nascent Light",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Vermillion Hereafter/Feather of Nascent Light.png"
+            },
+            {
+                "name": "Solar Relic",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Vermillion Hereafter/Solar Relic.png"
+            },
+            {
+                "name": "Moment of the Pact",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Vermillion Hereafter/Moment of the Pact.png"
+            },
+            {
+                "name": "Thundering Poise",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Vermillion Hereafter/Thundering Poise.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: ATK +18%.",
+            "4 Piece: After using an Elemental Burst. this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
+        ]
+    },
+    "Echoes of an Offering": {
+        "link": "https://genshin-impact.fandom.com/wiki/Echoes_of_an_Offering",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Soulscent Bloom",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Echoes of an Offering/Soulscent Bloom.png"
+            },
+            {
+                "name": "Jade Leaf",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Echoes of an Offering/Jade Leaf.png"
+            },
+            {
+                "name": "Symbol of Felicitation",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Echoes of an Offering/Symbol of Felicitation.png"
+            },
+            {
+                "name": "Chalice of the Font",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Echoes of an Offering/Chalice of the Font.png"
+            },
+            {
+                "name": "Flowing Rings",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Echoes of an Offering/Flowing Rings.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: ATK +18%.",
+            "4 Piece: When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK.",
+            "This effect will be dispelled 0.05s after a Normal Attack deals DMG.",
+            "If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%.",
+            "This trigger can occur once every 0.2s."
+        ]
+    },
+    "Deepwood Memories": {
+        "link": "https://genshin-impact.fandom.com/wiki/Deepwood_Memories",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Labyrinth Wayfarer",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Deepwood Memories/Labyrinth Wayfarer.png"
+            },
+            {
+                "name": "Scholar of Vines",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Deepwood Memories/Scholar of Vines.png"
+            },
+            {
+                "name": "A Time of Insight",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Deepwood Memories/A Time of Insight.png"
+            },
+            {
+                "name": "Lamp of the Lost",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Deepwood Memories/Lamp of the Lost.png"
+            },
+            {
+                "name": "Laurel Coronet",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Deepwood Memories/Laurel Coronet.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Dendro DMG Bonus +15%",
+            "4 Piece: After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field."
+        ]
+    },
+    "Gilded Dreams": {
+        "link": "https://genshin-impact.fandom.com/wiki/Gilded_Dreams",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Dreaming Steelbloom",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Gilded Dreams/Dreaming Steelbloom.png"
+            },
+            {
+                "name": "Feather of Judgment",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Gilded Dreams/Feather of Judgment.png"
+            },
+            {
+                "name": "The Sunken Years",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Gilded Dreams/The Sunken Years.png"
+            },
+            {
+                "name": "Honeyed Final Feast",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Gilded Dreams/Honeyed Final Feast.png"
+            },
+            {
+                "name": "Shadow of the Sand King",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Gilded Dreams/Shadow of the Sand King.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Increases Elemental Mastery by 80.",
+            "4 Piece: Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field."
+        ]
+    },
+    "Desert Pavilion Chronicle": {
+        "link": "https://genshin-impact.fandom.com/wiki/Desert_Pavilion_Chronicle",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "The First Days of the City of Kings",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Desert Pavilion Chronicle/The First Days of the City of Kings.png"
+            },
+            {
+                "name": "End of the Golden Realm",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Desert Pavilion Chronicle/End of the Golden Realm.png"
+            },
+            {
+                "name": "Timepiece of the Lost Path",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Desert Pavilion Chronicle/Timepiece of the Lost Path.png"
+            },
+            {
+                "name": "Defender of the Enchanting Dream",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Desert Pavilion Chronicle/Defender of the Enchanting Dream.png"
+            },
+            {
+                "name": "Legacy of the Desert High-Born",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Desert Pavilion Chronicle/Legacy of the Desert High-Born.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Anemo DMG Bonus +15%.",
+            "4 Piece: When Charged Attacks hit opponents, the equipping character's Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s."
+        ]
+    },
+    "Flower of Paradise Lost": {
+        "link": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Ay-Khanoum's Myriad",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Flower of Paradise Lost/Ay-Khanoum's Myriad.png"
+            },
+            {
+                "name": "Wilting Feast",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Flower of Paradise Lost/Wilting Feast.png"
+            },
+            {
+                "name": "A Moment Congealed",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Flower of Paradise Lost/A Moment Congealed.png"
+            },
+            {
+                "name": "Secret-Keeper's Magic Bottle",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Flower of Paradise Lost/Secret-Keeper's Magic Bottle.png"
+            },
+            {
+                "name": "Amethyst Crown",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Flower of Paradise Lost/Amethyst Crown.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Increases Elemental Mastery by 80.",
+            "4 Piece: The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field."
+        ]
+    },
+    "Nymph's Dream": {
+        "link": "https://genshin-impact.fandom.com/wiki/Nymph%27s_Dream",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Odyssean Flower",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Nymph's Dream/Odyssean Flower.png"
+            },
+            {
+                "name": "Wicked Mage's Plumule",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Nymph's Dream/Wicked Mage's Plumule.png"
+            },
+            {
+                "name": "Nymph's Constancy",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Nymph's Dream/Nymph's Constancy.png"
+            },
+            {
+                "name": "Heroes' Tea Party",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Nymph's Dream/Heroes' Tea Party.png"
+            },
+            {
+                "name": "Fell Dragon's Monocle",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Nymph's Dream/Fell Dragon's Monocle.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Hydro DMG Bonus +15%",
+            "4 Piece: After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG will be increased by 4%/9%/15%. Mirrored Nymph created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently."
+        ]
+    },
+    "Vourukasha's Glow": {
+        "link": "https://genshin-impact.fandom.com/wiki/Vourukasha%27s_Glow",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Stamen of Khvarena's Origin",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Vourukasha's Glow/Stamen of Khvarena's Origin.png"
+            },
+            {
+                "name": "Vibrant Pinion",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Vourukasha's Glow/Vibrant Pinion.png"
+            },
+            {
+                "name": "Ancient Abscission",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Vourukasha's Glow/Ancient Abscission.png"
+            },
+            {
+                "name": "Feast of Boundless Joy",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Vourukasha's Glow/Feast of Boundless Joy.png"
+            },
+            {
+                "name": "Heart of Khvarena's Brilliance",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Vourukasha's Glow/Heart of Khvarena's Brilliance.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: HP +20%",
+            "4 Piece: Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field."
+        ]
+    },
+    "Marechaussee Hunter": {
+        "link": "https://genshin-impact.fandom.com/wiki/Marechaussee_Hunter",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Hunter's Brooch",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Marechaussee Hunter/Hunter's Brooch.png"
+            },
+            {
+                "name": "Masterpiece's Overture",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Marechaussee Hunter/Masterpiece's Overture.png"
+            },
+            {
+                "name": "Moment of Judgment",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Marechaussee Hunter/Moment of Judgment.png"
+            },
+            {
+                "name": "Forgotten Vessel",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Marechaussee Hunter/Forgotten Vessel.png"
+            },
+            {
+                "name": "Veteran's Visage",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Marechaussee Hunter/Veteran's Visage.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Normal and Charged Attack DMG +15%.",
+            "4 Piece: When current HP increases or decreases, CRIT Rate will be increased by 12% for 5s. Max 3 stacks."
+        ]
+    },
+    "Golden Troupe": {
+        "link": "https://genshin-impact.fandom.com/wiki/Golden_Troupe",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Golden Song's Variation",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Golden Troupe/Golden Song's Variation.png"
+            },
+            {
+                "name": "Golden Bird's Shedding",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Golden Troupe/Golden Bird's Shedding.png"
+            },
+            {
+                "name": "Golden Era's Prelude",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Golden Troupe/Golden Era's Prelude.png"
+            },
+            {
+                "name": "Golden Night's Bustle",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Golden Troupe/Golden Night's Bustle.png"
+            },
+            {
+                "name": "Golden Troupe's Reward",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Golden Troupe/Golden Troupe's Reward.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Increases Elemental Skill DMG by 20%.",
+            "4 Piece: Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field."
+        ]
+    },
+    "Song of Days Past": {
+        "link": "https://genshin-impact.fandom.com/wiki/Song_of_Days_Past",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Forgotten Oath of Days Past",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Song of Days Past/Forgotten Oath of Days Past.png"
+            },
+            {
+                "name": "Recollection of Days Past",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Song of Days Past/Recollection of Days Past.png"
+            },
+            {
+                "name": "Echoing Sound From Days Past",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Song of Days Past/Echoing Sound From Days Past.png"
+            },
+            {
+                "name": "Promised Dream of Days Past",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Song of Days Past/Promised Dream of Days Past.png"
+            },
+            {
+                "name": "Poetry of Days Past",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Song of Days Past/Poetry of Days Past.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Healing Bonus +15%",
+            "4 Piece: When the equipping character heals a party member, the Yearning effect will be created for 6s, which records the total amount of healing provided (including overflow healing). When the duration expires, the Yearning effect will be transformed into the \"Waves of Days Past\" effect: When your active party member hits an opponent with a Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst, the DMG dealt will be increased by 8% of the total healing amount recorded by the Yearning effect. The \"Waves of Days Past\" effect is removed after it has taken effect 5 times or after 10s. A single instance of the Yearning effect can record up to 15,000 healing, and only a single instance can exist at once, but it can record the healing from multiple equipping characters. Equipping characters on standby can still trigger this effect."
+        ]
+    },
+    "Nighttime Whispers in the Echoing Woods": {
+        "link": "https://genshin-impact.fandom.com/wiki/Nighttime_Whispers_in_the_Echoing_Woods",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Selfless Floral Accessory",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Nighttime Whispers in the Echoing Woods/Selfless Floral Accessory.png"
+            },
+            {
+                "name": "Honest Quill",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Nighttime Whispers in the Echoing Woods/Honest Quill.png"
+            },
+            {
+                "name": "Faithful Hourglass",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Nighttime Whispers in the Echoing Woods/Faithful Hourglass.png"
+            },
+            {
+                "name": "Magnanimous Ink Bottle",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Nighttime Whispers in the Echoing Woods/Magnanimous Ink Bottle.png"
+            },
+            {
+                "name": "Compassionate Ladies' Hat",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Nighttime Whispers in the Echoing Woods/Compassionate Ladies' Hat.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: ATK +18%",
+            "4 Piece: After using an Elemental Skill, gain a 20% Geo DMG Bonus for 10s. While under a shield granted by the Crystallize reaction, the above effect will be increased by 150%, and this additional increase disappears 1s after that shield is lost."
+        ]
+    },
+    "Fragment of Harmonic Whimsy": {
+        "link": "https://genshin-impact.fandom.com/wiki/Fragment_of_Harmonic_Whimsy",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Harmonious Symphony Prelude",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Fragment of Harmonic Whimsy/Harmonious Symphony Prelude.png"
+            },
+            {
+                "name": "Ancient Sea's Nocturnal Musing",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Fragment of Harmonic Whimsy/Ancient Sea's Nocturnal Musing.png"
+            },
+            {
+                "name": "The Grand Jape of the Turning of Fate",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Fragment of Harmonic Whimsy/The Grand Jape of the Turning of Fate.png"
+            },
+            {
+                "name": "Ichor Shower Rhapsody",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Fragment of Harmonic Whimsy/Ichor Shower Rhapsody.png"
+            },
+            {
+                "name": "Whimsical Dance of the Withered",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Fragment of Harmonic Whimsy/Whimsical Dance of the Withered.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: ATK +18%",
+            "4 Piece: When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s. Max 3 stacks."
+        ]
+    },
+    "Unfinished Reverie": {
+        "link": "https://genshin-impact.fandom.com/wiki/Unfinished_Reverie",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Dark Fruit of Bright Flowers",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Unfinished Reverie/Dark Fruit of Bright Flowers.png"
+            },
+            {
+                "name": "Faded Emerald Tail",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Unfinished Reverie/Faded Emerald Tail.png"
+            },
+            {
+                "name": "Moment of Attainment",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Unfinished Reverie/Moment of Attainment.png"
+            },
+            {
+                "name": "The Wine-Flask Over Which the Plan Was Hatched",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Unfinished Reverie/The Wine-Flask Over Which the Plan Was Hatched.png"
+            },
+            {
+                "name": "Crownless Crown",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Unfinished Reverie/Crownless Crown.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: ATK +18%",
+            "4 Piece: After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field."
+        ]
+    },
+    "Scroll of the Hero of Cinder City": {
+        "link": "https://genshin-impact.fandom.com/wiki/Scroll_of_the_Hero_of_Cinder_City",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Beast Tamer's Talisman",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Scroll of the Hero of Cinder City/Beast Tamer's Talisman.png"
+            },
+            {
+                "name": "Mountain Ranger's Marker",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Scroll of the Hero of Cinder City/Mountain Ranger's Marker.png"
+            },
+            {
+                "name": "Mystic's Gold Dial",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Scroll of the Hero of Cinder City/Mystic's Gold Dial.png"
+            },
+            {
+                "name": "Wandering Scholar's Claw Cup",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Scroll of the Hero of Cinder City/Wandering Scholar's Claw Cup.png"
+            },
+            {
+                "name": "Demon-Warrior's Feather Mask",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Scroll of the Hero of Cinder City/Demon-Warrior's Feather Mask.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: When a nearby party member triggers a Nightsoul Burst, the equipping character regenerates 6 Elemental Energy.",
+            "4 Piece: After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 15s. If the equipping character is in the Nightsoul's Blessing state when triggering this effect, all nearby party members gain an additional 28% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 20s. The equipping character can trigger this effect while off-field, and the DMG bonus from Artifact Sets with the same name do not stack."
+        ]
+    },
+    "Obsidian Codex": {
+        "link": "https://genshin-impact.fandom.com/wiki/Obsidian_Codex",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Reckoning of the Xenogenic",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Obsidian Codex/Reckoning of the Xenogenic.png"
+            },
+            {
+                "name": "Root of the Spirit-Marrow",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Obsidian Codex/Root of the Spirit-Marrow.png"
+            },
+            {
+                "name": "Myths of the Night Realm",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Obsidian Codex/Myths of the Night Realm.png"
+            },
+            {
+                "name": "Pre-Banquet of the Contenders",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Obsidian Codex/Pre-Banquet of the Contenders.png"
+            },
+            {
+                "name": "Crown of the Saints",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Obsidian Codex/Crown of the Saints.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%.",
+            "4 Piece: After the equipping character consumes 1 Nightsoul point while on the field, CRIT Rate increases by 40% for 6s. This effect can trigger once every second."
+        ]
+    },
+    "Finale of the Deep Galleries": {
+        "link": "https://genshin-impact.fandom.com/wiki/Finale_of_the_Deep_Galleries",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Deep Gallery's Echoing Song",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Finale of the Deep Galleries/Deep Gallery's Echoing Song.png"
+            },
+            {
+                "name": "Deep Gallery's Distant Pact",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Finale of the Deep Galleries/Deep Gallery's Distant Pact.png"
+            },
+            {
+                "name": "Deep Gallery's Moment of Oblivion",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Finale of the Deep Galleries/Deep Gallery's Moment of Oblivion.png"
+            },
+            {
+                "name": "Deep Gallery's Bestowed Banquet",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Finale of the Deep Galleries/Deep Gallery's Bestowed Banquet.png"
+            },
+            {
+                "name": "Deep Gallery's Lost Crown",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Finale of the Deep Galleries/Deep Gallery's Lost Crown.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Cryo DMG Bonus +15%",
+            "4 Piece: When the equipping Character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s. After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s. This effect can trigger even if the equipping character is off the field."
+        ]
+    },
+    "Long Night's Oath": {
+        "link": "https://genshin-impact.fandom.com/wiki/Long_Night%27s_Oath",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Lightkeeper's Pledge",
+                "type": "Flower",
+                "src": "Genshin/Artifacts/Long Night's Oath/Lightkeeper's Pledge.png"
+            },
+            {
+                "name": "Nightingale's Tail Feather",
+                "type": "Plume",
+                "src": "Genshin/Artifacts/Long Night's Oath/Nightingale's Tail Feather.png"
+            },
+            {
+                "name": "Undying One's Mourning Bell",
+                "type": "Sands",
+                "src": "Genshin/Artifacts/Long Night's Oath/Undying One's Mourning Bell.png"
+            },
+            {
+                "name": "A Horn Unwinded",
+                "type": "Goblet",
+                "src": "Genshin/Artifacts/Long Night's Oath/A Horn Unwinded.png"
+            },
+            {
+                "name": "Dyed Tassel",
+                "type": "Circlet",
+                "src": "Genshin/Artifacts/Long Night's Oath/Dyed Tassel.png"
+            }
+        ],
+        "bonuses": [
+            "2 Piece: Plunging Attack DMG increased by 25%.",
+            "4 Piece: After the equipping character's Plunging Attack/Charged Attack/Elemental Skill hits an opponent, they will gain 1/2/2 stack(s) of \"Radiance Everlasting.\" Plunging Attacks, Charged Attacks or Elemental Skills can each trigger this effect once every 1s. Radiance Everlasting: Plunging Attacks deal 15%. increased DMG for 6s. Max 5 stacks. Each stack's duration is counted independently."
+        ]
+    }
+}
