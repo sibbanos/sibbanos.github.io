@@ -3,15 +3,15 @@ import json
 import requests
 import re
 
-# with open('Genshin/weapons.html', 'w', encoding='utf-8') as f:
+# with open('Genshin/scripts/weapons/weapons.html', 'w', encoding='utf-8') as f:
 #     url = 'https://genshin-impact.fandom.com/wiki/Weapon/List/By_Weapon_Type'
 #     r = requests.get(url)
 #     f.write(r.text)
 
-with open('Genshin/weapons.json') as json_file:
+with open('Genshin/scripts/weapons/weapons.json') as json_file:
     weapons = json.load(json_file)
 
-f = open('Genshin/weapons.html', encoding='utf8')
+f = open('Genshin/scripts/weapons/weapons.html', encoding='utf8')
 soup = BeautifulSoup(f, 'html.parser')
 for weapon_type in soup.find_all('span', 'mw-headline') :
     weapon_type_name = weapon_type.get_text()
@@ -56,5 +56,5 @@ for weapon_type in soup.find_all('span', 'mw-headline') :
                 'src' : 'Genshin/Weapons/'+weapon_type_name+'/'+weapon_name+'.png'
             }
 
-with open('Genshin/weapons.json', 'w') as file:
+with open('Genshin/scripts/weapons/weapons.json', 'w') as file:
     file.write(json.dumps(weapons, indent=4))

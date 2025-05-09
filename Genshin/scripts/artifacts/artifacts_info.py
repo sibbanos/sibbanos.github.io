@@ -2,15 +2,15 @@ from bs4 import BeautifulSoup
 import json
 import requests
 
-# with open('Genshin/artifacts.html', 'w', encoding='utf-8') as f:
+# with open('Genshin/scripts/artifacts/artifacts.html', 'w', encoding='utf-8') as f:
 #     url = 'https://genshin-impact.fandom.com/wiki/Artifact/Sets'
 #     r = requests.get(url)
 #     f.write(r.text)
 
-with open('Genshin/artifacts.json') as json_file:
+with open('Genshin/scripts/artifacts/artifacts.json') as json_file:
     artifacts = json.load(json_file)
 
-f = open('Genshin/artifacts.html', encoding='utf8')
+f = open('Genshin/scripts/artifacts/artifacts.html', encoding='utf8')
 soup = BeautifulSoup(f, 'html.parser')
 for artifact in soup.find('table').find_all('tr')[1:] :
     artifact_td_name = artifact.find('td')
@@ -54,11 +54,11 @@ for artifact in soup.find('table').find_all('tr')[1:] :
 
     if artifact_name not in artifacts :
         artifacts[artifact_name] = {
-        'link' : artifact_link,
-        'quality' : artifact_quality,
-        'pieces' : pieces,
-        'bonuses' : artifact_bonuses
-    }
+            'link' : artifact_link,
+            'quality' : artifact_quality,
+            'pieces' : pieces,
+            'bonuses' : artifact_bonuses
+        }
 
-with open('Genshin/artifacts.json', 'w') as file:
+with open('Genshin/scripts/artifacts/artifacts.json', 'w') as file:
     file.write(json.dumps(artifacts, indent=4))

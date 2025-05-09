@@ -2,12 +2,12 @@ from bs4 import BeautifulSoup
 import os
 import requests
 
-# with open('Genshin/weapons.html', 'w', encoding='utf-8') as f:
+# with open('Genshin/scripts/weapons/weapons.html', 'w', encoding='utf-8') as f:
 #     url = 'https://genshin-impact.fandom.com/wiki/Weapon/List/By_Weapon_Type'
 #     r = requests.get(url)
 #     f.write(r.text)
 
-f = open('Genshin/weapons.html', encoding='utf8')
+f = open('Genshin/scripts/weapons/weapons.html', encoding='utf8')
 soup = BeautifulSoup(f, 'html.parser')
 for weapon_type in soup.find_all('span', 'mw-headline') :
     weapon_type_name = weapon_type.get_text()

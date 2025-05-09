@@ -2,12 +2,12 @@ from bs4 import BeautifulSoup
 import os
 import requests
 
-# with open('Genshin/characters.html', 'w', encoding='utf-8') as f:
+# with open('Genshin/scripts/characters/characters.html', 'w', encoding='utf-8') as f:
 #     url = 'https://genshin-impact.fandom.com/wiki/Character/List'
 #     r = requests.get(url)
 #     f.write(r.text)
 
-f = open('Genshin/characters.html', encoding='utf8')
+f = open('Genshin/scripts/characters/characters.html', encoding='utf8')
 soup = BeautifulSoup(f, 'html.parser')
 for character in soup.find('table').find_all('tr')[1:] :
     character_td_img = character.find('td')

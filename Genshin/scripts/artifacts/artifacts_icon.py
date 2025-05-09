@@ -2,12 +2,12 @@ from bs4 import BeautifulSoup
 import os
 import requests
 
-# with open('Genshin/artifacts.html', 'w', encoding='utf-8') as f:
+# with open('Genshin/scripts/artifacts/artifacts.html', 'w', encoding='utf-8') as f:
 #     url = 'https://genshin-impact.fandom.com/wiki/Artifact/Sets'
 #     r = requests.get(url)
 #     f.write(r.text)
 
-f = open('Genshin/artifacts.html', encoding='utf8')
+f = open('Genshin/scripts/artifacts/artifacts.html', encoding='utf8')
 soup = BeautifulSoup(f, 'html.parser')
 for artifact in soup.find('table').find_all('tr')[1:] :
     artifact_td_name = artifact.find('td')

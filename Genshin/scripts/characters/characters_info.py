@@ -2,12 +2,12 @@ from bs4 import BeautifulSoup
 import json
 import requests
 
-# with open('Genshin/characters.html', 'w', encoding='utf-8') as f:
+# with open('Genshin/scripts/characters/characters.html', 'w', encoding='utf-8') as f:
 #     url = 'https://genshin-impact.fandom.com/wiki/Character/List'
 #     r = requests.get(url)
 #     f.write(r.text)
 
-with open('Genshin/characters.json') as json_file:
+with open('Genshin/scripts/characters/characters.json') as json_file:
     characters = json.load(json_file)
 
 f = open('Genshin/characters.html', encoding='utf8')
@@ -38,5 +38,5 @@ for character in soup.find('table').find_all('tr')[1:] :
             'src' : 'Genshin/Characters/'+character_element+'/'+character_name+'.png'
         }
 
-with open('Genshin/characters.json', 'w') as file:
+with open('Genshin/scripts/characters/characters.json', 'w') as file:
     file.write(json.dumps(characters, indent=4))
