@@ -10,7 +10,7 @@ import requests
 with open('Genshin/scripts/characters/characters.json') as json_file:
     characters = json.load(json_file)
 
-f = open('Genshin/characters.html', encoding='utf8')
+f = open('Genshin/scripts/characters/characters.html', encoding='utf8')
 soup = BeautifulSoup(f, 'html.parser')
 for character in soup.find('table').find_all('tr')[1:] :
     character_td_name = character.find('td').next_sibling.next_sibling
@@ -30,12 +30,13 @@ for character in soup.find('table').find_all('tr')[1:] :
     character_td_weapon = character_td_element.next_sibling.next_sibling
     character_weapon = character_td_weapon.find_all('a')[1].get_text()
 
-    if character_name not in characters[character_element] :
-        characters[character_element][character_name] = {
+    if character_name not in characters :
+        characters[character_name] = {
+            'element' : character_element,
             'quality' : character_quality,
             'weapon' : character_weapon,
             'link' : character_link,
-            'src' : 'Genshin/Characters/'+character_element+'/'+character_name+'.png'
+            'src' : 'Genshin/Characters/'+character_name+'.png'
         }
 
 with open('Genshin/scripts/characters/characters.json', 'w') as file:
