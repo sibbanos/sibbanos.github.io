@@ -36,7 +36,7 @@ for character in soup.find('table').find_all('tr')[1:] :
             'quality' : character_quality,
             'weapon' : character_weapon,
             'link' : character_link,
-            'src' : 'Genshin/Characters/'+character_name+'.png'
+            'src' : 'Genshin/Characters/'+character_element+'/'+character_name+'.png'
         }
 
 with open('Genshin/scripts/characters/characters.json', 'w') as file:
