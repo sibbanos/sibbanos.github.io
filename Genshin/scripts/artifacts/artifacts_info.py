@@ -32,9 +32,17 @@ for artifact in soup.find('table').find_all('tr')[1:] :
         artifact_pieces.append(piece.find('img')['alt'])
 
     artifact_td_bonuses = artifact_td_pieces.next_sibling.next_sibling
-    for br in artifact_td_bonuses.find_all('br'):
-        br.replace_with("effect_separator")
-    artifact_bonuses = artifact_td_bonuses.get_text().strip().split('effect_separator')
+    artifact_bonuses = artifact_td_bonuses.get_text().strip()
+    if artifact_bonuses :
+        if '4 Piece:' in artifact_bonuses :
+            _artifact_bonuses = artifact_bonuses.split('4 Piece:')
+            artifact_bonuses = {
+                2 : _artifact_bonuses[0].replace('2 Piece:', '').strip(),
+                4 : _artifact_bonuses[1].strip()
+            }
+        else :
+            artifact_bonuses = artifact_bonuses.replace('1 Piece:', '').strip()
+            artifact_bonuses = {1 : artifact_bonuses}
 
     pieces = []
     pieces_number = len(artifact_pieces)

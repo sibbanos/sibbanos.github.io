@@ -16,9 +16,7 @@
                 "src": "Genshin/Artifacts/Initiate/Initiate's Feather.png"
             }
         ],
-        "bonuses": [
-            ""
-        ]
+        "bonuses": ""
     },
     "Adventurer": {
         "link": "https://genshin-impact.fandom.com/wiki/Adventurer",
@@ -54,10 +52,10 @@
                 "src": "Genshin/Artifacts/Adventurer/Adventurer's Bandana.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Max HP increased by 1000.",
-            "4 Piece: Opening a chest regenerates 30% Max HP over 5s."
-        ]
+        "bonuses": {
+            "2": "Max HP increased by 1000.",
+            "4": "Opening a chest regenerates 30% Max HP over 5s."
+        }
     },
     "Lucky Dog": {
         "link": "https://genshin-impact.fandom.com/wiki/Lucky_Dog",
@@ -93,10 +91,10 @@
                 "src": "Genshin/Artifacts/Lucky Dog/Lucky Dog's Silver Circlet.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: DEF increased by 100.",
-            "4 Piece: Picking up Mora restores 300 HP."
-        ]
+        "bonuses": {
+            "2": "DEF increased by 100.",
+            "4": "Picking up Mora restores 300 HP."
+        }
     },
     "Traveling Doctor": {
         "link": "https://genshin-impact.fandom.com/wiki/Traveling_Doctor",
@@ -132,10 +130,10 @@
                 "src": "Genshin/Artifacts/Traveling Doctor/Traveling Doctor's Handkerchief.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Increases incoming healing by 20%.",
-            "4 Piece: Using Elemental Burst restores 20% HP."
-        ]
+        "bonuses": {
+            "2": "Increases incoming healing by 20%.",
+            "4": "Using Elemental Burst restores 20% HP."
+        }
     },
     "Resolution of Sojourner": {
         "link": "https://genshin-impact.fandom.com/wiki/Resolution_of_Sojourner",
@@ -170,10 +168,10 @@
                 "src": "Genshin/Artifacts/Resolution of Sojourner/Crown of Parting.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: ATK +18%.",
-            "4 Piece: Increases Charged Attack CRIT Rate by 30%."
-        ]
+        "bonuses": {
+            "2": "ATK +18%.",
+            "4": "Increases Charged Attack CRIT Rate by 30%."
+        }
     },
     "Tiny Miracle": {
         "link": "https://genshin-impact.fandom.com/wiki/Tiny_Miracle",
@@ -208,10 +206,10 @@
                 "src": "Genshin/Artifacts/Tiny Miracle/Tiny Miracle's Earrings.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: All Elemental RES increased by 20%.",
-            "4 Piece: Incoming Elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
-        ]
+        "bonuses": {
+            "2": "All Elemental RES increased by 20%.",
+            "4": "Incoming Elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
+        }
     },
     "Berserker": {
         "link": "https://genshin-impact.fandom.com/wiki/Berserker",
@@ -246,10 +244,10 @@
                 "src": "Genshin/Artifacts/Berserker/Berserker's Battle Mask.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: CRIT Rate +12%",
-            "4 Piece: When HP is below 70%, CRIT Rate increases by an additional 24%."
-        ]
+        "bonuses": {
+            "2": "CRIT Rate +12%",
+            "4": "When HP is below 70%, CRIT Rate increases by an additional 24%."
+        }
     },
     "Instructor": {
         "link": "https://genshin-impact.fandom.com/wiki/Instructor",
@@ -284,10 +282,10 @@
                 "src": "Genshin/Artifacts/Instructor/Instructor's Cap.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Increases Elemental Mastery by 80.",
-            "4 Piece: Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s."
-        ]
+        "bonuses": {
+            "2": "Increases Elemental Mastery by 80.",
+            "4": "Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s."
+        }
     },
     "The Exile": {
         "link": "https://genshin-impact.fandom.com/wiki/The_Exile",
@@ -322,10 +320,10 @@
                 "src": "Genshin/Artifacts/The Exile/Exile's Circlet.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Energy Recharge +20%",
-            "4 Piece: Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack."
-        ]
+        "bonuses": {
+            "2": "Energy Recharge +20%",
+            "4": "Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack."
+        }
     },
     "Defender's Will": {
         "link": "https://genshin-impact.fandom.com/wiki/Defender%27s_Will",
@@ -360,10 +358,10 @@
                 "src": "Genshin/Artifacts/Defender's Will/Guardian's Band.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: DEF +30%",
-            "4 Piece: For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%."
-        ]
+        "bonuses": {
+            "2": "DEF +30%",
+            "4": "For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%."
+        }
     },
     "Brave Heart": {
         "link": "https://genshin-impact.fandom.com/wiki/Brave_Heart",
@@ -398,10 +396,10 @@
                 "src": "Genshin/Artifacts/Brave Heart/Crown of the Brave.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: ATK +18%.",
-            "4 Piece: Increases DMG by 30% against opponents with more than 50% HP."
-        ]
+        "bonuses": {
+            "2": "ATK +18%.",
+            "4": "Increases DMG by 30% against opponents with more than 50% HP."
+        }
     },
     "Martial Artist": {
         "link": "https://genshin-impact.fandom.com/wiki/Martial_Artist",
@@ -436,10 +434,10 @@
                 "src": "Genshin/Artifacts/Martial Artist/Martial Artist's Bandana.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Normal and Charged Attack DMG +15%",
-            "4 Piece: After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s."
-        ]
+        "bonuses": {
+            "2": "Normal and Charged Attack DMG +15%",
+            "4": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s."
+        }
     },
     "Gambler": {
         "link": "https://genshin-impact.fandom.com/wiki/Gambler",
@@ -474,10 +472,10 @@
                 "src": "Genshin/Artifacts/Gambler/Gambler's Earrings.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Increases Elemental Skill DMG by 20%.",
-            "4 Piece: Defeating an opponent has a 100% chance to remove Elemental Skill CD. Can only occur once every 15s."
-        ]
+        "bonuses": {
+            "2": "Increases Elemental Skill DMG by 20%.",
+            "4": "Defeating an opponent has a 100% chance to remove Elemental Skill CD. Can only occur once every 15s."
+        }
     },
     "Scholar": {
         "link": "https://genshin-impact.fandom.com/wiki/Scholar",
@@ -512,10 +510,10 @@
                 "src": "Genshin/Artifacts/Scholar/Scholar's Lens.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Energy Recharge +20%",
-            "4 Piece: Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s."
-        ]
+        "bonuses": {
+            "2": "Energy Recharge +20%",
+            "4": "Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s."
+        }
     },
     "Prayers for Wisdom": {
         "link": "https://genshin-impact.fandom.com/wiki/Prayers_for_Wisdom",
@@ -530,9 +528,9 @@
                 "src": "Genshin/Artifacts/Prayers for Wisdom/Tiara of Thunder.png"
             }
         ],
-        "bonuses": [
-            "1 Piece: Affected by Electro for 40% less time."
-        ]
+        "bonuses": {
+            "1": "Affected by Electro for 40% less time."
+        }
     },
     "Prayers for Destiny": {
         "link": "https://genshin-impact.fandom.com/wiki/Prayers_for_Destiny",
@@ -547,9 +545,9 @@
                 "src": "Genshin/Artifacts/Prayers for Destiny/Tiara of Torrents.png"
             }
         ],
-        "bonuses": [
-            "1 Piece: Affected by Hydro for 40% less time."
-        ]
+        "bonuses": {
+            "1": "Affected by Hydro for 40% less time."
+        }
     },
     "Prayers for Illumination": {
         "link": "https://genshin-impact.fandom.com/wiki/Prayers_for_Illumination",
@@ -564,9 +562,9 @@
                 "src": "Genshin/Artifacts/Prayers for Illumination/Tiara of Flame.png"
             }
         ],
-        "bonuses": [
-            "1 Piece: Affected by Pyro for 40% less time."
-        ]
+        "bonuses": {
+            "1": "Affected by Pyro for 40% less time."
+        }
     },
     "Prayers to Springtime": {
         "link": "https://genshin-impact.fandom.com/wiki/Prayers_to_Springtime",
@@ -581,9 +579,9 @@
                 "src": "Genshin/Artifacts/Prayers to Springtime/Tiara of Frost.png"
             }
         ],
-        "bonuses": [
-            "1 Piece: Affected by Cryo for 40% less time."
-        ]
+        "bonuses": {
+            "1": "Affected by Cryo for 40% less time."
+        }
     },
     "Gladiator's Finale": {
         "link": "https://genshin-impact.fandom.com/wiki/Gladiator%27s_Finale",
@@ -618,10 +616,10 @@
                 "src": "Genshin/Artifacts/Gladiator's Finale/Gladiator's Triumphus.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: ATK +18%.",
-            "4 Piece: If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
-        ]
+        "bonuses": {
+            "2": "ATK +18%.",
+            "4": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
+        }
     },
     "Wanderer's Troupe": {
         "link": "https://genshin-impact.fandom.com/wiki/Wanderer%27s_Troupe",
@@ -656,10 +654,10 @@
                 "src": "Genshin/Artifacts/Wanderer's Troupe/Conductor's Top Hat.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Increases Elemental Mastery by 80.",
-            "4 Piece: Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
-        ]
+        "bonuses": {
+            "2": "Increases Elemental Mastery by 80.",
+            "4": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
+        }
     },
     "Noblesse Oblige": {
         "link": "https://genshin-impact.fandom.com/wiki/Noblesse_Oblige",
@@ -694,10 +692,10 @@
                 "src": "Genshin/Artifacts/Noblesse Oblige/Royal Masque.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Elemental Burst DMG +20%",
-            "4 Piece: Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack."
-        ]
+        "bonuses": {
+            "2": "Elemental Burst DMG +20%",
+            "4": "Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack."
+        }
     },
     "Bloodstained Chivalry": {
         "link": "https://genshin-impact.fandom.com/wiki/Bloodstained_Chivalry",
@@ -732,10 +730,10 @@
                 "src": "Genshin/Artifacts/Bloodstained Chivalry/Bloodstained Iron Mask.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Physical DMG Bonus +25%",
-            "4 Piece: After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
-        ]
+        "bonuses": {
+            "2": "Physical DMG Bonus +25%",
+            "4": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
+        }
     },
     "Maiden Beloved": {
         "link": "https://genshin-impact.fandom.com/wiki/Maiden_Beloved",
@@ -770,10 +768,10 @@
                 "src": "Genshin/Artifacts/Maiden Beloved/Maiden's Fading Beauty.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Character Healing Effectiveness +15%",
-            "4 Piece: Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."
-        ]
+        "bonuses": {
+            "2": "Character Healing Effectiveness +15%",
+            "4": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."
+        }
     },
     "Viridescent Venerer": {
         "link": "https://genshin-impact.fandom.com/wiki/Viridescent_Venerer",
@@ -808,10 +806,10 @@
                 "src": "Genshin/Artifacts/Viridescent Venerer/Viridescent Venerer's Diadem.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Anemo DMG Bonus +15%",
-            "4 Piece: Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
-        ]
+        "bonuses": {
+            "2": "Anemo DMG Bonus +15%",
+            "4": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
+        }
     },
     "Archaic Petra": {
         "link": "https://genshin-impact.fandom.com/wiki/Archaic_Petra",
@@ -846,10 +844,10 @@
                 "src": "Genshin/Artifacts/Archaic Petra/Mask of Solitude Basalt.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Geo DMG Bonus +15%",
-            "4 Piece: Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
-        ]
+        "bonuses": {
+            "2": "Geo DMG Bonus +15%",
+            "4": "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+        }
     },
     "Retracing Bolide": {
         "link": "https://genshin-impact.fandom.com/wiki/Retracing_Bolide",
@@ -884,10 +882,10 @@
                 "src": "Genshin/Artifacts/Retracing Bolide/Summer Night's Mask.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Increases Shield Strength by 35%.",
-            "4 Piece: While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
-        ]
+        "bonuses": {
+            "2": "Increases Shield Strength by 35%.",
+            "4": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
+        }
     },
     "Thundersoother": {
         "link": "https://genshin-impact.fandom.com/wiki/Thundersoother",
@@ -922,10 +920,10 @@
                 "src": "Genshin/Artifacts/Thundersoother/Thundersoother's Diadem.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Electro RES increased by 40%.",
-            "4 Piece: Increases DMG against opponents affected by Electro by 35%."
-        ]
+        "bonuses": {
+            "2": "Electro RES increased by 40%.",
+            "4": "Increases DMG against opponents affected by Electro by 35%."
+        }
     },
     "Thundering Fury": {
         "link": "https://genshin-impact.fandom.com/wiki/Thundering_Fury",
@@ -960,10 +958,10 @@
                 "src": "Genshin/Artifacts/Thundering Fury/Thunder Summoner's Crown.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Electro DMG Bonus +15%",
-            "4 Piece: Increases DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s."
-        ]
+        "bonuses": {
+            "2": "Electro DMG Bonus +15%",
+            "4": "Increases DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s."
+        }
     },
     "Lavawalker": {
         "link": "https://genshin-impact.fandom.com/wiki/Lavawalker",
@@ -998,10 +996,10 @@
                 "src": "Genshin/Artifacts/Lavawalker/Lavawalker's Wisdom.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Pyro RES increased by 40%.",
-            "4 Piece: Increases DMG against opponents affected by Pyro by 35%."
-        ]
+        "bonuses": {
+            "2": "Pyro RES increased by 40%.",
+            "4": "Increases DMG against opponents affected by Pyro by 35%."
+        }
     },
     "Crimson Witch of Flames": {
         "link": "https://genshin-impact.fandom.com/wiki/Crimson_Witch_of_Flames",
@@ -1036,10 +1034,10 @@
                 "src": "Genshin/Artifacts/Crimson Witch of Flames/Witch's Scorching Hat.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Pyro DMG Bonus +15%",
-            "4 Piece: Increases Overloaded and Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks."
-        ]
+        "bonuses": {
+            "2": "Pyro DMG Bonus +15%",
+            "4": "Increases Overloaded and Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks."
+        }
     },
     "Blizzard Strayer": {
         "link": "https://genshin-impact.fandom.com/wiki/Blizzard_Strayer",
@@ -1074,10 +1072,10 @@
                 "src": "Genshin/Artifacts/Blizzard Strayer/Broken Rime's Echo.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Cryo DMG Bonus +15%",
-            "4 Piece: When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%."
-        ]
+        "bonuses": {
+            "2": "Cryo DMG Bonus +15%",
+            "4": "When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%."
+        }
     },
     "Heart of Depth": {
         "link": "https://genshin-impact.fandom.com/wiki/Heart_of_Depth",
@@ -1112,10 +1110,10 @@
                 "src": "Genshin/Artifacts/Heart of Depth/Wine-Stained Tricorne.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Hydro DMG Bonus +15%",
-            "4 Piece: After using an Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
-        ]
+        "bonuses": {
+            "2": "Hydro DMG Bonus +15%",
+            "4": "After using an Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
+        }
     },
     "Tenacity of the Millelith": {
         "link": "https://genshin-impact.fandom.com/wiki/Tenacity_of_the_Millelith",
@@ -1150,10 +1148,10 @@
                 "src": "Genshin/Artifacts/Tenacity of the Millelith/General's Ancient Helm.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: HP +20%",
-            "4 Piece: When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
-        ]
+        "bonuses": {
+            "2": "HP +20%",
+            "4": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+        }
     },
     "Pale Flame": {
         "link": "https://genshin-impact.fandom.com/wiki/Pale_Flame",
@@ -1188,10 +1186,10 @@
                 "src": "Genshin/Artifacts/Pale Flame/Mocking Mask.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Physical DMG Bonus +25%",
-            "4 Piece: When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
-        ]
+        "bonuses": {
+            "2": "Physical DMG Bonus +25%",
+            "4": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
+        }
     },
     "Shimenawa's Reminiscence": {
         "link": "https://genshin-impact.fandom.com/wiki/Shimenawa%27s_Reminiscence",
@@ -1226,10 +1224,10 @@
                 "src": "Genshin/Artifacts/Shimenawa's Reminiscence/Capricious Visage.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: ATK +18%",
-            "4 Piece: When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
-        ]
+        "bonuses": {
+            "2": "ATK +18%",
+            "4": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
+        }
     },
     "Emblem of Severed Fate": {
         "link": "https://genshin-impact.fandom.com/wiki/Emblem_of_Severed_Fate",
@@ -1264,10 +1262,10 @@
                 "src": "Genshin/Artifacts/Emblem of Severed Fate/Ornate Kabuto.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Energy Recharge +20%",
-            "4 Piece: Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way."
-        ]
+        "bonuses": {
+            "2": "Energy Recharge +20%",
+            "4": "Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way."
+        }
     },
     "Husk of Opulent Dreams": {
         "link": "https://genshin-impact.fandom.com/wiki/Husk_of_Opulent_Dreams",
@@ -1302,14 +1300,10 @@
                 "src": "Genshin/Artifacts/Husk of Opulent Dreams/Skeletal Hat.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: DEF +30%",
-            "4 Piece: A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions:",
-            "When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s.",
-            "When off the field, the character gains 1 stack every 3s.",
-            "Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus.",
-            "When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
-        ]
+        "bonuses": {
+            "2": "DEF +30%",
+            "4": "A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions:When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s.When off the field, the character gains 1 stack every 3s.Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus.When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
+        }
     },
     "Ocean-Hued Clam": {
         "link": "https://genshin-impact.fandom.com/wiki/Ocean-Hued_Clam",
@@ -1344,16 +1338,10 @@
                 "src": "Genshin/Artifacts/Ocean-Hued Clam/Crown of Watatsumi.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Healing Bonus +15%.",
-            "4 Piece: When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing).",
-            "At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing.",
-            "(This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses).",
-            "Only one Sea-Dyed Foam can be produced every 3.5 seconds.",
-            "Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing).",
-            "There can be no more than one Sea-Dyed Foam active at any given time.",
-            "This effect can still be triggered even when the character who is using this artifact set is not on the field."
-        ]
+        "bonuses": {
+            "2": "Healing Bonus +15%.",
+            "4": "When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing).At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing.(This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses).Only one Sea-Dyed Foam can be produced every 3.5 seconds.Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing).There can be no more than one Sea-Dyed Foam active at any given time.This effect can still be triggered even when the character who is using this artifact set is not on the field."
+        }
     },
     "Vermillion Hereafter": {
         "link": "https://genshin-impact.fandom.com/wiki/Vermillion_Hereafter",
@@ -1388,10 +1376,10 @@
                 "src": "Genshin/Artifacts/Vermillion Hereafter/Thundering Poise.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: ATK +18%.",
-            "4 Piece: After using an Elemental Burst. this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
-        ]
+        "bonuses": {
+            "2": "ATK +18%.",
+            "4": "After using an Elemental Burst. this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
+        }
     },
     "Echoes of an Offering": {
         "link": "https://genshin-impact.fandom.com/wiki/Echoes_of_an_Offering",
@@ -1426,13 +1414,10 @@
                 "src": "Genshin/Artifacts/Echoes of an Offering/Flowing Rings.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: ATK +18%.",
-            "4 Piece: When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK.",
-            "This effect will be dispelled 0.05s after a Normal Attack deals DMG.",
-            "If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%.",
-            "This trigger can occur once every 0.2s."
-        ]
+        "bonuses": {
+            "2": "ATK +18%.",
+            "4": "When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK.This effect will be dispelled 0.05s after a Normal Attack deals DMG.If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%.This trigger can occur once every 0.2s."
+        }
     },
     "Deepwood Memories": {
         "link": "https://genshin-impact.fandom.com/wiki/Deepwood_Memories",
@@ -1467,10 +1452,10 @@
                 "src": "Genshin/Artifacts/Deepwood Memories/Laurel Coronet.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Dendro DMG Bonus +15%",
-            "4 Piece: After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field."
-        ]
+        "bonuses": {
+            "2": "Dendro DMG Bonus +15%",
+            "4": "After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field."
+        }
     },
     "Gilded Dreams": {
         "link": "https://genshin-impact.fandom.com/wiki/Gilded_Dreams",
@@ -1505,10 +1490,10 @@
                 "src": "Genshin/Artifacts/Gilded Dreams/Shadow of the Sand King.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Increases Elemental Mastery by 80.",
-            "4 Piece: Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field."
-        ]
+        "bonuses": {
+            "2": "Increases Elemental Mastery by 80.",
+            "4": "Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field."
+        }
     },
     "Desert Pavilion Chronicle": {
         "link": "https://genshin-impact.fandom.com/wiki/Desert_Pavilion_Chronicle",
@@ -1543,10 +1528,10 @@
                 "src": "Genshin/Artifacts/Desert Pavilion Chronicle/Legacy of the Desert High-Born.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Anemo DMG Bonus +15%.",
-            "4 Piece: When Charged Attacks hit opponents, the equipping character's Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s."
-        ]
+        "bonuses": {
+            "2": "Anemo DMG Bonus +15%.",
+            "4": "When Charged Attacks hit opponents, the equipping character's Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s."
+        }
     },
     "Flower of Paradise Lost": {
         "link": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost",
@@ -1581,10 +1566,10 @@
                 "src": "Genshin/Artifacts/Flower of Paradise Lost/Amethyst Crown.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Increases Elemental Mastery by 80.",
-            "4 Piece: The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field."
-        ]
+        "bonuses": {
+            "2": "Increases Elemental Mastery by 80.",
+            "4": "The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field."
+        }
     },
     "Nymph's Dream": {
         "link": "https://genshin-impact.fandom.com/wiki/Nymph%27s_Dream",
@@ -1619,10 +1604,10 @@
                 "src": "Genshin/Artifacts/Nymph's Dream/Fell Dragon's Monocle.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Hydro DMG Bonus +15%",
-            "4 Piece: After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG will be increased by 4%/9%/15%. Mirrored Nymph created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently."
-        ]
+        "bonuses": {
+            "2": "Hydro DMG Bonus +15%",
+            "4": "After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG will be increased by 4%/9%/15%. Mirrored Nymph created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently."
+        }
     },
     "Vourukasha's Glow": {
         "link": "https://genshin-impact.fandom.com/wiki/Vourukasha%27s_Glow",
@@ -1657,10 +1642,10 @@
                 "src": "Genshin/Artifacts/Vourukasha's Glow/Heart of Khvarena's Brilliance.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: HP +20%",
-            "4 Piece: Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field."
-        ]
+        "bonuses": {
+            "2": "HP +20%",
+            "4": "Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field."
+        }
     },
     "Marechaussee Hunter": {
         "link": "https://genshin-impact.fandom.com/wiki/Marechaussee_Hunter",
@@ -1695,10 +1680,10 @@
                 "src": "Genshin/Artifacts/Marechaussee Hunter/Veteran's Visage.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Normal and Charged Attack DMG +15%.",
-            "4 Piece: When current HP increases or decreases, CRIT Rate will be increased by 12% for 5s. Max 3 stacks."
-        ]
+        "bonuses": {
+            "2": "Normal and Charged Attack DMG +15%.",
+            "4": "When current HP increases or decreases, CRIT Rate will be increased by 12% for 5s. Max 3 stacks."
+        }
     },
     "Golden Troupe": {
         "link": "https://genshin-impact.fandom.com/wiki/Golden_Troupe",
@@ -1733,10 +1718,10 @@
                 "src": "Genshin/Artifacts/Golden Troupe/Golden Troupe's Reward.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Increases Elemental Skill DMG by 20%.",
-            "4 Piece: Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field."
-        ]
+        "bonuses": {
+            "2": "Increases Elemental Skill DMG by 20%.",
+            "4": "Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field."
+        }
     },
     "Song of Days Past": {
         "link": "https://genshin-impact.fandom.com/wiki/Song_of_Days_Past",
@@ -1771,10 +1756,10 @@
                 "src": "Genshin/Artifacts/Song of Days Past/Poetry of Days Past.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Healing Bonus +15%",
-            "4 Piece: When the equipping character heals a party member, the Yearning effect will be created for 6s, which records the total amount of healing provided (including overflow healing). When the duration expires, the Yearning effect will be transformed into the \"Waves of Days Past\" effect: When your active party member hits an opponent with a Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst, the DMG dealt will be increased by 8% of the total healing amount recorded by the Yearning effect. The \"Waves of Days Past\" effect is removed after it has taken effect 5 times or after 10s. A single instance of the Yearning effect can record up to 15,000 healing, and only a single instance can exist at once, but it can record the healing from multiple equipping characters. Equipping characters on standby can still trigger this effect."
-        ]
+        "bonuses": {
+            "2": "Healing Bonus +15%",
+            "4": "When the equipping character heals a party member, the Yearning effect will be created for 6s, which records the total amount of healing provided (including overflow healing). When the duration expires, the Yearning effect will be transformed into the \"Waves of Days Past\" effect: When your active party member hits an opponent with a Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst, the DMG dealt will be increased by 8% of the total healing amount recorded by the Yearning effect. The \"Waves of Days Past\" effect is removed after it has taken effect 5 times or after 10s. A single instance of the Yearning effect can record up to 15,000 healing, and only a single instance can exist at once, but it can record the healing from multiple equipping characters. Equipping characters on standby can still trigger this effect."
+        }
     },
     "Nighttime Whispers in the Echoing Woods": {
         "link": "https://genshin-impact.fandom.com/wiki/Nighttime_Whispers_in_the_Echoing_Woods",
@@ -1809,10 +1794,10 @@
                 "src": "Genshin/Artifacts/Nighttime Whispers in the Echoing Woods/Compassionate Ladies' Hat.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: ATK +18%",
-            "4 Piece: After using an Elemental Skill, gain a 20% Geo DMG Bonus for 10s. While under a shield granted by the Crystallize reaction, the above effect will be increased by 150%, and this additional increase disappears 1s after that shield is lost."
-        ]
+        "bonuses": {
+            "2": "ATK +18%",
+            "4": "After using an Elemental Skill, gain a 20% Geo DMG Bonus for 10s. While under a shield granted by the Crystallize reaction, the above effect will be increased by 150%, and this additional increase disappears 1s after that shield is lost."
+        }
     },
     "Fragment of Harmonic Whimsy": {
         "link": "https://genshin-impact.fandom.com/wiki/Fragment_of_Harmonic_Whimsy",
@@ -1847,10 +1832,10 @@
                 "src": "Genshin/Artifacts/Fragment of Harmonic Whimsy/Whimsical Dance of the Withered.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: ATK +18%",
-            "4 Piece: When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s. Max 3 stacks."
-        ]
+        "bonuses": {
+            "2": "ATK +18%",
+            "4": "When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s. Max 3 stacks."
+        }
     },
     "Unfinished Reverie": {
         "link": "https://genshin-impact.fandom.com/wiki/Unfinished_Reverie",
@@ -1885,10 +1870,10 @@
                 "src": "Genshin/Artifacts/Unfinished Reverie/Crownless Crown.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: ATK +18%",
-            "4 Piece: After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field."
-        ]
+        "bonuses": {
+            "2": "ATK +18%",
+            "4": "After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field."
+        }
     },
     "Scroll of the Hero of Cinder City": {
         "link": "https://genshin-impact.fandom.com/wiki/Scroll_of_the_Hero_of_Cinder_City",
@@ -1923,10 +1908,10 @@
                 "src": "Genshin/Artifacts/Scroll of the Hero of Cinder City/Demon-Warrior's Feather Mask.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: When a nearby party member triggers a Nightsoul Burst, the equipping character regenerates 6 Elemental Energy.",
-            "4 Piece: After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 15s. If the equipping character is in the Nightsoul's Blessing state when triggering this effect, all nearby party members gain an additional 28% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 20s. The equipping character can trigger this effect while off-field, and the DMG bonus from Artifact Sets with the same name do not stack."
-        ]
+        "bonuses": {
+            "2": "When a nearby party member triggers a Nightsoul Burst, the equipping character regenerates 6 Elemental Energy.",
+            "4": "After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 15s. If the equipping character is in the Nightsoul's Blessing state when triggering this effect, all nearby party members gain an additional 28% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 20s. The equipping character can trigger this effect while off-field, and the DMG bonus from Artifact Sets with the same name do not stack."
+        }
     },
     "Obsidian Codex": {
         "link": "https://genshin-impact.fandom.com/wiki/Obsidian_Codex",
@@ -1961,10 +1946,10 @@
                 "src": "Genshin/Artifacts/Obsidian Codex/Crown of the Saints.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%.",
-            "4 Piece: After the equipping character consumes 1 Nightsoul point while on the field, CRIT Rate increases by 40% for 6s. This effect can trigger once every second."
-        ]
+        "bonuses": {
+            "2": "While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%.",
+            "4": "After the equipping character consumes 1 Nightsoul point while on the field, CRIT Rate increases by 40% for 6s. This effect can trigger once every second."
+        }
     },
     "Finale of the Deep Galleries": {
         "link": "https://genshin-impact.fandom.com/wiki/Finale_of_the_Deep_Galleries",
@@ -1999,10 +1984,10 @@
                 "src": "Genshin/Artifacts/Finale of the Deep Galleries/Deep Gallery's Lost Crown.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Cryo DMG Bonus +15%",
-            "4 Piece: When the equipping Character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s. After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s. This effect can trigger even if the equipping character is off the field."
-        ]
+        "bonuses": {
+            "2": "Cryo DMG Bonus +15%",
+            "4": "When the equipping Character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s. After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s. This effect can trigger even if the equipping character is off the field."
+        }
     },
     "Long Night's Oath": {
         "link": "https://genshin-impact.fandom.com/wiki/Long_Night%27s_Oath",
@@ -2037,9 +2022,9 @@
                 "src": "Genshin/Artifacts/Long Night's Oath/Dyed Tassel.png"
             }
         ],
-        "bonuses": [
-            "2 Piece: Plunging Attack DMG increased by 25%.",
-            "4 Piece: After the equipping character's Plunging Attack/Charged Attack/Elemental Skill hits an opponent, they will gain 1/2/2 stack(s) of \"Radiance Everlasting.\" Plunging Attacks, Charged Attacks or Elemental Skills can each trigger this effect once every 1s. Radiance Everlasting: Plunging Attacks deal 15%. increased DMG for 6s. Max 5 stacks. Each stack's duration is counted independently."
-        ]
+        "bonuses": {
+            "2": "Plunging Attack DMG increased by 25%.",
+            "4": "After the equipping character's Plunging Attack/Charged Attack/Elemental Skill hits an opponent, they will gain 1/2/2 stack(s) of \"Radiance Everlasting.\" Plunging Attacks, Charged Attacks or Elemental Skills can each trigger this effect once every 1s. Radiance Everlasting: Plunging Attacks deal 15%. increased DMG for 6s. Max 5 stacks. Each stack's duration is counted independently."
+        }
     }
 }
