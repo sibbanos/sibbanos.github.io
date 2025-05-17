@@ -19,7 +19,7 @@ for weapon_type in soup.find_all('span', 'mw-headline') :
 
     for weapon in weapon_list[1:] :
         weapon_td_name = weapon.find('td').next_sibling.next_sibling
-        weapon_name = weapon_td_name.find('a').get_text().replace('"', '')
+        weapon_name = weapon_td_name.find('a').get_text()
         weapon_link = 'https://genshin-impact.fandom.com'+weapon_td_name.find('a')['href']
 
         weapon_td_quality = weapon_td_name.next_sibling.next_sibling
@@ -45,15 +45,16 @@ for weapon_type in soup.find_all('span', 'mw-headline') :
         if (weapon_ability == 'None') :
             weapon_ability = ''
 
-        if weapon_name not in weapons[weapon_type_name] :
-            weapons[weapon_type_name][weapon_name] = {
+        if weapon_name not in weapons :
+            weapons[weapon_name] = {
+                'type' : weapon_type_name.rstrip('s'),
                 'quality' : weapon_quality,
                 'first_stat' : weapon_first_stat,
                 'second_stat' : weapon_second_stat,
                 'second_stat_type' : weapon_second_stat_type,
                 'ability' : weapon_ability,
                 'link' : weapon_link,
-                'src' : 'Genshin/Weapons/'+weapon_type_name+'/'+weapon_name+'.png'
+                'src' : 'Genshin/Weapons/'+weapon_type_name+'/'+weapon_name.replace('"', '')+'.png'
             }
 
 with open('Genshin/scripts/weapons/weapons.json', 'w') as file:
