@@ -293,7 +293,8 @@ for character_list in soup.find_all('table')[4:] :
                             print('Fix me (artifact) : '+character_name+' '+element+' '+build_name+' '+_artifact)
                             exit(1)
 
-                    artifacts[j] = artifact
+                    if artifact :
+                        artifacts[j] = artifact
                     j += 1
 
             # Get main stats list
