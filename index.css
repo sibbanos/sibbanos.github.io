@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-thistle-500: #E0BBE4;
+  --color-lavender-purple-500: #957DAD;
+  --color-pastel-violet-500: #D291BC;
+  --color-cotton-candy-500: #FEC8D8;
+  --color-lumber-500: #FFDFD3;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
