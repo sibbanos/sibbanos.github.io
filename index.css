@@ -1,11 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-thistle-500: #E0BBE4;
-  --color-lavender-purple-500: #957DAD;
-  --color-pastel-violet-500: #D291BC;
-  --color-cotton-candy-500: #FEC8D8;
-  --color-lumber-500: #FFDFD3;
+    --color-thistle-500: #E0BBE4;
+    --color-lavender-purple-200: #c1a2cd;
+    --color-lavender-purple-500: #957DAD;
+    --color-pastel-violet-500: #D291BC;
+    --color-cotton-candy-500: #FEC8D8;
+    --color-lumber-500: #FFDFD3;
+    --color-apricot-500: #FEC8AD;
+    --color-isabelline-500: #F7F5EB;
 }
 
 * {

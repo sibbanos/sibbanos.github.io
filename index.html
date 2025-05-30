@@ -25,21 +25,72 @@
     <meta property="twitter:image" content="https://sibbanos.github.io/favicon.png" />
 
     <link rel="stylesheet" href="main.css">
+
+    <script src="Genshin/Ressources/characters.js"></script>
 </head>
-<body class="h-screen bg-gradient-to-b from-lavender-purple-500 to-thistle-500">
-    <a class="fixed flex items-center border border-pastel-violet-500 rounded-full m-2 pr-2 bg-gradient-to-b from-cotton-candy-500 to-lumber-500" href="">
-        <img src="favicon.png" class="h-12 rounded-full">
-        <span class="font-bold text-gray-800 px-2">Sibbanos</span>
+<body class="h-screen bg-gradient-to-b from-lavender-purple-200 to-thistle-500">
+    <!-- Logo -->
+    <a class="fixed flex items-center border border-pastel-violet-500 rounded-full m-2 hover:pr-2 bg-gradient-to-b from-cotton-candy-500 to-lumber-500 group z-10" href="">
+        <img src="favicon.png" class="h-12 rounded-full z-10">
+        <div class="flex justify-center font-bold text-gray-800 w-0 group-hover:w-24 transition-width duration-400 ease-in-out">
+            <span class="invisible delay-150 group-hover:visible">Sibbanos</span>
+        </div>
     </a>
 
-    <div class="h-full grid sm:flex justify-center items-center space-x-8" id="landingPage">
-        <a href="#Genshin" class="border border-pastel-violet-500 rounded-2xl shadow-sm h-56 w-56">
+    <!-- Choose game -->
+    <div class="h-full grid sm:flex justify-center items-center gap-0 sm:gap-8" id="landingPage">
+        <a href="#Genshin#Characters" class="border border-pastel-violet-500 rounded-2xl shadow-2xl h-56 w-56">
             <img class="rounded-2xl h-full bg-gradient-to-b from-cotton-candy-500 to-lumber-500 object-contain" src="Genshin/Ressources/Genshin.png" />
         </a>
 
-        <a href="#Honkai" class="border border-pastel-violet-500 rounded-2xl shadow-sm h-56 w-56">
+        <a href="#Honkai#Characters" class="border border-pastel-violet-500 rounded-2xl shadow-2xl h-56 w-56">
             <img class="rounded-2xl h-full bg-gradient-to-b from-cotton-candy-500 to-lumber-500 object-contain" src="Honkai/Ressources/Honkai.png" />
         </a>
+    </div>
+
+    <!-- Page container -->
+    <div class="h-full overflow-y-scroll">
+        <!-- Genshin container -->
+        <div id="genshinLandingPage" class="container mx-auto pb-4" hidden>
+            <!-- Genshin navigation -->
+            <nav class="flex gap-x-2 md:gap-x-8 justify-end sm:justify-center pr-2 sm:pr-0 pt-4" role="tablist">
+                <a id="genshinNavCharacters" href="#Genshin#Characters" class="genshinNav flex px-3 py-2 gap-2 rounded-lg bg-gradient-to-b bg-white hover:from-cotton-candy-500 aria-selected:from-cotton-candy-500" aria-selected="false">
+                    <img src="Genshin/Ressources/Icons/Group.svg" class="">
+                    <span class="hidden md:block font-bold">Characters</span>
+                </a>
+                <a id="genshinNavWeapons" href="#Genshin#Weapons" class="genshinNav flex px-3 py-2 gap-2 rounded-lg bg-gradient-to-b bg-white hover:from-cotton-candy-500 aria-selected:from-cotton-candy-500" aria-selected="false">
+                    <img src="Genshin/Ressources/Icons/Weapon.svg" class="">
+                    <span class="hidden md:block font-bold">Weapons</span>
+                </a>
+                <a id="genshinNavArtifacts" href="#Genshin#Artifacts" class="genshinNav flex px-3 py-2 gap-2 rounded-lg bg-gradient-to-b bg-white hover:from-cotton-candy-500 aria-selected:from-cotton-candy-500" aria-selected="false">
+                    <img src="Genshin/Ressources/Icons/Crown.svg" class="">
+                    <span class="hidden md:block font-bold">Artifacts</span>
+                </a>
+                <a id="genshinNavBuildFinder" href="#Genshin#BuildFinder" class="genshinNav flex px-3 py-2 gap-2 rounded-lg bg-gradient-to-b bg-white hover:from-cotton-candy-500 aria-selected:from-cotton-candy-500" aria-selected="false">
+                    <img src="Genshin/Ressources/Icons/Search.svg" class="">
+                    <span class="hidden md:block font-bold">Build Finder</span>
+                </a>
+            </nav>
+
+            <!-- Genshin card -->
+            <div class="flex flex-col bg-isabelline-500 rounded-xl shadow-2xl mt-3 mx-2">
+                <div id="genshinContainer" class="p-4 md:p-7 overflow-auto">
+
+                </div>
+
+                <!-- Character card template -->
+                <template id="characterCard">
+                    <div class="relative transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                        <img class="characterElement h-8 w-8 p-0.5 absolute bg-lavender-purple-500 rounded-2xl right-0 top-0 -translate-y-4 translate-x-4" src="">
+                        <img class="characterWeapon h-8 w-8 p-0.5 absolute bg-lavender-purple-500 rounded-2xl right-0 top-0 translate-y-5 translate-x-4" src="">
+                        <a class="characterContainer shadow-md overflow-hidden w-24 h-32 flex flex-col text-center bg-gradient-to-b to-isabelline-500 rounded-xl border border-lavender-purple-500" href="">
+                            <img class="characterIcon h-24" src="">
+                            <span class="characterName h-8 font-bold text-xs border-t border-lavender-purple-500 flex justify-center items-center"></span>
+                        </a>
+                    </div>
+                </template>
+            </div>
+        </div>
     </div>
 
     <script src="index.js"></script>

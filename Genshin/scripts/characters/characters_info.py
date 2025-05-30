@@ -36,8 +36,15 @@ for character in soup.find('table').find_all('tr')[1:] :
             'quality' : character_quality,
             'weapon' : character_weapon,
             'link' : character_link,
-            'src' : 'Genshin/Characters/'+character_element+'/'+character_name+'.png'
+            'src' : {
+                'character' : 'Genshin/Characters/'+character_element+'/'+character_name+'.png',
+                'element' : 'Genshin/Ressources/Elements/'+character_element+'.png',
+                'weapon' : 'Genshin/Ressources/Weapons/'+character_weapon+'.png',
+            },
         }
 
 with open('Genshin/scripts/characters/characters.json', 'w') as file:
     file.write(json.dumps(characters, indent=4))
+
+with open('Genshin/Ressources/characters.js', 'w') as file:
+    file.write('let genshinCharacters = '+json.dumps(characters, indent=4)+';')

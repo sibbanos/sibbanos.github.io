@@ -1,4 +1,4 @@
-{
+let genshinCharacters = {
     "Albedo": {
         "element": "Geo",
         "quality": "5",
@@ -1088,4 +1088,4 @@
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
         }
     }
-}
+};
