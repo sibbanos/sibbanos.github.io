@@ -24,7 +24,7 @@ for weapon_type in soup.find_all('span', 'mw-headline') :
 
         weapon_td_quality = weapon_td_name.next_sibling.next_sibling
         weapon_quality = weapon_td_quality.find('img')
-        weapon_quality = weapon_quality['alt'].replace(' Stars', '')
+        weapon_quality = weapon_quality['alt'].replace(' Stars', '').replace(' Star', '')
 
         weapon_td_first_stat = weapon_td_quality.next_sibling.next_sibling
         weapon_first_stat = weapon_td_first_stat.get_text().split('(')[0]
@@ -54,8 +54,14 @@ for weapon_type in soup.find_all('span', 'mw-headline') :
                 'second_stat_type' : weapon_second_stat_type,
                 'ability' : weapon_ability,
                 'link' : weapon_link,
-                'src' : 'Genshin/Weapons/'+weapon_type_name+'/'+weapon_name.replace('"', '')+'.png'
+                'src' : {
+                    'weapon' : 'Genshin/Weapons/'+weapon_type_name+'/'+weapon_name.replace('"', '')+'.png',
+                    'weapon_type' : 'Genshin/Ressources/Weapons/'+weapon_type_name.rstrip('s')+'.png',
+                },
             }
 
 with open('Genshin/scripts/weapons/weapons.json', 'w') as file:
     file.write(json.dumps(weapons, indent=4))
+
+with open('Genshin/Ressources/weapons.js', 'w') as file:
+    file.write('let genshinWeapons = '+json.dumps(weapons, indent=4)+';')

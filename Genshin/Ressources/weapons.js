@@ -1,4 +1,4 @@
-{
+let genshinWeapons = {
     "Absolution": {
         "type": "Sword",
         "quality": "5",
@@ -2716,4 +2716,4 @@
             "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
         }
     }
-}
+};
