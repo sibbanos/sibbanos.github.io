@@ -194,9 +194,9 @@ function GenshinCharacters() {
 
         // Change background based on quality
         if (characterInfo.quality == 5) {
-            clone.querySelector('.genshinCardIconContainer').className += ' from-apricot-500';
+            clone.querySelector('.genshinCardIcon').className += ' from-apricot-500';
         } else {
-            clone.querySelector('.genshinCardIconContainer').className += ' from-pastel-violet-500';
+            clone.querySelector('.genshinCardIcon').className += ' from-pastel-violet-500';
         }
 
         // Set dataset
@@ -251,19 +251,19 @@ function GenshinWeapons() {
         // Change background based on quality
         switch (Number(weaponInfo.quality)) {
             case 5:
-                clone.querySelector('.genshinCardIconContainer').className += ' from-apricot-500';
+                clone.querySelector('.genshinCardIcon').className += ' from-apricot-500';
                 break;
             case 4:
-                clone.querySelector('.genshinCardIconContainer').className += ' from-pastel-violet-500';
+                clone.querySelector('.genshinCardIcon').className += ' from-pastel-violet-500';
                 break;
             case 3:
-                clone.querySelector('.genshinCardIconContainer').className += ' from-water-500';
+                clone.querySelector('.genshinCardIcon').className += ' from-water-500';
                 break;
             case 2:
-                clone.querySelector('.genshinCardIconContainer').className += ' from-tea-green-500';
+                clone.querySelector('.genshinCardIcon').className += ' from-tea-green-500';
                 break;
             default:
-                clone.querySelector('.genshinCardIconContainer').className += ' from-light-gray-500';
+                clone.querySelector('.genshinCardIcon').className += ' from-light-gray-500';
                 break;
         }
 
@@ -315,16 +315,16 @@ function GenshinArtifacts() {
         // Change background based on quality
         switch (artifactMaxQuality) {
             case 5:
-                clone.querySelector('.genshinCardIconContainer').className += ' from-apricot-500';
+                clone.querySelector('.genshinCardIcon').className += ' from-apricot-500';
                 break;
             case 4:
-                clone.querySelector('.genshinCardIconContainer').className += ' from-pastel-violet-500';
+                clone.querySelector('.genshinCardIcon').className += ' from-pastel-violet-500';
                 break;
             case 3:
-                clone.querySelector('.genshinCardIconContainer').className += ' from-water-500';
+                clone.querySelector('.genshinCardIcon').className += ' from-water-500';
                 break;
             default:
-                clone.querySelector('.genshinCardIconContainer').className += ' from-light-gray-500';
+                clone.querySelector('.genshinCardIcon').className += ' from-light-gray-500';
                 break;
         }
 
