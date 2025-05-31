@@ -291,6 +291,58 @@ function GenshinWeapons() {
 function GenshinArtifacts() {
     // Show default content
     genshinPage('Artifacts');
+
+    // Show filter
+    genshinShowFilter([1, 3, 4, 5], false, false);
+
+    // Sort artifact by name
+    genshinArtifacts = Object.keys(genshinArtifacts).sort().reduce((r, k) => (r[k] = genshinArtifacts[k], r), {});
+
+    // Sort artifact by quality
+    genshinArtifacts = Object.fromEntries(Object.entries(genshinArtifacts).sort(([, a], [, b]) => b.quality[b.quality.length - 1] - a.quality[a.quality.length - 1]));
+
+    // Create parent row
+    const row = document.createElement('div');
+    row.className = 'flex flex-wrap gap-5 justify-center';
+
+    // Create artifact card
+    for (artifact in genshinArtifacts) {
+        const artifactInfo = genshinArtifacts[artifact];
+        const artifactMaxQuality = artifactInfo['quality'][artifactInfo['quality'].length - 1];
+        const template = document.querySelector("#genshinCard");
+        const clone = document.importNode(template.content, true);
+
+        // Change background based on quality
+        switch (artifactMaxQuality) {
+            case 5:
+                clone.querySelector('.genshinCardIconContainer').className += ' from-apricot-500';
+                break;
+            case 4:
+                clone.querySelector('.genshinCardIconContainer').className += ' from-pastel-violet-500';
+                break;
+            case 3:
+                clone.querySelector('.genshinCardIconContainer').className += ' from-water-500';
+                break;
+            default:
+                clone.querySelector('.genshinCardIconContainer').className += ' from-light-gray-500';
+                break;
+        }
+
+        // Set dataset
+        clone.querySelector('.genshinCardContainer').dataset.quality = artifactMaxQuality;
+
+        // Set value
+        clone.querySelector('.genshinCardIcon').src = artifactInfo.pieces[0].src.artifact;
+        clone.querySelector('.genshinCardName').textContent = artifact;
+
+        // Remove element & weapon
+        clone.querySelector('.genshinCardElement').remove();
+        clone.querySelector('.genshinCardWeapon').remove();
+
+        row.appendChild(clone);
+    }
+
+    document.querySelector('#genshinContainer').appendChild(row);
 }
 
 /**

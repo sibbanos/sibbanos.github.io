@@ -56,7 +56,10 @@ for artifact in soup.find('table').find_all('tr')[1:] :
         pieces.append({
             'name' : piece,
             'type' : pieces_order[pieces_number][i],
-            'src' : 'Genshin/Artifacts/'+artifact_name+'/'+piece+'.png'
+            'src' : {
+                'artifact' : 'Genshin/Artifacts/'+artifact_name+'/'+piece+'.png',
+                'artifact_type' : 'Genshin/Ressources/Artifacts/'+pieces_order[pieces_number][i]+'.png',
+            },
         })
         i += 1
 
@@ -65,8 +68,11 @@ for artifact in soup.find('table').find_all('tr')[1:] :
             'link' : artifact_link,
             'quality' : artifact_quality,
             'pieces' : pieces,
-            'bonuses' : artifact_bonuses
+            'bonuses' : artifact_bonuses,
         }
 
 with open('Genshin/scripts/artifacts/artifacts.json', 'w') as file:
     file.write(json.dumps(artifacts, indent=4))
+
+with open('Genshin/Ressources/artifacts.js', 'w') as file:
+    file.write('let genshinArtifacts = '+json.dumps(artifacts, indent=4)+';')
