@@ -4,20 +4,19 @@ window.addEventListener('hashchange', () => {
 
 init();
 
+/**
+ * Load page
+ */
 function init() {
     const url = window.location.hash;
     const currentLocation = url.split('#');
 
     if (currentLocation.length > 1) {
-        showGame(currentLocation[1], currentLocation[2]);
+        document.querySelector('#landingPage').hidden = true;
+        document.querySelector('#siteContainer').hidden = false;
+    
+        window[`${currentLocation[1]}${currentLocation[2]}`](currentLocation[3]);
     }
-}
-
-function showGame(game, tab) {
-    document.querySelector('#landingPage').hidden = true;
-    document.querySelector('#siteContainer').hidden = false;
-
-    window[`${game}${tab}`]();
 }
 
 //#region Genshin
@@ -106,9 +105,9 @@ function genshinFilterList() {
 /**
  * Show genshin page and select current tab
  * 
- * @param {string} page 
+ * @param {string|null} page 
  */
-function genshinPage(page) {
+function genshinPage(page = null) {
     // Show genshin page
     document.querySelector('#genshinPage').hidden = false;
 
@@ -118,11 +117,15 @@ function genshinPage(page) {
     // Hide filter
     document.querySelector('#genshinFilterContainer').hidden = true;
 
-    // Select current tab
+    // Unselect all tab
     document.querySelectorAll('.genshinNav').forEach((nav) => {
         nav.ariaSelected = false;
     });
-    document.querySelector(`#genshinNav${page}`).ariaSelected = true;
+    
+    // Select current tab
+    if (page) {
+        document.querySelector(`#genshinNav${page}`).ariaSelected = true;
+    }
 }
 
 /**
@@ -203,8 +206,9 @@ function GenshinCharacters() {
         clone.querySelector('.genshinCardContainer').dataset.element = characterInfo.element;
         clone.querySelector('.genshinCardContainer').dataset.quality = characterInfo.quality;
         clone.querySelector('.genshinCardContainer').dataset.weapon = characterInfo.weapon;
-
+        
         // Set value
+        clone.querySelector('.genshinCardContainer').href = `#Genshin#Character#${character}`;
         clone.querySelector('.genshinCardIcon').src = characterInfo.src.character;
         clone.querySelector('.genshinCardName').textContent = character;
         clone.querySelector('.genshinCardWeapon').src = characterInfo.src.weapon;
@@ -272,6 +276,7 @@ function GenshinWeapons() {
         clone.querySelector('.genshinCardContainer').dataset.weapon = weaponInfo.type;
 
         // Set value
+        clone.querySelector('.genshinCardContainer').href = `#Genshin#Weapon#${weapon}`;
         clone.querySelector('.genshinCardIcon').src = weaponInfo.src.weapon;
         clone.querySelector('.genshinCardName').textContent = weapon;
         clone.querySelector('.genshinCardWeapon').src = weaponInfo.src.weapon_type;
@@ -332,6 +337,7 @@ function GenshinArtifacts() {
         clone.querySelector('.genshinCardContainer').dataset.quality = artifactMaxQuality;
 
         // Set value
+        clone.querySelector('.genshinCardContainer').href = `#Genshin#Artifact#${artifact}`;
         clone.querySelector('.genshinCardIcon').src = artifactInfo.pieces[0].src.artifact;
         clone.querySelector('.genshinCardName').textContent = artifact;
 
@@ -351,6 +357,33 @@ function GenshinArtifacts() {
 function GenshinBuildFinder() {
     // Show default content
     genshinPage('BuildFinder');
+}
+
+/**
+ * Show genshin character
+ * 
+ * @param {string} character 
+ */
+function GenshinCharacter(character) {
+    genshinPage();
+}
+
+/**
+ * Show genshin weapon
+ * 
+ * @param {string} weapon 
+ */
+function GenshinWeapon(weapon) {
+    genshinPage();
+}
+
+/**
+ * Show genshin artifact
+ * 
+ * @param {string} artifact 
+ */
+function GenshinArtifact(artifact) {
+    genshinPage();
 }
 
 //#endregion Genshin
