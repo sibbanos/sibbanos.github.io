@@ -467,7 +467,7 @@ function GenshinCharacter(character) {
             const mainStatSands = buildInfo['main_stats']['Sands'][mainStatSandsIndex];
 
             // Create main stat
-            const template = document.querySelector("#genshinCharacterBuildMainStat");
+            const template = document.querySelector("#genshinCharacterBuildStat");
             const clone = document.importNode(template.content, true);
             clone.querySelector('img').src = `Genshin/Ressources/Stats/${mainStatSands.replace('%', '')}.png`;
             clone.querySelector('span').innerHTML = mainStatSands;
@@ -475,7 +475,7 @@ function GenshinCharacter(character) {
             if (typeof buildInfo['main_stats']['Sands'][Number(mainStatSandsIndex) + 1] !== 'undefined') {
                 clone.querySelector('span').innerHTML += '&nbsp;/';
             }
-            cloneSands.querySelector('.ganshinMainStats').appendChild(clone);
+            cloneSands.querySelector('.genshinMainStats').appendChild(clone);
         }
 
         // Add sands to row
@@ -492,7 +492,7 @@ function GenshinCharacter(character) {
             const mainStatGoblet = buildInfo['main_stats']['Goblet'][mainStatGobletIndex];
 
             // Create main stat
-            const template = document.querySelector("#genshinCharacterBuildMainStat");
+            const template = document.querySelector("#genshinCharacterBuildStat");
             const clone = document.importNode(template.content, true);
             clone.querySelector('img').src = `Genshin/Ressources/Stats/${mainStatGoblet.replace('%', '')}.png`;
             clone.querySelector('span').innerHTML = mainStatGoblet;
@@ -500,7 +500,7 @@ function GenshinCharacter(character) {
             if (typeof buildInfo['main_stats']['Goblet'][Number(mainStatGobletIndex) + 1] !== 'undefined') {
                 clone.querySelector('span').innerHTML += '&nbsp;/';
             }
-            cloneGoblet.querySelector('.ganshinMainStats').appendChild(clone);
+            cloneGoblet.querySelector('.genshinMainStats').appendChild(clone);
         }
 
         // Add goblet to row
@@ -517,7 +517,7 @@ function GenshinCharacter(character) {
             const mainStatCirclet = buildInfo['main_stats']['Circlet'][mainStatCircletIndex];
 
             // Create main stat
-            const template = document.querySelector("#genshinCharacterBuildMainStat");
+            const template = document.querySelector("#genshinCharacterBuildStat");
             const clone = document.importNode(template.content, true);
             clone.querySelector('img').src = `Genshin/Ressources/Stats/${mainStatCirclet.replace('%', '')}.png`;
             clone.querySelector('span').innerHTML = mainStatCirclet;
@@ -525,7 +525,7 @@ function GenshinCharacter(character) {
             if (typeof buildInfo['main_stats']['Circlet'][Number(mainStatCircletIndex) + 1] !== 'undefined') {
                 clone.querySelector('span').innerHTML += '&nbsp;/';
             }
-            cloneCirclet.querySelector('.ganshinMainStats').appendChild(clone);
+            cloneCirclet.querySelector('.genshinMainStats').appendChild(clone);
         }
 
         // Add circlet to row
@@ -533,6 +533,29 @@ function GenshinCharacter(character) {
 
         // Add main stats row to tab
         tab.appendChild(mainStats);
+
+        // Create sub stat row
+        const templateSubStat = document.querySelector("#genshinCharacterBuildSubStat");
+        const cloneSubStat = document.importNode(templateSubStat.content, true);
+
+        // Fill sub stats
+        for (const subStatIndex in buildInfo['sub_stats']) {
+            const subStat = buildInfo['sub_stats'][subStatIndex];
+
+            // Create sub stat
+            const template = document.querySelector("#genshinCharacterBuildStat");
+            const clone = document.importNode(template.content, true);
+            clone.querySelector('img').src = `Genshin/Ressources/Stats/${subStat.replace('%', '')}.png`;
+            clone.querySelector('span').innerHTML = subStat;
+            // If there is another sub stat, separate them with a >
+            if (typeof buildInfo['sub_stats'][Number(subStatIndex) + 1] !== 'undefined') {
+                clone.querySelector('span').innerHTML += '&nbsp;>';
+            }
+            cloneSubStat.querySelector('.genshinSubStats').appendChild(clone);
+        }
+
+        // Add sub stats to row
+        tab.appendChild(cloneSubStat);
 
         // Add tab to page
         document.querySelector('#genshinCharacterBuildTabContainer').appendChild(tab);
