@@ -199,7 +199,7 @@ function GenshinCharacters() {
     row.className = 'flex flex-wrap gap-5 justify-center';
 
     // Create character card
-    for (character in genshinCharacters) {
+    for (const character in genshinCharacters) {
         const characterInfo = genshinCharacters[character];
         const template = document.querySelector("#genshinCard");
         const clone = document.importNode(template.content, true);
@@ -257,7 +257,7 @@ function GenshinWeapons() {
     row.className = 'flex flex-wrap gap-5 justify-center';
 
     // Create weapon card
-    for (weapon in genshinWeapons) {
+    for (const weapon in genshinWeapons) {
         const weaponInfo = genshinWeapons[weapon];
         const template = document.querySelector("#genshinCard");
         const clone = document.importNode(template.content, true);
@@ -322,7 +322,7 @@ function GenshinArtifacts() {
     row.className = 'flex flex-wrap gap-5 justify-center';
 
     // Create artifact card
-    for (artifact in genshinArtifacts) {
+    for (const artifact in genshinArtifacts) {
         const artifactInfo = genshinArtifacts[artifact];
         const artifactMaxQuality = artifactInfo['quality'][artifactInfo['quality'].length - 1];
         const template = document.querySelector("#genshinCard");
@@ -415,13 +415,12 @@ function GenshinCharacter(character) {
     const builds = genshinBuilds[character];
     let i = 1;
 
-    // Show each build
+    // Create each build
     for (const build in builds) {
         const buildInfo = builds[build];
-
         const id = `hs-tab-to-select-${i}`;
 
-        // Create select build option
+        // Create select option
         const option = document.createElement('option');
         option.value = `#${id}`;
         option.textContent = build;
@@ -452,7 +451,90 @@ function GenshinCharacter(character) {
         if (i > 1) {
             tab.classList = 'hidden';
         }
-        tab.innerHTML = `<pre>${JSON.stringify(buildInfo, '', 4)}</pre>`;
+
+        // Create main stat row
+        const mainStats = document.createElement('div');
+        mainStats.classList = 'flex flex-wrap justify-center gap-4'
+
+        // Create main stat Sands
+        const templateSands = document.querySelector("#genshinCharacterBuildMainStatType");
+        const cloneSands = document.importNode(templateSands.content, true);
+        cloneSands.querySelector('img').src = 'Genshin/Ressources/Artifacts/Sands.png';
+        cloneSands.querySelector('.mainStatName').textContent = 'Sands';
+
+        // Set sands main stats
+        for (const mainStatSandsIndex in buildInfo['main_stats']['Sands']) {
+            const mainStatSands = buildInfo['main_stats']['Sands'][mainStatSandsIndex];
+
+            // Create main stat
+            const template = document.querySelector("#genshinCharacterBuildMainStat");
+            const clone = document.importNode(template.content, true);
+            clone.querySelector('img').src = `Genshin/Ressources/Stats/${mainStatSands.replace('%', '')}.png`;
+            clone.querySelector('span').innerHTML = mainStatSands;
+            // If there is another main stat, separate them with a /
+            if (typeof buildInfo['main_stats']['Sands'][Number(mainStatSandsIndex) + 1] !== 'undefined') {
+                clone.querySelector('span').innerHTML += '&nbsp;/';
+            }
+            cloneSands.querySelector('.ganshinMainStats').appendChild(clone);
+        }
+
+        // Add sands to row
+        mainStats.appendChild(cloneSands);
+
+        // Create main stat Goblet
+        const templateGoblet = document.querySelector("#genshinCharacterBuildMainStatType");
+        const cloneGoblet = document.importNode(templateGoblet.content, true);
+        cloneGoblet.querySelector('img').src = 'Genshin/Ressources/Artifacts/Goblet.png';
+        cloneGoblet.querySelector('.mainStatName').textContent = 'Goblet';
+
+        // Set goblet main stats
+        for (const mainStatGobletIndex in buildInfo['main_stats']['Goblet']) {
+            const mainStatGoblet = buildInfo['main_stats']['Goblet'][mainStatGobletIndex];
+
+            // Create main stat
+            const template = document.querySelector("#genshinCharacterBuildMainStat");
+            const clone = document.importNode(template.content, true);
+            clone.querySelector('img').src = `Genshin/Ressources/Stats/${mainStatGoblet.replace('%', '')}.png`;
+            clone.querySelector('span').innerHTML = mainStatGoblet;
+            // If there is another main stat, separate them with a /
+            if (typeof buildInfo['main_stats']['Goblet'][Number(mainStatGobletIndex) + 1] !== 'undefined') {
+                clone.querySelector('span').innerHTML += '&nbsp;/';
+            }
+            cloneGoblet.querySelector('.ganshinMainStats').appendChild(clone);
+        }
+
+        // Add goblet to row
+        mainStats.appendChild(cloneGoblet);
+
+        // Create main stat Circlet
+        const templateCirclet = document.querySelector("#genshinCharacterBuildMainStatType");
+        const cloneCirclet = document.importNode(templateCirclet.content, true);
+        cloneCirclet.querySelector('img').src = 'Genshin/Ressources/Artifacts/Circlet.png';
+        cloneCirclet.querySelector('.mainStatName').textContent = 'Circlet';
+
+        // Set circlet main stats
+        for (const mainStatCircletIndex in buildInfo['main_stats']['Circlet']) {
+            const mainStatCirclet = buildInfo['main_stats']['Circlet'][mainStatCircletIndex];
+
+            // Create main stat
+            const template = document.querySelector("#genshinCharacterBuildMainStat");
+            const clone = document.importNode(template.content, true);
+            clone.querySelector('img').src = `Genshin/Ressources/Stats/${mainStatCirclet.replace('%', '')}.png`;
+            clone.querySelector('span').innerHTML = mainStatCirclet;
+            // If there is another main stat, separate them with a /
+            if (typeof buildInfo['main_stats']['Circlet'][Number(mainStatCircletIndex) + 1] !== 'undefined') {
+                clone.querySelector('span').innerHTML += '&nbsp;/';
+            }
+            cloneCirclet.querySelector('.ganshinMainStats').appendChild(clone);
+        }
+
+        // Add circlet to row
+        mainStats.appendChild(cloneCirclet);
+
+        // Add main stats row to tab
+        tab.appendChild(mainStats);
+
+        // Add tab to page
         document.querySelector('#genshinCharacterBuildTabContainer').appendChild(tab);
 
         i++;
