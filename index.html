@@ -27,8 +27,10 @@
     <link rel="stylesheet" href="main.css">
 
     <script src="Genshin/Ressources/artifacts.js"></script>
+    <script src="Genshin/Ressources/builds.js"></script>
     <script src="Genshin/Ressources/characters.js"></script>
     <script src="Genshin/Ressources/weapons.js"></script>
+    <script src="tab.js"></script>
 </head>
 <body class="h-screen bg-gradient-to-b from-lavender-purple-200 to-thistle-500">
     <!-- Logo -->
@@ -77,101 +79,142 @@
             <!-- Genshin card -->
             <div class="flex bg-isabelline-500 rounded-xl shadow-2xl mt-3 mx-2">
                 <div class="p-4 md:p-7 w-full overflow-auto">
-                    <!-- Genshin filter -->
-                    <div id="genshinFilterContainer" class="flex flex-col gap-y-2">
-                        <!-- Search -->
-                        <div id="genshinSearch" class="ml-auto">
-                            <input type="search" class="py-1 px-4 block rounded-lg border border-lavender-purple-200 focus:border-lavender-purple-500 focus:outline-none" placeholder="Search...">
+                    <div id="genshinList">
+                        <!-- Genshin filter -->
+                        <div id="genshinFilterContainer" class="flex flex-col gap-y-2">
+                            <!-- Search -->
+                            <div id="genshinSearch" class="ml-auto">
+                                <input type="search" class="py-1 px-4 block rounded-lg border border-lavender-purple-200 focus:border-lavender-purple-500 focus:outline-none" placeholder="Search...">
+                            </div>
+    
+                            <div id="genshinFilter" class="flex flex-wrap justify-center mb-4 md:mb-7 bg-gradient-to-b from-lavender-purple-500 to-lavender-purple-200 rounded-lg">
+                                <!-- Quality -->
+                                <div id="genshinQualityFilter" class="flex flex-wrap justify-center gap-2 lg:gap-4 my-2">
+                                    <div class="genshinQualityFilterButton relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">1 Star</span>
+                                        <img data-type="quality" data-value="1" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Icons/1_Star.png">
+                                    </div>
+                                    <div class="genshinQualityFilterButton relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">2 Stars</span>
+                                        <img data-type="quality" data-value="2" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Icons/2_Star.png">
+                                    </div>
+                                    <div class="genshinQualityFilterButton relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">3 Stars</span>
+                                        <img data-type="quality" data-value="3" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Icons/3_Star.png">
+                                    </div>
+                                    <div class="genshinQualityFilterButton relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">4 Stars</span>
+                                        <img data-type="quality" data-value="4" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Icons/4_Star.png">
+                                    </div>
+                                    <div class="genshinQualityFilterButton relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">5 Stars</span>
+                                        <img data-type="quality" data-value="5" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Icons/5_Star.png">
+                                    </div>
+                                </div>
+        
+                                <div id="genshinFilterSeparator1" class="border-t border-l border-isabelline-500 w-full lg:w-0 mx-8 lg:mx-4 lg:my-2"></div>
+        
+                                <!-- Element -->
+                                <div id="genshinElementFilter" class="flex flex-wrap justify-center gap-2 lg:gap-4 my-2">
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Anemo</span>
+                                        <img data-type="element" data-value="Anemo" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Anemo.png">
+                                    </div>
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Cryo</span>
+                                        <img data-type="element" data-value="Cryo" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Cryo.png">
+                                    </div>
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Dendro</span>
+                                        <img data-type="element" data-value="Dendro" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Dendro.png">
+                                    </div>
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Electro</span>
+                                        <img data-type="element" data-value="Electro" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Electro.png">
+                                    </div>
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Geo</span>
+                                        <img data-type="element" data-value="Geo" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Geo.png">
+                                    </div>
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Hydro</span>
+                                        <img data-type="element" data-value="Hydro" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Hydro.png">
+                                    </div>
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Pyro</span>
+                                        <img data-type="element" data-value="Pyro" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Pyro.png">
+                                    </div>
+                                </div>
+        
+                                <div id="genshinFilterSeparator2" class="border-t border-l border-isabelline-500 w-full lg:w-0 mx-8 lg:mx-4 lg:my-2"></div>
+        
+                                <!-- Weapon -->
+                                <div id="genshinWeaponFilter" class="flex flex-wrap justify-center gap-2 lg:gap-4 my-2">
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Bow</span>
+                                        <img data-type="weapon" data-value="Bow" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Weapons/Bow.png">
+                                    </div>
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Catalyst</span>
+                                        <img data-type="weapon" data-value="Catalyst" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Weapons/Catalyst.png">
+                                    </div>
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Claymore</span>
+                                        <img data-type="weapon" data-value="Claymore" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Weapons/Claymore.png">
+                                    </div>
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Polearm</span>
+                                        <img data-type="weapon" data-value="Polearm" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Weapons/Polearm.png">
+                                    </div>
+                                    <div class="relative group">
+                                        <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Sword</span>
+                                        <img data-type="weapon" data-value="Sword" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Weapons/Sword.png">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div id="genshinFilter" class="flex flex-wrap justify-center mb-4 md:mb-7 bg-gradient-to-b from-lavender-purple-500 to-lavender-purple-200 rounded-lg">
-                            <!-- Quality -->
-                            <div id="genshinQualityFilter" class="flex flex-wrap justify-center gap-2 lg:gap-4 my-2">
-                                <div class="genshinQualityFilterButton relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">1 Star</span>
-                                    <img data-type="quality" data-value="1" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Icons/1_Star.png">
-                                </div>
-                                <div class="genshinQualityFilterButton relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">2 Star</span>
-                                    <img data-type="quality" data-value="2" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Icons/2_Star.png">
-                                </div>
-                                <div class="genshinQualityFilterButton relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">3 Star</span>
-                                    <img data-type="quality" data-value="3" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Icons/3_Star.png">
-                                </div>
-                                <div class="genshinQualityFilterButton relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">4 Star</span>
-                                    <img data-type="quality" data-value="4" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Icons/4_Star.png">
-                                </div>
-                                <div class="genshinQualityFilterButton relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">5 Star</span>
-                                    <img data-type="quality" data-value="5" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Icons/5_Star.png">
-                                </div>
-                            </div>
     
-                            <div id="genshinFilterSeparator1" class="border-t border-l border-isabelline-500 w-full lg:w-0 mx-8 lg:mx-4 lg:my-2"></div>
-    
-                            <!-- Element -->
-                            <div id="genshinElementFilter" class="flex flex-wrap justify-center gap-2 lg:gap-4 my-2">
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Anemo</span>
-                                    <img data-type="element" data-value="Anemo" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Anemo.png">
-                                </div>
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Cryo</span>
-                                    <img data-type="element" data-value="Cryo" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Cryo.png">
-                                </div>
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Dendro</span>
-                                    <img data-type="element" data-value="Dendro" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Dendro.png">
-                                </div>
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Electro</span>
-                                    <img data-type="element" data-value="Electro" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Electro.png">
-                                </div>
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Geo</span>
-                                    <img data-type="element" data-value="Geo" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Geo.png">
-                                </div>
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Hydro</span>
-                                    <img data-type="element" data-value="Hydro" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Hydro.png">
-                                </div>
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Pyro</span>
-                                    <img data-type="element" data-value="Pyro" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Elements/Pyro.png">
-                                </div>
-                            </div>
-    
-                            <div id="genshinFilterSeparator2" class="border-t border-l border-isabelline-500 w-full lg:w-0 mx-8 lg:mx-4 lg:my-2"></div>
-    
-                            <!-- Weapon -->
-                            <div id="genshinWeaponFilter" class="flex flex-wrap justify-center gap-2 lg:gap-4 my-2">
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Bow</span>
-                                    <img data-type="weapon" data-value="Bow" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Weapons/Bow.png">
-                                </div>
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Catalyst</span>
-                                    <img data-type="weapon" data-value="Catalyst" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Weapons/Catalyst.png">
-                                </div>
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Claymore</span>
-                                    <img data-type="weapon" data-value="Claymore" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Weapons/Claymore.png">
-                                </div>
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Polearm</span>
-                                    <img data-type="weapon" data-value="Polearm" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Weapons/Polearm.png">
-                                </div>
-                                <div class="relative group">
-                                    <span class="absolute invisible group-hover:visible shadow-xl top-0 -translate-y-7 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gradient-to-b from-gray-700 to-gray-500 py-2 px-4 font-bold text-white text-xs border border-gray-800 z-20">Sword</span>
-                                    <img data-type="weapon" data-value="Sword" class="genshinFilterButton w-10 p-1 cursor-pointer rounded-xl bg-gradient-to-b hover:from-gray-700 hover:to-gray-500 hover:border hover:border-gray-800 aria-selected:from-gray-700 aria-selected:to-gray-500 aria-selected:border aria-selected:border-gray-800" aria-selected="true" src="Genshin/Ressources/Weapons/Sword.png">
-                                </div>
-                            </div>
-                        </div>
+                        <div id="genshinListContainer"></div>
                     </div>
 
-                    <div id="genshinContainer"></div>
+                    <div id="genshinCharacter">
+                        <!-- Character info -->
+                        <div class="flex flex-wrap gap-4 justify-center items-center">
+                            <!-- Character icon -->
+                            <img id="genshinCharacterIcon" class="h-48 shadow-md rounded-xl border border-lavender-purple-500 bg-gradient-to-b from-apricot-500 to-isabelline-500" src="">
+                            <div class="flex flex-col gap-4 items-center">
+                                <!-- Character name -->
+                                <span id="genshinCharacterName" class="text-2xl font-bold"></span>
+                                <div class="flex flex-wrap gap-4 justify-center">
+                                    <!-- Character weapon type -->
+                                    <div class="h-12 flex items-center gap-x-1.5 py-1.5 px-3 rounded-md text-xs font-medium border border-gray-200 bg-white text-gray-800 shadow-2xs">
+                                        <img id="genshinCharacterWeaponTypeIcon" class="h-8" src="">
+                                        <span id="genshinCharacterWeaponType" class="text-xl"></span>
+                                    </div>
+                                    <!-- Character quality -->
+                                    <div class="h-12 flex items-center gap-x-1.5 py-1.5 px-3 rounded-md text-xs font-medium border border-gray-200 bg-white text-gray-800 shadow-2xs">
+                                        <img id="genshinCharacterQuality" class="h-8" src="">
+                                    </div>
+                                    <!-- Character element -->
+                                    <img id="genshinCharacterElement" class="h-12" src="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Character build selector -->
+                        <div class="flex mt-4 justify-center">
+                            <!-- Character build mobile selector -->
+                            <select id="genshinCharacterBuildNavSelect" class="sm:hidden block max-w-full py-2 px-4 rounded-md border border-lavender-purple-200 focus:border-lavender-purple-500 focus:outline-none" aria-label="Tabs"></select>
+    
+                            <!-- Character build desktop selector -->
+                            <div class="hidden sm:block">
+                                <nav id="genshinCharacterBuildNavContainer" class="flex flex-wrap justify-center gap-0.5" role="tablist" data-hs-tab-select="#genshinCharacterBuildNavSelect" aria-label="Tabs"></nav>
+                            </div>
+                        </div>
+
+                        <!-- Character build -->
+                        <div id="genshinCharacterBuildTabContainer" class="mt-3"></div>
+                    </div>
                 </div>
 
                 <!-- Genshin card template -->
@@ -186,6 +229,11 @@
                             <span class="genshinCardName h-16 font-bold text-xs bg-isabelline-500 border-t border-lavender-purple-500 flex justify-center items-center"></span>
                         </div>
                     </a>
+                </template>
+
+                <!-- Genshin nav template -->
+                <template id="genshinCharacterBuildNav">
+                    <button type="button" class="h-12 text-center gap-x-1.5 py-1.5 px-3 rounded-md text-sm font-medium border border-gray-200 text-gray-500 shadow-2xs hs-tab-active:bg-white hs-tab-active:text-pastel-violet-500 bg-gray-50 hover:text-gray-800" data-hs-tab="" role="tab" id="" aria-selected="" aria-controls=""></button>
                 </template>
             </div>
         </div>

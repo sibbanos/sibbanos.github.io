@@ -392,5 +392,8 @@ for character_list in soup.find_all('table')[4:] :
 
     i += 1
 
-    with open('Genshin/scripts/builds/builds.json', 'w') as file:
-        file.write(json.dumps(builds, indent=4))
+with open('Genshin/scripts/builds/builds.json', 'w') as file:
+    file.write(json.dumps(builds, indent=4))
+
+with open('Genshin/Ressources/builds.js', 'w') as file:
+    file.write('let genshinBuilds = '+json.dumps(builds, indent=4)+';')

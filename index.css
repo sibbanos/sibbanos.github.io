@@ -17,3 +17,14 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+@custom-variant hs-tab-active {
+
+  &[data-hs-tab].active {
+    @slot;
+  }
+
+  [data-hs-tab].active & {
+    @slot;
+  }
+}
