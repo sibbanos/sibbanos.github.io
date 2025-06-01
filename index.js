@@ -384,6 +384,9 @@ function GenshinCharacter(character) {
     if (document.querySelector('#genshinCharacterBuildNavContainer').innerHTML !== '') {
         const {element} = HSTabs.getInstance(document.querySelector('#genshinCharacterBuildNavContainer'), true);
         element.destroy();
+    } else {
+        // Add role manually, to prevent the tab from initialising when empty
+        document.querySelector('#genshinCharacterBuildNavContainer').role = 'tablist';
     }
 
     // Empty page
