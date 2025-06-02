@@ -455,15 +455,9 @@ function GenshinCharacter(character) {
             tab.classList = 'hidden';
         }
 
-        // Create main stat row
-        const mainStats = document.createElement('div');
-        mainStats.classList = 'flex flex-wrap justify-center gap-4'
-
-        // Create main stat Sands
-        const templateSands = document.querySelector("#genshinCharacterBuildMainStatType");
-        const cloneSands = document.importNode(templateSands.content, true);
-        cloneSands.querySelector('img').src = 'Genshin/Ressources/Artifacts/Sands.png';
-        cloneSands.querySelector('.mainStatName').textContent = 'Sands';
+        // Create tab content
+        const templateBuildContent = document.querySelector("#genshinCharacterBuildContent");
+        const cloneBuildContent = document.importNode(templateBuildContent.content, true);
 
         // Set sands main stats
         for (const mainStatSandsIndex in buildInfo['main_stats']['Sands']) {
@@ -478,17 +472,8 @@ function GenshinCharacter(character) {
             if (typeof buildInfo['main_stats']['Sands'][Number(mainStatSandsIndex) + 1] !== 'undefined') {
                 clone.querySelector('span').innerHTML += '&nbsp;/';
             }
-            cloneSands.querySelector('.genshinMainStats').appendChild(clone);
+            cloneBuildContent.querySelector('.genshinMainStatSands .genshinMainStats').appendChild(clone);
         }
-
-        // Add sands to row
-        mainStats.appendChild(cloneSands);
-
-        // Create main stat Goblet
-        const templateGoblet = document.querySelector("#genshinCharacterBuildMainStatType");
-        const cloneGoblet = document.importNode(templateGoblet.content, true);
-        cloneGoblet.querySelector('img').src = 'Genshin/Ressources/Artifacts/Goblet.png';
-        cloneGoblet.querySelector('.mainStatName').textContent = 'Goblet';
 
         // Set goblet main stats
         for (const mainStatGobletIndex in buildInfo['main_stats']['Goblet']) {
@@ -503,17 +488,8 @@ function GenshinCharacter(character) {
             if (typeof buildInfo['main_stats']['Goblet'][Number(mainStatGobletIndex) + 1] !== 'undefined') {
                 clone.querySelector('span').innerHTML += '&nbsp;/';
             }
-            cloneGoblet.querySelector('.genshinMainStats').appendChild(clone);
+            cloneBuildContent.querySelector('.genshinMainStatGoblet .genshinMainStats').appendChild(clone);
         }
-
-        // Add goblet to row
-        mainStats.appendChild(cloneGoblet);
-
-        // Create main stat Circlet
-        const templateCirclet = document.querySelector("#genshinCharacterBuildMainStatType");
-        const cloneCirclet = document.importNode(templateCirclet.content, true);
-        cloneCirclet.querySelector('img').src = 'Genshin/Ressources/Artifacts/Circlet.png';
-        cloneCirclet.querySelector('.mainStatName').textContent = 'Circlet';
 
         // Set circlet main stats
         for (const mainStatCircletIndex in buildInfo['main_stats']['Circlet']) {
@@ -528,18 +504,8 @@ function GenshinCharacter(character) {
             if (typeof buildInfo['main_stats']['Circlet'][Number(mainStatCircletIndex) + 1] !== 'undefined') {
                 clone.querySelector('span').innerHTML += '&nbsp;/';
             }
-            cloneCirclet.querySelector('.genshinMainStats').appendChild(clone);
+            cloneBuildContent.querySelector('.genshinMainStatCirclet .genshinMainStats').appendChild(clone);
         }
-
-        // Add circlet to row
-        mainStats.appendChild(cloneCirclet);
-
-        // Add main stats row to tab
-        tab.appendChild(mainStats);
-
-        // Create sub stat row
-        const templateSubStat = document.querySelector("#genshinCharacterBuildSubStat");
-        const cloneSubStat = document.importNode(templateSubStat.content, true);
 
         // Fill sub stats
         for (const subStatIndex in buildInfo['sub_stats']) {
@@ -554,11 +520,137 @@ function GenshinCharacter(character) {
             if (typeof buildInfo['sub_stats'][Number(subStatIndex) + 1] !== 'undefined') {
                 clone.querySelector('span').innerHTML += '&nbsp;>';
             }
-            cloneSubStat.querySelector('.genshinSubStats').appendChild(clone);
+            cloneBuildContent.querySelector('.genshinSubStats').appendChild(clone);
         }
 
-        // Add sub stats to row
-        tab.appendChild(cloneSubStat);
+        let j = 1;
+        // Create weapons
+        for (const weaponIndex in buildInfo['weapons']) {
+            const weaponName = buildInfo['weapons'][weaponIndex];
+            const weapon = genshinWeapons[weaponName];
+
+            // Create weapon
+            const template = document.querySelector("#genshinCharacterBuildWeapon");
+            const clone = document.importNode(template.content, true);
+            clone.querySelector('.genshinWeaponRank').textContent = `${j}.`;
+            clone.querySelector('img').src = weapon.src.weapon;
+            switch (Number(weapon.quality)) {
+                case 5:
+                    clone.querySelector('img').className += ' from-apricot-500';
+                    break;
+                case 4:
+                    clone.querySelector('img').className += ' from-pastel-violet-500';
+                    break;
+                case 3:
+                    clone.querySelector('img').className += ' from-water-500';
+                    break;
+                case 2:
+                    clone.querySelector('img').className += ' from-tea-green-500';
+                    break;
+                default:
+                    clone.querySelector('img').className += ' from-light-gray-500';
+                    break;
+            }
+            clone.querySelector('.genshinWeaponName').textContent = weaponName;
+            cloneBuildContent.querySelector('.genshinBuildWeapons').appendChild(clone);
+            j++;
+        }
+
+        j = 1;
+        // Create artifacts
+        for (const artifactIndex in buildInfo['artifacts']) {
+            const artifactList = buildInfo['artifacts'][artifactIndex];
+
+            // Test If :
+            // 4 piece set 
+            // 2 + 2 piece set 
+            // any 2 piece set 
+            if (artifactList.length === 1) {
+                const artifactName = artifactList[0];
+                const artifactInfo = genshinArtifacts[artifactName];
+                const artifactMaxQuality = artifactInfo['quality'][artifactInfo['quality'].length - 1];
+
+                // Create artifact
+                const template = document.querySelector("#genshinCharacterBuildArtifact");
+                const clone = document.importNode(template.content, true);
+                clone.querySelector('.genshinArtifactRank').textContent = `${j}.`;
+                clone.querySelector('img').src = artifactInfo.pieces[0].src.artifact;
+                switch (artifactMaxQuality) {
+                    case 5:
+                        clone.querySelector('img').className += ' from-apricot-500';
+                        break;
+                    case 4:
+                        clone.querySelector('img').className += ' from-pastel-violet-500';
+                        break;
+                    case 3:
+                        clone.querySelector('img').className += ' from-water-500';
+                        break;
+                    default:
+                        clone.querySelector('img').className += ' from-light-gray-500';
+                        break;
+                }
+                clone.querySelector('.genshinArtifactName').textContent = artifactName;
+                cloneBuildContent.querySelector('.genshinBuildArtifacts').appendChild(clone);
+                j++;
+            } else if (artifactList.length === 2) {
+                const artifactName1 = artifactList[0];
+                const artifactInfo1 = genshinArtifacts[artifactName1];
+                const artifactMaxQuality1 = artifactInfo1['quality'][artifactInfo1['quality'].length - 1];
+
+                const artifactName2 = artifactList[1];
+                const artifactInfo2 = genshinArtifacts[artifactName2];
+                const artifactMaxQuality2 = artifactInfo2['quality'][artifactInfo1['quality'].length - 1];
+
+                // Create artifact
+                const template = document.querySelector("#genshinCharacterBuildArtifact2");
+                const clone = document.importNode(template.content, true);
+                clone.querySelector('.genshinArtifactRank').textContent = `${j}.`;
+
+                // Create first set
+                clone.querySelector('.genshinArtifactIcon1').src = artifactInfo1.pieces[0].src.artifact;
+                switch (artifactMaxQuality1) {
+                    case 5:
+                        clone.querySelector('.genshinArtifactIcon1').className += ' from-apricot-500';
+                        break;
+                    case 4:
+                        clone.querySelector('.genshinArtifactIcon1').className += ' from-pastel-violet-500';
+                        break;
+                    case 3:
+                        clone.querySelector('.genshinArtifactIcon1').className += ' from-water-500';
+                        break;
+                    default:
+                        clone.querySelector('.genshinArtifactIcon1').className += ' from-light-gray-500';
+                        break;
+                }
+                clone.querySelector('.genshinArtifactName1').textContent = artifactName1;
+
+                // Create second set
+                clone.querySelector('.genshinArtifactIcon2').src = artifactInfo2.pieces[0].src.artifact;
+                switch (artifactMaxQuality2) {
+                    case 5:
+                        clone.querySelector('.genshinArtifactIcon2').className += ' from-apricot-500';
+                        break;
+                    case 4:
+                        clone.querySelector('.genshinArtifactIcon2').className += ' from-pastel-violet-500';
+                        break;
+                    case 3:
+                        clone.querySelector('.genshinArtifactIcon2').className += ' from-water-500';
+                        break;
+                    default:
+                        clone.querySelector('.genshinArtifactIcon2').className += ' from-light-gray-500';
+                        break;
+                }
+                clone.querySelector('.genshinArtifactName2').textContent = artifactName2;
+
+                cloneBuildContent.querySelector('.genshinBuildArtifacts').appendChild(clone);
+                j++;
+            } else {
+
+            }
+        }
+
+        // Add content to tab
+        tab.appendChild(cloneBuildContent);
 
         // Add tab to page
         document.querySelector('#genshinCharacterBuildTabContainer').appendChild(tab);

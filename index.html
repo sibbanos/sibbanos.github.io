@@ -187,16 +187,16 @@
                                 <span id="genshinCharacterName" class="text-2xl font-bold"></span>
                                 <div class="flex flex-wrap gap-4 justify-center">
                                     <!-- Character weapon type -->
-                                    <div class="h-12 flex items-center gap-x-1.5 py-1.5 px-3 rounded-md text-xs font-medium border border-gray-200 bg-white text-gray-800 shadow-md">
+                                    <div class="h-12 flex items-center gap-x-1.5 py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
                                         <img id="genshinCharacterWeaponTypeIcon" class="h-8" src="">
                                         <span id="genshinCharacterWeaponType" class="text-xl"></span>
                                     </div>
                                     <!-- Character quality -->
-                                    <div class="h-12 flex items-center py-1.5 px-3 rounded-md text-xs font-medium border border-gray-200 bg-white text-gray-800 shadow-md">
+                                    <div class="h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
                                         <img id="genshinCharacterQuality" class="h-8" src="">
                                     </div>
                                     <!-- Character element -->
-                                    <div class="h-12 flex items-center py-1.5 px-3 rounded-md text-xs font-medium border border-gray-200 bg-white text-gray-800 shadow-md">
+                                    <div class="h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
                                         <img id="genshinCharacterElement" class="h-12" src="">
                                     </div>
                                 </div>
@@ -238,31 +238,129 @@
                     <button type="button" class="h-12 shadow-md text-center gap-x-1.5 py-1.5 px-3 rounded-md text-sm font-medium border border-gray-200 text-gray-500 hs-tab-active:bg-white hs-tab-active:text-pastel-violet-500 bg-gray-50 hover:text-gray-800" data-hs-tab="" role="tab" id="" aria-selected="" aria-controls=""></button>
                 </template>
 
-                <!-- Genshin main stat template -->
-                <template id="genshinCharacterBuildMainStatType">
-                    <div class="min-h-16 w-full md:w-auto flex items-center gap-x-1.5 py-1.5 px-3 rounded-md text-xs font-medium border border-gray-200 bg-white text-gray-800 shadow-md">
-                        <img class="h-10" src="">
-                        <span class="mainStatName hidden md:block text-lg"></span>
-                        <span class="text-lg"> :</span>
-                        <div class="genshinMainStats flex flex-wrap gap-2"></div>
-                    </div>
-                </template>
+                <!-- Genshin build content -->
+                <template id="genshinCharacterBuildContent">
+                    <!-- Main stats row -->
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <!-- Sands stats -->
+                        <div class="genshinMainStatSands min-h-16 w-full md:w-auto flex items-center gap-x-1.5 py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
+                            <img class="h-10" src="Genshin/Ressources/Artifacts/Sands.png">
+                            <span class="mainStatName hidden md:block text-lg">Sands</span>
+                            <span class="text-lg"> :</span>
+                            <div class="genshinMainStats flex flex-wrap gap-2"></div>
+                        </div>
 
-                <!-- Genshin sub stat template -->
-                <template id="genshinCharacterBuildSubStat">
+                        <!-- Goblet stats -->
+                        <div class="genshinMainStatGoblet min-h-16 w-full md:w-auto flex items-center gap-x-1.5 py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
+                            <img class="h-10" src="Genshin/Ressources/Artifacts/Goblet.png">
+                            <span class="mainStatName hidden md:block text-lg">Goblet</span>
+                            <span class="text-lg"> :</span>
+                            <div class="genshinMainStats flex flex-wrap gap-2"></div>
+                        </div>
+
+                        <!-- Circlet stats -->
+                        <div class="genshinMainStatCirclet min-h-16 w-full md:w-auto flex items-center gap-x-1.5 py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
+                            <img class="h-10" src="Genshin/Ressources/Artifacts/Circlet.png">
+                            <span class="mainStatName hidden md:block text-lg">Circlet</span>
+                            <span class="text-lg"> :</span>
+                            <div class="genshinMainStats flex flex-wrap gap-2"></div>
+                        </div>
+                    </div>
+
+                    <!-- Sub stats row -->
                     <div class="flex justify-center mt-5">
-                        <div class="w-full md:w-auto min-h-16 flex flex-wrap justify-center items-center gap-x-1.5 py-1.5 px-3 rounded-md text-xs font-medium border border-gray-200 bg-white text-gray-800 shadow-md">
+                        <div class="w-full md:w-auto min-h-16 flex flex-wrap justify-center items-center gap-x-1.5 py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
                             <span class="text-lg">Substats :</span>
                             <div class="genshinSubStats flex flex-wrap justify-center gap-2"></div>
                         </div>
                     </div>
+
+                    <!-- Weapons & artifacts -->
+                    <div class="grid grid-cols-2 gap-4 mt-5">
+                        <!-- Weapons -->
+                        <div class="genshinBuildWeapons col-span-2 md:col-span-1 flex flex-col gap-2">
+                            <span class="text-lg font-bold">Best Weapons</span>
+                        </div>
+
+                        <!-- Artifacts -->
+                        <div class="genshinBuildArtifacts col-span-2 md:col-span-1 flex flex-col gap-2">
+                            <span class="text-lg font-bold">Best Artifacts</span>
+                        </div>
+                    </div>
                 </template>
 
-                <!-- Genshin stat content template -->
+                <!-- Genshin build stat template -->
                 <template id="genshinCharacterBuildStat">
                     <div class="flex items-center gap-x-1.5">
                         <img class="h-6" src="">
                         <span class="text-lg"></span>
+                    </div>
+                </template>
+
+                <!-- Genshin build weapon template -->
+                <template id="genshinCharacterBuildWeapon">
+                    <div class="min-h-16 flex items-center px-2 md:px-4 gap-x-3 rounded-md border border-gray-200 bg-white shadow-md">
+                        <span class="genshinWeaponRank text-lg w-6 md:w-8"></span>
+                        <img class="h-13 rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
+                        <span class="genshinWeaponName text-lg"></span>
+                    </div>
+                </template>
+
+                <!-- Genshin build artifact single template -->
+                <template id="genshinCharacterBuildArtifact">
+                    <div class="min-h-16 flex items-center px-2 md:px-4 gap-x-3 rounded-md border border-gray-200 bg-white shadow-md">
+                        <!-- Rank -->
+                        <span class="genshinArtifactRank text-lg w-6 md:w-8"></span>
+
+                        <!-- Artifact icon -->
+                        <div class="relative">
+                            <div class="absolute right-0 top-0 -translate-y-2 translate-x-2">
+                                <span class="p-0.5 bg-gray-600 border border-gray-800 rounded-2xl text-white">4</span>
+                            </div>
+
+                            <img class="h-13 rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
+                        </div>
+
+                        <!-- Artifact name -->
+                        <span class="genshinArtifactName text-lg"></span>
+                    </div>
+                </template>
+
+                <!-- Genshin build artifact double template -->
+                <template id="genshinCharacterBuildArtifact2">
+                    <div class="min-h-16 flex items-center px-2 md:px-4 gap-x-3 rounded-md border border-gray-200 bg-white shadow-md">
+                        <!-- Rank -->
+                        <span class="genshinArtifactRank text-lg w-6 md:w-8"></span>
+
+                        <div class="w-full grid grid-cols-2 py-1.5 gap-y-1.5">
+                            <div class="col-span-2 xl:col-span-1 flex items-center gap-x-3">
+                                <!-- Artifact 1 icon -->
+                                <div class="relative">
+                                    <div class="absolute right-0 top-0 -translate-y-2 translate-x-2">
+                                        <span class="p-0.5 bg-gray-600 border border-gray-800 rounded-2xl text-white">2</span>
+                                    </div>
+        
+                                    <img class="genshinArtifactIcon1 h-13 rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
+                                </div>
+        
+                                <!-- Artifact 1 name -->
+                                <span class="genshinArtifactName1 text-lg xl:truncate"></span>
+                            </div>
+    
+                            <div class="col-span-2 xl:col-span-1 flex items-center gap-x-3">
+                                <!-- Artifact 2 icon -->
+                                <div class="relative">
+                                    <div class="absolute right-0 top-0 -translate-y-2 translate-x-2">
+                                        <span class="p-0.5 bg-gray-600 border border-gray-800 rounded-2xl text-white">2</span>
+                                    </div>
+        
+                                    <img class="genshinArtifactIcon2 h-13 rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
+                                </div>
+        
+                                <!-- Artifact 2 name -->
+                                <span class="genshinArtifactName2 text-lg xl:truncate"></span>
+                            </div>
+                        </div>
                     </div>
                 </template>
             </div>
