@@ -253,13 +253,16 @@
             },
             "artifacts": {
                 "1": [
-                    "Pale Flame"
+                    "Pale Flame",
+                    "Bloodstained Chivalry"
                 ],
                 "2": [
                     "Pale Flame"
                 ],
                 "3": [
-                    "Emblem of Severed Fate"
+                    "Emblem of Severed Fate",
+                    "Bloodstained Chivalry",
+                    "Pale Flame"
                 ],
                 "4": [
                     "Bloodstained Chivalry",
@@ -386,10 +389,6 @@
                     "Gilded Dreams"
                 ],
                 "3": [
-                    "Instructor",
-                    "Wanderer's Troupe",
-                    "Gilded Dreams",
-                    "Flower of Paradise Lost",
                     "Instructor",
                     "Wanderer's Troupe",
                     "Gilded Dreams",
@@ -554,9 +553,6 @@
                     "Instructor"
                 ],
                 "5": [
-                    "The Exile",
-                    "Scholar",
-                    "Emblem of Severed Fate",
                     "The Exile",
                     "Scholar",
                     "Emblem of Severed Fate"
@@ -1310,7 +1306,8 @@
                     "Golden Troupe"
                 ],
                 "2": [
-                    "Golden Troupe"
+                    "Golden Troupe",
+                    "Thundering Fury"
                 ],
                 "3": [
                     "Thundersoother"
@@ -1516,7 +1513,20 @@
                     "Thundersoother"
                 ],
                 "4": [
-                    "Thundering Fury"
+                    "Thundering Fury",
+                    "Resolution of Sojourner",
+                    "Brave Heart",
+                    "Gladiator's Finale",
+                    "Shimenawa's Reminiscence",
+                    "Vermillion Hereafter",
+                    "Echoes of an Offering",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Fragment of Harmonic Whimsy",
+                    "Unfinished Reverie",
+                    "Instructor",
+                    "Wanderer's Troupe",
+                    "Gilded Dreams",
+                    "Flower of Paradise Lost"
                 ]
             },
             "main_stats": {
@@ -1576,7 +1586,18 @@
                     "Thundersoother"
                 ],
                 "6": [
-                    "Thundering Fury"
+                    "Thundering Fury",
+                    "Emblem of Severed Fate",
+                    "Resolution of Sojourner",
+                    "Brave Heart",
+                    "Gladiator's Finale",
+                    "Shimenawa's Reminiscence",
+                    "Vermillion Hereafter",
+                    "Echoes of an Offering",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Fragment of Harmonic Whimsy",
+                    "Unfinished Reverie",
+                    "Noblesse Oblige"
                 ]
             },
             "main_stats": {
@@ -1675,7 +1696,18 @@
                     "Noblesse Oblige"
                 ],
                 "3": [
-                    "Noblesse Oblige"
+                    "Noblesse Oblige",
+                    "Resolution of Sojourner",
+                    "Brave Heart",
+                    "Gladiator's Finale",
+                    "Shimenawa's Reminiscence",
+                    "Vermillion Hereafter",
+                    "Echoes of an Offering",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Fragment of Harmonic Whimsy",
+                    "Unfinished Reverie",
+                    "Thundering Fury",
+                    "Emblem of Severed Fate"
                 ]
             },
             "main_stats": {
@@ -2276,6 +2308,10 @@
                 ],
                 "4": [
                     "Thundering Fury",
+                    "Instructor",
+                    "Wanderer's Troupe",
+                    "Gilded Dreams",
+                    "Flower of Paradise Lost",
                     "Resolution of Sojourner",
                     "Brave Heart",
                     "Gladiator's Finale",
@@ -2345,10 +2381,6 @@
                     "Flower of Paradise Lost"
                 ],
                 "4": [
-                    "Instructor",
-                    "Wanderer's Troupe",
-                    "Gilded Dreams",
-                    "Flower of Paradise Lost",
                     "Instructor",
                     "Wanderer's Troupe",
                     "Gilded Dreams",
@@ -2660,7 +2692,8 @@
                     "Tenacity of the Millelith"
                 ],
                 "5": [
-                    "Tenacity of the Millelith"
+                    "Tenacity of the Millelith",
+                    "Vourukasha's Glow"
                 ]
             },
             "main_stats": {
@@ -2790,10 +2823,6 @@
                     "Golden Troupe"
                 ],
                 "4": [
-                    "Instructor",
-                    "Wanderer's Troupe",
-                    "Gilded Dreams",
-                    "Flower of Paradise Lost",
                     "Instructor",
                     "Wanderer's Troupe",
                     "Gilded Dreams",
@@ -3306,7 +3335,16 @@
                 ],
                 "3": [
                     "Heart of Depth",
-                    "Nymph's Dream"
+                    "Nymph's Dream",
+                    "Resolution of Sojourner",
+                    "Brave Heart",
+                    "Gladiator's Finale",
+                    "Shimenawa's Reminiscence",
+                    "Vermillion Hereafter",
+                    "Echoes of an Offering",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Fragment of Harmonic Whimsy",
+                    "Unfinished Reverie"
                 ],
                 "4": [
                     "Noblesse Oblige",
@@ -3362,7 +3400,9 @@
                     "Emblem of Severed Fate"
                 ],
                 "2": [
-                    "Noblesse Oblige"
+                    "Noblesse Oblige",
+                    "Heart of Depth",
+                    "Nymph's Dream"
                 ],
                 "3": [
                     "Noblesse Oblige",
@@ -3526,7 +3566,16 @@
                 ],
                 "4": [
                     "Heart of Depth",
-                    "Nymph's Dream"
+                    "Nymph's Dream",
+                    "Resolution of Sojourner",
+                    "Brave Heart",
+                    "Gladiator's Finale",
+                    "Shimenawa's Reminiscence",
+                    "Vermillion Hereafter",
+                    "Echoes of an Offering",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Fragment of Harmonic Whimsy",
+                    "Unfinished Reverie"
                 ],
                 "5": [
                     "Blizzard Strayer"
@@ -3952,8 +4001,6 @@
                 "3": [
                     "Tenacity of the Millelith",
                     "Vourukasha's Glow",
-                    "Tenacity of the Millelith",
-                    "Vourukasha's Glow",
                     "Emblem of Severed Fate",
                     "Ocean-Hued Clam",
                     "Song of Days Past"
@@ -4017,7 +4064,8 @@
                     "Emblem of Severed Fate"
                 ],
                 "3": [
-                    "Noblesse Oblige"
+                    "Noblesse Oblige",
+                    "Blizzard Strayer"
                 ],
                 "4": [
                     "Scroll of the Hero of Cinder City"
@@ -4218,7 +4266,8 @@
                 ],
                 "3": [
                     "Blizzard Strayer",
-                    "Finale of the Deep Galleries"
+                    "Finale of the Deep Galleries",
+                    "Noblesse Oblige"
                 ]
             },
             "main_stats": {
@@ -4269,7 +4318,8 @@
                 ],
                 "4": [
                     "Blizzard Strayer",
-                    "Finale of the Deep Galleries"
+                    "Finale of the Deep Galleries",
+                    "Noblesse Oblige"
                 ]
             },
             "main_stats": {
@@ -4309,7 +4359,8 @@
                     "Scroll of the Hero of Cinder City"
                 ],
                 "3": [
-                    "Vourukasha's Glow"
+                    "Vourukasha's Glow",
+                    "Tenacity of the Millelith"
                 ],
                 "4": [
                     "Noblesse Oblige"
@@ -4414,7 +4465,10 @@
                 ],
                 "4": [
                     "Ocean-Hued Clam",
-                    "Song of Days Past"
+                    "Song of Days Past",
+                    "Emblem of Severed Fate",
+                    "Tenacity of the Millelith",
+                    "Vourukasha's Glow"
                 ],
                 "5": [
                     "The Exile"
@@ -4652,7 +4706,19 @@
                 ],
                 "5": [
                     "Ocean-Hued Clam",
-                    "Song of Days Past"
+                    "Song of Days Past",
+                    "Resolution of Sojourner",
+                    "Brave Heart",
+                    "Gladiator's Finale",
+                    "Shimenawa's Reminiscence",
+                    "Vermillion Hereafter",
+                    "Echoes of an Offering",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Fragment of Harmonic Whimsy",
+                    "Unfinished Reverie",
+                    "The Exile",
+                    "Scholar",
+                    "Emblem of Severed Fate"
                 ]
             },
             "main_stats": {
@@ -4864,7 +4930,8 @@
                     "Pale Flame"
                 ],
                 "2": [
-                    "Pale Flame"
+                    "Pale Flame",
+                    "Bloodstained Chivalry"
                 ],
                 "3": [
                     "Pale Flame",
@@ -4883,15 +4950,6 @@
                     "Gladiator's Finale"
                 ],
                 "5": [
-                    "Resolution of Sojourner",
-                    "Brave Heart",
-                    "Gladiator's Finale",
-                    "Shimenawa's Reminiscence",
-                    "Vermillion Hereafter",
-                    "Echoes of an Offering",
-                    "Nighttime Whispers in the Echoing Woods",
-                    "Fragment of Harmonic Whimsy",
-                    "Unfinished Reverie",
                     "Resolution of Sojourner",
                     "Brave Heart",
                     "Gladiator's Finale",
@@ -4945,7 +5003,16 @@
                     "Blizzard Strayer"
                 ],
                 "2": [
-                    "Blizzard Strayer"
+                    "Blizzard Strayer",
+                    "Resolution of Sojourner",
+                    "Brave Heart",
+                    "Gladiator's Finale",
+                    "Shimenawa's Reminiscence",
+                    "Vermillion Hereafter",
+                    "Echoes of an Offering",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Fragment of Harmonic Whimsy",
+                    "Unfinished Reverie"
                 ],
                 "3": [
                     "Resolution of Sojourner",
@@ -4959,7 +5026,8 @@
                     "Unfinished Reverie"
                 ],
                 "4": [
-                    "Blizzard Strayer"
+                    "Blizzard Strayer",
+                    "Noblesse Oblige"
                 ]
             },
             "main_stats": {
@@ -5001,7 +5069,8 @@
                     "Blizzard Strayer"
                 ],
                 "2": [
-                    "Noblesse Oblige"
+                    "Noblesse Oblige",
+                    "Blizzard Strayer"
                 ],
                 "3": [
                     "Emblem of Severed Fate"
@@ -5070,15 +5139,6 @@
                     "Noblesse Oblige"
                 ],
                 "2": [
-                    "Resolution of Sojourner",
-                    "Brave Heart",
-                    "Gladiator's Finale",
-                    "Shimenawa's Reminiscence",
-                    "Vermillion Hereafter",
-                    "Echoes of an Offering",
-                    "Nighttime Whispers in the Echoing Woods",
-                    "Fragment of Harmonic Whimsy",
-                    "Unfinished Reverie",
                     "Resolution of Sojourner",
                     "Brave Heart",
                     "Gladiator's Finale",
@@ -5479,7 +5539,9 @@
                     "Noblesse Oblige"
                 ],
                 "3": [
-                    "Emblem of Severed Fate"
+                    "Emblem of Severed Fate",
+                    "Ocean-Hued Clam",
+                    "Song of Days Past"
                 ],
                 "4": [
                     "Ocean-Hued Clam"
@@ -5650,8 +5712,7 @@
                 "7": [
                     "Emblem of Severed Fate",
                     "The Exile",
-                    "Scholar",
-                    "Emblem of Severed Fate"
+                    "Scholar"
                 ]
             },
             "main_stats": {
@@ -5930,6 +5991,8 @@
                 ],
                 "5": [
                     "Long Night's Oath",
+                    "Viridescent Venerer",
+                    "Desert Pavilion Chronicle",
                     "Resolution of Sojourner",
                     "Brave Heart",
                     "Gladiator's Finale",
@@ -6033,7 +6096,16 @@
                 ],
                 "4": [
                     "Viridescent Venerer",
-                    "Desert Pavilion Chronicle"
+                    "Desert Pavilion Chronicle",
+                    "Resolution of Sojourner",
+                    "Brave Heart",
+                    "Gladiator's Finale",
+                    "Shimenawa's Reminiscence",
+                    "Vermillion Hereafter",
+                    "Echoes of an Offering",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Fragment of Harmonic Whimsy",
+                    "Unfinished Reverie"
                 ],
                 "5": [
                     "Viridescent Venerer"
@@ -6089,7 +6161,16 @@
                 ],
                 "4": [
                     "Viridescent Venerer",
-                    "Desert Pavilion Chronicle"
+                    "Desert Pavilion Chronicle",
+                    "Resolution of Sojourner",
+                    "Brave Heart",
+                    "Gladiator's Finale",
+                    "Shimenawa's Reminiscence",
+                    "Vermillion Hereafter",
+                    "Echoes of an Offering",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Fragment of Harmonic Whimsy",
+                    "Unfinished Reverie"
                 ],
                 "5": [
                     "Viridescent Venerer"
@@ -6470,7 +6551,9 @@
                     "Noblesse Oblige"
                 ],
                 "3": [
-                    "Emblem of Severed Fate"
+                    "Emblem of Severed Fate",
+                    "The Exile",
+                    "Scholar"
                 ]
             },
             "main_stats": {
@@ -6508,7 +6591,8 @@
                     "Husk of Opulent Dreams"
                 ],
                 "2": [
-                    "Husk of Opulent Dreams"
+                    "Husk of Opulent Dreams",
+                    "Emblem of Severed Fate"
                 ],
                 "3": [
                     "Noblesse Oblige"
@@ -6593,7 +6677,8 @@
                     "Tenacity of the Millelith"
                 ],
                 "6": [
-                    "Vourukasha's Glow"
+                    "Vourukasha's Glow",
+                    "Tenacity of the Millelith"
                 ]
             },
             "main_stats": {
@@ -6636,7 +6721,9 @@
                     "Golden Troupe"
                 ],
                 "3": [
-                    "Husk of Opulent Dreams"
+                    "Husk of Opulent Dreams",
+                    "Archaic Petra",
+                    "Golden Troupe"
                 ],
                 "4": [
                     "Archaic Petra"
@@ -6687,7 +6774,9 @@
                     "Golden Troupe"
                 ],
                 "3": [
-                    "Husk of Opulent Dreams"
+                    "Husk of Opulent Dreams",
+                    "Archaic Petra",
+                    "Golden Troupe"
                 ],
                 "4": [
                     "Archaic Petra"

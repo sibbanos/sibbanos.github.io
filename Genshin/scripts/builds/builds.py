@@ -257,28 +257,32 @@ for character_list in soup.find_all('table')[4:] :
             for artifact in artifacts_list :
                 if artifact.startswith('≈') or artifact[0].isdigit() :
                     if '(4)' in artifact :
-                        _artifact = [artifact]
+                        _artifact = [artifact.split('(4)')[0]]
                     else :
-                        _artifact = artifact.split('/')
+                        _artifact = []
+
+                        artifact_temp = artifact.split('/')
+                        for __artifact in artifact_temp :
+                            __artifact = __artifact.strip()
+                            _artifact = _artifact + __artifact.split('(2)')
 
                     artifact = []
 
                     for __artifact in _artifact :
-                        __artifact = __artifact.split('(')[0].split('[')[0]
+                        __artifact = __artifact.split('[')[0]
                         __artifact = __artifact.replace('Mixes of', '')
-                        __artifact = __artifact.replace('*', '')
+                        __artifact = __artifact.replace('Mixes of', '')
                         __artifact = __artifact.replace('+', '')
+                        __artifact = __artifact.replace('*', '')
                         __artifact = __artifact.replace('≈', '')
-                        __artifact = __artifact.replace('set', '').replace('Set', '')
-                        __artifact = re.sub('[0-9]*\\.', '', __artifact).strip()
+                        __artifact = re.sub(r'\band\b', '', __artifact, flags=re.IGNORECASE).strip()
+                        __artifact = re.sub(r'\bany\b', '', __artifact, flags=re.IGNORECASE).strip()
+                        __artifact = re.sub(r'\bset\b', '', __artifact, flags=re.IGNORECASE).strip()
+                        __artifact = re.sub('[0-9]*\\.', '', __artifact, flags=re.IGNORECASE).strip()
                         __artifact = correctArtifact(__artifact)
 
-                        # Skip for Faruzan
-                        if __artifact == 'Any' :
-                            continue
-
-                        # Skip for Noelle
-                        if __artifact == 'Other damaging options' :
+                        # Skip empty value and Noelle
+                        if __artifact in ['', 'Other damaging options (see DPS)'] :
                             continue
 
                         if __artifact in artifacts_2_pieces :
@@ -294,6 +298,7 @@ for character_list in soup.find_all('table')[4:] :
                             exit(1)
 
                     if artifact :
+                        artifact = list(dict.fromkeys(artifact))
                         artifacts[j] = artifact
                     j += 1
 
