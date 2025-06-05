@@ -26,10 +26,13 @@
 
     <link rel="stylesheet" href="main.css">
 
+    <!-- Sibbanos -->
     <script src="Genshin/Ressources/artifacts.js"></script>
     <script src="Genshin/Ressources/builds.js"></script>
     <script src="Genshin/Ressources/characters.js"></script>
     <script src="Genshin/Ressources/weapons.js"></script>
+
+    <!-- Ext. -->
     <script src="tab.js"></script>
 </head>
 <body class="h-screen bg-gradient-to-b from-lavender-purple-200 to-thistle-500">
@@ -318,7 +321,7 @@
                                 <span class="p-0.5 bg-gray-600 border border-gray-800 rounded-2xl text-white">4</span>
                             </div>
 
-                            <img class="h-13 rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
+                            <img class="h-13 max-w-[unset] rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
                         </div>
 
                         <!-- Artifact name -->
@@ -326,41 +329,40 @@
                     </div>
                 </template>
 
-                <!-- Genshin build artifact double template -->
-                <template id="genshinCharacterBuildArtifact2">
+                <!-- Genshin build artifact multiple template -->
+                <template id="genshinCharacterBuildArtifactMultiple">
                     <div class="min-h-16 flex items-center px-2 md:px-4 gap-x-3 rounded-md border border-gray-200 bg-white shadow-md">
                         <!-- Rank -->
                         <span class="genshinArtifactRank text-lg w-6 md:w-8"></span>
 
-                        <div class="w-full grid grid-cols-2 py-1.5 gap-y-1.5">
-                            <div class="col-span-2 xl:col-span-1 flex items-center gap-x-3">
-                                <!-- Artifact 1 icon -->
-                                <div class="relative">
-                                    <div class="absolute right-0 top-0 -translate-y-2 translate-x-2">
-                                        <span class="p-0.5 bg-gray-600 border border-gray-800 rounded-2xl text-white">2</span>
-                                    </div>
-        
-                                    <img class="genshinArtifactIcon1 h-13 rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
-                                </div>
-        
-                                <!-- Artifact 1 name -->
-                                <span class="genshinArtifactName1 text-lg xl:truncate"></span>
+                        <!-- Artifacts container -->
+                        <div class="genshinArtifactsContainer w-full grid grid-cols-2 py-1.5 gap-y-1.5">
+                            <!-- Show more if 3 set or more -->
+                            <div class="genshinArtifactsMultiple col-span-2 flex">
+                                <span class="font-bold">Any 2 of</span>
+                                <button name="collapse" data-target="genshinArtifactsOther" class="genshinArtifactsShowOther ml-auto bg-lavender-purple-500 text-white font-bold py-1 px-2 rounded-lg text-xs cursor-pointer" type="button">Show more +</button>
                             </div>
-    
-                            <div class="col-span-2 xl:col-span-1 flex items-center gap-x-3">
-                                <!-- Artifact 2 icon -->
-                                <div class="relative">
-                                    <div class="absolute right-0 top-0 -translate-y-2 translate-x-2">
-                                        <span class="p-0.5 bg-gray-600 border border-gray-800 rounded-2xl text-white">2</span>
-                                    </div>
-        
-                                    <img class="genshinArtifactIcon2 h-13 rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
-                                </div>
-        
-                                <!-- Artifact 2 name -->
-                                <span class="genshinArtifactName2 text-lg xl:truncate"></span>
-                            </div>
+
+                            <!-- Hidden artifacts -->
+                            <div id="genshinArtifactsOther" class="genshinArtifactsOther col-span-2 grid grid-cols-2 py-1.5 gap-y-1.5 aria-hidden:hidden" aria-hidden="true"></div>
                         </div>
+                    </div>
+                </template>
+
+                <!-- Genshin build artifact multiple container -->
+                <template id="genshinCharacterBuildArtifactContainer">
+                    <div class="col-span-2 xl:col-span-1 flex items-center gap-x-3">
+                        <!-- Artifact icon -->
+                        <div class="relative">
+                            <div class="absolute right-0 top-0 -translate-y-2 translate-x-2">
+                                <span class="p-0.5 bg-gray-600 border border-gray-800 rounded-2xl text-white">2</span>
+                            </div>
+
+                            <img class="genshinArtifactIcon h-13 max-w-[unset] rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
+                        </div>
+
+                        <!-- Artifact name -->
+                        <span class="genshinArtifactName text-lg xl:truncate"></span>
                     </div>
                 </template>
             </div>

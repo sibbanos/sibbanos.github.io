@@ -73,6 +73,21 @@ document.querySelector('#genshinCharacterBuildNavContainer').addEventListener('c
     document.querySelector('#genshinCharacterBuildNavSelect').value = e.target.dataset.hsTab;
 });
 
+// Show / hide collapse div
+document.querySelector('#genshinCharacterBuildTabContainer').addEventListener('click', (e) => {
+    if (e.target.name === 'collapse') {
+        const shown = e.target.ariaSelected === 'false' ? false : true;
+        document.querySelector(`#${e.target.dataset.target}`).ariaHidden = !shown;
+        e.target.ariaSelected = !shown;
+
+        if (shown) {
+            e.target.textContent = 'Show less -';
+        } else {
+            e.target.textContent = 'Show more +';
+        }
+    }
+});
+
 /**
  * Filter genshin list based on button clicked and search
  */
@@ -559,7 +574,7 @@ function GenshinCharacter(character) {
         j = 1;
         // Create artifacts
         for (const artifactIndex in buildInfo['artifacts']) {
-            const artifactList = buildInfo['artifacts'][artifactIndex];
+            let artifactList = buildInfo['artifacts'][artifactIndex];
 
             // Test If :
             // 4 piece set 
@@ -592,60 +607,66 @@ function GenshinCharacter(character) {
                 clone.querySelector('.genshinArtifactName').textContent = artifactName;
                 cloneBuildContent.querySelector('.genshinBuildArtifacts').appendChild(clone);
                 j++;
-            } else if (artifactList.length === 2) {
-                const artifactName1 = artifactList[0];
-                const artifactInfo1 = genshinArtifacts[artifactName1];
-                const artifactMaxQuality1 = artifactInfo1['quality'][artifactInfo1['quality'].length - 1];
-
-                const artifactName2 = artifactList[1];
-                const artifactInfo2 = genshinArtifacts[artifactName2];
-                const artifactMaxQuality2 = artifactInfo2['quality'][artifactInfo1['quality'].length - 1];
-
-                // Create artifact
-                const template = document.querySelector("#genshinCharacterBuildArtifact2");
+            } else {
+                // Create artifact container
+                const template = document.querySelector("#genshinCharacterBuildArtifactMultiple");
                 const clone = document.importNode(template.content, true);
                 clone.querySelector('.genshinArtifactRank').textContent = `${j}.`;
 
-                // Create first set
-                clone.querySelector('.genshinArtifactIcon1').src = artifactInfo1.pieces[0].src.artifact;
-                switch (artifactMaxQuality1) {
-                    case 5:
-                        clone.querySelector('.genshinArtifactIcon1').className += ' from-apricot-500';
-                        break;
-                    case 4:
-                        clone.querySelector('.genshinArtifactIcon1').className += ' from-pastel-violet-500';
-                        break;
-                    case 3:
-                        clone.querySelector('.genshinArtifactIcon1').className += ' from-water-500';
-                        break;
-                    default:
-                        clone.querySelector('.genshinArtifactIcon1').className += ' from-light-gray-500';
-                        break;
+                // Hide text 'Any 2 of' if only 2 set else create id
+                if (artifactList.length === 2) {
+                    clone.querySelector('.genshinArtifactsMultiple').remove();
+                } else {
+                    clone.querySelector('.genshinArtifactsShowOther').dataset.target += j;
+                    clone.querySelector('.genshinArtifactsOther').id += j;
                 }
-                clone.querySelector('.genshinArtifactName1').textContent = artifactName1;
 
-                // Create second set
-                clone.querySelector('.genshinArtifactIcon2').src = artifactInfo2.pieces[0].src.artifact;
-                switch (artifactMaxQuality2) {
-                    case 5:
-                        clone.querySelector('.genshinArtifactIcon2').className += ' from-apricot-500';
-                        break;
-                    case 4:
-                        clone.querySelector('.genshinArtifactIcon2').className += ' from-pastel-violet-500';
-                        break;
-                    case 3:
-                        clone.querySelector('.genshinArtifactIcon2').className += ' from-water-500';
-                        break;
-                    default:
-                        clone.querySelector('.genshinArtifactIcon2').className += ' from-light-gray-500';
-                        break;
-                }
-                clone.querySelector('.genshinArtifactName2').textContent = artifactName2;
+                // Sort by quality
+                artifactList.sort((a, b) => {
+                    a = genshinArtifacts[a];
+                    b = genshinArtifacts[b];
+
+                    return b['quality'][b['quality'].length - 1] - a['quality'][a['quality'].length - 1]
+                });
+
+                let k = 0;
+
+                // Create artifact
+                artifactList.forEach(artifactName => {
+                    const artifactInfo = genshinArtifacts[artifactName];
+                    const artifactMaxQuality = artifactInfo['quality'][artifactInfo['quality'].length - 1];
+
+                    const templateArtifact = document.querySelector("#genshinCharacterBuildArtifactContainer");
+                    const cloneArtifact = document.importNode(templateArtifact.content, true);
+
+                    cloneArtifact.querySelector('.genshinArtifactIcon').src = artifactInfo.pieces[0].src.artifact;
+                    let classQuality = ' from-light-gray-500';
+                    switch (artifactMaxQuality) {
+                        case 5:
+                            classQuality = ' from-apricot-500';
+                            break;
+                        case 4:
+                            classQuality = ' from-pastel-violet-500';
+                            break;
+                        case 3:
+                            classQuality = ' from-water-500';
+                            break;
+                    }
+                    cloneArtifact.querySelector('.genshinArtifactIcon').className += classQuality;
+                    cloneArtifact.querySelector('.genshinArtifactName').textContent = artifactName;
+
+                    // Show only 2 first set
+                    if (k <= 1) {
+                        clone.querySelector('.genshinArtifactsContainer').insertBefore(cloneArtifact, clone.querySelector('.genshinArtifactsOther'));
+                    } else {
+                        clone.querySelector('.genshinArtifactsOther').append(cloneArtifact);
+                    }
+
+                    k++;
+                });
 
                 cloneBuildContent.querySelector('.genshinBuildArtifacts').appendChild(clone);
                 j++;
-            } else {
-
             }
         }
 
