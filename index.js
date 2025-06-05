@@ -425,9 +425,9 @@ function GenshinCharacter(character) {
     // Hide element for Traveler
     if (character !== 'Traveler') {
         document.querySelector('#genshinCharacterElement').src = characterInfo.src.element;
-        document.querySelector('#genshinCharacterElement').hidden = false;
+        document.querySelector('#genshinCharacterElement').parentNode.hidden = false;
     } else {
-        document.querySelector('#genshinCharacterElement').hidden = true;
+        document.querySelector('#genshinCharacterElement').parentNode.hidden = true;
     }
 
     const builds = genshinBuilds[character];
