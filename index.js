@@ -119,6 +119,18 @@ function genshinFilterList() {
                 f.hidden = true;
             }
         });
+
+        // Secret
+        if (searchValue.toLowerCase() === 'fatfuck') {
+            document.querySelector('#FatFuck').hidden = false;
+            window.setTimeout(() => {
+                document.querySelector('#FatFuck').ariaSelected = true;
+            }, 1);
+            window.setTimeout(() => {
+                document.querySelector('#FatFuck').hidden = true;
+                document.querySelector('#FatFuck').ariaSelected = false;
+            }, 3000);
+        }
     }
 }
 
