@@ -629,7 +629,6 @@ function GenshinCharacter(character) {
                 }
                 clone.querySelector('.genshinArtifactName').textContent = artifactName;
                 cloneBuildContent.querySelector('.genshinBuildArtifacts').appendChild(clone);
-                j++;
             } else {
                 // Create artifact container
                 const template = document.querySelector("#genshinCharacterBuildArtifactMultiple");
@@ -640,8 +639,9 @@ function GenshinCharacter(character) {
                 if (artifactList.length === 2) {
                     clone.querySelector('.genshinArtifactsMultiple').remove();
                 } else {
-                    clone.querySelector('.genshinArtifactsShowOther').dataset.target += j;
-                    clone.querySelector('.genshinArtifactsOther').id += j;
+                    const uuid = self.crypto.randomUUID();
+                    clone.querySelector('.genshinArtifactsShowOther').dataset.target += uuid;
+                    clone.querySelector('.genshinArtifactsOther').id += uuid;
                 }
 
                 // Sort by quality
@@ -689,8 +689,9 @@ function GenshinCharacter(character) {
                 });
 
                 cloneBuildContent.querySelector('.genshinBuildArtifacts').appendChild(clone);
-                j++;
             }
+
+            j++;
         }
 
         // Add content to tab
