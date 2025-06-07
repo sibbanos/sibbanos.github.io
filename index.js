@@ -88,6 +88,13 @@ document.querySelector('#genshinCharacterBuildTabContainer').addEventListener('c
     }
 });
 
+// Create tooltip
+document.querySelectorAll('[data-tooltip]').forEach((e) => {
+    tippy(e, {
+        content: e.dataset.tooltip,
+    });
+});
+
 /**
  * Filter genshin list based on button clicked and search
  */
@@ -196,8 +203,8 @@ function genshinShowFilter(quality = [4, 5], element = true, weapon = true) {
     }
 
     // Show or hide quality
-    document.querySelectorAll('.genshinQualityFilterButton').forEach((e) => {
-        if (quality && quality.includes(Number(e.querySelector('.genshinFilterButton').dataset.value))) {
+    document.querySelectorAll('.genshinFilterButton[data-type="quality"]').forEach((e) => {
+        if (quality && quality.includes(Number(e.dataset.value))) {
             e.hidden = false;
         } else {
             e.hidden = true;
@@ -430,6 +437,7 @@ function GenshinCharacter(character) {
     // Set character info
     document.querySelector('#genshinCharacterIcon').src = characterInfo.src.character;
     document.querySelector('#genshinCharacterName').textContent = character;
+    document.querySelector('#genshinCharacterName').href = characterInfo.link;
     document.querySelector('#genshinCharacterWeaponTypeIcon').src = characterInfo.src.weapon;
     document.querySelector('#genshinCharacterWeaponType').textContent = characterInfo.weapon;
     document.querySelector('#genshinCharacterQuality').src = `Genshin/Ressources/Quality/${characterInfo.quality}.png`;

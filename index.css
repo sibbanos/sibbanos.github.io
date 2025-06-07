@@ -28,3 +28,13 @@
     @slot;
   }
 }
+
+@layer components {
+  .genshinFilterButton {
+    @apply w-10 p-1 cursor-pointer rounded-xl hover:bg-gray-600 hover:border hover:border-gray-800 aria-selected:bg-gray-600 aria-selected:border aria-selected:border-gray-800;
+  }
+
+  .genshinNav {
+    @apply flex px-3 py-2 gap-2 rounded-lg bg-gradient-to-b bg-white hover:from-cotton-candy-500 aria-selected:from-cotton-candy-500
+  }
+}
