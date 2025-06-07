@@ -1,3 +1,5 @@
+let delegateInstance = {};
+
 window.addEventListener('hashchange', () => {
     init();
 });
@@ -89,11 +91,7 @@ document.querySelector('#genshinCharacterBuildTabContainer').addEventListener('c
 });
 
 // Create tooltip
-document.querySelectorAll('[data-tooltip]').forEach((e) => {
-    tippy(e, {
-        content: e.dataset.tooltip,
-    });
-});
+tippy('[data-tippy-content]');
 
 /**
  * Filter genshin list based on button clicked and search
@@ -423,6 +421,11 @@ function GenshinCharacter(character) {
         document.querySelector('#genshinCharacterBuildNavContainer').role = 'tablist';
     }
 
+    // Destroy previous instance
+    if (delegateInstance[0]) {
+        delegateInstance[0].destroy();
+    }
+
     // Empty page
     document.querySelector('#genshinCharacterBuildNavSelect').innerHTML = '';
     document.querySelector('#genshinCharacterBuildNavContainer').innerHTML = '';
@@ -701,6 +704,124 @@ function GenshinCharacter(character) {
 
     // Init tabs
     HSTabs.autoInit();
+
+    // Init tooltip
+    delegateInstance = tippy.delegate('#genshinCharacter', {
+        allowHTML: true,
+        animation: false,
+        content(reference) {
+            // Test if weapon or artifact
+            if (reference.dataset.type === 'weapon') {
+                const weaponName = reference.querySelector('.genshinWeaponName').textContent;
+                const weaponInfo = genshinWeapons[weaponName];
+    
+                const template = document.querySelector("#genshinCharacterBuildWeaponTooltip");
+                const clone = document.importNode(template.content, true);
+    
+                // Change background based on quality
+                let classQuality = ' from-light-gray-500';
+                switch (Number(weaponInfo.quality)) {
+                    case 5:
+                        classQuality = ' from-apricot-500';
+                        break;
+                    case 4:
+                        classQuality = ' from-pastel-violet-500';
+                        break;
+                    case 3:
+                        classQuality = ' from-water-500';
+                        break;
+                    case 2:
+                        classQuality = ' from-tea-green-500';
+                        break;
+                }
+    
+                let abilityDescription = weaponInfo.ability;
+                let abilityName = '';
+    
+                // Separate ability name and description
+                if (abilityDescription) {
+                    let ability = abilityDescription.split('\n');
+                    abilityName = ability[0];
+                    ability.shift();
+                    abilityDescription = ability.join('<br>');
+                }
+    
+                clone.querySelector('.weaponName').textContent = weaponName;
+                clone.querySelector('.weaponImage').className += classQuality;
+                clone.querySelector('.weaponImage').src = weaponInfo.src.weapon;
+                clone.querySelector('.weaponBaseATK').textContent = weaponInfo.first_stat;
+                clone.querySelector('.weaponSecondaryStat').textContent = `${weaponInfo.second_stat_type} ${weaponInfo.second_stat}`;
+                clone.querySelector('.weaponAbilityName').textContent = abilityName;
+                clone.querySelector('.weaponAbilityDescription').innerHTML = abilityDescription;
+    
+                return clone;
+            } else {
+                const artifactName = reference.querySelector('.genshinArtifactName').textContent;
+                const artifactInfo = genshinArtifacts[artifactName];
+                const artifactMaxQuality = artifactInfo['quality'][artifactInfo['quality'].length - 1];
+
+                const template = document.querySelector("#genshinCharacterBuildArtifactTooltip");
+                const clone = document.importNode(template.content, true);
+    
+                // Change background based on quality
+                let classQuality = ' from-light-gray-500';
+                switch (artifactMaxQuality) {
+                    case 5:
+                        classQuality = ' from-apricot-500';
+                        break;
+                    case 4:
+                        classQuality = ' from-pastel-violet-500';
+                        break;
+                    case 3:
+                        classQuality = ' from-water-500';
+                        break;
+                }
+
+                clone.querySelector('.artifactName').textContent = artifactName;
+                clone.querySelector('.artifactImage').className += classQuality;
+                clone.querySelector('.artifactImage').src = artifactInfo.pieces[0].src.artifact;
+
+                // Remove second bonus if not necessary
+                if (artifactInfo.bonuses === "" || artifactInfo.bonuses[1] || reference.dataset.type === 'artifactMultiple') {
+                    clone.querySelector('.artifactAbility4').remove();
+                }
+
+                // Remove first bonus if not necessary
+                if (artifactInfo.bonuses === "") {
+                    clone.querySelector('.artifactAbility2').remove();
+                } else {
+                    // Test if 1 piece bonus or 2 pieces bonus
+                    if (artifactInfo.bonuses[1]) {
+                        clone.querySelector('.artifactAbilityNumber2').textContent = 1;
+                        clone.querySelector('.artifactAbilityDescription2').textContent = artifactInfo.bonuses[1];
+                    } else {
+                        clone.querySelector('.artifactAbilityDescription2').textContent = artifactInfo.bonuses[2];
+
+                        // Set 4 pieces bonus if necessary
+                        if (reference.dataset.type !== 'artifactMultiple') {
+                            clone.querySelector('.artifactAbilityDescription4').textContent = artifactInfo.bonuses[4];
+                        }
+                    }
+                }
+
+                return clone;
+            }
+        },
+        followCursor: true,
+        placement: 'auto',
+        render(instance) {
+            const popper = document.createElement('div');
+            const box = document.createElement('div');
+
+            popper.appendChild(box);
+            box.appendChild(instance.props.content);
+
+            return {
+                popper,
+            };
+        },
+        target: '.genshinBuildTooltip',
+    });
 }
 
 /**
