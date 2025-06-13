@@ -21,12 +21,33 @@ function init() {
     }
 }
 
+/**
+ * Return class based on quality
+ * 
+ * @param {integer} quality 
+ * @return {string}
+ */
+function qualityClass(quality) {
+    switch (Number(quality)) {
+        case 5:
+            return ' from-apricot-500';
+        case 4:
+            return ' from-pastel-violet-500';
+        case 3:
+            return ' from-water-500';
+        case 2:
+            return ' from-tea-green-500';
+        default:
+            return ' from-light-gray-500';
+    }
+}
+
 //#region Genshin
 
 // Call filter function on button click
 document.querySelectorAll('.genshinFilterButton').forEach((e) => {
     e.addEventListener('click', () => {
-        const parentContainer = e.parentElement.parentElement;
+        const parentContainer = e.parentElement;
         let everythingSelected = true;
         let everythingUnSelected = true;
 
@@ -237,11 +258,7 @@ function GenshinCharacters() {
         const clone = document.importNode(template.content, true);
 
         // Change background based on quality
-        if (characterInfo.quality == 5) {
-            clone.querySelector('.genshinCardIcon').className += ' from-apricot-500';
-        } else {
-            clone.querySelector('.genshinCardIcon').className += ' from-pastel-violet-500';
-        }
+        clone.querySelector('.genshinCardIcon').className += qualityClass(characterInfo.quality);
 
         // Set dataset
         clone.querySelector('.genshinCardContainer').dataset.element = characterInfo.element;
@@ -295,23 +312,7 @@ function GenshinWeapons() {
         const clone = document.importNode(template.content, true);
 
         // Change background based on quality
-        switch (Number(weaponInfo.quality)) {
-            case 5:
-                clone.querySelector('.genshinCardIcon').className += ' from-apricot-500';
-                break;
-            case 4:
-                clone.querySelector('.genshinCardIcon').className += ' from-pastel-violet-500';
-                break;
-            case 3:
-                clone.querySelector('.genshinCardIcon').className += ' from-water-500';
-                break;
-            case 2:
-                clone.querySelector('.genshinCardIcon').className += ' from-tea-green-500';
-                break;
-            default:
-                clone.querySelector('.genshinCardIcon').className += ' from-light-gray-500';
-                break;
-        }
+        clone.querySelector('.genshinCardIcon').className += qualityClass(weaponInfo.quality);
 
         // Set dataset
         clone.querySelector('.genshinCardContainer').dataset.quality = weaponInfo.quality;
@@ -361,20 +362,7 @@ function GenshinArtifacts() {
         const clone = document.importNode(template.content, true);
 
         // Change background based on quality
-        switch (artifactMaxQuality) {
-            case 5:
-                clone.querySelector('.genshinCardIcon').className += ' from-apricot-500';
-                break;
-            case 4:
-                clone.querySelector('.genshinCardIcon').className += ' from-pastel-violet-500';
-                break;
-            case 3:
-                clone.querySelector('.genshinCardIcon').className += ' from-water-500';
-                break;
-            default:
-                clone.querySelector('.genshinCardIcon').className += ' from-light-gray-500';
-                break;
-        }
+        clone.querySelector('.genshinCardIcon').className += qualityClass(artifactMaxQuality);
 
         // Set dataset
         clone.querySelector('.genshinCardContainer').dataset.quality = artifactMaxQuality;
@@ -572,23 +560,7 @@ function GenshinCharacter(character) {
             const clone = document.importNode(template.content, true);
             clone.querySelector('.genshinWeaponRank').textContent = `${j}.`;
             clone.querySelector('img').src = weapon.src.weapon;
-            switch (Number(weapon.quality)) {
-                case 5:
-                    clone.querySelector('img').className += ' from-apricot-500';
-                    break;
-                case 4:
-                    clone.querySelector('img').className += ' from-pastel-violet-500';
-                    break;
-                case 3:
-                    clone.querySelector('img').className += ' from-water-500';
-                    break;
-                case 2:
-                    clone.querySelector('img').className += ' from-tea-green-500';
-                    break;
-                default:
-                    clone.querySelector('img').className += ' from-light-gray-500';
-                    break;
-            }
+            clone.querySelector('img').className += qualityClass(weapon.quality);
             clone.querySelector('.genshinWeaponName').textContent = weaponName;
             cloneBuildContent.querySelector('.genshinBuildWeapons').appendChild(clone);
             j++;
@@ -613,20 +585,7 @@ function GenshinCharacter(character) {
                 const clone = document.importNode(template.content, true);
                 clone.querySelector('.genshinArtifactRank').textContent = `${j}.`;
                 clone.querySelector('img').src = artifactInfo.pieces[0].src.artifact;
-                switch (artifactMaxQuality) {
-                    case 5:
-                        clone.querySelector('img').className += ' from-apricot-500';
-                        break;
-                    case 4:
-                        clone.querySelector('img').className += ' from-pastel-violet-500';
-                        break;
-                    case 3:
-                        clone.querySelector('img').className += ' from-water-500';
-                        break;
-                    default:
-                        clone.querySelector('img').className += ' from-light-gray-500';
-                        break;
-                }
+                clone.querySelector('img').className += qualityClass(artifactMaxQuality);
                 clone.querySelector('.genshinArtifactName').textContent = artifactName;
                 cloneBuildContent.querySelector('.genshinBuildArtifacts').appendChild(clone);
             } else {
@@ -663,19 +622,7 @@ function GenshinCharacter(character) {
                     const cloneArtifact = document.importNode(templateArtifact.content, true);
 
                     cloneArtifact.querySelector('.genshinArtifactIcon').src = artifactInfo.pieces[0].src.artifact;
-                    let classQuality = ' from-light-gray-500';
-                    switch (artifactMaxQuality) {
-                        case 5:
-                            classQuality = ' from-apricot-500';
-                            break;
-                        case 4:
-                            classQuality = ' from-pastel-violet-500';
-                            break;
-                        case 3:
-                            classQuality = ' from-water-500';
-                            break;
-                    }
-                    cloneArtifact.querySelector('.genshinArtifactIcon').className += classQuality;
+                    cloneArtifact.querySelector('.genshinArtifactIcon').className += qualityClass(artifactMaxQuality);
                     cloneArtifact.querySelector('.genshinArtifactName').textContent = artifactName;
 
                     // Show only 2 first set
@@ -719,23 +666,6 @@ function GenshinCharacter(character) {
                 const template = document.querySelector("#genshinCharacterBuildWeaponTooltip");
                 const clone = document.importNode(template.content, true);
     
-                // Change background based on quality
-                let classQuality = ' from-light-gray-500';
-                switch (Number(weaponInfo.quality)) {
-                    case 5:
-                        classQuality = ' from-apricot-500';
-                        break;
-                    case 4:
-                        classQuality = ' from-pastel-violet-500';
-                        break;
-                    case 3:
-                        classQuality = ' from-water-500';
-                        break;
-                    case 2:
-                        classQuality = ' from-tea-green-500';
-                        break;
-                }
-    
                 let abilityDescription = weaponInfo.ability;
                 let abilityName = '';
     
@@ -748,7 +678,7 @@ function GenshinCharacter(character) {
                 }
     
                 clone.querySelector('.weaponName').textContent = weaponName;
-                clone.querySelector('.weaponImage').className += classQuality;
+                clone.querySelector('.weaponImage').className += qualityClass(weaponInfo.quality);
                 clone.querySelector('.weaponImage').src = weaponInfo.src.weapon;
                 clone.querySelector('.weaponBaseATK').textContent = weaponInfo.first_stat;
                 clone.querySelector('.weaponSecondaryStat').textContent = `${weaponInfo.second_stat_type} ${weaponInfo.second_stat}`;
@@ -763,23 +693,9 @@ function GenshinCharacter(character) {
 
                 const template = document.querySelector("#genshinCharacterBuildArtifactTooltip");
                 const clone = document.importNode(template.content, true);
-    
-                // Change background based on quality
-                let classQuality = ' from-light-gray-500';
-                switch (artifactMaxQuality) {
-                    case 5:
-                        classQuality = ' from-apricot-500';
-                        break;
-                    case 4:
-                        classQuality = ' from-pastel-violet-500';
-                        break;
-                    case 3:
-                        classQuality = ' from-water-500';
-                        break;
-                }
 
                 clone.querySelector('.artifactName').textContent = artifactName;
-                clone.querySelector('.artifactImage').className += classQuality;
+                clone.querySelector('.artifactImage').className += qualityClass(artifactMaxQuality);
                 clone.querySelector('.artifactImage').src = artifactInfo.pieces[0].src.artifact;
 
                 // Remove second bonus if not necessary
