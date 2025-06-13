@@ -765,6 +765,7 @@ function GenshinWeapon(weapon) {
     document.querySelector('#genshinWeapon').hidden = false;
 
     // Empty page
+    document.querySelector('#genshinWeaponInfo').innerHTML = '';
     document.querySelector('#todoWeapon').innerHTML = '';
 
     // Decoce weapon name
@@ -803,6 +804,7 @@ function GenshinArtifact(artifact) {
     document.querySelector('#genshinArtifact').hidden = false;
 
     // Empty page
+    document.querySelector('#genshinArtifactInfo').innerHTML = '';
     document.querySelector('#todoArtifact').innerHTML = '';
 
     // Decoce artifact name
