@@ -417,16 +417,10 @@ function GenshinCharacter(character) {
     }
 
     // Empty page
+    document.querySelector('#genshinCharacterInfo').innerHTML = '';
     document.querySelector('#genshinCharacterBuildNavSelect').innerHTML = '';
     document.querySelector('#genshinCharacterBuildNavContainer').innerHTML = '';
     document.querySelector('#genshinCharacterBuildTabContainer').innerHTML = '';
-    document.querySelector('#genshinCharacterIcon').classList.remove(
-        'from-apricot-500',
-        'from-pastel-violet-500',
-        'from-water-500',
-        'from-tea-green-500',
-        'from-light-gray-500'
-    );
 
     // Decoce character name
     character = decodeURI(character);
@@ -434,22 +428,28 @@ function GenshinCharacter(character) {
     // Get character info
     const characterInfo = genshinCharacters[character];
 
+    const template = document.querySelector("#genshinHeaderInfo");
+    const clone = document.importNode(template.content, true);
+
     // Set character info
-    document.querySelector('#genshinCharacterIcon').src = characterInfo.src.character;
-    document.querySelector('#genshinCharacterIcon').className += qualityClass(characterInfo.quality);
-    document.querySelector('#genshinCharacterName').textContent = character;
-    document.querySelector('#genshinCharacterName').href = characterInfo.link;
-    document.querySelector('#genshinCharacterWeaponTypeIcon').src = characterInfo.src.weapon;
-    document.querySelector('#genshinCharacterWeaponType').textContent = characterInfo.weapon;
-    document.querySelector('#genshinCharacterQuality').src = `Genshin/Ressources/Quality/${characterInfo.quality}.png`;
+    clone.querySelector('.genshinIcon').src = characterInfo.src.character;
+    clone.querySelector('.genshinIcon').className += qualityClass(characterInfo.quality);
+    clone.querySelector('.genshinName').textContent = character;
+    clone.querySelector('.genshinName').href = characterInfo.link;
+    clone.querySelector('.genshinWeaponTypeIcon').src = characterInfo.src.weapon;
+    clone.querySelector('.genshinWeaponType').textContent = characterInfo.weapon;
+    clone.querySelector('.genshinQuality').src = `Genshin/Ressources/Quality/${characterInfo.quality}.png`;
 
     // Hide element for Traveler
     if (character !== 'Traveler') {
-        document.querySelector('#genshinCharacterElement').src = characterInfo.src.element;
-        document.querySelector('#genshinCharacterElement').parentNode.hidden = false;
+        clone.querySelector('.genshinElement').src = characterInfo.src.element;
+        clone.querySelector('.genshinElement').parentNode.hidden = false;
     } else {
-        document.querySelector('#genshinCharacterElement').parentNode.hidden = true;
+        clone.querySelector('.genshinElement').parentNode.hidden = true;
     }
+
+    // Add character info to page
+    document.querySelector('#genshinCharacterInfo').append(clone);
 
     const builds = genshinBuilds[character];
     let i = 1;
@@ -766,13 +766,6 @@ function GenshinWeapon(weapon) {
 
     // Empty page
     document.querySelector('#todoWeapon').innerHTML = '';
-    document.querySelector('#genshinWeaponIcon').classList.remove(
-        'from-apricot-500',
-        'from-pastel-violet-500',
-        'from-water-500',
-        'from-tea-green-500',
-        'from-light-gray-500'
-    );
 
     // Decoce weapon name
     weapon = decodeURI(weapon);
@@ -782,14 +775,21 @@ function GenshinWeapon(weapon) {
 
     console.log(weaponInfo)
 
+    const template = document.querySelector("#genshinHeaderInfo");
+    const clone = document.importNode(template.content, true);
+
     // Set weapon info
-    document.querySelector('#genshinWeaponIcon').src = weaponInfo.src.weapon;
-    document.querySelector('#genshinWeaponIcon').className += qualityClass(weaponInfo.quality);
-    document.querySelector('#genshinWeaponName').textContent = weapon;
-    document.querySelector('#genshinWeaponName').href = weaponInfo.link;
-    document.querySelector('#genshinWeaponTypeIcon').src = weaponInfo.src.weapon_type;
-    document.querySelector('#genshinWeaponType').textContent = weaponInfo.type;
-    document.querySelector('#genshinWeaponQuality').src = `Genshin/Ressources/Quality/${weaponInfo.quality}.png`;
+    clone.querySelector('.genshinIcon').src = weaponInfo.src.weapon;
+    clone.querySelector('.genshinIcon').className += qualityClass(weaponInfo.quality);
+    clone.querySelector('.genshinName').textContent = weapon;
+    clone.querySelector('.genshinName').href = weaponInfo.link;
+    clone.querySelector('.genshinWeaponTypeIcon').src = weaponInfo.src.weapon_type;
+    clone.querySelector('.genshinWeaponType').textContent = weaponInfo.type;
+    clone.querySelector('.genshinQuality').src = `Genshin/Ressources/Quality/${weaponInfo.quality}.png`;
+    clone.querySelector('.genshinElement').parentElement.remove();
+
+    // Add weapon info to page
+    document.querySelector('#genshinWeaponInfo').append(clone);
 }
 
 /**
@@ -804,13 +804,6 @@ function GenshinArtifact(artifact) {
 
     // Empty page
     document.querySelector('#todoArtifact').innerHTML = '';
-    document.querySelector('#genshinArtifactIcon').classList.remove(
-        'from-apricot-500',
-        'from-pastel-violet-500',
-        'from-water-500',
-        'from-tea-green-500',
-        'from-light-gray-500'
-    );
 
     // Decoce artifact name
     artifact = decodeURI(artifact);
@@ -820,13 +813,21 @@ function GenshinArtifact(artifact) {
     const artifactMaxQuality = artifactInfo['quality'][artifactInfo['quality'].length - 1];
 
     console.log(artifactInfo)
+    
+    const template = document.querySelector("#genshinHeaderInfo");
+    const clone = document.importNode(template.content, true);
 
     // Set artifact info
-    document.querySelector('#genshinArtifactIcon').src = artifactInfo.pieces[0].src.artifact;
-    document.querySelector('#genshinArtifactIcon').className += qualityClass(artifactMaxQuality);
-    document.querySelector('#genshinArtifactName').textContent = artifact;
-    document.querySelector('#genshinArtifactName').href = artifactInfo.link;
-    document.querySelector('#genshinArtifactQuality').src = `Genshin/Ressources/Quality/${artifactMaxQuality}.png`;
+    clone.querySelector('.genshinIcon').src = artifactInfo.pieces[0].src.artifact;
+    clone.querySelector('.genshinIcon').className += qualityClass(artifactMaxQuality);
+    clone.querySelector('.genshinName').textContent = artifact;
+    clone.querySelector('.genshinName').href = artifactInfo.link;
+    clone.querySelector('.genshinQuality').src = `Genshin/Ressources/Quality/${artifactMaxQuality}.png`;
+    clone.querySelector('.genshinWeaponType').parentElement.remove();
+    clone.querySelector('.genshinElement').parentElement.remove();
+
+    // Add artifact info to page
+    document.querySelector('#genshinArtifactInfo').append(clone);
 }
 
 //#endregion Genshin

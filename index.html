@@ -133,29 +133,7 @@
 
                     <div id="genshinCharacter">
                         <!-- Character info -->
-                        <div class="flex flex-wrap gap-4 justify-center items-center">
-                            <!-- Character icon -->
-                            <img id="genshinCharacterIcon" class="h-48 shadow-lg rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
-                            <div class="flex flex-col gap-4 items-center">
-                                <!-- Character name -->
-                                <a id="genshinCharacterName" class="text-center text-2xl font-bold text-pastel-violet-500" href="" target="_blank"></a>
-                                <div class="flex flex-wrap gap-4 justify-center">
-                                    <!-- Character weapon type -->
-                                    <div class="gap-x-1.5 h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
-                                        <img id="genshinCharacterWeaponTypeIcon" class="h-8" src="">
-                                        <span id="genshinCharacterWeaponType" class="text-xl"></span>
-                                    </div>
-                                    <!-- Character quality -->
-                                    <div class="h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
-                                        <img id="genshinCharacterQuality" class="h-8" src="">
-                                    </div>
-                                    <!-- Character element -->
-                                    <div class="h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
-                                        <img id="genshinCharacterElement" class="h-12" src="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div id="genshinCharacterInfo"></div>
 
                         <!-- Character build selector -->
                         <div class="flex mt-4 justify-center">
@@ -174,45 +152,14 @@
 
                     <div id="genshinWeapon">
                         <!-- Weapon info -->
-                        <div class="flex flex-wrap gap-4 justify-center items-center">
-                            <!-- Weapon icon -->
-                            <img id="genshinWeaponIcon" class="h-48 shadow-lg rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
-                            <div class="flex flex-col gap-4 items-center">
-                                <!-- Weapon name -->
-                                <a id="genshinWeaponName" class="text-center text-2xl font-bold text-pastel-violet-500" href="" target="_blank"></a>
-                                <div class="flex flex-wrap gap-4 justify-center">
-                                    <!-- Weapon type -->
-                                    <div class="gap-x-1.5 h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
-                                        <img id="genshinWeaponTypeIcon" class="h-8" src="">
-                                        <span id="genshinWeaponType" class="text-xl"></span>
-                                    </div>
-                                    <!-- Weapon quality -->
-                                    <div class="h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
-                                        <img id="genshinWeaponQuality" class="h-8" src="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div id="genshinWeaponInfo"></div>
 
                         <div id="todoWeapon" class="mt-5 pt-5 border-t border-t-lavender-purple-500"></div>
                     </div>
 
                     <div id="genshinArtifact">
                         <!-- Artifact info -->
-                        <div class="flex flex-wrap gap-4 justify-center items-center">
-                            <!-- Artifact icon -->
-                            <img id="genshinArtifactIcon" class="h-48 shadow-lg rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
-                            <div class="flex flex-col gap-4 items-center">
-                                <!-- Artifact name -->
-                                <a id="genshinArtifactName" class="text-center text-2xl font-bold text-pastel-violet-500" href="" target="_blank"></a>
-                                <div class="flex flex-wrap gap-4 justify-center">
-                                    <!-- Artifact quality -->
-                                    <div class="h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
-                                        <img id="genshinArtifactQuality" class="h-8" src="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div id="genshinArtifactInfo"></div>
 
                         <div id="todoArtifact" class="mt-5 pt-5 border-t border-t-lavender-purple-500"></div>
                     </div>
@@ -230,6 +177,33 @@
                             <span class="genshinCardName h-16 font-bold text-xs bg-isabelline-500 border-t border-lavender-purple-500 flex justify-center items-center"></span>
                         </div>
                     </a>
+                </template>
+
+                <!-- Genshin header info template -->
+                <template id="genshinHeaderInfo">
+                    <div class="flex flex-wrap gap-4 justify-center items-center">
+                        <!-- Icon -->
+                        <img class="genshinIcon h-48 shadow-lg rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
+                        <div class="flex flex-col gap-4 items-center">
+                            <!-- Name -->
+                            <a class="genshinName text-center text-2xl font-bold text-pastel-violet-500" href="" target="_blank"></a>
+                            <div class="flex flex-wrap gap-4 justify-center">
+                                <!-- Weapon type -->
+                                <div class="gap-x-1.5 h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
+                                    <img class="genshinWeaponTypeIcon h-8" src="">
+                                    <span class="genshinWeaponType text-xl"></span>
+                                </div>
+                                <!-- Quality -->
+                                <div class="h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
+                                    <img class="genshinQuality h-8" src="">
+                                </div>
+                                <!-- Element -->
+                                <div class="h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
+                                    <img class="genshinElement h-12" src="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </template>
 
                 <!-- Genshin nav template -->
