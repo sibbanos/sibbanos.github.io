@@ -773,8 +773,16 @@ function GenshinWeapon(weapon) {
 
     // Get weapon info
     const weaponInfo = genshinWeapons[weapon];
+    let abilityDescription = weaponInfo.ability;
+    let abilityName = '';
 
-    console.log(weaponInfo)
+    // Separate ability name and description
+    if (abilityDescription) {
+        let ability = abilityDescription.split('\n');
+        abilityName = ability[0];
+        ability.shift();
+        abilityDescription = ability.join('<br>');
+    }
 
     const template = document.querySelector("#genshinHeaderInfo");
     const clone = document.importNode(template.content, true);
@@ -791,6 +799,24 @@ function GenshinWeapon(weapon) {
 
     // Add weapon info to page
     document.querySelector('#genshinWeaponInfo').append(clone);
+
+    // Set weapon ability
+    if (abilityName) {
+        document.querySelector('#genshinWeaponAbilityName').textContent = abilityName;
+        document.querySelector('#genshinWeaponAbilityDescription').textContent = abilityDescription;
+        document.querySelector('#genshinWeaponAbility').hidden = false;
+    } else {
+        document.querySelector('#genshinWeaponAbility').hidden = true;
+    }
+
+    // Set weapon stat
+    document.querySelector('#genshinWeaponBaseATK').textContent = weaponInfo.first_stat;
+    if (weaponInfo.second_stat) {
+        document.querySelector('#genshinWeaponSecondaryStat').textContent = `${weaponInfo.second_stat_type} ${weaponInfo.second_stat}`;
+        document.querySelector('#genshinWeaponSecondaryStatContainer').hidden = false;
+    } else {
+        document.querySelector('#genshinWeaponSecondaryStatContainer').hidden = true;
+    }
 }
 
 /**
@@ -814,8 +840,6 @@ function GenshinArtifact(artifact) {
     const artifactInfo = genshinArtifacts[artifact];
     const artifactMaxQuality = artifactInfo['quality'][artifactInfo['quality'].length - 1];
 
-    console.log(artifactInfo)
-    
     const template = document.querySelector("#genshinHeaderInfo");
     const clone = document.importNode(template.content, true);
 
@@ -830,6 +854,25 @@ function GenshinArtifact(artifact) {
 
     // Add artifact info to page
     document.querySelector('#genshinArtifactInfo').append(clone);
+
+    // Remove bonus if not necessary
+    if (artifactInfo.bonuses === "") {
+        document.querySelector('#genshinArtifactBonuses').hidden = true;
+    } else {
+        document.querySelector('#genshinArtifactBonuses').hidden = false;
+
+        // Test if 1 bonus or 2 bonus
+        if (artifactInfo.bonuses[1]) {
+            document.querySelector('#genshinArtifactAbilityNumber2').textContent = 1;
+            document.querySelector('#genshinArtifactAbilityDescription2').textContent = artifactInfo.bonuses[1];
+            document.querySelector('#genshinArtifactAbility4').hidden = true;
+        } else {
+            document.querySelector('#genshinArtifactAbilityNumber2').textContent = 2;
+            document.querySelector('#genshinArtifactAbilityDescription2').textContent = artifactInfo.bonuses[2];
+            document.querySelector('#genshinArtifactAbilityDescription4').textContent = artifactInfo.bonuses[4];
+            document.querySelector('#genshinArtifactAbility4').hidden = false;
+        }
+    }
 }
 
 //#endregion Genshin

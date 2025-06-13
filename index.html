@@ -147,21 +147,54 @@
                         </div>
 
                         <!-- Character build -->
-                        <div id="genshinCharacterBuildTabContainer" class="mt-5 pt-5 border-t border-t-lavender-purple-500"></div>
+                        <div id="genshinCharacterBuildTabContainer" class="mt-4 pt-4 border-t border-t-lavender-purple-500"></div>
                     </div>
 
                     <div id="genshinWeapon">
                         <!-- Weapon info -->
                         <div id="genshinWeaponInfo"></div>
 
-                        <div id="todoWeapon" class="mt-5 pt-5 border-t border-t-lavender-purple-500"></div>
+                        <!-- Weapon stat -->
+                        <div class="flex flex-wrap gap-4 justify-center my-4">
+                            <span class="gap-x-1.5 min-h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
+                                <span class="flex">Base ATK&nbsp;:<b id="genshinWeaponBaseATK" class="ml-1"></b></span>
+                            </span>
+                            <span id="genshinWeaponSecondaryStatContainer" class="gap-x-1.5 min-h-12 flex items-center py-1.5 px-3 rounded-md border border-gray-200 bg-white shadow-md">
+                                <span class="flex">Secondary Stat&nbsp;:<b id="genshinWeaponSecondaryStat" class="ml-1"></b></span>
+                            </span>
+                        </div>
+
+                        <!-- Weapon ability -->
+                        <div id="genshinWeaponAbility" class="min-h-16 p-4 rounded-md border border-gray-200 bg-white shadow-md">
+                            <span id="genshinWeaponAbilityName" class="flex font-bold text-pastel-violet-500 mb-2"></span>
+                            <p id="genshinWeaponAbilityDescription" class="break-words"></p>
+                        </div>
+
+                        <div id="todoWeapon" class="mt-4 pt-4 border-t border-t-lavender-purple-500"></div>
                     </div>
 
                     <div id="genshinArtifact">
                         <!-- Artifact info -->
                         <div id="genshinArtifactInfo"></div>
 
-                        <div id="todoArtifact" class="mt-5 pt-5 border-t border-t-lavender-purple-500"></div>
+                        <!-- Artifact bonuses -->
+                        <div id="genshinArtifactBonuses" class="min-h-16 p-4 mt-4 rounded-md border border-gray-200 bg-white shadow-md">
+                            <div id="genshinArtifactAbility2" class="sm:grid grid-cols-12 items-center">
+                                <div class="col-span-1 flex sm:justify-center">
+                                    <span id="genshinArtifactAbilityNumber2" class="bg-pastel-violet-500 border border-lavender-purple-500 rounded-md p-1 text-white text-xl">2</span>
+                                </div>
+                                <p id="genshinArtifactAbilityDescription2" class="col-span-11 flex my-2"></p>
+                            </div>
+
+                            <div id="genshinArtifactAbility4" class="sm:grid grid-cols-12 items-center border-t border-t-lavender-purple-500 pt-4 mt-4">
+                                <div class="col-span-1 flex sm:justify-center">
+                                    <span class="bg-pastel-violet-500 border border-lavender-purple-500 rounded-md p-1 text-white text-xl">4</span>
+                                </div>
+                                <p id="genshinArtifactAbilityDescription4" class="col-span-11 flex mt-2"></p>
+                            </div>
+                        </div>
+
+                        <div id="todoArtifact" class="mt-4 pt-4 border-t border-t-lavender-purple-500"></div>
                     </div>
                 </div>
 
@@ -336,19 +369,21 @@
                     </a>
                 </template>
 
+                <!-- Genshin weapon tooltip template -->
                 <template id="genshinCharacterBuildWeaponTooltip">
                     <div class="w-auto sm:w-96 bg-white rounded-md shadow-md p-2 border border-lavender-purple-500">
                         <div class="flex">
                             <span class="weaponName font-bold text-pastel-violet-500"></span>
                             <img class="weaponImage ml-auto h-13 rounded-xl border border-lavender-purple-500 bg-gradient-to-b to-isabelline-500" src="">
                         </div>
-                        <span class="flex">Base ATK :<b class="weaponBaseATK ml-1"></b></span>
-                        <span class="mb-2 flex">Secondary Stat :<b class="weaponSecondaryStat ml-1"></b></span>
+                        <span class="flex">Base ATK&nbsp;:<b class="weaponBaseATK ml-1"></b></span>
+                        <span class="mb-2 flex">Secondary Stat&nbsp;:<b class="weaponSecondaryStat ml-1"></b></span>
                         <span class="weaponAbilityName flex font-bold text-pastel-violet-500 mb-2"></span>
                         <p class="weaponAbilityDescription"></p>
                     </div>
                 </template>
 
+                <!-- Genshin artifact tooltip template -->
                 <template id="genshinCharacterBuildArtifactTooltip">
                     <div class="w-auto sm:w-96 bg-white rounded-md shadow-md p-2 border border-lavender-purple-500">
                         <div class="flex">
