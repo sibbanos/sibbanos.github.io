@@ -76,16 +76,18 @@ valid_stats = [
 # Fix sheet error
 correct_weapon_name = {
     "Tullaytulah's Remembrance" : "Tulaytullah's Remembrance",
+    "Tullaytullah's Rememberance" : "Tulaytullah's Remembrance",
+    "Tulaytullah's Rememberance" : "Tulaytullah's Remembrance",
     'Primoridal Jade Cutter' : 'Primordial Jade Cutter',
     'Freedom Sworn' : 'Freedom-Sworn',
     'Oathsworn Eye R5' : 'Oathsworn Eye',
-    "Tulaytullah's Rememberance" : "Tulaytullah's Remembrance",
     'Lost Prayer to Sacred Winds' : 'Lost Prayer to the Sacred Winds',
     'Lions Roar' : "Lion's Roar",
     'Ash Graven Drinking Horn' : 'Ash-Graven Drinking Horn',
     'Aquilla Favonia' : 'Aquila Favonia',
     'Wolf Fang' : 'Wolf-Fang',
     "''The Catch''" : '"The Catch"',
+    'Sunny Morning Sleep In' : 'Sunny Morning Sleep-In',
 }
 def correctWeapon(weapon) :
     if weapon in correct_weapon_name :
@@ -254,7 +256,9 @@ for character_list in soup.find_all('table')[4:] :
 
             # Get artifacts
             j = 1
+
             for artifact in artifacts_list :
+                artifact = artifact.strip()
                 if artifact.startswith('≈') or artifact[0].isdigit() :
                     if '(4)' in artifact :
                         _artifact = [artifact.split('(4)')[0]]

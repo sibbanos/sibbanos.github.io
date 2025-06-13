@@ -48,18 +48,19 @@
                 "3": "Staff of Homa",
                 "4": "Engulfing Lightning",
                 "5": "Primordial Jade Winged-Spear",
-                "6": "\"The Catch\"",
-                "7": "Deathmatch",
-                "8": "Ballad of the Fjords",
-                "9": "Vortex Vanquisher",
-                "10": "Calamity Queller",
-                "11": "Crimson Moon's Semblance",
-                "12": "Wavebreaker's Fin",
-                "13": "Dragon's Bane",
-                "14": "Missive Windspear",
-                "15": "Kitain Cross Spear",
-                "16": "Lithic Spear",
-                "17": "Favonius Lance"
+                "6": "Symphonist of Scents",
+                "7": "\"The Catch\"",
+                "8": "Deathmatch",
+                "9": "Ballad of the Fjords",
+                "10": "Vortex Vanquisher",
+                "11": "Calamity Queller",
+                "12": "Crimson Moon's Semblance",
+                "13": "Wavebreaker's Fin",
+                "14": "Dragon's Bane",
+                "15": "Missive Windspear",
+                "16": "Kitain Cross Spear",
+                "17": "Lithic Spear",
+                "18": "Favonius Lance"
             },
             "artifacts": {
                 "1": [
@@ -479,9 +480,9 @@
     "Gaming": {
         "DPS": {
             "weapons": {
-                "1": "A Thousand Blazing Suns",
-                "2": "Serpent Spine",
-                "3": "Redhorn Stonethresher",
+                "1": "Serpent Spine",
+                "2": "Redhorn Stonethresher",
+                "3": "A Thousand Blazing Suns",
                 "4": "Verdict",
                 "5": "Beacon of the Reed Sea",
                 "6": "Fruitful Hook",
@@ -1973,11 +1974,14 @@
         "BUFF SUPPORT": {
             "weapons": {
                 "1": "Engulfing Lightning",
-                "2": "Calamity Queller",
-                "3": "Skyward Spine",
-                "4": "Vortex Vanquisher",
-                "5": "Missive Windspear",
-                "6": "Kitain Cross Spear"
+                "2": "Symphonist of Scents",
+                "3": "Calamity Queller",
+                "4": "Favonius Lance",
+                "5": "Tamayuratei no Ohanashi",
+                "6": "Skyward Spine",
+                "7": "Vortex Vanquisher",
+                "8": "Missive Windspear",
+                "9": "Kitain Cross Spear"
             },
             "artifacts": {
                 "1": [
@@ -2163,16 +2167,17 @@
                 "1": "Engulfing Lightning",
                 "2": "Staff of Homa",
                 "3": "Staff of the Scarlet Sands",
-                "4": "Lumidouce Elegy",
-                "5": "Primordial Jade Winged-Spear",
-                "6": "Calamity Queller",
-                "7": "Deathmatch",
-                "8": "Vortex Vanquisher",
-                "9": "\"The Catch\"",
-                "10": "Skyward Spine",
-                "11": "Wavebreaker's Fin",
-                "12": "Lithic Spear",
-                "13": "Favonius Lance"
+                "4": "Symphonist of Scents",
+                "5": "Lumidouce Elegy",
+                "6": "Primordial Jade Winged-Spear",
+                "7": "Calamity Queller",
+                "8": "Deathmatch",
+                "9": "Vortex Vanquisher",
+                "10": "\"The Catch\"",
+                "11": "Skyward Spine",
+                "12": "Wavebreaker's Fin",
+                "13": "Lithic Spear",
+                "14": "Favonius Lance"
             },
             "artifacts": {
                 "1": [
@@ -2478,6 +2483,9 @@
             "artifacts": {
                 "1": [
                     "Obsidian Codex"
+                ],
+                "2": [
+                    "Long Night's Oath"
                 ]
             },
             "main_stats": {
@@ -3033,12 +3041,13 @@
         "DPS": {
             "weapons": {
                 "1": "Fang of the Mountain King",
-                "2": "Beacon of the Reed Sea",
-                "3": "Serpent Spine",
-                "4": "Verdict",
-                "5": "Earth Shaker",
-                "6": "Wolf's Gravestone",
-                "7": "Redhorn Stonethresher"
+                "2": "A Thousand Blazing Suns",
+                "3": "Beacon of the Reed Sea",
+                "4": "Serpent Spine",
+                "5": "Verdict",
+                "6": "Earth Shaker",
+                "7": "Wolf's Gravestone",
+                "8": "Redhorn Stonethresher"
             },
             "artifacts": {
                 "1": [
@@ -3386,7 +3395,7 @@
         }
     },
     "Mona": {
-        "NUKE": {
+        "BURST NUKE": {
             "weapons": {
                 "1": "The Widsith",
                 "2": "Skyward Atlas",
@@ -3934,8 +3943,10 @@
                 "2": "Sacrificial Jade",
                 "3": "A Thousand Floating Dreams",
                 "4": "Tome of the Eternal Flow",
-                "5": "Ring of Yaxche",
-                "6": "The Widsith"
+                "5": "Starcaller's Watch",
+                "6": "Sunny Morning Sleep-In",
+                "7": "Ring of Yaxche",
+                "8": "The Widsith"
             },
             "artifacts": {
                 "1": [
@@ -4040,21 +4051,24 @@
         }
     },
     "Chongyun": {
-        "BURST SUPPORT": {
+        "BURST NUKE": {
             "weapons": {
-                "1": "Wolf's Gravestone",
-                "2": "Serpent Spine",
-                "3": "Redhorn Stonethresher",
-                "4": "Beacon of the Reed Sea",
-                "5": "The Unforged",
-                "6": "Skyward Pride",
-                "7": "Akuoumaru",
-                "8": "Luxurious Sea-Lord",
-                "9": "Lithic Blade",
-                "10": "Sacrificial Greatsword",
-                "11": "Blackcliff Slasher",
-                "12": "Prototype Archaic",
-                "13": "Favonius Greatsword"
+                "1": "Serpent Spine",
+                "2": "Sacrificial Greatsword",
+                "3": "A Thousand Blazing Suns",
+                "4": "Redhorn Stonethresher",
+                "5": "Beacon of the Reed Sea",
+                "6": "Verdict",
+                "7": "Mailed Flower",
+                "8": "Fang of the Mountain King",
+                "9": "Skyward Pride",
+                "10": "The Unforged",
+                "11": "Luxurious Sea-Lord",
+                "12": "Akuoumaru",
+                "13": "Tidal Shadow",
+                "14": "Makhaira Aquamarine",
+                "15": "Blackcliff Slasher",
+                "16": "Favonius Greatsword"
             },
             "artifacts": {
                 "1": [
@@ -4068,12 +4082,9 @@
                     "Blizzard Strayer"
                 ],
                 "4": [
-                    "Scroll of the Hero of Cinder City"
-                ],
-                "5": [
                     "Gilded Dreams"
                 ],
-                "6": [
+                "5": [
                     "Noblesse Oblige",
                     "Blizzard Strayer",
                     "Instructor",
@@ -4815,8 +4826,9 @@
                 "5": "Thundering Pulse",
                 "6": "Skyward Harp",
                 "7": "Amos' Bow",
-                "8": "Prototype Crescent",
-                "9": "Mouun's Moon"
+                "8": "Song of Stillness",
+                "9": "Prototype Crescent",
+                "10": "Mouun's Moon"
             },
             "artifacts": {
                 "1": [
@@ -4834,6 +4846,9 @@
                     "Fragment of Harmonic Whimsy",
                     "Unfinished Reverie",
                     "Noblesse Oblige"
+                ],
+                "3": [
+                    "Marechaussee Hunter"
                 ]
             },
             "main_stats": {
@@ -4862,10 +4877,11 @@
                 "4": "Aqua Simulacra",
                 "5": "Thundering Pulse",
                 "6": "Astral Vulture's Crimson Plumage",
-                "7": "Skyward Harp",
-                "8": "Flower-Wreathed Feathers",
-                "9": "Prototype Crescent",
-                "10": "Mouun's Moon"
+                "7": "Song of Stillness",
+                "8": "Skyward Harp",
+                "9": "Flower-Wreathed Feathers",
+                "10": "Prototype Crescent",
+                "11": "Mouun's Moon"
             },
             "artifacts": {
                 "1": [
@@ -5830,6 +5846,56 @@
             }
         }
     },
+    "Ifa": {
+        "ANEMO DPS": {
+            "weapons": {
+                "1": "Tulaytullah's Remembrance",
+                "2": "Vivid Notions",
+                "3": "Skyward Atlas",
+                "4": "Surf's Up",
+                "5": "Tome of the Eternal Flow",
+                "6": "A Thousand Floating Dreams",
+                "7": "Kagura's Verity",
+                "8": "Lost Prayer to the Sacred Winds",
+                "9": "Cashflow Supervision",
+                "10": "Flowing Purity",
+                "11": "Sunny Morning Sleep-In",
+                "12": "Mappa Mare",
+                "13": "The Widsith",
+                "14": "Memory of Dust"
+            },
+            "artifacts": {
+                "1": [
+                    "Obsidian Codex"
+                ],
+                "2": [
+                    "Viridescent Venerer"
+                ],
+                "3": [
+                    "Scroll of the Hero of Cinder City"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "Anemo DMG"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "ATK%",
+                "4": "Elemental Mastery",
+                "5": "Energy Recharge"
+            }
+        }
+    },
     "Jean": {
         "HEAL SUPPORT & DAMAGE": {
             "weapons": {
@@ -6330,11 +6396,12 @@
                 "5": "Skyward Harp",
                 "6": "Song of Stillness",
                 "7": "Amos' Bow",
-                "8": "Chain Breaker",
-                "9": "Polar Star",
-                "10": "Flower-Wreathed Feathers",
-                "11": "Scion of the Blazing Sun",
-                "12": "Range Gauge"
+                "8": "Polar Star",
+                "9": "Flower-Wreathed Feathers",
+                "10": "Scion of the Blazing Sun",
+                "11": "Hamayumi",
+                "12": "Chain Breaker",
+                "13": "Range Gauge"
             },
             "artifacts": {
                 "1": [
