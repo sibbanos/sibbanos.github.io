@@ -116,6 +116,11 @@ document.querySelector('#genshinWeaponRankF2POnly').addEventListener('change', (
     genshinWeaponUsage(e.currentTarget.dataset.weaponName, e.currentTarget.checked);
 });
 
+// Show BiS only or all
+document.querySelector('#genshinArtifactBiSOnly').addEventListener('change', (e) => {
+    genshinArtifactUsage(e.currentTarget.dataset.artifactName, e.currentTarget.checked);
+});
+
 // Create tooltip
 tippy('[data-tippy-content]');
 
@@ -935,10 +940,10 @@ function GenshinArtifact(artifact) {
     // Show default content
     genshinPage();
     document.querySelector('#genshinArtifact').hidden = false;
+    document.querySelector('#genshinArtifactBiSOnly').checked = true;
 
     // Empty page
     document.querySelector('#genshinArtifactInfo').innerHTML = '';
-    document.querySelector('#todoArtifact').innerHTML = '';
 
     // Decode artifact name
     artifact = decodeURI(artifact);
@@ -979,6 +984,197 @@ function GenshinArtifact(artifact) {
             document.querySelector('#genshinArtifactAbilityDescription4').textContent = artifactInfo.bonuses[4];
             document.querySelector('#genshinArtifactAbility4').hidden = false;
         }
+    }
+    
+    // Set checkbox dataset
+    document.querySelector('#genshinArtifactBiSOnly').dataset.artifactName = artifact;
+
+    genshinArtifactUsage(artifact, true);
+}
+
+/**
+ * Show artifact usage by build
+ * 
+ * @param {string} artifactName 
+ * @param {Boolean} bis 
+ */
+function genshinArtifactUsage(artifactName, bis = false) {
+    // Empty page    
+    document.querySelector('#genshinArtifactMainStatSands .genshinArtifactMainStats').innerHTML = '';
+    document.querySelector('#genshinArtifactMainStatGoblet .genshinArtifactMainStats').innerHTML = '';
+    document.querySelector('#genshinArtifactMainStatCirclet .genshinArtifactMainStats').innerHTML = '';
+    document.querySelector('#genshinArtifactSubStats').innerHTML = '';
+
+    // Empty usage
+    document.querySelector('#genshinArtifactUsage1').innerHTML = '<span class="font-bold">Nobody</span>';
+    document.querySelector('#genshinArtifactUsageOther').innerHTML = '<span class="font-bold">Nobody</span>';
+
+    document.querySelector('#genshinArtifactUsageOtherContainer').hidden = bis;
+
+    let artifactUsage = {};
+    let mainStatSandsUsage = [];
+    let mainStatGobletUsage = [];
+    let mainStatCircletUsage = [];
+    let subStatsUsage = [];
+
+    // For each character
+    for (characterName in genshinBuilds) {
+        const builds = genshinBuilds[characterName];
+
+        // For each build
+        for (buildName in builds) {
+            const build = builds[buildName];
+            const artifacts = build.artifacts;
+
+            // Use a function to break both for with return;
+            (function() {
+                // For each artifact
+                for (artifactRank in artifacts) {
+                    const buildArtifacts = artifacts[artifactRank];
+    
+                    for (let i = 0; i < buildArtifacts.length; i++) {
+                        if (buildArtifacts[i] === artifactName) {
+                            // Create entry in object
+                            if (typeof artifactUsage[artifactRank] === 'undefined') {
+                                artifactUsage[artifactRank] = [];
+                            }
+        
+                            // Add artifact to usage list
+                            artifactUsage[artifactRank].push({
+                                characterName: characterName,
+                                buildName: buildName,
+                            });
+
+                            mainStatSandsUsage.push(...build.main_stats.Sands);
+                            mainStatGobletUsage.push(...build.main_stats.Goblet);
+                            mainStatCircletUsage.push(...build.main_stats.Circlet);
+                            subStatsUsage.push(...Object.values(build.sub_stats));
+
+                            return;
+                        }
+
+                        // If BiS get only first artifact
+                        if (bis) {
+                            return;
+                        }
+                    }
+                }
+            })();
+        }
+    }
+
+    mainStatSandsUsage = mainStatSandsUsage.filter((value, index, array) => array.indexOf(value) === index);
+    mainStatGobletUsage = mainStatGobletUsage.filter((value, index, array) => array.indexOf(value) === index);
+    mainStatCircletUsage = mainStatCircletUsage.filter((value, index, array) => array.indexOf(value) === index);
+    subStatsUsage = subStatsUsage.filter((value, index, array) => array.indexOf(value) === index);
+
+    // Set sands main stats
+    for (mainStatSandsIndex in mainStatSandsUsage) {
+        const mainStatSands = mainStatSandsUsage[mainStatSandsIndex];
+
+        // Create main stat
+        const template = document.querySelector("#genshinCharacterBuildStat");
+        const clone = document.importNode(template.content, true);
+        clone.querySelector('img').src = `Genshin/Ressources/Stats/${mainStatSands.replace('%', '')}.png`;
+        clone.querySelector('span').innerHTML = mainStatSands;
+        // If there is another main stat, separate them with a |
+        if (typeof mainStatSandsUsage[Number(mainStatSandsIndex) + 1] !== 'undefined') {
+            clone.querySelector('span').innerHTML += '&nbsp;|';
+        }
+        document.querySelector('#genshinArtifactMainStatSands .genshinArtifactMainStats').appendChild(clone);
+    }
+
+    // Set goblet main stats
+    for (mainStatGobletIndex in mainStatGobletUsage) {
+        const mainStatGoblet = mainStatGobletUsage[mainStatGobletIndex];
+
+        // Create main stat
+        const template = document.querySelector("#genshinCharacterBuildStat");
+        const clone = document.importNode(template.content, true);
+        clone.querySelector('img').src = `Genshin/Ressources/Stats/${mainStatGoblet.replace('%', '')}.png`;
+        clone.querySelector('span').innerHTML = mainStatGoblet;
+        // If there is another main stat, separate them with a |
+        if (typeof mainStatGobletUsage[Number(mainStatGobletIndex) + 1] !== 'undefined') {
+            clone.querySelector('span').innerHTML += '&nbsp;|';
+        }
+        document.querySelector('#genshinArtifactMainStatGoblet .genshinArtifactMainStats').appendChild(clone);
+    }
+
+    // Set circlet main stats
+    for (mainStatCircletIndex in mainStatCircletUsage) {
+        const mainStatCirclet = mainStatCircletUsage[mainStatCircletIndex];
+
+        // Create main stat
+        const template = document.querySelector("#genshinCharacterBuildStat");
+        const clone = document.importNode(template.content, true);
+        clone.querySelector('img').src = `Genshin/Ressources/Stats/${mainStatCirclet.replace('%', '')}.png`;
+        clone.querySelector('span').innerHTML = mainStatCirclet;
+        // If there is another main stat, separate them with a |
+        if (typeof mainStatCircletUsage[Number(mainStatCircletIndex) + 1] !== 'undefined') {
+            clone.querySelector('span').innerHTML += '&nbsp;|';
+        }
+        document.querySelector('#genshinArtifactMainStatCirclet .genshinArtifactMainStats').appendChild(clone);
+    }
+
+    // Fill sub stats
+    for (subStatIndex in subStatsUsage) {
+        const subStat = subStatsUsage[subStatIndex];
+
+        // Create sub stat
+        const template = document.querySelector("#genshinCharacterBuildStat");
+        const clone = document.importNode(template.content, true);
+        clone.querySelector('img').src = `Genshin/Ressources/Stats/${subStat.replace('%', '')}.png`;
+        clone.querySelector('span').innerHTML = subStat;
+        // If there is another sub stat, separate them with a |
+        if (typeof subStatsUsage[Number(subStatIndex) + 1] !== 'undefined') {
+            clone.querySelector('span').innerHTML += '&nbsp;|';
+        }
+        document.querySelector('#genshinArtifactSubStats').appendChild(clone);
+    }
+
+    // Empty div if there is at least 1 character
+    for (artifactRank in artifactUsage) {
+        if (Number(artifactRank) >= 2) {
+            document.querySelector('#genshinArtifactUsageOther').innerHTML = '';
+            break;
+        }
+
+        document.querySelector(`#genshinArtifactUsage${artifactRank}`).innerHTML = '';
+    }
+
+    // Show each usage
+    for (artifactRank in artifactUsage) {
+        artifactUsage[artifactRank].forEach((build) => {
+            const characterName = build.characterName;
+            const characterInfo = genshinCharacters[characterName];
+            const template = document.querySelector("#genshinCard");
+            const clone = document.importNode(template.content, true);
+
+            // Change background based on quality
+            clone.querySelector('.genshinCardIcon').className += qualityClass(characterInfo.quality);
+            
+            // Set value
+            clone.querySelector('.genshinCardContainer').href = `#Genshin#Character#${characterName}`;
+            clone.querySelector('.genshinCardIcon').src = characterInfo.src.character;
+            clone.querySelector('.genshinCardName').innerHTML = `${characterName}<br>${build.buildName}`;
+            clone.querySelector('.genshinCardWeapon').src = characterInfo.src.weapon;
+
+            // If artifact rank is 2 or more show rank in card
+            if (Number(artifactRank) >= 2) {
+                clone.querySelector('.genshinCardRank').textContent = artifactRank;
+            } else {
+                clone.querySelector('.genshinCardRank').remove();
+            }
+
+            // Remove element for Traveler
+            if (characterName !== 'Traveler') {
+                clone.querySelector('.genshinCardElement').src = characterInfo.src.element;
+            } else {
+                clone.querySelector('.genshinCardElement').remove();
+            }
+
+            document.querySelector(`#genshinArtifactUsage${Number(artifactRank) >= 2 ? 'Other' : artifactRank}`).appendChild(clone);
+        });
     }
 }
 
