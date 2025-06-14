@@ -402,6 +402,12 @@ for character_list in soup.find_all('table')[4:] :
 
     i += 1
 
+# Sort by name
+builds = dict(sorted(builds.items()))
+
+# Sort by quality
+builds = dict(sorted(builds.items(), key=lambda item: characters_json[item[0]]['quality'], reverse=True))
+
 with open('Genshin/scripts/builds/builds.json', 'w') as file:
     file.write(json.dumps(builds, indent=4))
 

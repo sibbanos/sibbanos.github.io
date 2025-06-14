@@ -43,6 +43,12 @@ for character in soup.find('table').find_all('tr')[1:] :
             },
         }
 
+# Sort by name
+characters = dict(sorted(characters.items()))
+
+# Sort by quality
+characters = dict(sorted(characters.items(), key=lambda item: item[1]['quality'], reverse=True))
+
 with open('Genshin/scripts/characters/characters.json', 'w') as file:
     file.write(json.dumps(characters, indent=4))
 

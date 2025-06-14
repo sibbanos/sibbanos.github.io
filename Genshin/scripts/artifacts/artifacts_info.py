@@ -71,6 +71,12 @@ for artifact in soup.find('table').find_all('tr')[1:] :
             'bonuses' : artifact_bonuses,
         }
 
+# Sort by name
+artifacts = dict(sorted(artifacts.items()))
+
+# Sort by quality
+artifacts = dict(sorted(artifacts.items(), key=lambda item: item[1]['quality'], reverse=True))
+
 with open('Genshin/scripts/artifacts/artifacts.json', 'w') as file:
     file.write(json.dumps(artifacts, indent=4))
 

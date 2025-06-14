@@ -60,6 +60,12 @@ for weapon_type in soup.find_all('span', 'mw-headline') :
                 },
             }
 
+# Sort by name
+weapons = dict(sorted(weapons.items()))
+
+# Sort by quality
+weapons = dict(sorted(weapons.items(), key=lambda item: item[1]['quality'], reverse=True))
+
 with open('Genshin/scripts/weapons/weapons.json', 'w') as file:
     file.write(json.dumps(weapons, indent=4))
 

@@ -32,17 +32,6 @@
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
-    "Amber": {
-        "element": "Pyro",
-        "quality": "4",
-        "weapon": "Bow",
-        "link": "https://genshin-impact.fandom.com/wiki/Amber",
-        "src": {
-            "character": "Genshin/Characters/Pyro/Amber.png",
-            "element": "Genshin/Ressources/Elements/Pyro.png",
-            "weapon": "Genshin/Ressources/Weapons/Bow.png"
-        }
-    },
     "Arataki Itto": {
         "element": "Geo",
         "quality": "5",
@@ -76,61 +65,6 @@
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
-    "Barbara": {
-        "element": "Hydro",
-        "quality": "4",
-        "weapon": "Catalyst",
-        "link": "https://genshin-impact.fandom.com/wiki/Barbara",
-        "src": {
-            "character": "Genshin/Characters/Hydro/Barbara.png",
-            "element": "Genshin/Ressources/Elements/Hydro.png",
-            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
-    "Beidou": {
-        "element": "Electro",
-        "quality": "4",
-        "weapon": "Claymore",
-        "link": "https://genshin-impact.fandom.com/wiki/Beidou",
-        "src": {
-            "character": "Genshin/Characters/Electro/Beidou.png",
-            "element": "Genshin/Ressources/Elements/Electro.png",
-            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
-        }
-    },
-    "Bennett": {
-        "element": "Pyro",
-        "quality": "4",
-        "weapon": "Sword",
-        "link": "https://genshin-impact.fandom.com/wiki/Bennett",
-        "src": {
-            "character": "Genshin/Characters/Pyro/Bennett.png",
-            "element": "Genshin/Ressources/Elements/Pyro.png",
-            "weapon": "Genshin/Ressources/Weapons/Sword.png"
-        }
-    },
-    "Candace": {
-        "element": "Hydro",
-        "quality": "4",
-        "weapon": "Polearm",
-        "link": "https://genshin-impact.fandom.com/wiki/Candace",
-        "src": {
-            "character": "Genshin/Characters/Hydro/Candace.png",
-            "element": "Genshin/Ressources/Elements/Hydro.png",
-            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
-        }
-    },
-    "Charlotte": {
-        "element": "Cryo",
-        "quality": "4",
-        "weapon": "Catalyst",
-        "link": "https://genshin-impact.fandom.com/wiki/Charlotte",
-        "src": {
-            "character": "Genshin/Characters/Cryo/Charlotte.png",
-            "element": "Genshin/Ressources/Elements/Cryo.png",
-            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
     "Chasca": {
         "element": "Anemo",
         "quality": "5",
@@ -142,17 +76,6 @@
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
-    "Chevreuse": {
-        "element": "Pyro",
-        "quality": "4",
-        "weapon": "Polearm",
-        "link": "https://genshin-impact.fandom.com/wiki/Chevreuse",
-        "src": {
-            "character": "Genshin/Characters/Pyro/Chevreuse.png",
-            "element": "Genshin/Ressources/Elements/Pyro.png",
-            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
-        }
-    },
     "Chiori": {
         "element": "Geo",
         "quality": "5",
@@ -162,17 +85,6 @@
             "character": "Genshin/Characters/Geo/Chiori.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
-        }
-    },
-    "Chongyun": {
-        "element": "Cryo",
-        "quality": "4",
-        "weapon": "Claymore",
-        "link": "https://genshin-impact.fandom.com/wiki/Chongyun",
-        "src": {
-            "character": "Genshin/Characters/Cryo/Chongyun.png",
-            "element": "Genshin/Ressources/Elements/Cryo.png",
-            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
     "Citlali": {
@@ -195,17 +107,6 @@
             "character": "Genshin/Characters/Electro/Clorinde.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
-        }
-    },
-    "Collei": {
-        "element": "Dendro",
-        "quality": "4",
-        "weapon": "Bow",
-        "link": "https://genshin-impact.fandom.com/wiki/Collei",
-        "src": {
-            "character": "Genshin/Characters/Dendro/Collei.png",
-            "element": "Genshin/Ressources/Elements/Dendro.png",
-            "weapon": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
     "Cyno": {
@@ -238,28 +139,6 @@
         "src": {
             "character": "Genshin/Characters/Pyro/Diluc.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
-            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
-        }
-    },
-    "Diona": {
-        "element": "Cryo",
-        "quality": "4",
-        "weapon": "Bow",
-        "link": "https://genshin-impact.fandom.com/wiki/Diona",
-        "src": {
-            "character": "Genshin/Characters/Cryo/Diona.png",
-            "element": "Genshin/Ressources/Elements/Cryo.png",
-            "weapon": "Genshin/Ressources/Weapons/Bow.png"
-        }
-    },
-    "Dori": {
-        "element": "Electro",
-        "quality": "4",
-        "weapon": "Claymore",
-        "link": "https://genshin-impact.fandom.com/wiki/Dori",
-        "src": {
-            "character": "Genshin/Characters/Electro/Dori.png",
-            "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
@@ -296,39 +175,6 @@
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
-    "Faruzan": {
-        "element": "Anemo",
-        "quality": "4",
-        "weapon": "Bow",
-        "link": "https://genshin-impact.fandom.com/wiki/Faruzan",
-        "src": {
-            "character": "Genshin/Characters/Anemo/Faruzan.png",
-            "element": "Genshin/Ressources/Elements/Anemo.png",
-            "weapon": "Genshin/Ressources/Weapons/Bow.png"
-        }
-    },
-    "Fischl": {
-        "element": "Electro",
-        "quality": "4",
-        "weapon": "Bow",
-        "link": "https://genshin-impact.fandom.com/wiki/Fischl",
-        "src": {
-            "character": "Genshin/Characters/Electro/Fischl.png",
-            "element": "Genshin/Ressources/Elements/Electro.png",
-            "weapon": "Genshin/Ressources/Weapons/Bow.png"
-        }
-    },
-    "Freminet": {
-        "element": "Cryo",
-        "quality": "4",
-        "weapon": "Claymore",
-        "link": "https://genshin-impact.fandom.com/wiki/Freminet",
-        "src": {
-            "character": "Genshin/Characters/Cryo/Freminet.png",
-            "element": "Genshin/Ressources/Elements/Cryo.png",
-            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
-        }
-    },
     "Furina": {
         "element": "Hydro",
         "quality": "5",
@@ -340,17 +186,6 @@
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
-    "Gaming": {
-        "element": "Pyro",
-        "quality": "4",
-        "weapon": "Claymore",
-        "link": "https://genshin-impact.fandom.com/wiki/Gaming",
-        "src": {
-            "character": "Genshin/Characters/Pyro/Gaming.png",
-            "element": "Genshin/Ressources/Elements/Pyro.png",
-            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
-        }
-    },
     "Ganyu": {
         "element": "Cryo",
         "quality": "5",
@@ -359,17 +194,6 @@
         "src": {
             "character": "Genshin/Characters/Cryo/Ganyu.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
-            "weapon": "Genshin/Ressources/Weapons/Bow.png"
-        }
-    },
-    "Gorou": {
-        "element": "Geo",
-        "quality": "4",
-        "weapon": "Bow",
-        "link": "https://genshin-impact.fandom.com/wiki/Gorou",
-        "src": {
-            "character": "Genshin/Characters/Geo/Gorou.png",
-            "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
@@ -384,28 +208,6 @@
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },
-    "Iansan": {
-        "element": "Electro",
-        "quality": "4",
-        "weapon": "Polearm",
-        "link": "https://genshin-impact.fandom.com/wiki/Iansan",
-        "src": {
-            "character": "Genshin/Characters/Electro/Iansan.png",
-            "element": "Genshin/Ressources/Elements/Electro.png",
-            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
-        }
-    },
-    "Ifa": {
-        "element": "Anemo",
-        "quality": "4",
-        "weapon": "Catalyst",
-        "link": "https://genshin-impact.fandom.com/wiki/Ifa",
-        "src": {
-            "character": "Genshin/Characters/Anemo/Ifa.png",
-            "element": "Genshin/Ressources/Elements/Anemo.png",
-            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
     "Jean": {
         "element": "Anemo",
         "quality": "5",
@@ -417,17 +219,6 @@
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
-    "Kachina": {
-        "element": "Geo",
-        "quality": "4",
-        "weapon": "Polearm",
-        "link": "https://genshin-impact.fandom.com/wiki/Kachina",
-        "src": {
-            "character": "Genshin/Characters/Geo/Kachina.png",
-            "element": "Genshin/Ressources/Elements/Geo.png",
-            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
-        }
-    },
     "Kaedehara Kazuha": {
         "element": "Anemo",
         "quality": "5",
@@ -436,17 +227,6 @@
         "src": {
             "character": "Genshin/Characters/Anemo/Kaedehara Kazuha.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
-            "weapon": "Genshin/Ressources/Weapons/Sword.png"
-        }
-    },
-    "Kaeya": {
-        "element": "Cryo",
-        "quality": "4",
-        "weapon": "Sword",
-        "link": "https://genshin-impact.fandom.com/wiki/Kaeya",
-        "src": {
-            "character": "Genshin/Characters/Cryo/Kaeya.png",
-            "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
@@ -472,17 +252,6 @@
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
-    "Kaveh": {
-        "element": "Dendro",
-        "quality": "4",
-        "weapon": "Claymore",
-        "link": "https://genshin-impact.fandom.com/wiki/Kaveh",
-        "src": {
-            "character": "Genshin/Characters/Dendro/Kaveh.png",
-            "element": "Genshin/Ressources/Elements/Dendro.png",
-            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
-        }
-    },
     "Keqing": {
         "element": "Electro",
         "quality": "5",
@@ -505,17 +274,6 @@
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
-    "Kirara": {
-        "element": "Dendro",
-        "quality": "4",
-        "weapon": "Sword",
-        "link": "https://genshin-impact.fandom.com/wiki/Kirara",
-        "src": {
-            "character": "Genshin/Characters/Dendro/Kirara.png",
-            "element": "Genshin/Ressources/Elements/Dendro.png",
-            "weapon": "Genshin/Ressources/Weapons/Sword.png"
-        }
-    },
     "Klee": {
         "element": "Pyro",
         "quality": "5",
@@ -525,72 +283,6 @@
             "character": "Genshin/Characters/Pyro/Klee.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
-    "Kujou Sara": {
-        "element": "Electro",
-        "quality": "4",
-        "weapon": "Bow",
-        "link": "https://genshin-impact.fandom.com/wiki/Kujou_Sara",
-        "src": {
-            "character": "Genshin/Characters/Electro/Kujou Sara.png",
-            "element": "Genshin/Ressources/Elements/Electro.png",
-            "weapon": "Genshin/Ressources/Weapons/Bow.png"
-        }
-    },
-    "Kuki Shinobu": {
-        "element": "Electro",
-        "quality": "4",
-        "weapon": "Sword",
-        "link": "https://genshin-impact.fandom.com/wiki/Kuki_Shinobu",
-        "src": {
-            "character": "Genshin/Characters/Electro/Kuki Shinobu.png",
-            "element": "Genshin/Ressources/Elements/Electro.png",
-            "weapon": "Genshin/Ressources/Weapons/Sword.png"
-        }
-    },
-    "Lan Yan": {
-        "element": "Anemo",
-        "quality": "4",
-        "weapon": "Catalyst",
-        "link": "https://genshin-impact.fandom.com/wiki/Lan_Yan",
-        "src": {
-            "character": "Genshin/Characters/Anemo/Lan Yan.png",
-            "element": "Genshin/Ressources/Elements/Anemo.png",
-            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
-    "Layla": {
-        "element": "Cryo",
-        "quality": "4",
-        "weapon": "Sword",
-        "link": "https://genshin-impact.fandom.com/wiki/Layla",
-        "src": {
-            "character": "Genshin/Characters/Cryo/Layla.png",
-            "element": "Genshin/Ressources/Elements/Cryo.png",
-            "weapon": "Genshin/Ressources/Weapons/Sword.png"
-        }
-    },
-    "Lisa": {
-        "element": "Electro",
-        "quality": "4",
-        "weapon": "Catalyst",
-        "link": "https://genshin-impact.fandom.com/wiki/Lisa",
-        "src": {
-            "character": "Genshin/Characters/Electro/Lisa.png",
-            "element": "Genshin/Ressources/Elements/Electro.png",
-            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
-    "Lynette": {
-        "element": "Anemo",
-        "quality": "4",
-        "weapon": "Sword",
-        "link": "https://genshin-impact.fandom.com/wiki/Lynette",
-        "src": {
-            "character": "Genshin/Characters/Anemo/Lynette.png",
-            "element": "Genshin/Ressources/Elements/Anemo.png",
-            "weapon": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
     "Lyney": {
@@ -613,17 +305,6 @@
             "character": "Genshin/Characters/Pyro/Mavuika.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
-        }
-    },
-    "Mika": {
-        "element": "Cryo",
-        "quality": "4",
-        "weapon": "Polearm",
-        "link": "https://genshin-impact.fandom.com/wiki/Mika",
-        "src": {
-            "character": "Genshin/Characters/Cryo/Mika.png",
-            "element": "Genshin/Ressources/Elements/Cryo.png",
-            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },
     "Mona": {
@@ -692,39 +373,6 @@
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
-    "Ningguang": {
-        "element": "Geo",
-        "quality": "4",
-        "weapon": "Catalyst",
-        "link": "https://genshin-impact.fandom.com/wiki/Ningguang",
-        "src": {
-            "character": "Genshin/Characters/Geo/Ningguang.png",
-            "element": "Genshin/Ressources/Elements/Geo.png",
-            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
-    "Noelle": {
-        "element": "Geo",
-        "quality": "4",
-        "weapon": "Claymore",
-        "link": "https://genshin-impact.fandom.com/wiki/Noelle",
-        "src": {
-            "character": "Genshin/Characters/Geo/Noelle.png",
-            "element": "Genshin/Ressources/Elements/Geo.png",
-            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
-        }
-    },
-    "Ororon": {
-        "element": "Electro",
-        "quality": "4",
-        "weapon": "Bow",
-        "link": "https://genshin-impact.fandom.com/wiki/Ororon",
-        "src": {
-            "character": "Genshin/Characters/Electro/Ororon.png",
-            "element": "Genshin/Ressources/Elements/Electro.png",
-            "weapon": "Genshin/Ressources/Weapons/Bow.png"
-        }
-    },
     "Qiqi": {
         "element": "Cryo",
         "quality": "5",
@@ -747,28 +395,6 @@
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },
-    "Razor": {
-        "element": "Electro",
-        "quality": "4",
-        "weapon": "Claymore",
-        "link": "https://genshin-impact.fandom.com/wiki/Razor",
-        "src": {
-            "character": "Genshin/Characters/Electro/Razor.png",
-            "element": "Genshin/Ressources/Elements/Electro.png",
-            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
-        }
-    },
-    "Rosaria": {
-        "element": "Cryo",
-        "quality": "4",
-        "weapon": "Polearm",
-        "link": "https://genshin-impact.fandom.com/wiki/Rosaria",
-        "src": {
-            "character": "Genshin/Characters/Cryo/Rosaria.png",
-            "element": "Genshin/Ressources/Elements/Cryo.png",
-            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
-        }
-    },
     "Sangonomiya Kokomi": {
         "element": "Hydro",
         "quality": "5",
@@ -778,28 +404,6 @@
             "character": "Genshin/Characters/Hydro/Sangonomiya Kokomi.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
-    "Sayu": {
-        "element": "Anemo",
-        "quality": "4",
-        "weapon": "Claymore",
-        "link": "https://genshin-impact.fandom.com/wiki/Sayu",
-        "src": {
-            "character": "Genshin/Characters/Anemo/Sayu.png",
-            "element": "Genshin/Ressources/Elements/Anemo.png",
-            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
-        }
-    },
-    "Sethos": {
-        "element": "Electro",
-        "quality": "4",
-        "weapon": "Bow",
-        "link": "https://genshin-impact.fandom.com/wiki/Sethos",
-        "src": {
-            "character": "Genshin/Characters/Electro/Sethos.png",
-            "element": "Genshin/Ressources/Elements/Electro.png",
-            "weapon": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
     "Shenhe": {
@@ -813,17 +417,6 @@
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },
-    "Shikanoin Heizou": {
-        "element": "Anemo",
-        "quality": "4",
-        "weapon": "Catalyst",
-        "link": "https://genshin-impact.fandom.com/wiki/Shikanoin_Heizou",
-        "src": {
-            "character": "Genshin/Characters/Anemo/Shikanoin Heizou.png",
-            "element": "Genshin/Ressources/Elements/Anemo.png",
-            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
     "Sigewinne": {
         "element": "Hydro",
         "quality": "5",
@@ -835,17 +428,6 @@
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
-    "Sucrose": {
-        "element": "Anemo",
-        "quality": "4",
-        "weapon": "Catalyst",
-        "link": "https://genshin-impact.fandom.com/wiki/Sucrose",
-        "src": {
-            "character": "Genshin/Characters/Anemo/Sucrose.png",
-            "element": "Genshin/Ressources/Elements/Anemo.png",
-            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
     "Tartaglia": {
         "element": "Hydro",
         "quality": "5",
@@ -855,17 +437,6 @@
             "character": "Genshin/Characters/Hydro/Tartaglia.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
-        }
-    },
-    "Thoma": {
-        "element": "Pyro",
-        "quality": "4",
-        "weapon": "Polearm",
-        "link": "https://genshin-impact.fandom.com/wiki/Thoma",
-        "src": {
-            "character": "Genshin/Characters/Pyro/Thoma.png",
-            "element": "Genshin/Ressources/Elements/Pyro.png",
-            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },
     "Tighnari": {
@@ -934,17 +505,6 @@
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
-    "Xiangling": {
-        "element": "Pyro",
-        "quality": "4",
-        "weapon": "Polearm",
-        "link": "https://genshin-impact.fandom.com/wiki/Xiangling",
-        "src": {
-            "character": "Genshin/Characters/Pyro/Xiangling.png",
-            "element": "Genshin/Ressources/Elements/Pyro.png",
-            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
-        }
-    },
     "Xianyun": {
         "element": "Anemo",
         "quality": "5",
@@ -978,28 +538,6 @@
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
-    "Xingqiu": {
-        "element": "Hydro",
-        "quality": "4",
-        "weapon": "Sword",
-        "link": "https://genshin-impact.fandom.com/wiki/Xingqiu",
-        "src": {
-            "character": "Genshin/Characters/Hydro/Xingqiu.png",
-            "element": "Genshin/Ressources/Elements/Hydro.png",
-            "weapon": "Genshin/Ressources/Weapons/Sword.png"
-        }
-    },
-    "Xinyan": {
-        "element": "Pyro",
-        "quality": "4",
-        "weapon": "Claymore",
-        "link": "https://genshin-impact.fandom.com/wiki/Xinyan",
-        "src": {
-            "character": "Genshin/Characters/Pyro/Xinyan.png",
-            "element": "Genshin/Ressources/Elements/Pyro.png",
-            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
-        }
-    },
     "Yae Miko": {
         "element": "Electro",
         "quality": "5",
@@ -1009,28 +547,6 @@
             "character": "Genshin/Characters/Electro/Yae Miko.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
-    "Yanfei": {
-        "element": "Pyro",
-        "quality": "4",
-        "weapon": "Catalyst",
-        "link": "https://genshin-impact.fandom.com/wiki/Yanfei",
-        "src": {
-            "character": "Genshin/Characters/Pyro/Yanfei.png",
-            "element": "Genshin/Ressources/Elements/Pyro.png",
-            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
-    },
-    "Yaoyao": {
-        "element": "Dendro",
-        "quality": "4",
-        "weapon": "Polearm",
-        "link": "https://genshin-impact.fandom.com/wiki/Yaoyao",
-        "src": {
-            "character": "Genshin/Characters/Dendro/Yaoyao.png",
-            "element": "Genshin/Ressources/Elements/Dendro.png",
-            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },
     "Yelan": {
@@ -1066,17 +582,6 @@
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
-    "Yun Jin": {
-        "element": "Geo",
-        "quality": "4",
-        "weapon": "Polearm",
-        "link": "https://genshin-impact.fandom.com/wiki/Yun_Jin",
-        "src": {
-            "character": "Genshin/Characters/Geo/Yun Jin.png",
-            "element": "Genshin/Ressources/Elements/Geo.png",
-            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
-        }
-    },
     "Zhongli": {
         "element": "Geo",
         "quality": "5",
@@ -1084,6 +589,501 @@
         "link": "https://genshin-impact.fandom.com/wiki/Zhongli",
         "src": {
             "character": "Genshin/Characters/Geo/Zhongli.png",
+            "element": "Genshin/Ressources/Elements/Geo.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Amber": {
+        "element": "Pyro",
+        "quality": "4",
+        "weapon": "Bow",
+        "link": "https://genshin-impact.fandom.com/wiki/Amber",
+        "src": {
+            "character": "Genshin/Characters/Pyro/Amber.png",
+            "element": "Genshin/Ressources/Elements/Pyro.png",
+            "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Barbara": {
+        "element": "Hydro",
+        "quality": "4",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Barbara",
+        "src": {
+            "character": "Genshin/Characters/Hydro/Barbara.png",
+            "element": "Genshin/Ressources/Elements/Hydro.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Beidou": {
+        "element": "Electro",
+        "quality": "4",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Beidou",
+        "src": {
+            "character": "Genshin/Characters/Electro/Beidou.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
+    "Bennett": {
+        "element": "Pyro",
+        "quality": "4",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Bennett",
+        "src": {
+            "character": "Genshin/Characters/Pyro/Bennett.png",
+            "element": "Genshin/Ressources/Elements/Pyro.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
+    "Candace": {
+        "element": "Hydro",
+        "quality": "4",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Candace",
+        "src": {
+            "character": "Genshin/Characters/Hydro/Candace.png",
+            "element": "Genshin/Ressources/Elements/Hydro.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Charlotte": {
+        "element": "Cryo",
+        "quality": "4",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Charlotte",
+        "src": {
+            "character": "Genshin/Characters/Cryo/Charlotte.png",
+            "element": "Genshin/Ressources/Elements/Cryo.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Chevreuse": {
+        "element": "Pyro",
+        "quality": "4",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Chevreuse",
+        "src": {
+            "character": "Genshin/Characters/Pyro/Chevreuse.png",
+            "element": "Genshin/Ressources/Elements/Pyro.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Chongyun": {
+        "element": "Cryo",
+        "quality": "4",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Chongyun",
+        "src": {
+            "character": "Genshin/Characters/Cryo/Chongyun.png",
+            "element": "Genshin/Ressources/Elements/Cryo.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
+    "Collei": {
+        "element": "Dendro",
+        "quality": "4",
+        "weapon": "Bow",
+        "link": "https://genshin-impact.fandom.com/wiki/Collei",
+        "src": {
+            "character": "Genshin/Characters/Dendro/Collei.png",
+            "element": "Genshin/Ressources/Elements/Dendro.png",
+            "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Diona": {
+        "element": "Cryo",
+        "quality": "4",
+        "weapon": "Bow",
+        "link": "https://genshin-impact.fandom.com/wiki/Diona",
+        "src": {
+            "character": "Genshin/Characters/Cryo/Diona.png",
+            "element": "Genshin/Ressources/Elements/Cryo.png",
+            "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Dori": {
+        "element": "Electro",
+        "quality": "4",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Dori",
+        "src": {
+            "character": "Genshin/Characters/Electro/Dori.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
+    "Faruzan": {
+        "element": "Anemo",
+        "quality": "4",
+        "weapon": "Bow",
+        "link": "https://genshin-impact.fandom.com/wiki/Faruzan",
+        "src": {
+            "character": "Genshin/Characters/Anemo/Faruzan.png",
+            "element": "Genshin/Ressources/Elements/Anemo.png",
+            "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Fischl": {
+        "element": "Electro",
+        "quality": "4",
+        "weapon": "Bow",
+        "link": "https://genshin-impact.fandom.com/wiki/Fischl",
+        "src": {
+            "character": "Genshin/Characters/Electro/Fischl.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Freminet": {
+        "element": "Cryo",
+        "quality": "4",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Freminet",
+        "src": {
+            "character": "Genshin/Characters/Cryo/Freminet.png",
+            "element": "Genshin/Ressources/Elements/Cryo.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
+    "Gaming": {
+        "element": "Pyro",
+        "quality": "4",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Gaming",
+        "src": {
+            "character": "Genshin/Characters/Pyro/Gaming.png",
+            "element": "Genshin/Ressources/Elements/Pyro.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
+    "Gorou": {
+        "element": "Geo",
+        "quality": "4",
+        "weapon": "Bow",
+        "link": "https://genshin-impact.fandom.com/wiki/Gorou",
+        "src": {
+            "character": "Genshin/Characters/Geo/Gorou.png",
+            "element": "Genshin/Ressources/Elements/Geo.png",
+            "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Iansan": {
+        "element": "Electro",
+        "quality": "4",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Iansan",
+        "src": {
+            "character": "Genshin/Characters/Electro/Iansan.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Ifa": {
+        "element": "Anemo",
+        "quality": "4",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Ifa",
+        "src": {
+            "character": "Genshin/Characters/Anemo/Ifa.png",
+            "element": "Genshin/Ressources/Elements/Anemo.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Kachina": {
+        "element": "Geo",
+        "quality": "4",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Kachina",
+        "src": {
+            "character": "Genshin/Characters/Geo/Kachina.png",
+            "element": "Genshin/Ressources/Elements/Geo.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Kaeya": {
+        "element": "Cryo",
+        "quality": "4",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Kaeya",
+        "src": {
+            "character": "Genshin/Characters/Cryo/Kaeya.png",
+            "element": "Genshin/Ressources/Elements/Cryo.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
+    "Kaveh": {
+        "element": "Dendro",
+        "quality": "4",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Kaveh",
+        "src": {
+            "character": "Genshin/Characters/Dendro/Kaveh.png",
+            "element": "Genshin/Ressources/Elements/Dendro.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
+    "Kirara": {
+        "element": "Dendro",
+        "quality": "4",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Kirara",
+        "src": {
+            "character": "Genshin/Characters/Dendro/Kirara.png",
+            "element": "Genshin/Ressources/Elements/Dendro.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
+    "Kujou Sara": {
+        "element": "Electro",
+        "quality": "4",
+        "weapon": "Bow",
+        "link": "https://genshin-impact.fandom.com/wiki/Kujou_Sara",
+        "src": {
+            "character": "Genshin/Characters/Electro/Kujou Sara.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Kuki Shinobu": {
+        "element": "Electro",
+        "quality": "4",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Kuki_Shinobu",
+        "src": {
+            "character": "Genshin/Characters/Electro/Kuki Shinobu.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
+    "Lan Yan": {
+        "element": "Anemo",
+        "quality": "4",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Lan_Yan",
+        "src": {
+            "character": "Genshin/Characters/Anemo/Lan Yan.png",
+            "element": "Genshin/Ressources/Elements/Anemo.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Layla": {
+        "element": "Cryo",
+        "quality": "4",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Layla",
+        "src": {
+            "character": "Genshin/Characters/Cryo/Layla.png",
+            "element": "Genshin/Ressources/Elements/Cryo.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
+    "Lisa": {
+        "element": "Electro",
+        "quality": "4",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Lisa",
+        "src": {
+            "character": "Genshin/Characters/Electro/Lisa.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Lynette": {
+        "element": "Anemo",
+        "quality": "4",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Lynette",
+        "src": {
+            "character": "Genshin/Characters/Anemo/Lynette.png",
+            "element": "Genshin/Ressources/Elements/Anemo.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
+    "Mika": {
+        "element": "Cryo",
+        "quality": "4",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Mika",
+        "src": {
+            "character": "Genshin/Characters/Cryo/Mika.png",
+            "element": "Genshin/Ressources/Elements/Cryo.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Ningguang": {
+        "element": "Geo",
+        "quality": "4",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Ningguang",
+        "src": {
+            "character": "Genshin/Characters/Geo/Ningguang.png",
+            "element": "Genshin/Ressources/Elements/Geo.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Noelle": {
+        "element": "Geo",
+        "quality": "4",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Noelle",
+        "src": {
+            "character": "Genshin/Characters/Geo/Noelle.png",
+            "element": "Genshin/Ressources/Elements/Geo.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
+    "Ororon": {
+        "element": "Electro",
+        "quality": "4",
+        "weapon": "Bow",
+        "link": "https://genshin-impact.fandom.com/wiki/Ororon",
+        "src": {
+            "character": "Genshin/Characters/Electro/Ororon.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Razor": {
+        "element": "Electro",
+        "quality": "4",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Razor",
+        "src": {
+            "character": "Genshin/Characters/Electro/Razor.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
+    "Rosaria": {
+        "element": "Cryo",
+        "quality": "4",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Rosaria",
+        "src": {
+            "character": "Genshin/Characters/Cryo/Rosaria.png",
+            "element": "Genshin/Ressources/Elements/Cryo.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Sayu": {
+        "element": "Anemo",
+        "quality": "4",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Sayu",
+        "src": {
+            "character": "Genshin/Characters/Anemo/Sayu.png",
+            "element": "Genshin/Ressources/Elements/Anemo.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
+    "Sethos": {
+        "element": "Electro",
+        "quality": "4",
+        "weapon": "Bow",
+        "link": "https://genshin-impact.fandom.com/wiki/Sethos",
+        "src": {
+            "character": "Genshin/Characters/Electro/Sethos.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Shikanoin Heizou": {
+        "element": "Anemo",
+        "quality": "4",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Shikanoin_Heizou",
+        "src": {
+            "character": "Genshin/Characters/Anemo/Shikanoin Heizou.png",
+            "element": "Genshin/Ressources/Elements/Anemo.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Sucrose": {
+        "element": "Anemo",
+        "quality": "4",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Sucrose",
+        "src": {
+            "character": "Genshin/Characters/Anemo/Sucrose.png",
+            "element": "Genshin/Ressources/Elements/Anemo.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Thoma": {
+        "element": "Pyro",
+        "quality": "4",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Thoma",
+        "src": {
+            "character": "Genshin/Characters/Pyro/Thoma.png",
+            "element": "Genshin/Ressources/Elements/Pyro.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Xiangling": {
+        "element": "Pyro",
+        "quality": "4",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Xiangling",
+        "src": {
+            "character": "Genshin/Characters/Pyro/Xiangling.png",
+            "element": "Genshin/Ressources/Elements/Pyro.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Xingqiu": {
+        "element": "Hydro",
+        "quality": "4",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Xingqiu",
+        "src": {
+            "character": "Genshin/Characters/Hydro/Xingqiu.png",
+            "element": "Genshin/Ressources/Elements/Hydro.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
+    "Xinyan": {
+        "element": "Pyro",
+        "quality": "4",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Xinyan",
+        "src": {
+            "character": "Genshin/Characters/Pyro/Xinyan.png",
+            "element": "Genshin/Ressources/Elements/Pyro.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
+    "Yanfei": {
+        "element": "Pyro",
+        "quality": "4",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Yanfei",
+        "src": {
+            "character": "Genshin/Characters/Pyro/Yanfei.png",
+            "element": "Genshin/Ressources/Elements/Pyro.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Yaoyao": {
+        "element": "Dendro",
+        "quality": "4",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Yaoyao",
+        "src": {
+            "character": "Genshin/Characters/Dendro/Yaoyao.png",
+            "element": "Genshin/Ressources/Elements/Dendro.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Yun Jin": {
+        "element": "Geo",
+        "quality": "4",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Yun_Jin",
+        "src": {
+            "character": "Genshin/Characters/Geo/Yun Jin.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
         }
