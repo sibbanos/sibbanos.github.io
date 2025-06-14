@@ -188,8 +188,9 @@ for character_list in soup.find_all('table')[4:] :
             sub_stats = {}
 
             # Get build name
+            for br in cell.find_all('br'):
+                br.replace_with(' ')
             build_name = cell.get_text().replace('✩', '').strip()
-            # print(character_name+' '+build_name)
 
             current_cell = cell
 

@@ -3094,7 +3094,7 @@ let genshinBuilds = {
         }
     },
     "Xingqiu": {
-        "HIGH ENERGY REQUIREMENT(OFF-FIELD DPS)": {
+        "HIGH ENERGY REQUIREMENT (OFF-FIELD DPS)": {
             "weapons": {
                 "1": "Favonius Sword",
                 "2": "Skyward Blade",
@@ -3151,7 +3151,7 @@ let genshinBuilds = {
                 "4": "Energy Recharge"
             }
         },
-        "LOW ENERGY REQUIREMENT(OFF-FIELD DPS)": {
+        "LOW ENERGY REQUIREMENT (OFF-FIELD DPS)": {
             "weapons": {
                 "1": "Primordial Jade Cutter",
                 "2": "Mistsplitter Reforged",
@@ -3619,7 +3619,7 @@ let genshinBuilds = {
         }
     },
     "Yelan": {
-        "HIGH ENERGY REQUIREMENT(OFF-FIELD DPS)": {
+        "HIGH ENERGY REQUIREMENT (OFF-FIELD DPS)": {
             "weapons": {
                 "1": "Elegy for the End",
                 "2": "Favonius Warbow",
@@ -3665,7 +3665,7 @@ let genshinBuilds = {
                 "5": "Flat HP"
             }
         },
-        "LOW ENERGY REQUIREMENT(OFF-FIELD DPS)": {
+        "LOW ENERGY REQUIREMENT (OFF-FIELD DPS)": {
             "weapons": {
                 "1": "Aqua Simulacra",
                 "2": "Silvershower Heartstrings",
@@ -4251,7 +4251,7 @@ let genshinBuilds = {
         }
     },
     "Rosaria": {
-        "REVERSEMELT": {
+        "REVERSE MELT": {
             "weapons": {
                 "1": "Staff of the Scarlet Sands",
                 "2": "Crimson Moon's Semblance",
@@ -5811,7 +5811,7 @@ let genshinBuilds = {
         }
     },
     "Lan Yan": {
-        "SHIELD & BUFFSUPPORT": {
+        "SHIELD & BUFF SUPPORT": {
             "weapons": {
                 "1": "Starcaller's Watch",
                 "2": "Thrilling Tales of Dragon Slayers",
@@ -5967,7 +5967,7 @@ let genshinBuilds = {
         }
     },
     "Venti": {
-        "REACTIONOFF-FIELD DPS": {
+        "REACTION OFF-FIELD DPS": {
             "weapons": {
                 "1": "Elegy for the End",
                 "2": "The Stringless",
@@ -6265,7 +6265,7 @@ let genshinBuilds = {
         }
     },
     "Xianyun": {
-        "HIGH ENERGY REQUIREMENTBUFF & HEAL SUPPORT": {
+        "HIGH ENERGY REQUIREMENT  BUFF & HEAL SUPPORT": {
             "weapons": {
                 "1": "Crane's Echoing Call",
                 "2": "Favonius Codex",
@@ -6322,7 +6322,7 @@ let genshinBuilds = {
                 "3": "Flat ATK"
             }
         },
-        "LOW ENERGY REQUIREMENTBUFF & HEAL SUPPORT": {
+        "LOW ENERGY REQUIREMENT  BUFF & HEAL SUPPORT": {
             "weapons": {
                 "1": "Crane's Echoing Call",
                 "2": "Skyward Atlas",
@@ -6768,7 +6768,7 @@ let genshinBuilds = {
         }
     },
     "Albedo": {
-        "SKILL ONLYOFF-FIELD DPS": {
+        "SKILL ONLY OFF-FIELD DPS": {
             "weapons": {
                 "1": "Peak Patrol Song",
                 "2": "Uraku Misugiri",
@@ -6821,7 +6821,7 @@ let genshinBuilds = {
                 "5": "Energy Recharge"
             }
         },
-        "SKILL + BURSTOFF-FIELD DPS": {
+        "SKILL + BURST OFF-FIELD DPS": {
             "weapons": {
                 "1": "Peak Patrol Song",
                 "2": "Uraku Misugiri",
