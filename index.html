@@ -170,7 +170,45 @@
                             <p id="genshinWeaponAbilityDescription" class="break-words"></p>
                         </div>
 
-                        <div id="todoWeapon" class="mt-4 pt-4 border-t border-t-lavender-purple-500"></div>
+                        <!-- Weapon usage -->
+                        <div class="mt-4 pt-4 border-t border-t-lavender-purple-500 grid grid-cols-6 gap-4">
+                            <!-- Rank against F2P only -->
+                            <div id="genshinWeaponRankF2POnlyContainer" class="flex justify-end col-span-6 ">
+                                <label class="flex items-center cursor-pointer relative">
+                                    <input id="genshinWeaponRankF2POnly" type="checkbox" class="peer h-5 w-5 cursor-pointer transition-all appearance-none rounded shadow border bg-white border-slate-300 checked:bg-pastel-violet-500 checked:border-lavender-purple-500" />
+                                    <span class="absolute text-white opacity-0 peer-checked:opacity-100 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor" stroke="currentColor" stroke-width="1">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </span>
+                                </label>
+                                <label class="ml-2 text-xl cursor-pointer" for="genshinWeaponRankF2POnly">Rank against F2P only</label>
+                            </div>
+
+                            <!-- Bis -->
+                            <div class="col-span-6 lg:col-span-2">
+                                <span class="text-lg font-bold">BiS</span>
+                                <div id="genshinWeaponUsage1" class="flex flex-wrap gap-5 justify-center min-h-16 p-4 rounded-md border border-gray-200 bg-white shadow-md"></div>
+                            </div>
+
+                            <!-- 2nd -->
+                            <div class="col-span-6 lg:col-span-2">
+                                <span class="text-lg font-bold">2nd</span>
+                                <div id="genshinWeaponUsage2" class="flex flex-wrap gap-5 justify-center min-h-16 p-4 rounded-md border border-gray-200 bg-white shadow-md"></div>
+                            </div>
+
+                            <!-- 3rd -->
+                            <div class="col-span-6 lg:col-span-2">
+                                <span class="text-lg font-bold">3rd</span>
+                                <div id="genshinWeaponUsage3" class="flex flex-wrap gap-5 justify-center min-h-16 p-4 rounded-md border border-gray-200 bg-white shadow-md"></div>
+                            </div>
+
+                            <!-- Other -->
+                            <div class="col-span-6">
+                                <span class="text-lg font-bold">Other</span>
+                                <div id="genshinWeaponUsageOther" class="flex flex-wrap gap-5 justify-center min-h-16 p-4 rounded-md border border-gray-200 bg-white shadow-md"></div>
+                            </div>
+                        </div>
                     </div>
 
                     <div id="genshinArtifact">
@@ -202,6 +240,7 @@
                 <template id="genshinCard">
                     <a data-element="" data-quality="" data-weapon=""  href="" class="genshinCardContainer relative transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:z-20">
                         <div class="flex flex-col absolute right-0 top-0 -translate-y-4 translate-x-4 gap-y-2">
+                            <span class="genshinCardRank h-8 w-8 p-0.5 bg-gray-600 border border-gray-800 rounded-2xl text-center text-white font-bold"></span>
                             <img class="genshinCardElement h-8 w-8 p-0.5 bg-gray-600 border border-gray-800 rounded-2xl" src="">
                             <img class="genshinCardWeapon h-8 w-8 p-0.5 bg-gray-600 border border-gray-800 rounded-2xl" src="">
                         </div>

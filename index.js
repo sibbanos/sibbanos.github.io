@@ -111,6 +111,11 @@ document.querySelector('#genshinCharacterBuildTabContainer').addEventListener('c
     }
 });
 
+// Rank weapon against all or f2p only
+document.querySelector('#genshinWeaponRankF2POnly').addEventListener('change', (e) => {
+    genshinWeaponUsage(e.currentTarget.dataset.weaponName, e.currentTarget.checked);
+});
+
 // Create tooltip
 tippy('[data-tippy-content]');
 
@@ -244,11 +249,6 @@ function GenshinCharacters() {
     // Show filter
     genshinShowFilter();
 
-    // Sort character by quality
-    genshinCharacters = Object.fromEntries(
-        Object.entries(genshinCharacters).sort(([, a], [, b]) => b.quality - a.quality)
-    );
-
     // Create parent row
     const row = document.createElement('div');
     row.className = 'flex flex-wrap gap-5 justify-center';
@@ -280,6 +280,9 @@ function GenshinCharacters() {
             clone.querySelector('.genshinCardElement').remove();
         }
 
+        // Remove rank
+        clone.querySelector('.genshinCardRank').remove();
+
         row.appendChild(clone);
     }
 
@@ -296,12 +299,6 @@ function GenshinWeapons() {
 
     // Show filter
     genshinShowFilter([1, 2, 3, 4, 5], false);
-
-    // Sort weapon by name
-    genshinWeapons = Object.keys(genshinWeapons).sort().reduce((r, k) => (r[k] = genshinWeapons[k], r), {});
-
-    // Sort weapon by quality
-    genshinWeapons = Object.fromEntries(Object.entries(genshinWeapons).sort(([, a], [, b]) => b.quality - a.quality));
 
     // Create parent row
     const row = document.createElement('div');
@@ -325,9 +322,10 @@ function GenshinWeapons() {
         clone.querySelector('.genshinCardIcon').src = weaponInfo.src.weapon;
         clone.querySelector('.genshinCardName').textContent = weapon;
         clone.querySelector('.genshinCardWeapon').src = weaponInfo.src.weapon_type;
-
-        // Remove element
+        
+        // Remove element & rank
         clone.querySelector('.genshinCardElement').remove();
+        clone.querySelector('.genshinCardRank').remove();
 
         row.appendChild(clone);
     }
@@ -345,12 +343,6 @@ function GenshinArtifacts() {
 
     // Show filter
     genshinShowFilter([1, 3, 4, 5], false, false);
-
-    // Sort artifact by name
-    genshinArtifacts = Object.keys(genshinArtifacts).sort().reduce((r, k) => (r[k] = genshinArtifacts[k], r), {});
-
-    // Sort artifact by quality
-    genshinArtifacts = Object.fromEntries(Object.entries(genshinArtifacts).sort(([, a], [, b]) => b.quality[b.quality.length - 1] - a.quality[a.quality.length - 1]));
 
     // Create parent row
     const row = document.createElement('div');
@@ -374,8 +366,9 @@ function GenshinArtifacts() {
         clone.querySelector('.genshinCardIcon').src = artifactInfo.pieces[0].src.artifact;
         clone.querySelector('.genshinCardName').textContent = artifact;
 
-        // Remove element & weapon
+        // Remove element & rank & weapon
         clone.querySelector('.genshinCardElement').remove();
+        clone.querySelector('.genshinCardRank').remove();
         clone.querySelector('.genshinCardWeapon').remove();
 
         row.appendChild(clone);
@@ -422,7 +415,7 @@ function GenshinCharacter(character) {
     document.querySelector('#genshinCharacterBuildNavContainer').innerHTML = '';
     document.querySelector('#genshinCharacterBuildTabContainer').innerHTML = '';
 
-    // Decoce character name
+    // Decode character name
     character = decodeURI(character);
 
     // Get character info
@@ -763,12 +756,12 @@ function GenshinWeapon(weapon) {
     // Show default content
     genshinPage();
     document.querySelector('#genshinWeapon').hidden = false;
+    document.querySelector('#genshinWeaponRankF2POnly').checked = false;
 
     // Empty page
     document.querySelector('#genshinWeaponInfo').innerHTML = '';
-    document.querySelector('#todoWeapon').innerHTML = '';
 
-    // Decoce weapon name
+    // Decode weapon name
     weapon = decodeURI(weapon);
 
     // Get weapon info
@@ -817,6 +810,120 @@ function GenshinWeapon(weapon) {
     } else {
         document.querySelector('#genshinWeaponSecondaryStatContainer').hidden = true;
     }
+
+    // Set checkbox dataset
+    document.querySelector('#genshinWeaponRankF2POnly').dataset.weaponName = weapon;
+
+    // Hide checkbox if weapon is a 5*
+    if (Number(weaponInfo.quality) === 5) {
+        document.querySelector('#genshinWeaponRankF2POnlyContainer').hidden = true;
+    } else {
+        document.querySelector('#genshinWeaponRankF2POnlyContainer').hidden = false;
+    }
+
+    // Show usage by build
+    genshinWeaponUsage(weapon);
+}
+
+/**
+ * Show weapon usage by build
+ * 
+ * @param {string} weaponName 
+ * @param {Boolean} f2p 
+ */
+function genshinWeaponUsage(weaponName, f2p = false) {
+    // Empty usage
+    document.querySelector('#genshinWeaponUsage1').innerHTML = '<span class="font-bold">Nobody</span>';
+    document.querySelector('#genshinWeaponUsage2').innerHTML = '<span class="font-bold">Nobody</span>';
+    document.querySelector('#genshinWeaponUsage3').innerHTML = '<span class="font-bold">Nobody</span>';
+    document.querySelector('#genshinWeaponUsageOther').innerHTML = '<span class="font-bold">Nobody</span>';
+
+    let weaponUsage = {};
+
+    // For each character
+    for (characterName in genshinBuilds) {
+        const builds = genshinBuilds[characterName];
+
+        // For each build
+        for (buildName in builds) {
+            const weapons = builds[buildName].weapons;
+            let f2pRank = 1;
+
+            // For each weapon
+            for (weaponRank in weapons) {
+                // If weapon is in build
+                if (weapons[weaponRank] === weaponName) {
+                    // If f2p only get f2p rank
+                    if (f2p) {
+                        weaponRank = f2pRank;
+                    }
+
+                    // Create entry in object
+                    if (typeof weaponUsage[weaponRank] === 'undefined') {
+                        weaponUsage[weaponRank] = [];
+                    }
+
+                    // Add weapon to usage list
+                    weaponUsage[weaponRank].push({
+                        characterName: characterName,
+                        buildName: buildName,
+                    });
+
+                    break;
+                }
+
+                // Add +1 if weapon is 4* or below
+                if (f2p && Number(genshinWeapons[weapons[weaponRank]].quality) < 5) {
+                    f2pRank++;
+                }
+            }
+        }
+    }
+
+    // Empty div if there is at least 1 character
+    for (weaponRank in weaponUsage) {
+        if (Number(weaponRank) >= 4) {
+            document.querySelector('#genshinWeaponUsageOther').innerHTML = '';
+            break;
+        }
+
+        document.querySelector(`#genshinWeaponUsage${weaponRank}`).innerHTML = '';
+    }
+
+    // Show each usage
+    for (weaponRank in weaponUsage) {
+        weaponUsage[weaponRank].forEach((build) => {
+            const characterName = build.characterName;
+            const characterInfo = genshinCharacters[characterName];
+            const template = document.querySelector("#genshinCard");
+            const clone = document.importNode(template.content, true);
+
+            // Change background based on quality
+            clone.querySelector('.genshinCardIcon').className += qualityClass(characterInfo.quality);
+            
+            // Set value
+            clone.querySelector('.genshinCardContainer').href = `#Genshin#Character#${characterName}`;
+            clone.querySelector('.genshinCardIcon').src = characterInfo.src.character;
+            clone.querySelector('.genshinCardName').innerHTML = `${characterName}<br>${build.buildName}`;
+            clone.querySelector('.genshinCardWeapon').src = characterInfo.src.weapon;
+
+            // If weapon rank is 4 or more show rank in card
+            if (Number(weaponRank) >= 4) {
+                clone.querySelector('.genshinCardRank').textContent = weaponRank;
+            } else {
+                clone.querySelector('.genshinCardRank').remove();
+            }
+
+            // Remove element for Traveler
+            if (characterName !== 'Traveler') {
+                clone.querySelector('.genshinCardElement').src = characterInfo.src.element;
+            } else {
+                clone.querySelector('.genshinCardElement').remove();
+            }
+
+            document.querySelector(`#genshinWeaponUsage${Number(weaponRank) >= 4 ? 'Other' : weaponRank}`).appendChild(clone);
+        });
+    }
 }
 
 /**
@@ -833,7 +940,7 @@ function GenshinArtifact(artifact) {
     document.querySelector('#genshinArtifactInfo').innerHTML = '';
     document.querySelector('#todoArtifact').innerHTML = '';
 
-    // Decoce artifact name
+    // Decode artifact name
     artifact = decodeURI(artifact);
 
     // Get artifact info
