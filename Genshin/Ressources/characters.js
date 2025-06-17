@@ -428,6 +428,17 @@ let genshinCharacters = {
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
+    "Skirk": {
+        "element": "Cryo",
+        "quality": "5",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Skirk",
+        "src": {
+            "character": "Genshin/Characters/Cryo/Skirk.png",
+            "element": "Genshin/Ressources/Elements/Cryo.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
     "Tartaglia": {
         "element": "Hydro",
         "quality": "5",
@@ -690,6 +701,17 @@ let genshinCharacters = {
             "character": "Genshin/Characters/Dendro/Collei.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Dahlia": {
+        "element": "Hydro",
+        "quality": "4",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Dahlia",
+        "src": {
+            "character": "Genshin/Characters/Hydro/Dahlia.png",
+            "element": "Genshin/Ressources/Elements/Hydro.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
     "Diona": {

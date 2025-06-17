@@ -90,6 +90,19 @@ let genshinWeapons = {
             "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
+    "Azurelight": {
+        "type": "Sword",
+        "quality": "5",
+        "first_stat": "674",
+        "second_stat": "22.1%",
+        "second_stat_type": "CRIT Rate",
+        "ability": "White Mountain's Bounty\nWithin 12s after an Elemental Skill is used, ATK is increased by 24~48%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 24~48%, and CRIT DMG will be increased by 40~80%.",
+        "link": "https://genshin-impact.fandom.com/wiki/Azurelight",
+        "src": {
+            "weapon": "Genshin/Weapons/Swords/Azurelight.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
     "Beacon of the Reed Sea": {
         "type": "Claymore",
         "quality": "5",
