@@ -2601,6 +2601,69 @@ let genshinBuilds = {
             }
         }
     },
+    "Skirk": {
+        "DPS": {
+            "weapons": {
+                "1": "Azurelight",
+                "2": "Haran Geppaku Futsu",
+                "3": "Mistsplitter Reforged",
+                "4": "Primordial Jade Cutter",
+                "5": "Calamity of Eshu",
+                "6": "Uraku Misugiri",
+                "7": "Absolution",
+                "8": "Light of Foliar Incision",
+                "9": "Finale of the Deep",
+                "10": "Summit Shaper",
+                "11": "The Black Sword"
+            },
+            "artifacts": {
+                "1": [
+                    "Finale of the Deep Galleries"
+                ],
+                "2": [
+                    "Desert Pavilion Chronicle"
+                ],
+                "3": [
+                    "Blizzard Strayer",
+                    "Finale of the Deep Galleries",
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner",
+                    "Marechaussee Hunter"
+                ],
+                "4": [
+                    "Marechaussee Hunter"
+                ],
+                "5": [
+                    "Blizzard Strayer"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "Cryo DMG",
+                    "ATK%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "ATK%"
+            }
+        }
+    },
     "Tartaglia": {
         "DPS": {
             "weapons": {
@@ -2617,9 +2680,9 @@ let genshinBuilds = {
                 "11": "The Stringless",
                 "12": "Scion of the Blazing Sun",
                 "13": "Blackcliff Warbow",
-                "14": "Windblume Ode",
-                "15": "Hamayumi",
-                "16": "Chain Breaker",
+                "14": "Chain Breaker",
+                "15": "Windblume Ode",
+                "16": "Hamayumi",
                 "17": "Mouun's Moon",
                 "18": "Rust"
             },
@@ -4499,6 +4562,48 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%",
                 "5": "Elemental Mastery"
+            }
+        }
+    },
+    "Dahlia": {
+        "SHIELD SUPPORT": {
+            "weapons": {
+                "1": "Favonius Sword",
+                "2": "Key of Khaj-Nisut",
+                "3": "The Dockhand's Assistant",
+                "4": "Peak Patrol Song",
+                "5": "Freedom-Sworn",
+                "6": "Skyrider Sword"
+            },
+            "artifacts": {
+                "1": [
+                    "Noblesse Oblige"
+                ],
+                "2": [
+                    "Tenacity of the Millelith",
+                    "Vourukasha's Glow"
+                ],
+                "3": [
+                    "Scroll of the Hero of Cinder City"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "Energy Recharge",
+                    "HP%"
+                ],
+                "Goblet": [
+                    "HP%"
+                ],
+                "Circlet": [
+                    "HP%"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "HP%",
+                "3": "Crit Rate",
+                "4": "Flat HP"
             }
         }
     },

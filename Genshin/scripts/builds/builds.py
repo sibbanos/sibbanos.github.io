@@ -88,6 +88,8 @@ correct_weapon_name = {
     'Wolf Fang' : 'Wolf-Fang',
     "''The Catch''" : '"The Catch"',
     'Sunny Morning Sleep In' : 'Sunny Morning Sleep-In',
+    'Key of Khaj Nisut' : 'Key of Khaj-Nisut',
+    'Haran Gepakku Futsu' : 'Haran Geppaku Futsu',
 }
 def correctWeapon(weapon) :
     if weapon in correct_weapon_name :
@@ -118,6 +120,7 @@ correct_stat_name = {
     'Energy Recharge%' : 'Energy Recharge',
     'Healing Bonus%' : 'Healing Bonus',
     'Crit Rate%' : 'Crit Rate',
+    'CRIT Rate' : 'Crit Rate',
     'Physical DMG%' : 'Physical DMG',
     'Cryo DMG%' : 'Cryo DMG',
     'Anemo Damage' : 'Anemo DMG',
