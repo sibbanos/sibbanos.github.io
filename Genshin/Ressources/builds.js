@@ -111,20 +111,21 @@ let genshinBuilds = {
         "SPREAD DPS": {
             "weapons": {
                 "1": "Light of Foliar Incision",
-                "2": "Primordial Jade Cutter",
-                "3": "Mistsplitter Reforged",
-                "4": "Haran Geppaku Futsu",
-                "5": "Freedom-Sworn",
-                "6": "Wolf-Fang",
-                "7": "Toukabou Shigure",
-                "8": "The Black Sword",
-                "9": "Summit Shaper",
-                "10": "Iron Sting",
-                "11": "Blackcliff Longsword",
-                "12": "Harbinger of Dawn",
-                "13": "Xiphos' Moonlight",
-                "14": "Festering Desire",
-                "15": "Skyward Blade"
+                "2": "Uraku Misugiri",
+                "3": "Primordial Jade Cutter",
+                "4": "Mistsplitter Reforged",
+                "5": "Haran Geppaku Futsu",
+                "6": "Freedom-Sworn",
+                "7": "Wolf-Fang",
+                "8": "Toukabou Shigure",
+                "9": "The Black Sword",
+                "10": "Summit Shaper",
+                "11": "Iron Sting",
+                "12": "Blackcliff Longsword",
+                "13": "Harbinger of Dawn",
+                "14": "Xiphos' Moonlight",
+                "15": "Festering Desire",
+                "16": "Skyward Blade"
             },
             "artifacts": {
                 "1": [
@@ -2624,6 +2625,9 @@ let genshinBuilds = {
                     "Desert Pavilion Chronicle"
                 ],
                 "3": [
+                    "Gladiator's Finale"
+                ],
+                "4": [
                     "Blizzard Strayer",
                     "Finale of the Deep Galleries",
                     "Echoes of an Offering",
@@ -2635,9 +2639,6 @@ let genshinBuilds = {
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
-                    "Marechaussee Hunter"
-                ],
-                "4": [
                     "Marechaussee Hunter"
                 ],
                 "5": [
@@ -4218,15 +4219,16 @@ let genshinBuilds = {
             "weapons": {
                 "1": "Mistsplitter Reforged",
                 "2": "Absolution",
-                "3": "Aquila Favonia",
-                "4": "The Alley Flash",
-                "5": "Freedom-Sworn",
-                "6": "Peak Patrol Song",
-                "7": "Skyward Blade",
-                "8": "Sapwood Blade",
-                "9": "Prototype Rancour",
-                "10": "Calamity of Eshu",
-                "11": "Favonius Sword"
+                "3": "Azurelight",
+                "4": "Aquila Favonia",
+                "5": "The Alley Flash",
+                "6": "Freedom-Sworn",
+                "7": "Peak Patrol Song",
+                "8": "Skyward Blade",
+                "9": "Sapwood Blade",
+                "10": "Prototype Rancour",
+                "11": "Calamity of Eshu",
+                "12": "Favonius Sword"
             },
             "artifacts": {
                 "1": [
