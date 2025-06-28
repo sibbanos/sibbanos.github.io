@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/forms";
 
 @theme {
     --color-thistle-500: #E0BBE4;
@@ -19,7 +20,6 @@
 }
 
 @custom-variant hs-tab-active {
-
   &[data-hs-tab].active {
     @slot;
   }
@@ -37,4 +37,8 @@
   .genshinNav {
     @apply flex px-3 py-2 gap-2 rounded-lg bg-gradient-to-b bg-white hover:from-cotton-candy-500 aria-selected:from-cotton-candy-500
   }
+}
+
+.word-break {
+  word-break: break-word;
 }

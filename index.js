@@ -1,3 +1,42 @@
+const genshinMainStats = {
+    Flower: [
+        'Flat HP',
+    ],
+    Plume: [
+        'Flat ATK',
+    ],
+    Sands: [
+        'HP%',
+        'ATK%',
+        'DEF%',
+        'Elemental Mastery',
+        'Energy Recharge',
+    ],
+    Goblet: [
+        'HP%',
+        'ATK%',
+        'DEF%',
+        'Elemental Mastery',
+        'Anemo DMG',
+        'Cryo DMG',
+        'Dendro DMG',
+        'Electro DMG',
+        'Geo DMG',
+        'Hydro DMG',
+        'Pyro DMG',
+        'Physical DMG',
+    ],
+    Circlet: [
+        'HP%',
+        'ATK%',
+        'DEF%',
+        'Elemental Mastery',
+        'Crit Rate',
+        'Crit DMG',
+        'Healing Bonus',
+    ],
+};
+
 let delegateInstance = {};
 
 window.addEventListener('hashchange', () => {
@@ -121,6 +160,75 @@ document.querySelector('#genshinArtifactBiSOnly').addEventListener('change', (e)
     genshinArtifactUsage(e.currentTarget.dataset.artifactName, e.currentTarget.checked);
 });
 
+// Build Finder change type
+document.querySelectorAll('#genshinBuildFinderType .option').forEach((e) => {
+    e.addEventListener('click', () => {
+        genshinBuildFinderReset(e);
+
+        // Find build
+        findBuild();
+    });
+});
+
+// Build Finder change set
+document.querySelector('#genshinBuildFinderSetContainer').addEventListener('click', (e) => {
+    const option = e.target.closest('.option');
+    if (option) {
+        // Change button value and text
+        document.querySelector('#genshinBuildFinderSet').dataset.value = option.dataset.set;
+        document.querySelector('#genshinBuildFinderSet button span').innerHTML = option.innerHTML;
+    
+        // Close list
+        document.querySelector('#genshinBuildFinderSet').classList.remove('open');
+        document.querySelector('#genshinBuildFinderSet .hs-dropdown-menu').classList.add('hidden');
+    
+        // Find build
+        findBuild();
+    }
+});
+
+// Filter build finder set
+document.querySelector('#genshinBuildFinderSetSearch input').addEventListener('input', genshinBuildFinderFilterArtifact);
+
+// Hide sub stat when main stat change
+document.querySelectorAll('#genshinBuildFinderMainStatContainer input').forEach((e) => {
+    e.addEventListener('change', () => {
+        genshinBuildFinderHideSubStats();
+
+        // Find build
+        findBuild();
+    });
+});
+
+// Prevent 5 sub stat from being checked
+document.querySelectorAll('#genshinBuildFinderSubStatContainer input').forEach((e) => {
+    e.addEventListener('change', (f) => {
+        if (document.querySelectorAll('#genshinBuildFinderSubStatContainer input:checked').length > 4) {
+            f.currentTarget.checked = false;
+        } else {
+            // Find build
+            findBuild();
+        }
+    });
+});
+
+// Disable build finder BiS only if use as 5 piece is checked
+document.querySelector('#genshinBuildFinderUseAs5Piece').addEventListener('change', (e) => {
+    const genshinBuildFinderBiSOnly = document.querySelector('#genshinBuildFinderBiSOnly');
+    if (e.currentTarget.checked) {
+        genshinBuildFinderBiSOnly.parentElement.classList.add('opacity-40');
+        genshinBuildFinderBiSOnly.disabled = true;
+    } else {
+        genshinBuildFinderBiSOnly.parentElement.classList.remove('opacity-40');
+        genshinBuildFinderBiSOnly.disabled = false;
+    }
+});
+
+// Find build on change
+document.querySelectorAll('#genshinBuildFinderNumbersOfSubStat, #genshinBuildFinderUseAs5Piece, #genshinBuildFinderBiSOnly').forEach((e) => {
+    e.addEventListener('change', findBuild);
+});
+
 // Create tooltip
 tippy('[data-tippy-content]');
 
@@ -171,6 +279,285 @@ function genshinFilterList() {
 }
 
 /**
+ * Reset form
+ * 
+ * @param {Object} e 
+ */
+function genshinBuildFinderReset(e) {
+    const type = e.dataset.type;
+
+    // Do nothing if same type has current one
+    if (type !== document.querySelector('#genshinBuildFinderType').dataset.value) {
+        // Change button value and text
+        document.querySelector('#genshinBuildFinderType').dataset.value = type;
+        document.querySelector('#genshinBuildFinderType button span').innerHTML = e.innerHTML;
+
+        // Show search set input
+        document.querySelector('#genshinBuildFinderSetSearch').hidden = false;
+
+        // Show options
+        document.querySelector('#genshinBuildFinderOptionsContainer').hidden = false;
+
+        // Empty set list
+        const genshinBuildFinderSetContainer = document.querySelector('#genshinBuildFinderSetContainer');
+        genshinBuildFinderSetContainer.innerHTML = '';
+
+        // Sort artifacts by name
+        const sortedArtifacts = {};
+        Object.keys(genshinArtifacts).sort().forEach((key) => {
+            sortedArtifacts[key] = genshinArtifacts[key];
+        });
+
+        // Get previous set
+        const selectedSet = document.querySelector('#genshinBuildFinderSet').dataset.value;
+
+        // Reset set button text
+        document.querySelector('#genshinBuildFinderSet button span').innerHTML = 'Set';
+
+        // Create each set row
+        for (setName in sortedArtifacts) {
+            const artifact = genshinArtifacts[setName];
+
+            for (pieceIndex in artifact['pieces']) {
+                piece = artifact['pieces'][pieceIndex];
+
+                // Test if current set has current piece type
+                if (type === piece['type']) {
+                    const template = document.querySelector("#genshinBuildFinderSetRow");
+                    const clone = document.importNode(template.content, true);
+
+                    // Set dataset
+                    clone.querySelector('div').dataset.set = setName;
+
+                    // Set src
+                    clone.querySelector('img').src = piece['src']['artifact'];
+
+                    // Set text
+                    clone.querySelector('span').textContent = setName;
+
+                    // If current set is the selected set change button text
+                    if (selectedSet === setName) {
+                        document.querySelector('#genshinBuildFinderSet button span').innerHTML = clone.querySelector('div').innerHTML;
+                    }
+
+                    genshinBuildFinderSetContainer.appendChild(clone);
+
+                    continue;
+                }
+            }
+        }
+
+        // Keep current filter
+        genshinBuildFinderFilterArtifact();
+
+        // Get previous main stat
+        const genshinBuildFinderMainStatContainer = document.querySelector('#genshinBuildFinderMainStatContainer');
+        const checkedMainStat = genshinBuildFinderMainStatContainer.querySelector('input:checked');
+
+        // Hide every main stat
+        genshinBuildFinderMainStatContainer.querySelectorAll('div').forEach((f) => {
+            f.hidden = true;
+        });
+
+        let checked = false;
+
+        // Show available main stat
+        genshinMainStats[type].forEach((f) => {
+            const reducedMainStat = f.replace('%', '').replace(' ', '');
+
+            // Show main stat
+            const input = document.querySelector(`#genshinBuildFinderMainStat${reducedMainStat}`);
+            input.parentElement.hidden = false;
+
+            // If current main stat is the selected stat, check it
+            if (checkedMainStat !== null && checkedMainStat.value === f) {
+                input.checked = true;
+                checked = true;
+            }
+        })
+
+        // If nothing checked, check first element
+        if (!checked) {
+            genshinBuildFinderMainStatContainer.querySelector('div:not([hidden]) > input').checked = true;
+        }
+
+        // Hide sub stat
+        genshinBuildFinderHideSubStats();
+    }
+}
+
+/**
+ * Filter build finder set list
+ */
+function genshinBuildFinderFilterArtifact() {
+    const searchValue = document.querySelector('#genshinBuildFinderSetSearch input').value;
+
+    if (searchValue) {
+        const searchArray = searchValue.split('');
+        const searchRegex = new RegExp('.*?'+searchArray.join('.*?')+'.*?', 'i');
+
+        document.querySelectorAll(`#genshinBuildFinderSetContainer .option`).forEach((f) => {
+            const name = f.querySelector('span').textContent; 
+            if (!searchRegex.test(name)) {
+                f.hidden = true;
+            } else {
+                f.hidden = false;
+            }
+        });
+    } else {
+        document.querySelectorAll(`#genshinBuildFinderSetContainer .option`).forEach((f) => {
+            f.hidden = false;
+        });
+    }
+}
+
+/**
+ * Hide sub stat equal to main stat
+ */
+function genshinBuildFinderHideSubStats() {
+    const checkedMainStat = document.querySelector('#genshinBuildFinderMainStatContainer input:checked').value;
+    const input = document.querySelector(`#genshinBuildFinderSubStatContainer input[value="${checkedMainStat}"]`);
+
+    // Show every sub stat
+    document.querySelectorAll('#genshinBuildFinderSubStatContainer input').forEach((e) => {
+        e.disabled = false;
+        e.parentElement.classList.remove('opacity-40');
+    });
+
+    // If sub stat exist, hide it and uncheck it
+    if (input) {
+        input.disabled = true;
+        input.checked = false;
+        input.parentElement.classList.add('opacity-40');
+    }
+}
+
+/**
+ * Find build based on form
+ */
+function findBuild() {
+    const type = document.querySelector('#genshinBuildFinderType').dataset.value;
+    const set = document.querySelector('#genshinBuildFinderSet').dataset.value;
+
+    // Only find build if both set and piece type are provided
+    if (set && type) {   
+        const mainStat = document.querySelector('#genshinBuildFinderMainStatContainer input:checked').value;
+        const numberOfSubStat = Number(document.querySelector('#genshinBuildFinderNumbersOfSubStat').value);
+        const useAs5Piece = document.querySelector('#genshinBuildFinderUseAs5Piece').checked;
+        const biSOnly = document.querySelector('#genshinBuildFinderBiSOnly').checked;
+        let subStat = [];
+
+        // Get all checked sub stat
+        document.querySelectorAll('#genshinBuildFinderSubStatContainer input:checked').forEach((e) => {
+            subStat.push(e.value);
+        });
+
+        // Empty found builds
+        document.querySelector('#genshinBuildFinderResults').innerHTML = 'Nobody';
+
+        // Don't need to find if not enough sub stat
+        if (subStat.length >= numberOfSubStat) {
+            let buildFounds = [];
+
+            // For each character
+            for (characterName in genshinBuilds) {
+                const builds = genshinBuilds[characterName];
+
+                // For each build
+                for (buildName in builds) {
+                    const build = builds[buildName];
+                    const artifacts = build.artifacts;
+
+                    // Use a function to break both 'for' with return;
+                    (function() {
+                        // For each artifact
+                        for (artifactRank in artifacts) {
+                            const buildArtifacts = artifacts[artifactRank];
+
+                            for (let i = 0; i < buildArtifacts.length; i++) {
+                                // If current set or use as 5 piece is checked
+                                if (buildArtifacts[i] === set || useAs5Piece) {
+                                    let subStatsFound = 0;
+
+                                    // Test if piece type have multiple main stats
+                                    if (typeof build['main_stats'][type] !== 'undefined') {
+                                        // Test if select main stat isn't in main stat build
+                                        if (!build['main_stats'][type].includes(mainStat)) {
+                                            return;
+                                        }
+                                    }
+
+                                    // Count how many checked sub stat are in sub stat build
+                                    for (const subStatRank in build['sub_stats']) {
+                                        if (subStat.includes(build['sub_stats'][subStatRank])) {
+                                            subStatsFound++;
+                                        }
+
+                                        // Break if enough sub stats found
+                                        if (subStatsFound === numberOfSubStat) {
+                                            break;
+                                        }
+                                    }
+
+                                    // Test if enough sub stats found
+                                    if (subStatsFound < numberOfSubStat) {
+                                        return;
+                                    }
+
+                                    // Add build to found list
+                                    buildFounds.push({
+                                        characterName: characterName,
+                                        buildName: buildName,
+                                    });
+
+                                    return;
+                                }
+
+                                // If BiS is checked and use as 5 piece isn't checked get only first artifact
+                                if (biSOnly && !useAs5Piece) {
+                                    return;
+                                }
+                            }
+                        }
+                    })();
+                }
+            }
+
+            if (buildFounds.length) {
+                document.querySelector('#genshinBuildFinderResults').innerHTML = '';
+
+                // Show each build
+                buildFounds.forEach((build) => {
+                    const characterName = build.characterName;
+                    const characterInfo = genshinCharacters[characterName];
+                    const template = document.querySelector("#genshinCard");
+                    const clone = document.importNode(template.content, true);
+    
+                    // Change background based on quality
+                    clone.querySelector('.genshinCardIcon').className += qualityClass(characterInfo.quality);
+                    
+                    // Set value
+                    clone.querySelector('.genshinCardContainer').href = `#Genshin#Character#${characterName}`;
+                    clone.querySelector('.genshinCardIcon').src = characterInfo.src.character;
+                    clone.querySelector('.genshinCardName').innerHTML = `${characterName}<br>${build.buildName}`;
+                    clone.querySelector('.genshinCardWeapon').src = characterInfo.src.weapon;
+                    clone.querySelector('.genshinCardRank').remove();
+    
+                    // Remove element for Traveler
+                    if (characterName !== 'Traveler') {
+                        clone.querySelector('.genshinCardElement').src = characterInfo.src.element;
+                    } else {
+                        clone.querySelector('.genshinCardElement').remove();
+                    }
+    
+                    document.querySelector('#genshinBuildFinderResults').appendChild(clone);
+                });
+            }
+        }
+    }
+}
+
+/**
  * Show genshin page and select current tab
  * 
  * @param {string|null} page 
@@ -184,6 +571,7 @@ function genshinPage(page = null) {
 
     // Hide container
     document.querySelector('#genshinArtifact').hidden = true;
+    document.querySelector('#genshinBuildFinder').hidden = true;
     document.querySelector('#genshinCharacter').hidden = true;
     document.querySelector('#genshinWeapon').hidden = true;
     document.querySelector('#genshinList').hidden = true;
@@ -388,6 +776,7 @@ function GenshinArtifacts() {
 function GenshinBuildFinder() {
     // Show default content
     genshinPage('BuildFinder');
+    document.querySelector('#genshinBuildFinder').hidden = false;
 }
 
 /**
@@ -624,7 +1013,7 @@ function GenshinCharacter(character) {
                 let k = 0;
 
                 // Create artifact
-                artifactList.forEach(artifactName => {
+                artifactList.forEach((artifactName) => {
                     const artifactInfo = genshinArtifacts[artifactName];
                     const artifactMaxQuality = artifactInfo['quality'][artifactInfo['quality'].length - 1];
 
@@ -1026,7 +1415,7 @@ function genshinArtifactUsage(artifactName, bis = false) {
             const build = builds[buildName];
             const artifacts = build.artifacts;
 
-            // Use a function to break both for with return;
+            // Use a function to break both 'for' with return;
             (function() {
                 // For each artifact
                 for (artifactRank in artifacts) {

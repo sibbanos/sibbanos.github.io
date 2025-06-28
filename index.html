@@ -33,6 +33,7 @@
     <script src="Genshin/Ressources/weapons.js"></script>
 
     <!-- Ext. -->
+    <script src="dropdown.js"></script>
     <script src="tab.js"></script>
     <script src="popper.min.js"></script>
     <script src="tippy.min.js"></script>
@@ -83,7 +84,7 @@
 
             <!-- Genshin card -->
             <div class="flex bg-isabelline-500 rounded-xl shadow-2xl mt-3 mx-2">
-                <div class="p-4 md:p-7 w-full overflow-auto">
+                <div class="p-4 md:p-7 w-full">
                     <div id="genshinList">
                         <!-- Genshin filter -->
                         <div id="genshinFilterContainer" class="flex flex-col gap-y-2">
@@ -295,6 +296,330 @@
                             </div>
                         </div>
                     </div>
+
+                    <div id="genshinBuildFinder">
+                        <!-- Type and Set -->
+                        <div class="flex justify-center flex-wrap">
+                            <!-- Select type -->
+                            <div id="genshinBuildFinderType" class="m-1 hs-dropdown flex w-full md:w-96" data-hs-dropdown-auto-close="inside" data-value="">
+                                <button id="hs-dropdown-item-checkbox" type="button" class="hs-dropdown-toggle w-full flex items-center gap-x-2 h-16 shadow-md text-center py-1.5 px-3 rounded-md text-sm font-medium border border-gray-200 bg-white text-pastel-violet-500 focus:border-lavender-purple-500 focus:outline-none" aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown">
+                                    <span class="flex items-center gap-x-2">Type</span>
+                                    <span class="ml-auto">▼</span>
+                                </button>
+                                <div class="hs-dropdown-menu hidden z-10 min-w-60 shadow-md text-center py-1.5 px-3 rounded-md text-sm font-medium border border-lavender-purple-500 bg-white text-pastel-violet-500" role="menu" aria-orientation="vertical" aria-labelledby="hs-dropdown-item-checkbox">
+                                    <div class="p-1 space-y-0.5 text-lg">
+                                        <div class="flex option items-center gap-x-2 py-2 px-3 rounded-lg hover:bg-gray-100" data-type="Flower">
+                                            <img class="h-10" src="Genshin/Ressources/Artifacts/Flower.png">
+                                            <span>Flower</span>
+                                        </div>
+                                        <div class="flex option items-center gap-x-2 py-2 px-3 rounded-lg hover:bg-gray-100" data-type="Plume">
+                                            <img class="h-10" src="Genshin/Ressources/Artifacts/Plume.png">
+                                            <span>Plume</span>
+                                        </div>
+                                        <div class="flex option items-center gap-x-2 py-2 px-3 rounded-lg hover:bg-gray-100" data-type="Sands">
+                                            <img class="h-10" src="Genshin/Ressources/Artifacts/Sands.png">
+                                            <span>Sands</span>
+                                        </div>
+                                        <div class="flex option items-center gap-x-2 py-2 px-3 rounded-lg hover:bg-gray-100" data-type="Goblet">
+                                            <img class="h-10" src="Genshin/Ressources/Artifacts/Goblet.png">
+                                            <span>Goblet</span>
+                                        </div>
+                                        <div class="flex option items-center gap-x-2 py-2 px-3 rounded-lg hover:bg-gray-100" data-type="Circlet">
+                                            <img class="h-10" src="Genshin/Ressources/Artifacts/Circlet.png">
+                                            <span>Circlet</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Select set-->
+                            <div id="genshinBuildFinderSet" class="m-1 hs-dropdown [--auto-close:inside] flex w-full md:w-96" data-hs-dropdown-auto-close="inside" data-value="">
+                                <button id="hs-dropdown-item-checkbox" type="button" class="hs-dropdown-toggle w-full disabled:cursor-not-allowed flex items-center gap-x-2 min-h-16 shadow-md text-center py-1.5 px-3 rounded-md text-sm font-medium border border-gray-200 bg-white text-pastel-violet-500 focus:border-lavender-purple-500 focus:outline-none" aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown">
+                                    <span class="flex items-center gap-x-2">Set</span>
+                                    <span class="ml-auto">▼</span>
+                                </button>
+                                <div class="hs-dropdown-menu hidden z-10 min-w-60 shadow-md text-center py-1.5 px-3 rounded-md text-sm font-medium border border-lavender-purple-500 bg-white text-pastel-violet-500" role="menu" aria-orientation="vertical" aria-labelledby="hs-dropdown-item-checkbox">
+                                    <div id="genshinBuildFinderSetSearch" class="p-1" hidden>
+                                        <input type="search" class="py-1 px-4 w-full rounded-lg border border-lavender-purple-200 focus:border-lavender-purple-500 focus:outline-none" placeholder="Search...">
+                                    </div>
+                                    <div id="genshinBuildFinderSetContainer" class="p-1 space-y-0.5 overflow-auto max-h-96">
+                                        Select a type first
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Options -->
+                        <div id="genshinBuildFinderOptionsContainer" class="flex justify-center flex-wrap mt-4 gap-4" hidden>
+                            <!-- Main stat -->
+                            <div class="flex flex-col min-w-60">
+                                <span class="text-lg font-bold">Main Stat</span>
+                                <div id="genshinBuildFinderMainStatContainer" class="flex flex-col gap-y-3 border border-lavender-purple-500 rounded-lg p-4">
+                                    <!-- ATK% -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatATK" value="ATK%">
+                                        <label for="genshinBuildFinderMainStatATK" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/ATK.png">ATK%
+                                        </label>
+                                    </div>
+
+                                    <!-- HP% -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatHP" value="HP%">
+                                        <label for="genshinBuildFinderMainStatHP" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/HP.png">HP%
+                                        </label>
+                                    </div>
+
+                                    <!-- DEF% -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatDEF" value="DEF%">
+                                        <label for="genshinBuildFinderMainStatDEF" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/DEF.png">DEF%
+                                        </label>
+                                    </div>
+
+                                    <!-- Flat ATK -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatFlatATK" value="Flat ATK">
+                                        <label for="genshinBuildFinderMainStatFlatATK" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Flat ATK.png">Flat ATK
+                                        </label>
+                                    </div>
+
+                                    <!-- Flat HP -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatFlatHP" value="Flat HP">
+                                        <label for="genshinBuildFinderMainStatFlatHP" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Flat HP.png">Flat HP
+                                        </label>
+                                    </div>
+
+                                    <!-- Energy Recharge -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatEnergyRecharge" value="Energy Recharge">
+                                        <label for="genshinBuildFinderMainStatEnergyRecharge" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Energy Recharge.png">Energy Recharge
+                                        </label>
+                                    </div>
+
+                                    <!-- Elemental Mastery -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatElementalMastery" value="Elemental Mastery">
+                                        <label for="genshinBuildFinderMainStatElementalMastery" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Elemental Mastery.png">Elemental Mastery
+                                        </label>
+                                    </div>
+
+                                    <!-- Physical DMG -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatPhysicalDMG" value="Physical DMG">
+                                        <label for="genshinBuildFinderMainStatPhysicalDMG" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Physical DMG.png">Physical DMG
+                                        </label>
+                                    </div>
+
+                                    <!-- Pyro DMG -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatPyroDMG" value="Pyro DMG">
+                                        <label for="genshinBuildFinderMainStatPyroDMG" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Pyro DMG.png">Pyro DMG
+                                        </label>
+                                    </div>
+
+                                    <!-- Electro DMG -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatElectroDMG" value="Electro DMG">
+                                        <label for="genshinBuildFinderMainStatElectroDMG" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Electro DMG.png">Electro DMG
+                                        </label>
+                                    </div>
+
+                                    <!-- Dendro DMG -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatDendroDMG" value="Dendro DMG">
+                                        <label for="genshinBuildFinderMainStatDendroDMG" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Dendro DMG.png">Dendro DMG
+                                        </label>
+                                    </div>
+
+                                    <!-- Hydro DMG -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatHydroDMG" value="Hydro DMG">
+                                        <label for="genshinBuildFinderMainStatHydroDMG" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Hydro DMG.png">Hydro DMG
+                                        </label>
+                                    </div>
+
+                                    <!-- Anemo DMG -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatAnemoDMG" value="Anemo DMG">
+                                        <label for="genshinBuildFinderMainStatAnemoDMG" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Anemo DMG.png">Anemo DMG
+                                        </label>
+                                    </div>
+
+                                    <!-- Geo DMG -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatGeoDMG" value="Geo DMG">
+                                        <label for="genshinBuildFinderMainStatGeoDMG" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Geo DMG.png">Geo DMG
+                                        </label>
+                                    </div>
+
+                                    <!-- Cryo DMG -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatCryoDMG" value="Cryo DMG">
+                                        <label for="genshinBuildFinderMainStatCryoDMG" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Cryo DMG.png">Cryo DMG
+                                        </label>
+                                    </div>
+
+                                    <!-- Crit Rate -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatCritRate" value="Crit Rate">
+                                        <label for="genshinBuildFinderMainStatCritRate" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Crit Rate.png">Crit Rate
+                                        </label>
+                                    </div>
+
+                                    <!-- Crit DMG -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatCritDMG" value="Crit DMG">
+                                        <label for="genshinBuildFinderMainStatCritDMG" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Crit DMG.png">Crit DMG
+                                        </label>
+                                    </div>
+
+                                    <!-- Healing Bonus -->
+                                    <div class="flex">
+                                        <input type="radio" name="genshinBuildFinderMainStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-full text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderMainStatHealingBonus" value="Healing Bonus">
+                                        <label for="genshinBuildFinderMainStatHealingBonus" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Healing Bonus.png">Healing Bonus
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Sub stat -->
+                            <div class="flex flex-col min-w-60">
+                                <span class="text-lg font-bold">Sub Stat</span>
+                                <div id="genshinBuildFinderSubStatContainer" class="flex flex-col gap-y-3 border border-lavender-purple-500 rounded-lg p-4">
+                                    <!-- ATK% -->
+                                    <div class="flex">
+                                        <input type="checkbox" name="genshinBuildFinderSubStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderSubStatATK" value="ATK%">
+                                        <label for="genshinBuildFinderSubStatATK" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/ATK.png">ATK%
+                                        </label>
+                                    </div>
+
+                                    <!-- HP% -->
+                                    <div class="flex">
+                                        <input type="checkbox" name="genshinBuildFinderSubStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderSubStatHP" value="HP%">
+                                        <label for="genshinBuildFinderSubStatHP" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/HP.png">HP%
+                                        </label>
+                                    </div>
+
+                                    <!-- DEF% -->
+                                    <div class="flex">
+                                        <input type="checkbox" name="genshinBuildFinderSubStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderSubStatDEF" value="DEF%">
+                                        <label for="genshinBuildFinderSubStatDEF" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/DEF.png">DEF%
+                                        </label>
+                                    </div>
+
+                                    <!-- Flat ATK -->
+                                    <div class="flex">
+                                        <input type="checkbox" name="genshinBuildFinderSubStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderSubStatFlatATK" value="Flat ATK">
+                                        <label for="genshinBuildFinderSubStatFlatATK" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Flat ATK.png">Flat ATK
+                                        </label>
+                                    </div>
+
+                                    <!-- Flat HP -->
+                                    <div class="flex">
+                                        <input type="checkbox" name="genshinBuildFinderSubStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderSubStatFlatHP" value="Flat HP">
+                                        <label for="genshinBuildFinderSubStatFlatHP" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Flat HP.png">Flat HP
+                                        </label>
+                                    </div>
+
+                                    <!-- Flat DEF -->
+                                    <div class="flex">
+                                        <input type="checkbox" name="genshinBuildFinderSubStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderSubStatFlatDEF" value="Flat DEF">
+                                        <label for="genshinBuildFinderSubStatFlatDEF" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Flat DEF.png">Flat DEF
+                                        </label>
+                                    </div>
+
+                                    <!-- Energy Recharge -->
+                                    <div class="flex">
+                                        <input type="checkbox" name="genshinBuildFinderSubStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderSubStatEnergyRecharge" value="Energy Recharge">
+                                        <label for="genshinBuildFinderSubStatEnergyRecharge" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Energy Recharge.png">Energy Recharge
+                                        </label>
+                                    </div>
+
+                                    <!-- Elemental Mastery -->
+                                    <div class="flex">
+                                        <input type="checkbox" name="genshinBuildFinderSubStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderSubStatElementalMastery" value="Elemental Mastery">
+                                        <label for="genshinBuildFinderSubStatElementalMastery" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Elemental Mastery.png">Elemental Mastery
+                                        </label>
+                                    </div>
+
+                                    <!-- Crit Rate -->
+                                    <div class="flex">
+                                        <input type="checkbox" name="genshinBuildFinderSubStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderSubStatCritRate" value="Crit Rate">
+                                        <label for="genshinBuildFinderSubStatCritRate" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Crit Rate.png">Crit Rate
+                                        </label>
+                                    </div>
+
+                                    <!-- Crit DMG -->
+                                    <div class="flex">
+                                        <input type="checkbox" name="genshinBuildFinderSubStats" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderSubStatCritDMG" value="Crit DMG">
+                                        <label for="genshinBuildFinderSubStatCritDMG" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                            <img class="h-6" src="Genshin/Ressources/Stats/Crit DMG.png">Crit DMG
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Number of sub stat -->
+                            <div class="flex flex-col min-w-60">
+                                <span class="text-lg font-bold">Numbers of Sub Stat</span>
+                                <input id="genshinBuildFinderNumbersOfSubStat" type="number" min="0" max="4" value="1" class="py-1 px-4 block rounded-lg border border-lavender-purple-200 focus:border-lavender-purple-500 focus:outline-none">
+                            </div>
+
+                            <!-- Miscellaneous -->
+                            <div class="flex flex-col min-w-60">
+                                <span class="text-lg font-bold">Miscellaneous</span>
+
+                                <!-- Use as 5 piece -->
+                                <div class="flex">
+                                    <input type="checkbox" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderUseAs5Piece">
+                                    <label for="genshinBuildFinderUseAs5Piece" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                        Use as 5 piece
+                                    </label>
+                                </div>
+
+                                <!-- BiS only -->
+                                <div class="flex mt-3">
+                                    <input checked type="checkbox" class="w-5 h-5 mt-0.5 border-gray-200 rounded-sm text-lavender-purple-500 focus:ring-lavender-purple-500 checked:border-lavender-purple-500" id="genshinBuildFinderBiSOnly">
+                                    <label for="genshinBuildFinderBiSOnly" class="text-sm text-gray-500 ms-2 flex items-center gap-x-2">
+                                        BiS only
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Found builds -->
+                        <div id="genshinBuildFinderResults" class="mt-4 pt-4 border-t border-t-lavender-purple-500 font-bold flex flex-wrap gap-5 justify-center">
+                            Nobody
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Genshin card template -->
@@ -503,6 +828,14 @@
                             </div>
                             <p class="artifactAbilityDescription4 col-span-11 flex mt-2"></p>
                         </div>
+                    </div>
+                </template>
+
+                <!-- Genshin build finder set row template -->
+                <template id="genshinBuildFinderSetRow">
+                    <div class="flex option items-center gap-x-2 py-2 px-3 rounded-lg hover:bg-gray-100" data-set="">
+                        <img class="h-10" src="">
+                        <span class="text-left word-break"></span>
                     </div>
                 </template>
             </div>
