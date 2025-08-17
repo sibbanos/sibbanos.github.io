@@ -140,13 +140,11 @@ builds = {}
 f = open('Genshin/scripts/builds/builds.html', encoding='utf8')
 soup = BeautifulSoup(f, 'html.parser')
 
-# Get elements order, only used by Traveler
-elements = []
-for element in soup.find_all('li')[4:] :
-    elements.append(element.find('a').get_text().strip())
+# Elements order, only used by Traveler
+elements = ['Pyro', 'Electro', 'Dendro', 'Hydro', 'Cryo', 'Anemo', 'Geo']
 
 # Get all the table with build
-for character_list in soup.find_all('table')[4:] :
+for character_list in soup.find_all('table') :
     # Reset
     character_name = ''
     weapons_multirows = False
