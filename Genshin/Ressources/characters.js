@@ -208,6 +208,17 @@ let genshinCharacters = {
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },
+    "Ineffa": {
+        "element": "Electro",
+        "quality": "5",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Ineffa",
+        "src": {
+            "character": "Genshin/Characters/Electro/Ineffa.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
     "Jean": {
         "element": "Anemo",
         "quality": "5",

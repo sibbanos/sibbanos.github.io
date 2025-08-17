@@ -402,13 +402,13 @@
                 "3": "The First Great Magic",
                 "4": "Thundering Pulse",
                 "5": "Skyward Harp",
-                "6": "Song of Stillness",
-                "7": "Amos' Bow",
-                "8": "Polar Star",
-                "9": "Flower-Wreathed Feathers",
-                "10": "Scion of the Blazing Sun",
-                "11": "Hamayumi",
-                "12": "Chain Breaker",
+                "6": "Amos' Bow",
+                "7": "Polar Star",
+                "8": "Scion of the Blazing Sun",
+                "9": "Chain Breaker",
+                "10": "Song of Stillness",
+                "11": "Flower-Wreathed Feathers",
+                "12": "Hamayumi",
                 "13": "Range Gauge"
             },
             "artifacts": {
@@ -756,7 +756,7 @@
             "weapons": {
                 "1": "Lumidouce Elegy",
                 "2": "Calamity Queller",
-                "3": "Staff of Homa",
+                "3": "Symphonist of Scents",
                 "4": "Engulfing Lightning",
                 "5": "Staff of the Scarlet Sands",
                 "6": "Primordial Jade Winged-Spear",
@@ -1309,6 +1309,94 @@
                 "3": "Elemental Mastery",
                 "4": "HP%",
                 "5": "ATK%"
+            }
+        }
+    },
+    "Ineffa": {
+        "OFF-FIELD DPS & SUPPORT": {
+            "weapons": {
+                "1": "Fractured Halo",
+                "2": "Staff of the Scarlet Sands",
+                "3": "Symphonist of Scents",
+                "4": "Staff of Homa",
+                "5": "Calamity Queller",
+                "6": "Lumidouce Elegy",
+                "7": "Missive Windspear",
+                "8": "Engulfing Lightning",
+                "9": "Kitain Cross Spear",
+                "10": "Skyward Spine",
+                "11": "Primordial Jade Winged-Spear",
+                "12": "Ballad of the Fjords",
+                "13": "Deathmatch"
+            },
+            "artifacts": {
+                "1": [
+                    "Gilded Dreams"
+                ],
+                "2": [
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner"
+                ],
+                "3": [
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner",
+                    "Flower of Paradise Lost",
+                    "Gilded Dreams",
+                    "Wanderer's Troupe",
+                    "Instructor"
+                ],
+                "4": [
+                    "Flower of Paradise Lost",
+                    "Gilded Dreams",
+                    "Wanderer's Troupe",
+                    "Instructor"
+                ],
+                "5": [
+                    "Thundering Fury"
+                ],
+                "6": [
+                    "Emblem of Severed Fate"
+                ],
+                "7": [
+                    "Golden Troupe"
+                ],
+                "8": [
+                    "Tenacity of the Millelith"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%",
+                    "Energy Recharge"
+                ],
+                "Goblet": [
+                    "ATK%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "Crit Rate",
+                "3": "Crit DMG",
+                "4": "ATK%",
+                "5": "Elemental Mastery"
             }
         }
     },
@@ -1904,9 +1992,11 @@
                 "7": "Wolf's Gravestone",
                 "8": "Serpent Spine",
                 "9": "Mailed Flower",
-                "10": "Tidal Shadow",
-                "11": "Rainslasher",
-                "12": "Talking Stick"
+                "10": "Akuoumaru",
+                "11": "Tidal Shadow",
+                "12": "Skyward Pride",
+                "13": "Rainslasher",
+                "14": "Talking Stick"
             },
             "artifacts": {
                 "1": [
@@ -3567,23 +3657,25 @@
     "Xiao": {
         "DPS": {
             "weapons": {
-                "1": "Staff of Homa",
-                "2": "Primordial Jade Winged-Spear",
-                "3": "Lumidouce Elegy",
-                "4": "Staff of the Scarlet Sands",
-                "5": "Calamity Queller",
-                "6": "Deathmatch",
-                "7": "Crimson Moon's Semblance",
-                "8": "Vortex Vanquisher",
-                "9": "Skyward Spine",
-                "10": "Blackcliff Pole",
-                "11": "Tamayuratei no Ohanashi",
-                "12": "Lithic Spear",
-                "13": "Missive Windspear",
-                "14": "Prospector's Drill",
-                "15": "Wavebreaker's Fin",
-                "16": "Favonius Lance",
-                "17": "White Tassel"
+                "1": "Fractured Halo",
+                "2": "Staff of Homa",
+                "3": "Primordial Jade Winged-Spear",
+                "4": "Lumidouce Elegy",
+                "5": "Symphonist of Scents",
+                "6": "Staff of the Scarlet Sands",
+                "7": "Calamity Queller",
+                "8": "Deathmatch",
+                "9": "Crimson Moon's Semblance",
+                "10": "Vortex Vanquisher",
+                "11": "Skyward Spine",
+                "12": "Blackcliff Pole",
+                "13": "Tamayuratei no Ohanashi",
+                "14": "Lithic Spear",
+                "15": "Missive Windspear",
+                "16": "Prospector's Drill",
+                "17": "Wavebreaker's Fin",
+                "18": "Favonius Lance",
+                "19": "White Tassel"
             },
             "artifacts": {
                 "1": [
@@ -5930,13 +6022,14 @@
     "Mika": {
         "HEAL & BUFF SUPPORT": {
             "weapons": {
-                "1": "Favonius Lance",
-                "2": "Dialogues of the Desert Sages",
-                "3": "Engulfing Lightning",
-                "4": "Prototype Starglitter",
-                "5": "\"The Catch\"",
-                "6": "Rightful Reward",
-                "7": "Black Tassel"
+                "1": "Symphonist of Scents",
+                "2": "Favonius Lance",
+                "3": "Dialogues of the Desert Sages",
+                "4": "Engulfing Lightning",
+                "5": "Prototype Starglitter",
+                "6": "\"The Catch\"",
+                "7": "Rightful Reward",
+                "8": "Black Tassel"
             },
             "artifacts": {
                 "1": [
@@ -6871,19 +6964,20 @@
             "weapons": {
                 "1": "Primordial Jade Cutter",
                 "2": "Mistsplitter Reforged",
-                "3": "Haran Geppaku Futsu",
-                "4": "Light of Foliar Incision",
-                "5": "Uraku Misugiri",
-                "6": "Absolution",
-                "7": "Summit Shaper",
-                "8": "Skyward Blade",
-                "9": "Splendor of Tranquil Waters",
-                "10": "Wolf-Fang",
-                "11": "Favonius Sword",
-                "12": "Fleuve Cendre Ferryman",
-                "13": "Finale of the Deep",
-                "14": "Amenoma Kageuchi",
-                "15": "Harbinger of Dawn"
+                "3": "Azurelight",
+                "4": "Haran Geppaku Futsu",
+                "5": "Light of Foliar Incision",
+                "6": "Uraku Misugiri",
+                "7": "Absolution",
+                "8": "Summit Shaper",
+                "9": "Skyward Blade",
+                "10": "Splendor of Tranquil Waters",
+                "11": "Wolf-Fang",
+                "12": "Favonius Sword",
+                "13": "Fleuve Cendre Ferryman",
+                "14": "Finale of the Deep",
+                "15": "Amenoma Kageuchi",
+                "16": "Harbinger of Dawn"
             },
             "artifacts": {
                 "1": [

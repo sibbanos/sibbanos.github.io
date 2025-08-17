@@ -220,6 +220,19 @@
             "weapon_type": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
+    "Fractured Halo": {
+        "type": "Polearm",
+        "quality": "5",
+        "first_stat": "608",
+        "second_stat": "66.2%",
+        "second_stat_type": "CRIT DMG",
+        "ability": "Purifying Crown\nAfter an Elemental Skill or Elemental Burst is used, ATK is increased by 24~48% for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal 40~80% more Lunar-Charged DMG.",
+        "link": "https://genshin-impact.fandom.com/wiki/Fractured_Halo",
+        "src": {
+            "weapon": "Genshin/Weapons/Polearms/Fractured Halo.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
     "Freedom-Sworn": {
         "type": "Sword",
         "quality": "5",
@@ -1206,6 +1219,19 @@
         "src": {
             "weapon": "Genshin/Weapons/Swords/Finale of the Deep.png",
             "weapon_type": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
+    "Flame-Forged Insight": {
+        "type": "Claymore",
+        "quality": "4",
+        "first_stat": "510",
+        "second_stat": "165",
+        "second_stat_type": "Elemental Mastery",
+        "ability": "Mind in Bloom\nWhen Electro-Charged, Lunar-Charged, or Bloom is triggered, restore 12~24 Elemental Energy and increase Elemental Mastery by 60~120 for 15 seconds. This effect can be triggered once every 15s and can be triggered even when the equipping character is off-field.",
+        "link": "https://genshin-impact.fandom.com/wiki/Flame-Forged_Insight",
+        "src": {
+            "weapon": "Genshin/Weapons/Claymores/Flame-Forged Insight.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
     "Fleuve Cendre Ferryman": {
