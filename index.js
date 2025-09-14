@@ -1441,11 +1441,11 @@ function genshinArtifactUsage(artifactName, bis = false) {
 
                             return;
                         }
+                    }
 
-                        // If BiS get only first artifact
-                        if (bis) {
-                            return;
-                        }
+                    // If BiS get only first artifact
+                    if (bis) {
+                        return;
                     }
                 }
             })();
