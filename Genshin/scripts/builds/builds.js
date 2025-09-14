@@ -13,7 +13,7 @@ menu.forEach(lien => {
         window.setTimeout(() => {
             text += document.querySelector('iframe').contentWindow.document.body.querySelector('table').outerHTML;
         }, timeout);
-        timeout += wait;
+        timeout += 100;
     }
 });
 window.setTimeout(() => {

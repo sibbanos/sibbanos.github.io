@@ -116,6 +116,19 @@ let genshinWeapons = {
             "weapon_type": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
+    "Bloodsoaked Ruins": {
+        "type": "Polearm",
+        "quality": "5",
+        "first_stat": "674",
+        "second_stat": "22.1%",
+        "second_stat_type": "CRIT Rate",
+        "ability": "Mournful Tribute\nFor 3.5s after using an Elemental Burst, the equipping character's Lunar-Charged DMG dealt to opponents is increased by ?~?%. Additionally, after triggering a Lunar-Charged reaction, the equipping character will gain Requiem of Ruin: CRIT DMG is increased by ?~?% for 6s. They will also regain ?~? Elemental Energy. Elemental Energy can be restored this way once every 14s.",
+        "link": "https://genshin-impact.fandom.com/wiki/Bloodsoaked_Ruins",
+        "src": {
+            "weapon": "Genshin/Weapons/Polearms/Bloodsoaked Ruins.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
     "Calamity Queller": {
         "type": "Polearm",
         "quality": "5",
@@ -374,6 +387,19 @@ let genshinWeapons = {
         "src": {
             "weapon": "Genshin/Weapons/Swords/Mistsplitter Reforged.png",
             "weapon_type": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
+    "Nightweaver's Looking Glass": {
+        "type": "Catalyst",
+        "quality": "5",
+        "first_stat": "565",
+        "second_stat": "265",
+        "second_stat_type": "Elemental Mastery",
+        "ability": "Millennial Hymn\nWhen the equipping character's Elemental Skill deals Hydro or Dendro DMG, they will gain Prayer of the Far North: Elemental Mastery is increased by 60~120 for 4.5s. When nearby party members trigger Lunar-Bloom reactions, the equipping character gains New Moon Verse: Elemental Mastery is increased by 60~120 for 10s. When both Prayer of the Far North and New Moon Verse are in effect, all nearby party members' Bloom DMG is increased by 120~240%, their Hyperbloom and Burgeon DMG is increased by 80~160%, and their Lunar-Bloom DMG is increased by 40~80%. This effect cannot stack. The aforementioned effects can be triggered even if the equipping character is off-field.",
+        "link": "https://genshin-impact.fandom.com/wiki/Nightweaver%27s_Looking_Glass",
+        "src": {
+            "weapon": "Genshin/Weapons/Catalysts/Nightweaver's Looking Glass.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
     "Peak Patrol Song": {
@@ -935,6 +961,19 @@ let genshinWeapons = {
             "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
+    "Blackmarrow Lantern": {
+        "type": "Catalyst",
+        "quality": "4",
+        "first_stat": "454",
+        "second_stat": "221",
+        "second_stat_type": "Elemental Mastery",
+        "ability": "Token of Covenant\nBloom DMG is increased by 48~96%, and Lunar-Bloom DMG is increased by 12~24%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 12~24%.",
+        "link": "https://genshin-impact.fandom.com/wiki/Blackmarrow_Lantern",
+        "src": {
+            "weapon": "Genshin/Weapons/Catalysts/Blackmarrow Lantern.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
     "Calamity of Eshu": {
         "type": "Sword",
         "quality": "4",
@@ -1102,6 +1141,19 @@ let genshinWeapons = {
         "src": {
             "weapon": "Genshin/Weapons/Bows/End of the Line.png",
             "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Etherlight Spindlelute": {
+        "type": "Catalyst",
+        "quality": "4",
+        "first_stat": "510",
+        "second_stat": "45.9%",
+        "second_stat_type": "Energy Recharge",
+        "ability": "Last Singer\nFor 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 100~200.",
+        "link": "https://genshin-impact.fandom.com/wiki/Etherlight_Spindlelute",
+        "src": {
+            "weapon": "Genshin/Weapons/Catalysts/Etherlight Spindlelute.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
     "Eye of Perception": {
@@ -1546,6 +1598,19 @@ let genshinWeapons = {
             "weapon_type": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
+    "Master Key": {
+        "type": "Claymore",
+        "quality": "4",
+        "first_stat": "454",
+        "second_stat": "61.3%",
+        "second_stat_type": "Energy Recharge",
+        "ability": "Fall Into Place\nUpon causing an Elemental Reaction, increases Elemental Mastery by 60~120 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 60~120. This effect can be triggered even if the equipping character is off-field.",
+        "link": "https://genshin-impact.fandom.com/wiki/Master_Key",
+        "src": {
+            "weapon": "Genshin/Weapons/Claymores/Master Key.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
     "Missive Windspear": {
         "type": "Polearm",
         "quality": "4",
@@ -1583,6 +1648,19 @@ let genshinWeapons = {
         "src": {
             "weapon": "Genshin/Weapons/Polearms/Moonpiercer.png",
             "weapon_type": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Moonweaver's Dawn": {
+        "type": "Sword",
+        "quality": "4",
+        "first_stat": "565",
+        "second_stat": "27.6%",
+        "second_stat_type": "ATK",
+        "ability": "Secret Silver's Testament\nIncreases Elemental Burst DMG by 20~40%. When the equipping character's Energy Capacity does not exceed 60/40, their Elemental Burst DMG is increased by an additional 16%/28~32%/56%.",
+        "link": "https://genshin-impact.fandom.com/wiki/Moonweaver%27s_Dawn",
+        "src": {
+            "weapon": "Genshin/Weapons/Swords/Moonweaver's Dawn.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
     "Mountain-Bracing Bolt": {
@@ -1660,6 +1738,19 @@ let genshinWeapons = {
         "link": "https://genshin-impact.fandom.com/wiki/Prospector%27s_Drill",
         "src": {
             "weapon": "Genshin/Weapons/Polearms/Prospector's Drill.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Prospector's Shovel": {
+        "type": "Polearm",
+        "quality": "4",
+        "first_stat": "510",
+        "second_stat": "41.3%",
+        "second_stat_type": "ATK",
+        "ability": "Swift and Sure\nElectro-Charged DMG is increased by 48~96%, and Lunar-Charged DMG is increased by 12~24%. Moonsign: Ascendant Gleam: Lunar-Charged DMG is increased by an additional 12~24%.",
+        "link": "https://genshin-impact.fandom.com/wiki/Prospector%27s_Shovel",
+        "src": {
+            "weapon": "Genshin/Weapons/Polearms/Prospector's Shovel.png",
             "weapon_type": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },
@@ -1962,6 +2053,19 @@ let genshinWeapons = {
             "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
+    "Serenity's Call": {
+        "type": "Sword",
+        "quality": "4",
+        "first_stat": "454",
+        "second_stat": "61.3%",
+        "second_stat_type": "Energy Recharge",
+        "ability": "Solemn Silence\nUpon causing an Elemental Reaction, increases Max HP by 16~32% for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by 16~32%. This effect can be triggered even if the equipping character is off-field.",
+        "link": "https://genshin-impact.fandom.com/wiki/Serenity%27s_Call",
+        "src": {
+            "weapon": "Genshin/Weapons/Swords/Serenity's Call.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
     "Serpent Spine": {
         "type": "Claymore",
         "quality": "4",
@@ -1973,6 +2077,19 @@ let genshinWeapons = {
         "src": {
             "weapon": "Genshin/Weapons/Claymores/Serpent Spine.png",
             "weapon_type": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
+    "Snare Hook": {
+        "type": "Bow",
+        "quality": "4",
+        "first_stat": "454",
+        "second_stat": "61.3%",
+        "second_stat_type": "Energy Recharge",
+        "ability": "Phantom Flash\nUpon causing an Elemental Reaction, increases Elemental Mastery by 60~120 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 60~120. This effect can be triggered even if the equipping character is off-field.",
+        "link": "https://genshin-impact.fandom.com/wiki/Snare_Hook",
+        "src": {
+            "weapon": "Genshin/Weapons/Bows/Snare Hook.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
     "Snow-Tombed Starsilver": {

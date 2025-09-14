@@ -136,6 +136,7 @@ let genshinBuilds = {
                     "Emblem of Severed Fate",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ],
@@ -195,6 +196,7 @@ let genshinBuilds = {
                     "Blizzard Strayer",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Echoes of an Offering",
@@ -494,8 +496,9 @@ let genshinBuilds = {
                 "1": "Starcaller's Watch",
                 "2": "Thrilling Tales of Dragon Slayers",
                 "3": "Favonius Codex",
-                "4": "Sacrificial Fragments",
-                "5": "Wandering Evenstar"
+                "4": "Etherlight Spindlelute",
+                "5": "Sacrificial Fragments",
+                "6": "Wandering Evenstar"
             },
             "artifacts": {
                 "1": [
@@ -604,6 +607,7 @@ let genshinBuilds = {
                 "4": [
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Thundering Fury"
@@ -722,6 +726,7 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ],
@@ -856,6 +861,7 @@ let genshinBuilds = {
                     "Brave Heart",
                     "Resolution of Sojourner",
                     "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
                     "Scholar",
                     "The Exile"
                 ],
@@ -925,6 +931,7 @@ let genshinBuilds = {
                     "Brave Heart",
                     "Resolution of Sojourner",
                     "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
                     "Scholar",
                     "The Exile"
                 ],
@@ -1125,6 +1132,7 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ]
@@ -1284,6 +1292,7 @@ let genshinBuilds = {
                     "Crimson Witch of Flames",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Tenacity of the Millelith",
@@ -1313,7 +1322,7 @@ let genshinBuilds = {
         }
     },
     "Ineffa": {
-        "OFF-FIELD DPS & SUPPORT": {
+        "OFF-FIELD DPS & BUFF AND SHIELD SUPPORT": {
             "weapons": {
                 "1": "Fractured Halo",
                 "2": "Staff of the Scarlet Sands",
@@ -1321,28 +1330,21 @@ let genshinBuilds = {
                 "4": "Staff of Homa",
                 "5": "Calamity Queller",
                 "6": "Lumidouce Elegy",
-                "7": "Missive Windspear",
-                "8": "Engulfing Lightning",
+                "7": "Engulfing Lightning",
+                "8": "Prospector's Shovel",
                 "9": "Kitain Cross Spear",
                 "10": "Skyward Spine",
                 "11": "Primordial Jade Winged-Spear",
                 "12": "Ballad of the Fjords",
-                "13": "Deathmatch"
+                "13": "Deathmatch",
+                "14": "Missive Windspear"
             },
             "artifacts": {
                 "1": [
                     "Gilded Dreams"
                 ],
                 "2": [
-                    "Echoes of an Offering",
-                    "Fragment of Harmonic Whimsy",
-                    "Gladiator's Finale",
-                    "Nighttime Whispers in the Echoing Woods",
-                    "Shimenawa's Reminiscence",
-                    "Unfinished Reverie",
-                    "Vermillion Hereafter",
-                    "Brave Heart",
-                    "Resolution of Sojourner"
+                    "Silken Moon's Serenade"
                 ],
                 "3": [
                     "Echoes of an Offering",
@@ -1356,25 +1358,20 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ],
                 "4": [
-                    "Flower of Paradise Lost",
-                    "Gilded Dreams",
-                    "Wanderer's Troupe",
-                    "Instructor"
-                ],
-                "5": [
                     "Thundering Fury"
                 ],
-                "6": [
+                "5": [
                     "Emblem of Severed Fate"
                 ],
-                "7": [
+                "6": [
                     "Golden Troupe"
                 ],
-                "8": [
+                "7": [
                     "Tenacity of the Millelith"
                 ]
             },
@@ -1687,6 +1684,7 @@ let genshinBuilds = {
                     "Thundering Fury",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Echoes of an Offering",
@@ -1752,6 +1750,7 @@ let genshinBuilds = {
                     "Thundering Fury",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Echoes of an Offering",
@@ -1910,6 +1909,97 @@ let genshinBuilds = {
             }
         }
     },
+    "Lauma": {
+        "BUFF SUPPORT (HIGH-ENERGY REQUIREMENT)": {
+            "weapons": {
+                "1": "Nightweaver's Looking Glass",
+                "2": "A Thousand Floating Dreams",
+                "3": "Etherlight Spindlelute",
+                "4": "Starcaller's Watch",
+                "5": "Sunny Morning Sleep-In",
+                "6": "Blackmarrow Lantern"
+            },
+            "artifacts": {
+                "1": [
+                    "Silken Moon's Serenade"
+                ],
+                "2": [
+                    "Deepwood Memories"
+                ],
+                "3": [
+                    "Night of the Sky's Unveiling"
+                ],
+                "4": [
+                    "Gilded Dreams"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "Energy Recharge",
+                    "Elemental Mastery"
+                ],
+                "Goblet": [
+                    "Elemental Mastery"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG",
+                    "Elemental Mastery"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "Elemental Mastery",
+                "3": "Crit Rate",
+                "4": "Crit DMG"
+            }
+        },
+        "BUFF SUPPORT(LOW-ENERGY REQUIREMENT)": {
+            "weapons": {
+                "1": "Nightweaver's Looking Glass",
+                "2": "A Thousand Floating Dreams",
+                "3": "Starcaller's Watch",
+                "4": "Sunny Morning Sleep-In",
+                "5": "Sacrificial Fragments",
+                "6": "Surf's Up",
+                "7": "Wandering Evenstar",
+                "8": "Blackmarrow Lantern"
+            },
+            "artifacts": {
+                "1": [
+                    "Silken Moon's Serenade"
+                ],
+                "2": [
+                    "Deepwood Memories"
+                ],
+                "3": [
+                    "Night of the Sky's Unveiling"
+                ],
+                "4": [
+                    "Gilded Dreams"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "Elemental Mastery"
+                ],
+                "Goblet": [
+                    "Elemental Mastery"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG",
+                    "Elemental Mastery"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "Elemental Mastery",
+                "3": "Crit Rate",
+                "4": "Crit DMG"
+            }
+        }
+    },
     "Lyney": {
         "DPS": {
             "weapons": {
@@ -1986,14 +2076,14 @@ let genshinBuilds = {
                 "1": "A Thousand Blazing Suns",
                 "2": "Beacon of the Reed Sea",
                 "3": "Verdict",
-                "4": "Fang of the Mountain King",
-                "5": "The Unforged",
-                "6": "Redhorn Stonethresher",
-                "7": "Wolf's Gravestone",
-                "8": "Serpent Spine",
-                "9": "Mailed Flower",
-                "10": "Akuoumaru",
-                "11": "Tidal Shadow",
+                "4": "The Unforged",
+                "5": "Redhorn Stonethresher",
+                "6": "Wolf's Gravestone",
+                "7": "Serpent Spine",
+                "8": "Mailed Flower",
+                "9": "Akuoumaru",
+                "10": "Tidal Shadow",
+                "11": "Fang of the Mountain King",
                 "12": "Skyward Pride",
                 "13": "Rainslasher",
                 "14": "Talking Stick"
@@ -2061,6 +2151,7 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Emblem of Severed Fate"
@@ -2108,6 +2199,7 @@ let genshinBuilds = {
                 ],
                 "4": [
                     "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
                     "Scholar",
                     "The Exile"
                 ]
@@ -2158,6 +2250,7 @@ let genshinBuilds = {
                     "Nymph's Dream",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Marechaussee Hunter"
@@ -2194,19 +2287,20 @@ let genshinBuilds = {
                 "2": "Sunny Morning Sleep-In",
                 "3": "Kagura's Verity",
                 "4": "Sacrificial Fragments",
-                "5": "Wandering Evenstar",
-                "6": "The Widsith",
-                "7": "Sacrificial Jade",
-                "8": "Skyward Atlas",
-                "9": "Lost Prayer to the Sacred Winds",
-                "10": "Memory of Dust",
-                "11": "Solar Pearl",
-                "12": "Favonius Codex",
-                "13": "Mappa Mare",
-                "14": "Magic Guide",
-                "15": "Hakushin Ring",
-                "16": "Thrilling Tales of Dragon Slayers",
-                "17": "Prototype Amber"
+                "5": "Etherlight Spindlelute",
+                "6": "Wandering Evenstar",
+                "7": "The Widsith",
+                "8": "Sacrificial Jade",
+                "9": "Skyward Atlas",
+                "10": "Lost Prayer to the Sacred Winds",
+                "11": "Memory of Dust",
+                "12": "Solar Pearl",
+                "13": "Favonius Codex",
+                "14": "Mappa Mare",
+                "15": "Magic Guide",
+                "16": "Hakushin Ring",
+                "17": "Thrilling Tales of Dragon Slayers",
+                "18": "Prototype Amber"
             },
             "artifacts": {
                 "1": [
@@ -2221,6 +2315,7 @@ let genshinBuilds = {
                 "4": [
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Deepwood Memories"
@@ -2395,6 +2490,7 @@ let genshinBuilds = {
                     "Noblesse Oblige",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ],
@@ -2460,6 +2556,7 @@ let genshinBuilds = {
                     "Brave Heart",
                     "Resolution of Sojourner",
                     "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
                     "Scholar",
                     "The Exile"
                 ]
@@ -2871,6 +2968,7 @@ let genshinBuilds = {
                     "Deepwood Memories",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Echoes of an Offering",
@@ -2934,6 +3032,7 @@ let genshinBuilds = {
                 ],
                 "5": [
                     "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
                     "Scholar",
                     "The Exile"
                 ]
@@ -2959,7 +3058,7 @@ let genshinBuilds = {
                 "5": "DEF%"
             }
         },
-        "ELECTRO ENERGY SUPPORT": {
+        "DENDRO ENERGY SUPPORT": {
             "weapons": {
                 "1": "Favonius Sword",
                 "2": "Sacrificial Sword",
@@ -2979,6 +3078,7 @@ let genshinBuilds = {
                 ],
                 "4": [
                     "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
                     "Scholar",
                     "The Exile"
                 ]
@@ -3002,7 +3102,7 @@ let genshinBuilds = {
                 "4": "Crit DMG"
             }
         },
-        "DENDRO REACTION SUPPORT": {
+        "HYDRO REACTION SUPPORT": {
             "weapons": {
                 "1": "Freedom-Sworn",
                 "2": "Favonius Sword",
@@ -3075,6 +3175,7 @@ let genshinBuilds = {
                     "Viridescent Venerer",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Noblesse Oblige",
@@ -3189,12 +3290,13 @@ let genshinBuilds = {
                 "2": "Tome of the Eternal Flow",
                 "3": "Surf's Up",
                 "4": "Kagura's Verity",
-                "5": "The Widsith",
-                "6": "Lost Prayer to the Sacred Winds",
-                "7": "Cashflow Supervision",
-                "8": "Crane's Echoing Call",
-                "9": "Tulaytullah's Remembrance",
-                "10": "Flowing Purity"
+                "5": "Lost Prayer to the Sacred Winds",
+                "6": "Cashflow Supervision",
+                "7": "Crane's Echoing Call",
+                "8": "Tulaytullah's Remembrance",
+                "9": "The Widsith",
+                "10": "Sacrificial Jade",
+                "11": "Flowing Purity"
             },
             "artifacts": {
                 "1": [
@@ -3220,8 +3322,7 @@ let genshinBuilds = {
                 "1": "Energy Recharge",
                 "2": "Crit Rate",
                 "3": "Crit DMG",
-                "4": "ATK%",
-                "5": "Elemental Mastery"
+                "4": "ATK%"
             }
         }
     },
@@ -3253,6 +3354,7 @@ let genshinBuilds = {
                 "4": [
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ],
@@ -3452,6 +3554,7 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ]
@@ -3863,6 +3966,7 @@ let genshinBuilds = {
                     "Thundering Fury",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Echoes of an Offering",
@@ -4048,6 +4152,7 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ]
@@ -4154,6 +4259,51 @@ let genshinBuilds = {
                 "1": "HP%",
                 "2": "Flat HP",
                 "3": "Energy Recharge"
+            }
+        }
+    },
+    "Aino": {
+        "APPLICATION SUPPORT": {
+            "weapons": {
+                "1": "Favonius Greatsword",
+                "2": "Makhaira Aquamarine",
+                "3": "Flame-Forged Insight",
+                "4": "Master Key"
+            },
+            "artifacts": {
+                "1": [
+                    "Silken Moon's Serenade"
+                ],
+                "2": [
+                    "Noblesse Oblige"
+                ],
+                "3": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "4": [
+                    "Instructor"
+                ],
+                "5": [
+                    "Deepwood Memories"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "Energy Recharge",
+                    "Elemental Mastery"
+                ],
+                "Goblet": [
+                    "Elemental Mastery"
+                ],
+                "Circlet": [
+                    "Elemental Mastery",
+                    "Crit Rate"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "Elemental Mastery",
+                "3": "Crit Rate"
             }
         }
     },
@@ -4572,6 +4722,7 @@ let genshinBuilds = {
                     "Blizzard Strayer",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Echoes of an Offering",
@@ -4836,6 +4987,7 @@ let genshinBuilds = {
                 ],
                 "7": [
                     "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
                     "Scholar",
                     "The Exile"
                 ]
@@ -4959,6 +5111,7 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Thundering Fury",
@@ -5000,17 +5153,18 @@ let genshinBuilds = {
         "PHYSICAL DPS": {
             "weapons": {
                 "1": "Skyward Pride",
-                "2": "A Thousand Blazing Suns",
-                "3": "Song of Broken Pines",
-                "4": "Verdict",
-                "5": "Wolf's Gravestone",
-                "6": "Beacon of the Reed Sea",
-                "7": "Redhorn Stonethresher",
-                "8": "Serpent Spine",
-                "9": "The Unforged",
-                "10": "Prototype Archaic",
-                "11": "Tidal Shadow",
-                "12": "Snow-Tombed Starsilver"
+                "2": "Fang of the Mountain King",
+                "3": "A Thousand Blazing Suns",
+                "4": "Song of Broken Pines",
+                "5": "Verdict",
+                "6": "Wolf's Gravestone",
+                "7": "Beacon of the Reed Sea",
+                "8": "Redhorn Stonethresher",
+                "9": "Serpent Spine",
+                "10": "The Unforged",
+                "11": "Prototype Archaic",
+                "12": "Tidal Shadow",
+                "13": "Snow-Tombed Starsilver"
             },
             "artifacts": {
                 "1": [
@@ -5064,17 +5218,18 @@ let genshinBuilds = {
         "CRYO DPS": {
             "weapons": {
                 "1": "A Thousand Blazing Suns",
-                "2": "Verdict",
-                "3": "Wolf's Gravestone",
-                "4": "Skyward Pride",
-                "5": "Beacon of the Reed Sea",
-                "6": "The Unforged",
-                "7": "Serpent Spine",
-                "8": "Redhorn Stonethresher",
-                "9": "Song of Broken Pines",
-                "10": "Tidal Shadow",
-                "11": "Mailed Flower",
-                "12": "Prototype Archaic"
+                "2": "Fang of the Mountain King",
+                "3": "Verdict",
+                "4": "Wolf's Gravestone",
+                "5": "Skyward Pride",
+                "6": "Beacon of the Reed Sea",
+                "7": "The Unforged",
+                "8": "Serpent Spine",
+                "9": "Redhorn Stonethresher",
+                "10": "Song of Broken Pines",
+                "11": "Tidal Shadow",
+                "12": "Mailed Flower",
+                "13": "Prototype Archaic"
             },
             "artifacts": {
                 "1": [
@@ -5188,6 +5343,7 @@ let genshinBuilds = {
                 ],
                 "3": [
                     "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
                     "Scholar",
                     "The Exile"
                 ]
@@ -5439,6 +5595,7 @@ let genshinBuilds = {
                     "Finale of the Deep Galleries",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ],
@@ -5478,16 +5635,17 @@ let genshinBuilds = {
     "Kaveh": {
         "BLOOM / BURGEON DRIVER": {
             "weapons": {
-                "1": "Favonius Greatsword",
-                "2": "Sacrificial Greatsword",
-                "3": "Mailed Flower",
-                "4": "Wolf's Gravestone",
-                "5": "Song of Broken Pines",
-                "6": "Makhaira Aquamarine",
-                "7": "Katsuragikiri Nagamasa",
-                "8": "Skyward Pride",
-                "9": "Forest Regalia",
-                "10": "Rainslasher"
+                "1": "Flame-Forged Insight",
+                "2": "Favonius Greatsword",
+                "3": "Sacrificial Greatsword",
+                "4": "Mailed Flower",
+                "5": "Wolf's Gravestone",
+                "6": "Song of Broken Pines",
+                "7": "Makhaira Aquamarine",
+                "8": "Katsuragikiri Nagamasa",
+                "9": "Skyward Pride",
+                "10": "Forest Regalia",
+                "11": "Rainslasher"
             },
             "artifacts": {
                 "1": [
@@ -5659,6 +5817,7 @@ let genshinBuilds = {
                 "3": [
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ],
@@ -5862,6 +6021,7 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ]
@@ -5984,6 +6144,7 @@ let genshinBuilds = {
                     "Desert Pavilion Chronicle",
                     "Viridescent Venerer",
                     "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
                     "Scholar",
                     "The Exile",
                     "Noblesse Oblige",
@@ -6282,6 +6443,7 @@ let genshinBuilds = {
                 "3": [
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ],
@@ -6482,6 +6644,7 @@ let genshinBuilds = {
                     "Thundering Fury",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Emblem of Severed Fate"
@@ -6525,6 +6688,7 @@ let genshinBuilds = {
                     "Thundering Fury",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Emblem of Severed Fate"
@@ -6601,6 +6765,7 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ]
@@ -6686,6 +6851,7 @@ let genshinBuilds = {
                 "3": [
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ]
@@ -6730,6 +6896,7 @@ let genshinBuilds = {
                 "3": [
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Emblem of Severed Fate"
@@ -6805,6 +6972,7 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Emblem of Severed Fate"
@@ -6871,6 +7039,7 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Emblem of Severed Fate"
@@ -7136,6 +7305,7 @@ let genshinBuilds = {
                     "Resolution of Sojourner",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ]
@@ -7204,6 +7374,7 @@ let genshinBuilds = {
                 "9": [
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
                 ]

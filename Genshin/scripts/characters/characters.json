@@ -296,6 +296,17 @@
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
+    "Lauma": {
+        "element": "Dendro",
+        "quality": "5",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Lauma",
+        "src": {
+            "character": "Genshin/Characters/Dendro/Lauma.png",
+            "element": "Genshin/Ressources/Elements/Dendro.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
     "Lyney": {
         "element": "Pyro",
         "quality": "5",
@@ -613,6 +624,17 @@
             "character": "Genshin/Characters/Geo/Zhongli.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Aino": {
+        "element": "Hydro",
+        "quality": "4",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Aino",
+        "src": {
+            "character": "Genshin/Characters/Hydro/Aino.png",
+            "element": "Genshin/Ressources/Elements/Hydro.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
     "Amber": {

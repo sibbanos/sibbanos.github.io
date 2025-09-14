@@ -261,7 +261,8 @@ for character_list in soup.find_all('table') :
 
             for artifact in artifacts_list :
                 artifact = artifact.strip()
-                if artifact.startswith('≈') or artifact[0].isdigit() :
+                # Fix for Aino
+                if artifact.startswith('≈') or artifact[0].isdigit() or (character_name == 'Aino' and not artifact.startswith('Conditional')):
                     if '(4)' in artifact :
                         _artifact = [artifact.split('(4)')[0]]
                     else :

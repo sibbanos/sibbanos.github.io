@@ -1059,6 +1059,59 @@
             "4": "When current HP increases or decreases, CRIT Rate will be increased by 12% for 5s. Max 3 stacks."
         }
     },
+    "Night of the Sky's Unveiling": {
+        "link": "https://genshin-impact.fandom.com/wiki/Night_of_the_Sky%27s_Unveiling",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Bloom of the Mind's Desire",
+                "type": "Flower",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Night of the Sky's Unveiling/Bloom of the Mind's Desire.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Flower.png"
+                }
+            },
+            {
+                "name": "Feather of Indelible Sin",
+                "type": "Plume",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Night of the Sky's Unveiling/Feather of Indelible Sin.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Plume.png"
+                }
+            },
+            {
+                "name": "Revelation's Toll",
+                "type": "Sands",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Night of the Sky's Unveiling/Revelation's Toll.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Sands.png"
+                }
+            },
+            {
+                "name": "Vessel of Plenty",
+                "type": "Goblet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Night of the Sky's Unveiling/Vessel of Plenty.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Goblet.png"
+                }
+            },
+            {
+                "name": "Crown of the Befallen",
+                "type": "Circlet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Night of the Sky's Unveiling/Crown of the Befallen.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Circlet.png"
+                }
+            }
+        ],
+        "bonuses": {
+            "2": "Increases Elemental Mastery by 80.",
+            "4": "When nearby party members trigger Lunar Reactions, if the equipping character is on the field, gain the Gleaming Moon: Intent effect for 4s: Increases CRIT Rate by 15%/30% when the party's Moonsign is Nascent Gleam/Ascendant Gleam. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack."
+        }
+    },
     "Nighttime Whispers in the Echoing Woods": {
         "link": "https://genshin-impact.fandom.com/wiki/Nighttime_Whispers_in_the_Echoing_Woods",
         "quality": [
@@ -1534,6 +1587,59 @@
         "bonuses": {
             "2": "ATK +18%",
             "4": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
+        }
+    },
+    "Silken Moon's Serenade": {
+        "link": "https://genshin-impact.fandom.com/wiki/Silken_Moon%27s_Serenade",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Crystal Tear of the Wanderer",
+                "type": "Flower",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Silken Moon's Serenade/Crystal Tear of the Wanderer.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Flower.png"
+                }
+            },
+            {
+                "name": "Pristine Plume of the Blessed",
+                "type": "Plume",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Silken Moon's Serenade/Pristine Plume of the Blessed.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Plume.png"
+                }
+            },
+            {
+                "name": "Frost Devotee's Delirium",
+                "type": "Sands",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Silken Moon's Serenade/Frost Devotee's Delirium.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Sands.png"
+                }
+            },
+            {
+                "name": "Joyous Glory of the Pure",
+                "type": "Goblet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Silken Moon's Serenade/Joyous Glory of the Pure.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Goblet.png"
+                }
+            },
+            {
+                "name": "Holy Crown of the Believer",
+                "type": "Circlet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Silken Moon's Serenade/Holy Crown of the Believer.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Circlet.png"
+                }
+            }
+        ],
+        "bonuses": {
+            "2": "Energy Recharge +20%.",
+            "4": "When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam. The equipping character can trigger this effect while off-field. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack."
         }
     },
     "Song of Days Past": {
