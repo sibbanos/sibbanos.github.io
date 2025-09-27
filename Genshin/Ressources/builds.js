@@ -1622,9 +1622,6 @@ let genshinBuilds = {
                 ],
                 "6": [
                     "Thundering Fury"
-                ],
-                "7": [
-                    "Echoes of an Offering"
                 ]
             },
             "main_stats": {
@@ -1942,8 +1939,6 @@ let genshinBuilds = {
                     "Elemental Mastery"
                 ],
                 "Circlet": [
-                    "Crit Rate",
-                    "Crit DMG",
                     "Elemental Mastery"
                 ]
             },
@@ -1954,7 +1949,7 @@ let genshinBuilds = {
                 "4": "Crit DMG"
             }
         },
-        "BUFF SUPPORT(LOW-ENERGY REQUIREMENT)": {
+        "BUFF SUPPORT (LOW-ENERGY REQUIREMENT)": {
             "weapons": {
                 "1": "Nightweaver's Looking Glass",
                 "2": "A Thousand Floating Dreams",
@@ -1963,7 +1958,8 @@ let genshinBuilds = {
                 "5": "Sacrificial Fragments",
                 "6": "Surf's Up",
                 "7": "Wandering Evenstar",
-                "8": "Blackmarrow Lantern"
+                "8": "Etherlight Spindlelute",
+                "9": "Blackmarrow Lantern"
             },
             "artifacts": {
                 "1": [
@@ -1987,9 +1983,9 @@ let genshinBuilds = {
                     "Elemental Mastery"
                 ],
                 "Circlet": [
+                    "Elemental Mastery",
                     "Crit Rate",
-                    "Crit DMG",
-                    "Elemental Mastery"
+                    "Crit DMG"
                 ]
             },
             "sub_stats": {
@@ -2118,7 +2114,7 @@ let genshinBuilds = {
         }
     },
     "Mona": {
-        "BURST NUKE": {
+        "BURST NUKE (OUT OF DATE)": {
             "weapons": {
                 "1": "The Widsith",
                 "2": "Skyward Atlas",
@@ -2469,15 +2465,7 @@ let genshinBuilds = {
             "weapons": {
                 "1": "Key of Khaj-Nisut",
                 "2": "The Dockhand's Assistant",
-                "3": "Freedom-Sworn",
-                "4": "Xiphos' Moonlight",
-                "5": "Iron Sting",
-                "6": "Toukabou Shigure",
-                "7": "Favonius Sword",
-                "8": "Festering Desire",
-                "9": "Sacrificial Sword",
-                "10": "Sapwood Blade",
-                "11": "Primordial Jade Cutter"
+                "3": "Serenity's Call"
             },
             "artifacts": {
                 "1": [
@@ -2487,7 +2475,6 @@ let genshinBuilds = {
                 "2": [
                     "Tenacity of the Millelith",
                     "Vourukasha's Glow",
-                    "Noblesse Oblige",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -2512,10 +2499,7 @@ let genshinBuilds = {
             "sub_stats": {
                 "1": "HP%",
                 "2": "Flat HP",
-                "3": "Energy Recharge",
-                "4": "Elemental Mastery",
-                "5": "Crit Rate",
-                "6": "Crit DMG"
+                "3": "Elemental Mastery"
             }
         }
     },
@@ -2651,8 +2635,9 @@ let genshinBuilds = {
             "weapons": {
                 "1": "Thrilling Tales of Dragon Slayers",
                 "2": "Prototype Amber",
-                "3": "Hakushin Ring",
-                "4": "Sacrificial Fragments"
+                "3": "Ash-Graven Drinking Horn",
+                "4": "Hakushin Ring",
+                "5": "Sacrificial Fragments"
             },
             "artifacts": {
                 "1": [
@@ -4263,7 +4248,7 @@ let genshinBuilds = {
         }
     },
     "Aino": {
-        "APPLICATION SUPPORT": {
+        "REACTION SUPPORT": {
             "weapons": {
                 "1": "Favonius Greatsword",
                 "2": "Makhaira Aquamarine",
@@ -4354,8 +4339,9 @@ let genshinBuilds = {
                 "1": "Thrilling Tales of Dragon Slayers",
                 "2": "Everlasting Moonglow",
                 "3": "Prototype Amber",
-                "4": "Favonius Codex",
-                "5": "Hakushin Ring"
+                "4": "Ash-Graven Drinking Horn",
+                "5": "Favonius Codex",
+                "6": "Hakushin Ring"
             },
             "artifacts": {
                 "1": [
@@ -4962,9 +4948,10 @@ let genshinBuilds = {
             "weapons": {
                 "1": "Favonius Warbow",
                 "2": "Elegy for the End",
-                "3": "End of the Line",
-                "4": "Fading Twilight",
-                "5": "Sacrificial Bow"
+                "3": "Snare Hook",
+                "4": "End of the Line",
+                "5": "Fading Twilight",
+                "6": "Sacrificial Bow"
             },
             "artifacts": {
                 "1": [
@@ -7136,17 +7123,16 @@ let genshinBuilds = {
                 "3": "Azurelight",
                 "4": "Haran Geppaku Futsu",
                 "5": "Light of Foliar Incision",
-                "6": "Uraku Misugiri",
-                "7": "Absolution",
-                "8": "Summit Shaper",
-                "9": "Skyward Blade",
+                "6": "Absolution",
+                "7": "Summit Shaper",
+                "8": "Skyward Blade",
+                "9": "Uraku Misugiri",
                 "10": "Splendor of Tranquil Waters",
                 "11": "Wolf-Fang",
                 "12": "Favonius Sword",
                 "13": "Fleuve Cendre Ferryman",
                 "14": "Finale of the Deep",
-                "15": "Amenoma Kageuchi",
-                "16": "Harbinger of Dawn"
+                "15": "Amenoma Kageuchi"
             },
             "artifacts": {
                 "1": [
