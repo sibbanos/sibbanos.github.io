@@ -175,6 +175,17 @@ let genshinCharacters = {
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
+    "Flins": {
+        "element": "Electro",
+        "quality": "5",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Flins",
+        "src": {
+            "character": "Genshin/Characters/Electro/Flins.png",
+            "element": "Genshin/Ressources/Elements/Electro.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
     "Furina": {
         "element": "Hydro",
         "quality": "5",

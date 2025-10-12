@@ -1036,6 +1036,76 @@
             }
         }
     },
+    "Flins": {
+        "DPS": {
+            "weapons": {
+                "1": "Bloodsoaked Ruins",
+                "2": "Staff of the Scarlet Sands",
+                "3": "Fractured Halo",
+                "4": "Staff of Homa",
+                "5": "Symphonist of Scents",
+                "6": "Primordial Jade Winged-Spear",
+                "7": "Lumidouce Elegy",
+                "8": "Ballad of the Fjords",
+                "9": "Deathmatch",
+                "10": "Crimson Moon's Semblance",
+                "11": "Calamity Queller",
+                "12": "Skyward Spine",
+                "13": "Vortex Vanquisher",
+                "14": "Tamayuratei no Ohanashi",
+                "15": "Engulfing Lightning",
+                "16": "Prospector's Shovel",
+                "17": "Blackcliff Pole"
+            },
+            "artifacts": {
+                "1": [
+                    "Night of the Sky's Unveiling"
+                ],
+                "2": [
+                    "Gilded Dreams"
+                ],
+                "3": [
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner",
+                    "Flower of Paradise Lost",
+                    "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
+                    "Wanderer's Troupe",
+                    "Instructor",
+                    "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
+                    "Scholar",
+                    "The Exile"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "ATK%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "Crit Rate",
+                "3": "Crit DMG",
+                "4": "ATK%",
+                "5": "Elemental Mastery"
+            }
+        }
+    },
     "Furina": {
         "OFF-FIELD DPS & BUFF SUPPORT": {
             "weapons": {
@@ -1341,10 +1411,10 @@
             },
             "artifacts": {
                 "1": [
-                    "Gilded Dreams"
+                    "Silken Moon's Serenade"
                 ],
                 "2": [
-                    "Silken Moon's Serenade"
+                    "Gilded Dreams"
                 ],
                 "3": [
                     "Echoes of an Offering",
@@ -6193,6 +6263,9 @@
                     "Ocean-Hued Clam",
                     "Song of Days Past",
                     "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
+                    "Scholar",
+                    "The Exile",
                     "Tenacity of the Millelith",
                     "Vourukasha's Glow"
                 ],
