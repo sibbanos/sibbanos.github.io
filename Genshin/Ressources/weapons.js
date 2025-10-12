@@ -467,6 +467,19 @@ let genshinWeapons = {
             "weapon_type": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
+    "Reliquary of Truth": {
+        "type": "Catalyst",
+        "quality": "5",
+        "first_stat": "Unknown\n",
+        "second_stat": "",
+        "second_stat_type": "",
+        "ability": "",
+        "link": "https://genshin-impact.fandom.com/wiki/Reliquary_of_Truth",
+        "src": {
+            "weapon": "Genshin/Weapons/Catalysts/Reliquary of Truth.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
     "Silvershower Heartstrings": {
         "type": "Bow",
         "quality": "5",
@@ -1050,6 +1063,19 @@ let genshinWeapons = {
         "src": {
             "weapon": "Genshin/Weapons/Polearms/Crescent Pike.png",
             "weapon_type": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Dawning Frost": {
+        "type": "Catalyst",
+        "quality": "4",
+        "first_stat": "Unknown\n",
+        "second_stat": "",
+        "second_stat_type": "",
+        "ability": "",
+        "link": "https://genshin-impact.fandom.com/wiki/Dawning_Frost",
+        "src": {
+            "weapon": "Genshin/Weapons/Catalysts/Dawning Frost.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
     "Deathmatch": {
@@ -1947,6 +1973,19 @@ let genshinWeapons = {
         "src": {
             "weapon": "Genshin/Weapons/Bows/Rust.png",
             "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Sacrificer's Staff": {
+        "type": "Polearm",
+        "quality": "4",
+        "first_stat": "Unknown\n",
+        "second_stat": "",
+        "second_stat_type": "",
+        "ability": "",
+        "link": "https://genshin-impact.fandom.com/wiki/Sacrificer%27s_Staff",
+        "src": {
+            "weapon": "Genshin/Weapons/Polearms/Sacrificer's Staff.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },
     "Sacrificial Bow": {
