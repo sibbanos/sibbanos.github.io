@@ -5,7 +5,7 @@ let genshinWeapons = {
         "first_stat": "741",
         "second_stat": "11.0%",
         "second_stat_type": "CRIT Rate",
-        "ability": "Sunset Reignites the Dawn\nGain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by 20~40% and ATK increased by 28~56% for 6s. This effect can trigger once every 10s.\nWhile a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second. and the max duration increase is 6s.\nAdditionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off\u2014field.",
+        "ability": "Sunset Reignites the Dawn\nGain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by 20~40% and ATK increased by 28~56% for 6s. This effect can trigger once every 10s.\nWhile a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.\nAdditionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off\u2014field.",
         "link": "https://genshin-impact.fandom.com/wiki/A_Thousand_Blazing_Suns",
         "src": {
             "weapon": "Genshin/Weapons/Claymores/A Thousand Blazing Suns.png",
@@ -122,7 +122,7 @@ let genshinWeapons = {
         "first_stat": "674",
         "second_stat": "22.1%",
         "second_stat_type": "CRIT Rate",
-        "ability": "Mournful Tribute\nFor 3.5s after using an Elemental Burst, the equipping character's Lunar-Charged DMG dealt to opponents is increased by ?~?%. Additionally, after triggering a Lunar-Charged reaction, the equipping character will gain Requiem of Ruin: CRIT DMG is increased by ?~?% for 6s. They will also regain ?~? Elemental Energy. Elemental Energy can be restored this way once every 14s.",
+        "ability": "Mournful Tribute\nFor 3.5s after using an Elemental Burst, the equipping character's Lunar-Charged DMG dealt to opponents is increased by 36~84%. Additionally, after triggering a Lunar-Charged reaction, the equipping character will gain Requiem of Ruin: CRIT DMG is increased by 28~56% for 6s. They will also regain 12~16 Elemental Energy. Elemental Energy can be restored this way once every 14s.",
         "link": "https://genshin-impact.fandom.com/wiki/Bloodsoaked_Ruins",
         "src": {
             "weapon": "Genshin/Weapons/Polearms/Bloodsoaked Ruins.png",
@@ -161,7 +161,7 @@ let genshinWeapons = {
         "first_stat": "741",
         "second_stat": "16.5%",
         "second_stat_type": "ATK",
-        "ability": "Cloudfall Axiom\nAfter the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal 28~80% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore 2.5~3.5 Energy to the equipping character. Energy can restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+        "ability": "Cloudfall Axiom\nAfter the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal 28~80% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore 2.5~3.5 Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
         "link": "https://genshin-impact.fandom.com/wiki/Crane%27s_Echoing_Call",
         "src": {
             "weapon": "Genshin/Weapons/Catalysts/Crane's Echoing Call.png",
@@ -470,10 +470,10 @@ let genshinWeapons = {
     "Reliquary of Truth": {
         "type": "Catalyst",
         "quality": "5",
-        "first_stat": "Unknown\n",
-        "second_stat": "",
-        "second_stat_type": "",
-        "ability": "",
+        "first_stat": "542",
+        "second_stat": "88.2%",
+        "second_stat_type": "CRIT DMG",
+        "ability": "Essence of Falsity\nCRIT Rate is increased by 8~16%. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by 80~160 for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by 24~48% for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
         "link": "https://genshin-impact.fandom.com/wiki/Reliquary_of_Truth",
         "src": {
             "weapon": "Genshin/Weapons/Catalysts/Reliquary of Truth.png",
@@ -499,7 +499,7 @@ let genshinWeapons = {
         "first_stat": "674",
         "second_stat": "33.1%",
         "second_stat_type": "ATK",
-        "ability": "Wandering Clouds\nIncreases Elemental DMG Bonus by 12~24%. Normal Attack hits have a 50% chance to earn the favor of the clouds. which actively seek out nearby opponents to attack for 15s, dealing 160~320% ATK DMG. Can only occur once every 30s.",
+        "ability": "Wandering Clouds\nIncreases Elemental DMG Bonus by 12~24%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 160~320% ATK DMG. Can only occur once every 30s.",
         "link": "https://genshin-impact.fandom.com/wiki/Skyward_Atlas",
         "src": {
             "weapon": "Genshin/Weapons/Catalysts/Skyward Atlas.png",
@@ -772,7 +772,7 @@ let genshinWeapons = {
         "first_stat": "674",
         "second_stat": "44.1%",
         "second_stat_type": "CRIT DMG",
-        "ability": "Falling Rainbow's Wish\nATK is increased by 28~56%. When you use a Plunging Attack, you will gain the \"Dawn's First Hue\" effect: Plunging Attack CRIT DMG is increased by 28~56%. When you use an Elemental Skill or Burst, you will gain the \"Twilight's Splendor\" effect: Plunging Attack CRIT DMG is increased by 40~80%. The two effects above each last for 15s. and will be canceled 0.1s after the ground impact hits a target.",
+        "ability": "Falling Rainbow's Wish\nATK is increased by 28~56%. When you use a Plunging Attack, you will gain the \"Dawn's First Hue\" effect: Plunging Attack CRIT DMG is increased by 28~56%. When you use an Elemental Skill or Burst, you will gain the \"Twilight's Splendor\" effect: Plunging Attack CRIT DMG is increased by 40~80%. The two effects above each last for 15s, and will be canceled 0.1s after the ground impact hits a target.",
         "link": "https://genshin-impact.fandom.com/wiki/Vivid_Notions",
         "src": {
             "weapon": "Genshin/Weapons/Catalysts/Vivid Notions.png",
@@ -1068,10 +1068,10 @@ let genshinWeapons = {
     "Dawning Frost": {
         "type": "Catalyst",
         "quality": "4",
-        "first_stat": "Unknown\n",
-        "second_stat": "",
-        "second_stat_type": "",
-        "ability": "",
+        "first_stat": "510",
+        "second_stat": "55.1%",
+        "second_stat_type": "CRIT DMG",
+        "ability": "Nocturnal Dreams\nFor 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 72~144. For 10s after an Elemental Skill hits an opponent. Elemental Mastery is increased by 48~96.",
         "link": "https://genshin-impact.fandom.com/wiki/Dawning_Frost",
         "src": {
             "weapon": "Genshin/Weapons/Catalysts/Dawning Frost.png",
@@ -1305,7 +1305,7 @@ let genshinWeapons = {
         "first_stat": "510",
         "second_stat": "165",
         "second_stat_type": "Elemental Mastery",
-        "ability": "Mind in Bloom\nWhen Electro-Charged, Lunar-Charged, or Bloom is triggered, restore 12~24 Elemental Energy and increase Elemental Mastery by 60~120 for 15 seconds. This effect can be triggered once every 15s and can be triggered even when the equipping character is off-field.",
+        "ability": "Mind in Bloom\nWhen Electro-Charged, Lunar-Charged, Bloom, or Lunar-Bloom is triggered, restore 12~24 Elemental Energy and increase Elemental Mastery by 60~120 for 15 seconds. This effect can be triggered once every 15s and can be triggered even when the equipping character is off-field.",
         "link": "https://genshin-impact.fandom.com/wiki/Flame-Forged_Insight",
         "src": {
             "weapon": "Genshin/Weapons/Claymores/Flame-Forged Insight.png",
@@ -1461,7 +1461,7 @@ let genshinWeapons = {
         "first_stat": "565",
         "second_stat": "27.6%",
         "second_stat_type": "ATK",
-        "ability": "Secret Wisdom's Favor\nThe character's Elemental Mastery will increase by 40~80 within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can triggered once every 0.5s.",
+        "ability": "Secret Wisdom's Favor\nThe character's Elemental Mastery will increase by 40~80 within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.",
         "link": "https://genshin-impact.fandom.com/wiki/Ibis_Piercer",
         "src": {
             "weapon": "Genshin/Weapons/Bows/Ibis Piercer.png",
@@ -1747,7 +1747,7 @@ let genshinWeapons = {
         "first_stat": "510",
         "second_stat": "41.3%",
         "second_stat_type": "ATK",
-        "ability": "Strong Strike\n\nThis weapon's effect is only applied on the following platform(s):\n\"PlayStation Network\"\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks.\nAdditionally, when Aloy equips Predator, ATK is increased by 66.",
+        "ability": "Strong Strike\nEffective only on the following platform:\n\"PlayStation Network\"\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
         "link": "https://genshin-impact.fandom.com/wiki/Predator",
         "src": {
             "weapon": "Genshin/Weapons/Bows/Predator.png",
@@ -1978,10 +1978,10 @@ let genshinWeapons = {
     "Sacrificer's Staff": {
         "type": "Polearm",
         "quality": "4",
-        "first_stat": "Unknown\n",
-        "second_stat": "",
-        "second_stat_type": "",
-        "ability": "",
+        "first_stat": "620",
+        "second_stat": "9.2%",
+        "second_stat_type": "CRIT Rate",
+        "ability": "Untainted Desire\nFor 6s after an Elemental Skill hits an opponent, ATK is increased by 8~16% and Energy Recharge is increased by 6~12%. Max 3 stacks. This effect can be triggered even when the equipping character is off-field.",
         "link": "https://genshin-impact.fandom.com/wiki/Sacrificer%27s_Staff",
         "src": {
             "weapon": "Genshin/Weapons/Polearms/Sacrificer's Staff.png",
@@ -2085,7 +2085,7 @@ let genshinWeapons = {
         "first_stat": "510",
         "second_stat": "41.3%",
         "second_stat_type": "HP",
-        "ability": "Silent Trigger\nWhen an attack hits an opponent, deal AoE DMG equal to 40~?% of Max HP at the target location. This effect can be triggered once every 15s.",
+        "ability": "Silent Trigger\nWhen an attack hits an opponent, deal AoE DMG equal to 40~80% of Max HP at the target location. This effect can be triggered once every 15s.",
         "link": "https://genshin-impact.fandom.com/wiki/Sequence_of_Solitude",
         "src": {
             "weapon": "Genshin/Weapons/Bows/Sequence of Solitude.png",
@@ -2514,7 +2514,7 @@ let genshinWeapons = {
         "first_stat": "401",
         "second_stat": "141",
         "second_stat_type": "Elemental Mastery",
-        "ability": "Overloaded\nUpon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, or Electro-infused Swirl reaction, ATK is increased by 20~40% for 12s.",
+        "ability": "Overloaded\nUpon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 20~?% for 12s.",
         "link": "https://genshin-impact.fandom.com/wiki/Dark_Iron_Sword",
         "src": {
             "weapon": "Genshin/Weapons/Swords/Dark Iron Sword.png",
@@ -2540,7 +2540,7 @@ let genshinWeapons = {
         "first_stat": "448",
         "second_stat": "94",
         "second_stat_type": "Elemental Mastery",
-        "ability": "Rapids\nUpon causing a Vaporize, Electro-Charged, Frozen, Bloom, or a Hydro-infused Swirl reaction, increases ATK by 20~40% for 12s.",
+        "ability": "Rapids\nUpon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 20~40% for 12s.",
         "link": "https://genshin-impact.fandom.com/wiki/Emerald_Orb",
         "src": {
             "weapon": "Genshin/Weapons/Catalysts/Emerald Orb.png",

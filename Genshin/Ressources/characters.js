@@ -384,6 +384,17 @@ let genshinCharacters = {
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
+    "Nefer": {
+        "element": "Dendro",
+        "quality": "5",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Nefer",
+        "src": {
+            "character": "Genshin/Characters/Dendro/Nefer.png",
+            "element": "Genshin/Ressources/Elements/Dendro.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
     "Neuvillette": {
         "element": "Hydro",
         "quality": "5",
@@ -536,6 +547,17 @@ let genshinCharacters = {
             "character": "Genshin/Characters/Anemo/Wanderer.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Wonderland Manekin": {
+        "element": "None",
+        "quality": "5",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Wonderland_Manekin",
+        "src": {
+            "character": "Genshin/Characters/None/Wonderland Manekin.png",
+            "element": "Genshin/Ressources/Elements/None.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
     "Wriothesley": {

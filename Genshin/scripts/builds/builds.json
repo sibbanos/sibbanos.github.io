@@ -2294,13 +2294,14 @@
         "VAPORIZE DPS": {
             "weapons": {
                 "1": "Surf's Up",
-                "2": "Sacrificial Jade",
-                "3": "A Thousand Floating Dreams",
-                "4": "Tome of the Eternal Flow",
-                "5": "Starcaller's Watch",
-                "6": "Sunny Morning Sleep-In",
-                "7": "Ring of Yaxche",
-                "8": "The Widsith"
+                "2": "Reliquary of Truth",
+                "3": "Sacrificial Jade",
+                "4": "A Thousand Floating Dreams",
+                "5": "Tome of the Eternal Flow",
+                "6": "Starcaller's Watch",
+                "7": "Sunny Morning Sleep-In",
+                "8": "Ring of Yaxche",
+                "9": "The Widsith"
             },
             "artifacts": {
                 "1": [
@@ -2466,6 +2467,44 @@
                 "2": "Crit Rate",
                 "3": "Crit DMG",
                 "4": "ATK%"
+            }
+        }
+    },
+    "Nefer": {
+        "DPS": {
+            "weapons": {
+                "1": "Reliquary of Truth",
+                "2": "Nightweaver's Looking Glass",
+                "3": "Sunny Morning Sleep-In",
+                "4": "Starcaller's Watch",
+                "5": "A Thousand Floating Dreams",
+                "6": "Surf's Up",
+                "7": "Tome of the Eternal Flow",
+                "8": "Blackmarrow Lantern",
+                "9": "Dawning Frost",
+                "10": "The Widsith"
+            },
+            "artifacts": {
+                "1": [
+                    "Night of the Sky's Unveiling"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "Elemental Mastery"
+                ],
+                "Goblet": [
+                    "Elemental Mastery"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "Elemental Mastery"
             }
         }
     },

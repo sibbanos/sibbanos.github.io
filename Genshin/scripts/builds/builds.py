@@ -90,6 +90,7 @@ correct_weapon_name = {
     'Sunny Morning Sleep In' : 'Sunny Morning Sleep-In',
     'Key of Khaj Nisut' : 'Key of Khaj-Nisut',
     'Haran Gepakku Futsu' : 'Haran Geppaku Futsu',
+    'A Thousand-Floating Dreams' : 'A Thousand Floating Dreams',
 }
 def correctWeapon(weapon) :
     if weapon in correct_weapon_name :

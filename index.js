@@ -37,6 +37,8 @@ const genshinMainStats = {
     ],
 };
 
+const genshinCharactersWithoutElements = ['Traveler', 'Wonderland Manekin'];
+
 let delegateInstance = {};
 
 window.addEventListener('hashchange', () => {
@@ -543,8 +545,8 @@ function findBuild() {
                     clone.querySelector('.genshinCardWeapon').src = characterInfo.src.weapon;
                     clone.querySelector('.genshinCardRank').remove();
     
-                    // Remove element for Traveler
-                    if (characterName !== 'Traveler') {
+                    // Remove element for Traveler and Manekin
+                    if (!genshinCharactersWithoutElements.includes(characterName)) {
                         clone.querySelector('.genshinCardElement').src = characterInfo.src.element;
                     } else {
                         clone.querySelector('.genshinCardElement').remove();
@@ -666,8 +668,8 @@ function GenshinCharacters() {
         clone.querySelector('.genshinCardName').textContent = character;
         clone.querySelector('.genshinCardWeapon').src = characterInfo.src.weapon;
 
-        // Remove element for Traveler
-        if (character !== 'Traveler') {
+        // Remove element for Traveler and Manekin
+        if (!genshinCharactersWithoutElements.includes(character)) {
             clone.querySelector('.genshinCardElement').src = characterInfo.src.element;
         } else {
             clone.querySelector('.genshinCardElement').remove();
@@ -827,8 +829,8 @@ function GenshinCharacter(character) {
     clone.querySelector('.genshinWeaponType').textContent = characterInfo.weapon;
     clone.querySelector('.genshinQuality').src = `Genshin/Ressources/Quality/${characterInfo.quality}.png`;
 
-    // Hide element for Traveler
-    if (character !== 'Traveler') {
+    // Hide element for Traveler and Manekin
+    if (!genshinCharactersWithoutElements.includes(character)) {
         clone.querySelector('.genshinElement').src = characterInfo.src.element;
         clone.querySelector('.genshinElement').parentNode.hidden = false;
     } else {
@@ -1308,8 +1310,8 @@ function genshinWeaponUsage(weaponName, f2p = false) {
                 clone.querySelector('.genshinCardRank').remove();
             }
 
-            // Remove element for Traveler
-            if (characterName !== 'Traveler') {
+            // Remove element for Traveler and Manekin
+            if (!genshinCharactersWithoutElements.includes(characterName)) {
                 clone.querySelector('.genshinCardElement').src = characterInfo.src.element;
             } else {
                 clone.querySelector('.genshinCardElement').remove();
@@ -1555,8 +1557,8 @@ function genshinArtifactUsage(artifactName, bis = false) {
                 clone.querySelector('.genshinCardRank').remove();
             }
 
-            // Remove element for Traveler
-            if (characterName !== 'Traveler') {
+            // Remove element for Traveler and Manekin
+            if (!genshinCharactersWithoutElements.includes(characterName)) {
                 clone.querySelector('.genshinCardElement').src = characterInfo.src.element;
             } else {
                 clone.querySelector('.genshinCardElement').remove();

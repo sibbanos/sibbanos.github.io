@@ -22,7 +22,7 @@ for character in soup.find('table').find_all('tr')[1:] :
     character_quality = character_quality['alt'].replace(' Stars', '')
 
     character_td_element = character_td_quality.next_sibling.next_sibling
-    if (character_td_element.get_text().strip() == 'None') :
+    if (character_name == 'Traveler' or character_name == 'Wonderland Manekin') :
         character_element = 'None'
     else :
         character_element = character_td_element.find_all('a')[1].get_text()
