@@ -48,7 +48,7 @@ let genshinArtifacts = {
             }
         ],
         "bonuses": {
-            "2": "Geo DMG Bonus +15%",
+            "2": "Geo DMG Bonus +15%.",
             "4": "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
         }
     },
@@ -260,7 +260,7 @@ let genshinArtifacts = {
             }
         ],
         "bonuses": {
-            "2": "Dendro DMG Bonus +15%",
+            "2": "Dendro DMG Bonus +15%.",
             "4": "After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field."
         }
     },
@@ -473,7 +473,7 @@ let genshinArtifacts = {
         ],
         "bonuses": {
             "2": "Cryo DMG Bonus +15%",
-            "4": "When the equipping Character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s. After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s. This effect can trigger even if the equipping character is off the field."
+            "4": "When the equipping character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s. After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s. This effect can trigger even if the equipping character is off the field."
         }
     },
     "Flower of Paradise Lost": {
@@ -526,7 +526,7 @@ let genshinArtifacts = {
         ],
         "bonuses": {
             "2": "Increases Elemental Mastery by 80.",
-            "4": "The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field."
+            "4": "The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%, and their Lunar-Bloom reaction DMG is increased by 10%. Additionally, after the equipping character triggers Bloom, Hyperbloom, Lunar-Bloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field."
         }
     },
     "Fragment of Harmonic Whimsy": {
@@ -578,7 +578,7 @@ let genshinArtifacts = {
             }
         ],
         "bonuses": {
-            "2": "ATK +18%",
+            "2": "ATK +18%.",
             "4": "When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s. Max 3 stacks."
         }
     },
@@ -950,7 +950,7 @@ let genshinArtifacts = {
         ],
         "bonuses": {
             "2": "Plunging Attack DMG increased by 25%.",
-            "4": "After the equipping character's Plunging Attack/Charged Attack/Elemental Skill hits an opponent, they will gain 1/2/2 stack(s) of \"Radiance Everlasting.\" Plunging Attacks, Charged Attacks or Elemental Skills can each trigger this effect once every 1s. Radiance Everlasting: Plunging Attacks deal 15%. increased DMG for 6s. Max 5 stacks. Each stack's duration is counted independently."
+            "4": "After the equipping character's Plunging Attack/Charged Attack/Elemental Skill hits an opponent, they will gain 1/2/2 stack(s) of \"Radiance Everlasting.\" Plunging Attacks, Charged Attacks or Elemental Skills can each trigger this effect once every 1s. Radiance Everlasting: Plunging Attacks deal 15% increased DMG for 6s. Max 5 stacks. Each stack's duration is counted independently."
         }
     },
     "Maiden Beloved": {
@@ -1161,7 +1161,7 @@ let genshinArtifacts = {
             }
         ],
         "bonuses": {
-            "2": "ATK +18%",
+            "2": "ATK +18%.",
             "4": "After using an Elemental Skill, gain a 20% Geo DMG Bonus for 10s. While under a shield granted by the Crystallize reaction, the above effect will be increased by 150%, and this additional increase disappears 1s after that shield is lost."
         }
     },
@@ -1426,7 +1426,7 @@ let genshinArtifacts = {
             }
         ],
         "bonuses": {
-            "2": "Physical DMG Bonus +25%",
+            "2": "Physical DMG Bonus +25%.",
             "4": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
         }
     },
@@ -1585,7 +1585,7 @@ let genshinArtifacts = {
             }
         ],
         "bonuses": {
-            "2": "ATK +18%",
+            "2": "ATK +18%.",
             "4": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
         }
     },
@@ -1691,7 +1691,7 @@ let genshinArtifacts = {
             }
         ],
         "bonuses": {
-            "2": "Healing Bonus +15%",
+            "2": "Healing Bonus +15%.",
             "4": "When the equipping character heals a party member, the Yearning effect will be created for 6s, which records the total amount of healing provided (including overflow healing). When the duration expires, the Yearning effect will be transformed into the \"Waves of Days Past\" effect: When your active party member hits an opponent with a Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst, the DMG dealt will be increased by 8% of the total healing amount recorded by the Yearning effect. The \"Waves of Days Past\" effect is removed after it has taken effect 5 times or after 10s. A single instance of the Yearning effect can record up to 15,000 healing, and only a single instance can exist at once, but it can record the healing from multiple equipping characters. Equipping characters on standby can still trigger this effect."
         }
     },
@@ -1798,7 +1798,7 @@ let genshinArtifacts = {
         ],
         "bonuses": {
             "2": "Electro DMG Bonus +15%",
-            "4": "Increases DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s."
+            "4": "Increases DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%, and the DMG caused by Lunar-Charged by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s."
         }
     },
     "Thundersoother": {
@@ -1903,7 +1903,7 @@ let genshinArtifacts = {
             }
         ],
         "bonuses": {
-            "2": "ATK +18%",
+            "2": "ATK +18%.",
             "4": "After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field."
         }
     },
@@ -1957,7 +1957,7 @@ let genshinArtifacts = {
         ],
         "bonuses": {
             "2": "ATK +18%.",
-            "4": "After using an Elemental Burst. this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
+            "4": "After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
         }
     },
     "Viridescent Venerer": {
