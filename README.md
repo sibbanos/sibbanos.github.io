@@ -1,3 +1,3 @@
 # sibbanos.github.io
 
-npx @tailwindcss/cli -i ./index.css -o ./main.css --watch
+tailwindcss.exe -i ./index.css -o ./main.css --watch

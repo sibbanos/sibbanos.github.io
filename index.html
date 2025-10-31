@@ -8,20 +8,20 @@
     <!-- Primary Meta Tags -->
     <title>Sibbanos</title>
     <meta name="title" content="Sibbanos" />
-    <meta name="description" content="Genshin Impact - Honkai Star Rail | Artifacts ★ Characters ★ Weapons" />
+    <meta name="description" content="Genshin Impact | Artifacts ★ Characters ★ Weapons" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sibbanos.github.io/" />
     <meta property="og:title" content="Sibbanos" />
-    <meta property="og:description" content="Genshin Impact - Honkai Star Rail | Artifacts ★ Characters ★ Weapons" />
+    <meta property="og:description" content="Genshin Impact | Artifacts ★ Characters ★ Weapons" />
     <meta property="og:image" content="https://sibbanos.github.io/favicon.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sibbanos.github.io/" />
     <meta property="twitter:title" content="Sibbanos" />
-    <meta property="twitter:description" content="Genshin Impact - Honkai Star Rail | Artifacts ★ Characters ★ Weapons" />
+    <meta property="twitter:description" content="Genshin Impact | Artifacts ★ Characters ★ Weapons" />
     <meta property="twitter:image" content="https://sibbanos.github.io/favicon.png" />
 
     <link rel="stylesheet" href="main.css">
@@ -47,36 +47,25 @@
         </div>
     </a>
 
-    <!-- Choose game -->
-    <div class="h-full grid sm:flex justify-center items-center gap-0 sm:gap-8" id="landingPage">
-        <a href="#Genshin#Characters" class="border border-pastel-violet-500 rounded-2xl shadow-2xl h-56 w-56">
-            <img class="rounded-2xl h-full bg-gradient-to-b from-cotton-candy-500 to-lumber-500 object-contain" src="Genshin/Ressources/Genshin.png" />
-        </a>
-
-        <a href="#Honkai#Characters" class="border border-pastel-violet-500 rounded-2xl shadow-2xl h-56 w-56">
-            <img class="rounded-2xl h-full bg-gradient-to-b from-cotton-candy-500 to-lumber-500 object-contain" src="Honkai/Ressources/Honkai.png" />
-        </a>
-    </div>
-
     <!-- Page container -->
-    <div class="h-full overflow-y-scroll" id="siteContainer" hidden>
+    <div class="h-full overflow-y-scroll" id="siteContainer">
         <!-- Genshin container -->
-        <div id="genshinPage" class="container mx-auto pb-4" hidden>
+        <div id="genshinPage" class="container mx-auto pb-4">
             <!-- Genshin navigation -->
             <nav class="flex gap-x-2 md:gap-x-8 justify-end sm:justify-center pr-2 sm:pr-0 pt-4" role="tablist">
-                <a id="genshinNavCharacters" href="#Genshin#Characters" class="genshinNav" aria-selected="false">
+                <a id="genshinNavCharacters" href="#Characters" class="genshinNav" aria-selected="false">
                     <img src="Genshin/Ressources/Icons/Group.svg" class="">
                     <span class="hidden md:block font-bold">Characters</span>
                 </a>
-                <a id="genshinNavWeapons" href="#Genshin#Weapons" class="genshinNav" aria-selected="false">
+                <a id="genshinNavWeapons" href="#Weapons" class="genshinNav" aria-selected="false">
                     <img src="Genshin/Ressources/Icons/Weapon.svg" class="">
                     <span class="hidden md:block font-bold">Weapons</span>
                 </a>
-                <a id="genshinNavArtifacts" href="#Genshin#Artifacts" class="genshinNav" aria-selected="false">
+                <a id="genshinNavArtifacts" href="#Artifacts" class="genshinNav" aria-selected="false">
                     <img src="Genshin/Ressources/Icons/Crown.svg" class="">
                     <span class="hidden md:block font-bold">Artifacts</span>
                 </a>
-                <a id="genshinNavBuildFinder" href="#Genshin#BuildFinder" class="genshinNav" aria-selected="false">
+                <a id="genshinNavBuildFinder" href="#BuildFinder" class="genshinNav" aria-selected="false">
                     <img src="Genshin/Ressources/Icons/Search.svg" class="">
                     <span class="hidden md:block font-bold">Build Finder</span>
                 </a>
@@ -841,9 +830,6 @@
             </div>
         </div>
     </div>
-
-    <!-- FatFuck -->
-    <img id="FatFuck" hidden class="fixed w-16 transition-width duration-1000 ease-in-out aria-selected:w-full" style="top: 50%; left: 50%; transform: translate(-50%, -50%);" src="Honkai/Ressources/FatFuck.png">
 
     <script src="index.js"></script>
 </body>

@@ -55,10 +55,11 @@ function init() {
     const currentLocation = url.split('#');
 
     if (currentLocation.length > 1) {
-        document.querySelector('#landingPage').hidden = true;
         document.querySelector('#siteContainer').hidden = false;
-    
-        window[`${currentLocation[1]}${currentLocation[2]}`](currentLocation[3]);
+
+        window[`Genshin${currentLocation[1]}`](currentLocation[2]);
+    } else {
+        GenshinCharacters();
     }
 }
 
@@ -265,18 +266,6 @@ function genshinFilterList() {
                 f.hidden = true;
             }
         });
-
-        // Secret
-        if (searchValue.toLowerCase() === 'fatfuck') {
-            document.querySelector('#FatFuck').hidden = false;
-            window.setTimeout(() => {
-                document.querySelector('#FatFuck').ariaSelected = true;
-            }, 1);
-            window.setTimeout(() => {
-                document.querySelector('#FatFuck').hidden = true;
-                document.querySelector('#FatFuck').ariaSelected = false;
-            }, 3000);
-        }
     }
 }
 
@@ -539,7 +528,7 @@ function findBuild() {
                     clone.querySelector('.genshinCardIcon').className += qualityClass(characterInfo.quality);
                     
                     // Set value
-                    clone.querySelector('.genshinCardContainer').href = `#Genshin#Character#${characterName}`;
+                    clone.querySelector('.genshinCardContainer').href = `#Character#${characterName}`;
                     clone.querySelector('.genshinCardIcon').src = characterInfo.src.character;
                     clone.querySelector('.genshinCardName').innerHTML = `${characterName}<br>${build.buildName}`;
                     clone.querySelector('.genshinCardWeapon').src = characterInfo.src.weapon;
@@ -663,7 +652,7 @@ function GenshinCharacters() {
         clone.querySelector('.genshinCardContainer').dataset.weapon = characterInfo.weapon;
         
         // Set value
-        clone.querySelector('.genshinCardContainer').href = `#Genshin#Character#${character}`;
+        clone.querySelector('.genshinCardContainer').href = `#Character#${character}`;
         clone.querySelector('.genshinCardIcon').src = characterInfo.src.character;
         clone.querySelector('.genshinCardName').textContent = character;
         clone.querySelector('.genshinCardWeapon').src = characterInfo.src.weapon;
@@ -713,7 +702,7 @@ function GenshinWeapons() {
         clone.querySelector('.genshinCardContainer').dataset.weapon = weaponInfo.type;
 
         // Set value
-        clone.querySelector('.genshinCardContainer').href = `#Genshin#Weapon#${weapon}`;
+        clone.querySelector('.genshinCardContainer').href = `#Weapon#${weapon}`;
         clone.querySelector('.genshinCardIcon').src = weaponInfo.src.weapon;
         clone.querySelector('.genshinCardName').textContent = weapon;
         clone.querySelector('.genshinCardWeapon').src = weaponInfo.src.weapon_type;
@@ -757,7 +746,7 @@ function GenshinArtifacts() {
         clone.querySelector('.genshinCardContainer').dataset.quality = artifactMaxQuality;
 
         // Set value
-        clone.querySelector('.genshinCardContainer').href = `#Genshin#Artifact#${artifact}`;
+        clone.querySelector('.genshinCardContainer').href = `#Artifact#${artifact}`;
         clone.querySelector('.genshinCardIcon').src = artifactInfo.pieces[0].src.artifact;
         clone.querySelector('.genshinCardName').textContent = artifact;
 
@@ -957,7 +946,7 @@ function GenshinCharacter(character) {
             // Create weapon
             const template = document.querySelector("#genshinCharacterBuildWeapon");
             const clone = document.importNode(template.content, true);
-            clone.querySelector('a').href = `#Genshin#Weapon#${weaponName}`;
+            clone.querySelector('a').href = `#Weapon#${weaponName}`;
             clone.querySelector('.genshinWeaponRank').textContent = `${j}.`;
             clone.querySelector('img').src = weapon.src.weapon;
             clone.querySelector('img').className += qualityClass(weapon.quality);
@@ -983,7 +972,7 @@ function GenshinCharacter(character) {
                 // Create artifact
                 const template = document.querySelector("#genshinCharacterBuildArtifact");
                 const clone = document.importNode(template.content, true);
-                clone.querySelector('a').href = `#Genshin#Artifact#${artifactName}`;
+                clone.querySelector('a').href = `#Artifact#${artifactName}`;
                 clone.querySelector('.genshinArtifactRank').textContent = `${j}.`;
                 clone.querySelector('img').src = artifactInfo.pieces[0].src.artifact;
                 clone.querySelector('img').className += qualityClass(artifactMaxQuality);
@@ -1022,7 +1011,7 @@ function GenshinCharacter(character) {
                     const templateArtifact = document.querySelector("#genshinCharacterBuildArtifactContainer");
                     const cloneArtifact = document.importNode(templateArtifact.content, true);
 
-                    cloneArtifact.querySelector('a').href = `#Genshin#Artifact#${artifactName}`;
+                    cloneArtifact.querySelector('a').href = `#Artifact#${artifactName}`;
                     cloneArtifact.querySelector('.genshinArtifactIcon').src = artifactInfo.pieces[0].src.artifact;
                     cloneArtifact.querySelector('.genshinArtifactIcon').className += qualityClass(artifactMaxQuality);
                     cloneArtifact.querySelector('.genshinArtifactName').textContent = artifactName;
@@ -1298,7 +1287,7 @@ function genshinWeaponUsage(weaponName, f2p = false) {
             clone.querySelector('.genshinCardIcon').className += qualityClass(characterInfo.quality);
             
             // Set value
-            clone.querySelector('.genshinCardContainer').href = `#Genshin#Character#${characterName}`;
+            clone.querySelector('.genshinCardContainer').href = `#Character#${characterName}`;
             clone.querySelector('.genshinCardIcon').src = characterInfo.src.character;
             clone.querySelector('.genshinCardName').innerHTML = `${characterName}<br>${build.buildName}`;
             clone.querySelector('.genshinCardWeapon').src = characterInfo.src.weapon;
@@ -1545,7 +1534,7 @@ function genshinArtifactUsage(artifactName, bis = false) {
             clone.querySelector('.genshinCardIcon').className += qualityClass(characterInfo.quality);
             
             // Set value
-            clone.querySelector('.genshinCardContainer').href = `#Genshin#Character#${characterName}`;
+            clone.querySelector('.genshinCardContainer').href = `#Character#${characterName}`;
             clone.querySelector('.genshinCardIcon').src = characterInfo.src.character;
             clone.querySelector('.genshinCardName').innerHTML = `${characterName}<br>${build.buildName}`;
             clone.querySelector('.genshinCardWeapon').src = characterInfo.src.weapon;
