@@ -142,7 +142,7 @@ f = open('Genshin/scripts/builds/builds.html', encoding='utf8')
 soup = BeautifulSoup(f, 'html.parser')
 
 # Elements order, only used by Traveler
-elements = ['Pyro', 'Electro', 'Dendro', 'Hydro', 'Cryo', 'Anemo', 'Geo']
+elements = ['Pyro', 'Hydro', 'Electro', 'Dendro', 'Cryo', 'Anemo', 'Geo']
 
 # Get all the table with build
 for character_list in soup.find_all('table') :

@@ -3152,7 +3152,7 @@ let genshinBuilds = {
                 "5": "DEF%"
             }
         },
-        "DENDRO ENERGY SUPPORT": {
+        "ELECTRO ENERGY SUPPORT": {
             "weapons": {
                 "1": "Favonius Sword",
                 "2": "Sacrificial Sword",
@@ -3196,7 +3196,7 @@ let genshinBuilds = {
                 "4": "Crit DMG"
             }
         },
-        "HYDRO REACTION SUPPORT": {
+        "DENDRO REACTION SUPPORT": {
             "weapons": {
                 "1": "Freedom-Sworn",
                 "2": "Favonius Sword",
