@@ -1,6 +1,6 @@
 const elements = ['Anemo', 'Cryo', 'Dendro', 'Electro', 'Geo', 'Hydro', 'Pyro'];
 const menu = document.querySelectorAll('.switcherItem');
-const wait = 2500;
+const wait = 5000;
 let text = '';
 let timeout = 0;
 menu.forEach(lien => {

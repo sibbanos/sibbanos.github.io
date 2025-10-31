@@ -2023,13 +2023,14 @@ let genshinBuilds = {
             "weapons": {
                 "1": "Nightweaver's Looking Glass",
                 "2": "A Thousand Floating Dreams",
-                "3": "Starcaller's Watch",
-                "4": "Sunny Morning Sleep-In",
-                "5": "Sacrificial Fragments",
-                "6": "Surf's Up",
-                "7": "Wandering Evenstar",
-                "8": "Etherlight Spindlelute",
-                "9": "Blackmarrow Lantern"
+                "3": "Reliquary of Truth",
+                "4": "Starcaller's Watch",
+                "5": "Sunny Morning Sleep-In",
+                "6": "Sacrificial Fragments",
+                "7": "Surf's Up",
+                "8": "Wandering Evenstar",
+                "9": "Etherlight Spindlelute",
+                "10": "Blackmarrow Lantern"
             },
             "artifacts": {
                 "1": [
@@ -2477,10 +2478,10 @@ let genshinBuilds = {
                 "2": "Nightweaver's Looking Glass",
                 "3": "Sunny Morning Sleep-In",
                 "4": "Starcaller's Watch",
-                "5": "A Thousand Floating Dreams",
-                "6": "Surf's Up",
+                "5": "Blackmarrow Lantern",
+                "6": "A Thousand Floating Dreams",
                 "7": "Tome of the Eternal Flow",
-                "8": "Blackmarrow Lantern",
+                "8": "Surf's Up",
                 "9": "Dawning Frost",
                 "10": "The Widsith"
             },
@@ -3381,16 +3382,17 @@ let genshinBuilds = {
         "DPS": {
             "weapons": {
                 "1": "Vivid Notions",
-                "2": "Tome of the Eternal Flow",
-                "3": "Surf's Up",
-                "4": "Kagura's Verity",
-                "5": "Lost Prayer to the Sacred Winds",
-                "6": "Cashflow Supervision",
-                "7": "Crane's Echoing Call",
-                "8": "Tulaytullah's Remembrance",
-                "9": "The Widsith",
-                "10": "Sacrificial Jade",
-                "11": "Flowing Purity"
+                "2": "Reliquary of Truth",
+                "3": "Tome of the Eternal Flow",
+                "4": "Surf's Up",
+                "5": "Kagura's Verity",
+                "6": "Lost Prayer to the Sacred Winds",
+                "7": "Cashflow Supervision",
+                "8": "Crane's Echoing Call",
+                "9": "Tulaytullah's Remembrance",
+                "10": "The Widsith",
+                "11": "Sacrificial Jade",
+                "12": "Flowing Purity"
             },
             "artifacts": {
                 "1": [
