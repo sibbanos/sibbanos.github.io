@@ -142,6 +142,17 @@
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
+    "Durin": {
+        "element": "Pyro",
+        "quality": "5",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Durin",
+        "src": {
+            "character": "Genshin/Characters/Pyro/Durin.png",
+            "element": "Genshin/Ressources/Elements/Pyro.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
     "Emilie": {
         "element": "Dendro",
         "quality": "5",
@@ -877,6 +888,17 @@
             "character": "Genshin/Characters/Anemo/Ifa.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Jahoda": {
+        "element": "Anemo",
+        "quality": "4",
+        "weapon": "Bow",
+        "link": "https://genshin-impact.fandom.com/wiki/Jahoda",
+        "src": {
+            "character": "Genshin/Characters/Anemo/Jahoda.png",
+            "element": "Genshin/Ressources/Elements/Anemo.png",
+            "weapon": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
     "Kachina": {

@@ -90,6 +90,19 @@
             "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
+    "Athame Artis": {
+        "type": "Sword",
+        "quality": "5",
+        "first_stat": "608",
+        "second_stat": "33.1%",
+        "second_stat_type": "CRIT Rate",
+        "ability": "Day King's Splendor Solis\nCRIT DMG from Elemental Bursts is increased by 16~32%. When an Elemental Burst hits an opponent, gain the Blade of the Daylight Hours effect: ATK is increased by 20~40%. Nearby active party members other than the equipping character have their ATK increased by 16~32% for 3s.\nAdditionally, when the party possesses Hexerei: Secret Rite effects, the effects of Blade of the Daylight Hours are increased by an additional 75%. This effect can be triggered even if the equipping character is off-field.",
+        "link": "https://genshin-impact.fandom.com/wiki/Athame_Artis",
+        "src": {
+            "weapon": "Genshin/Weapons/Swords/Athame Artis.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
     "Azurelight": {
         "type": "Sword",
         "quality": "5",
@@ -673,6 +686,19 @@
         "src": {
             "weapon": "Genshin/Weapons/Polearms/Symphonist of Scents.png",
             "weapon_type": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "The Daybreak Chronicles": {
+        "type": "Bow",
+        "quality": "5",
+        "first_stat": "674",
+        "second_stat": "44.1%",
+        "second_stat_type": "CRIT DMG",
+        "ability": "Dawning Song of Daybreak\nError: String exceeds 1,000 character limit.",
+        "link": "https://genshin-impact.fandom.com/wiki/The_Daybreak_Chronicles",
+        "src": {
+            "weapon": "Genshin/Weapons/Bows/The Daybreak Chronicles.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
     "The First Great Magic": {
@@ -1843,6 +1869,19 @@
         "src": {
             "weapon": "Genshin/Weapons/Polearms/Prototype Starglitter.png",
             "weapon_type": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Rainbow Serpent's Rain Bow": {
+        "type": "Bow",
+        "quality": "4",
+        "first_stat": "510",
+        "second_stat": "45.9%",
+        "second_stat_type": "Energy Recharge",
+        "ability": "Astral Whispers Beyond the Sacred Throne\nATK is increased by 28~?% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+        "link": "https://genshin-impact.fandom.com/wiki/Rainbow_Serpent%27s_Rain_Bow",
+        "src": {
+            "weapon": "Genshin/Weapons/Bows/Rainbow Serpent's Rain Bow.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
     "Rainslasher": {
