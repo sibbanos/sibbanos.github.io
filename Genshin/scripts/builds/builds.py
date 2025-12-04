@@ -91,6 +91,10 @@ correct_weapon_name = {
     'Key of Khaj Nisut' : 'Key of Khaj-Nisut',
     'Haran Gepakku Futsu' : 'Haran Geppaku Futsu',
     'A Thousand-Floating Dreams' : 'A Thousand Floating Dreams',
+    'Vivid Notion' : 'Vivid Notions',
+    'A Thousand Floating Dream' : 'A Thousand Floating Dreams',
+    'Sacrifical Jade' : 'Sacrificial Jade',
+    'Fruit of Fulfilment' : 'Fruit of Fulfillment',
 }
 def correctWeapon(weapon) :
     if weapon in correct_weapon_name :
@@ -103,6 +107,8 @@ correct_artifact_name = {
     'Marechausse Hunter' : 'Marechaussee Hunter',
     'Ocean Hued Clam' : 'Ocean-Hued Clam',
     'Emblem Of Severed Fate' : 'Emblem of Severed Fate',
+    'Crimson Witch' : 'Crimson Witch of Flames',
+    'Desert Pavillion Chronicle' : 'Desert Pavilion Chronicle',
     '18 ATK%' : '18% ATK',
     '20% ER' : '20% Energy Recharge',
     '15% Hydro DMG Bonus' : '15% Hydro DMG',

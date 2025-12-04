@@ -703,8 +703,9 @@
                 "10": "Rainslasher",
                 "11": "Mailed Flower",
                 "12": "Tidal Shadow",
-                "13": "Skyward Pride",
-                "14": "Earth Shaker"
+                "13": "Blackcliff Slasher",
+                "14": "Skyward Pride",
+                "15": "Earth Shaker"
             },
             "artifacts": {
                 "1": [
@@ -1915,18 +1916,18 @@
     "Klee": {
         "DPS": {
             "weapons": {
-                "1": "Lost Prayer to the Sacred Winds",
-                "2": "Surf's Up",
-                "3": "Tome of the Eternal Flow",
-                "4": "Cashflow Supervision",
-                "5": "Kagura's Verity",
-                "6": "Tulaytullah's Remembrance",
-                "7": "The Widsith",
-                "8": "Skyward Atlas",
-                "9": "Memory of Dust",
-                "10": "Solar Pearl",
-                "11": "Crane's Echoing Call",
-                "12": "Ballad of the Boundless Blue",
+                "1": "Reliquary of Truth",
+                "2": "Lost Prayer to the Sacred Winds",
+                "3": "Kagura's Verity",
+                "4": "Vivid Notions",
+                "5": "Tome of the Eternal Flow",
+                "6": "Cashflow Supervision",
+                "7": "Tulaytullah's Remembrance",
+                "8": "Surf's Up",
+                "9": "Skyward Atlas",
+                "10": "The Widsith",
+                "11": "Solar Pearl",
+                "12": "Sacrificial Jade",
                 "13": "Flowing Purity"
             },
             "artifacts": {
@@ -1934,6 +1935,12 @@
                     "Lavawalker"
                 ],
                 "2": [
+                    "Echoes of an Offering"
+                ],
+                "3": [
+                    "Desert Pavilion Chronicle"
+                ],
+                "4": [
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1943,13 +1950,8 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
-                    "Crimson Witch of Flames"
-                ],
-                "3": [
-                    "Crimson Witch of Flames"
-                ],
-                "4": [
-                    "Shimenawa's Reminiscence"
+                    "Crimson Witch of Flames",
+                    "Marechaussee Hunter"
                 ],
                 "5": [
                     "Wanderer's Troupe"
@@ -1971,8 +1973,7 @@
                 "1": "Energy Recharge",
                 "2": "Crit Rate",
                 "3": "Crit DMG",
-                "4": "ATK%",
-                "5": "Elemental Mastery"
+                "4": "ATK%"
             }
         }
     },
@@ -1984,7 +1985,8 @@
                 "3": "Etherlight Spindlelute",
                 "4": "Starcaller's Watch",
                 "5": "Sunny Morning Sleep-In",
-                "6": "Blackmarrow Lantern"
+                "6": "Fruit of Fulfillment",
+                "7": "Blackmarrow Lantern"
             },
             "artifacts": {
                 "1": [
@@ -2141,19 +2143,16 @@
         "DPS & BUFF SUPPORT": {
             "weapons": {
                 "1": "A Thousand Blazing Suns",
-                "2": "Beacon of the Reed Sea",
+                "2": "Redhorn Stonethresher",
                 "3": "Verdict",
-                "4": "The Unforged",
-                "5": "Redhorn Stonethresher",
+                "4": "Beacon of the Reed Sea",
+                "5": "Mailed Flower",
                 "6": "Wolf's Gravestone",
-                "7": "Serpent Spine",
-                "8": "Mailed Flower",
-                "9": "Akuoumaru",
+                "7": "The Unforged",
+                "8": "Serpent Spine",
+                "9": "Fang of the Mountain King",
                 "10": "Tidal Shadow",
-                "11": "Fang of the Mountain King",
-                "12": "Skyward Pride",
-                "13": "Rainslasher",
-                "14": "Talking Stick"
+                "11": "Rainslasher"
             },
             "artifacts": {
                 "1": [
@@ -2181,6 +2180,140 @@
                 "2": "Crit DMG",
                 "3": "ATK%",
                 "4": "Elemental Mastery"
+            }
+        },
+        "VAPORIZE/MELT OFF-FIELD DPS": {
+            "weapons": {
+                "1": "Athame Artis",
+                "2": "Primordial Jade Cutter",
+                "3": "Azurelight",
+                "4": "Mistsplitter Reforged",
+                "5": "Haran Geppaku Futsu",
+                "6": "Absolution",
+                "7": "Summit Shaper",
+                "8": "Light of Foliar Incision",
+                "9": "Freedom-Sworn",
+                "10": "Finale of the Deep",
+                "11": "Wolf-Fang",
+                "12": "Uraku Misugiri",
+                "13": "Splendor of Tranquil Waters",
+                "14": "Moonweaver's Dawn"
+            },
+            "artifacts": {
+                "1": [
+                    "Gilded Dreams"
+                ],
+                "2": [
+                    "Crimson Witch of Flames"
+                ],
+                "3": [
+                    "Emblem of Severed Fate"
+                ],
+                "4": [
+                    "Crimson Witch of Flames",
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner",
+                    "Flower of Paradise Lost",
+                    "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
+                    "Wanderer's Troupe",
+                    "Instructor",
+                    "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
+                    "Scholar",
+                    "The Exile"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "Pyro DMG",
+                    "ATK%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "ATK%",
+                "4": "Elemental Mastery",
+                "5": "Energy Recharge"
+            }
+        },
+        "BUFF SUPPORT & OFF-FIELD DPS": {
+            "weapons": {
+                "1": "Athame Artis",
+                "2": "Primordial Jade Cutter",
+                "3": "Mistsplitter Reforged",
+                "4": "Azurelight",
+                "5": "Haran Geppaku Futsu",
+                "6": "Absolution",
+                "7": "Light of Foliar Incision",
+                "8": "Freedom-Sworn",
+                "9": "Lion's Roar",
+                "10": "Wolf-Fang",
+                "11": "Finale of the Deep",
+                "12": "Uraku Misugiri",
+                "13": "Splendor of Tranquil Waters",
+                "14": "Moonweaver's Dawn"
+            },
+            "artifacts": {
+                "1": [
+                    "Noblesse Oblige"
+                ],
+                "2": [
+                    "Emblem of Severed Fate"
+                ],
+                "3": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "4": [
+                    "Crimson Witch of Flames",
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner",
+                    "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
+                    "Scholar",
+                    "The Exile"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "Pyro DMG",
+                    "ATK%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "ATK%",
+                "4": "Energy Recharge"
             }
         }
     },
@@ -2296,10 +2429,10 @@
             "weapons": {
                 "1": "Surf's Up",
                 "2": "Reliquary of Truth",
-                "3": "Sacrificial Jade",
-                "4": "A Thousand Floating Dreams",
-                "5": "Tome of the Eternal Flow",
-                "6": "Starcaller's Watch",
+                "3": "A Thousand Floating Dreams",
+                "4": "Tome of the Eternal Flow",
+                "5": "Starcaller's Watch",
+                "6": "Sacrificial Jade",
                 "7": "Sunny Morning Sleep-In",
                 "8": "Ring of Yaxche",
                 "9": "The Widsith"
@@ -2515,13 +2648,14 @@
                 "1": "Tome of the Eternal Flow",
                 "2": "Sacrificial Jade",
                 "3": "Surf's Up",
-                "4": "Jadefall's Splendor",
-                "5": "Prototype Amber",
-                "6": "Cashflow Supervision",
-                "7": "The Widsith",
-                "8": "Kagura's Verity",
-                "9": "Lost Prayer to the Sacred Winds",
-                "10": "Ash-Graven Drinking Horn"
+                "4": "Reliquary of Truth",
+                "5": "Jadefall's Splendor",
+                "6": "Prototype Amber",
+                "7": "Cashflow Supervision",
+                "8": "The Widsith",
+                "9": "Kagura's Verity",
+                "10": "Lost Prayer to the Sacred Winds",
+                "11": "Ash-Graven Drinking Horn"
             },
             "artifacts": {
                 "1": [
@@ -2793,20 +2927,24 @@
                 "1": "Calamity Queller",
                 "2": "Engulfing Lightning",
                 "3": "Vortex Vanquisher",
-                "4": "Skyward Spine",
-                "5": "Favonius Lance",
-                "6": "Primordial Jade Winged-Spear",
-                "7": "Lithic Spear",
-                "8": "Staff of Homa",
+                "4": "Symphonist of Scents",
+                "5": "Skyward Spine",
+                "6": "Favonius Lance",
+                "7": "Tamayuratei no Ohanashi",
+                "8": "Lithic Spear",
                 "9": "Wavebreaker's Fin",
                 "10": "Missive Windspear",
-                "11": "Prototype Starglitter"
+                "11": "Prototype Starglitter",
+                "12": "Prospector's Shovel"
             },
             "artifacts": {
                 "1": [
                     "Noblesse Oblige"
                 ],
                 "2": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "3": [
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3396,10 +3534,10 @@
             },
             "artifacts": {
                 "1": [
-                    "Obsidian Codex"
+                    "Long Night's Oath"
                 ],
                 "2": [
-                    "Long Night's Oath"
+                    "Obsidian Codex"
                 ]
             },
             "main_stats": {
@@ -3423,19 +3561,20 @@
         }
     },
     "Venti": {
-        "REACTION OFF-FIELD DPS": {
+        "OFF-FIELD DPS": {
             "weapons": {
-                "1": "Elegy for the End",
-                "2": "The Stringless",
-                "3": "Cloudforged",
-                "4": "Windblume Ode",
-                "5": "Polar Star",
-                "6": "Favonius Warbow",
-                "7": "Raven Bow",
-                "8": "Fading Twilight",
-                "9": "Alley Hunter",
-                "10": "Mouun's Moon",
-                "11": "Song of Stillness"
+                "1": "The Daybreak Chronicles",
+                "2": "Polar Star",
+                "3": "Astral Vulture's Crimson Plumage",
+                "4": "Hunter's Path",
+                "5": "The First Great Magic",
+                "6": "Aqua Simulacra",
+                "7": "Skyward Harp",
+                "8": "Thundering Pulse",
+                "9": "Mouun's Moon",
+                "10": "Song of Stillness",
+                "11": "The Stringless",
+                "12": "Alley Hunter"
             },
             "artifacts": {
                 "1": [
@@ -3445,36 +3584,82 @@
                     "Noblesse Oblige"
                 ],
                 "3": [
-                    "Gilded Dreams"
+                    "Scroll of the Hero of Cinder City"
                 ],
                 "4": [
-                    "Flower of Paradise Lost",
-                    "Gilded Dreams",
-                    "Night of the Sky's Unveiling",
-                    "Wanderer's Troupe",
-                    "Instructor"
+                    "Gilded Dreams"
                 ],
                 "5": [
-                    "Instructor"
+                    "Emblem of Severed Fate"
                 ]
             },
             "main_stats": {
                 "Sands": [
-                    "Elemental Mastery"
+                    "ATK%"
                 ],
                 "Goblet": [
-                    "Elemental Mastery"
+                    "Anemo DMG",
+                    "ATK%"
                 ],
                 "Circlet": [
-                    "Elemental Mastery"
+                    "Crit Rate",
+                    "Crit DMG"
                 ]
             },
             "sub_stats": {
-                "1": "Elemental Mastery",
-                "2": "Energy Recharge",
+                "1": "Crit Rate",
+                "2": "Crit DMG",
                 "3": "ATK%",
-                "4": "Crit Rate",
-                "5": "Crit DMG"
+                "4": "Elemental Mastery",
+                "5": "Energy Recharge"
+            }
+        },
+        "ON-FIELD DPS": {
+            "weapons": {
+                "1": "The Daybreak Chronicles",
+                "2": "Polar Star",
+                "3": "Thundering Pulse",
+                "4": "Hunter's Path",
+                "5": "Skyward Harp",
+                "6": "Aqua Simulacra",
+                "7": "Astral Vulture's Crimson Plumage",
+                "8": "The First Great Magic",
+                "9": "Amos' Bow",
+                "10": "Slingshot",
+                "11": "Song of Stillness",
+                "12": "The Viridescent Hunt",
+                "13": "Rust",
+                "14": "Mouun's Moon"
+            },
+            "artifacts": {
+                "1": [
+                    "Desert Pavilion Chronicle"
+                ],
+                "2": [
+                    "Echoes of an Offering"
+                ],
+                "3": [
+                    "Viridescent Venerer"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "Anemo DMG"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "ATK%",
+                "4": "Elemental Mastery",
+                "5": "Energy Recharge"
             }
         }
     },
@@ -6081,20 +6266,19 @@
     "Lisa": {
         "AGGRAVATE DPS": {
             "weapons": {
-                "1": "Kagura's Verity",
-                "2": "Lost Prayer to the Sacred Winds",
-                "3": "Tome of the Eternal Flow",
-                "4": "Surf's Up",
-                "5": "A Thousand Floating Dreams",
-                "6": "Cashflow Supervision",
-                "7": "The Widsith",
-                "8": "Tulaytullah's Remembrance",
-                "9": "Memory of Dust",
+                "1": "Reliquary of Truth",
+                "2": "Vivid Notions",
+                "3": "Kagura's Verity",
+                "4": "Lost Prayer to the Sacred Winds",
+                "5": "Tome of the Eternal Flow",
+                "6": "Surf's Up",
+                "7": "A Thousand Floating Dreams",
+                "8": "Cashflow Supervision",
+                "9": "The Widsith",
                 "10": "Solar Pearl",
                 "11": "Sacrificial Jade",
-                "12": "Blackcliff Agate",
-                "13": "Flowing Purity",
-                "14": "Mappa Mare"
+                "12": "Flowing Purity",
+                "13": "Mappa Mare"
             },
             "artifacts": {
                 "1": [
@@ -6147,13 +6331,13 @@
         },
         "OFF-FIELD DPS & SUPPORT": {
             "weapons": {
-                "1": "Kagura's Verity",
-                "2": "A Thousand Floating Dreams",
-                "3": "Lost Prayer to the Sacred Winds",
-                "4": "Skyward Atlas",
-                "5": "Tome of the Eternal Flow",
-                "6": "Surf's Up",
-                "7": "Cashflow Supervision",
+                "1": "Reliquary of Truth",
+                "2": "Vivid Notions",
+                "3": "Kagura's Verity",
+                "4": "A Thousand Floating Dreams",
+                "5": "Lost Prayer to the Sacred Winds",
+                "6": "Tome of the Eternal Flow",
+                "7": "Surf's Up",
                 "8": "The Widsith",
                 "9": "Sacrificial Jade",
                 "10": "Solar Pearl",
@@ -6183,6 +6367,9 @@
                 "6": [
                     "Thundering Fury",
                     "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
+                    "Scholar",
+                    "The Exile",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7232,21 +7419,22 @@
         },
         "LOW ENERGY REQUIREMENT (OFF-FIELD DPS)": {
             "weapons": {
-                "1": "Primordial Jade Cutter",
-                "2": "Mistsplitter Reforged",
-                "3": "Azurelight",
-                "4": "Haran Geppaku Futsu",
-                "5": "Light of Foliar Incision",
-                "6": "Absolution",
-                "7": "Summit Shaper",
-                "8": "Skyward Blade",
-                "9": "Uraku Misugiri",
-                "10": "Splendor of Tranquil Waters",
-                "11": "Wolf-Fang",
-                "12": "Favonius Sword",
-                "13": "Fleuve Cendre Ferryman",
-                "14": "Finale of the Deep",
-                "15": "Amenoma Kageuchi"
+                "1": "Athame Artis",
+                "2": "Primordial Jade Cutter",
+                "3": "Mistsplitter Reforged",
+                "4": "Azurelight",
+                "5": "Haran Geppaku Futsu",
+                "6": "Light of Foliar Incision",
+                "7": "Absolution",
+                "8": "Summit Shaper",
+                "9": "Skyward Blade",
+                "10": "Uraku Misugiri",
+                "11": "Splendor of Tranquil Waters",
+                "12": "Wolf-Fang",
+                "13": "Favonius Sword",
+                "14": "Fleuve Cendre Ferryman",
+                "15": "Finale of the Deep",
+                "16": "Amenoma Kageuchi"
             },
             "artifacts": {
                 "1": [
@@ -7365,22 +7553,16 @@
     "Yanfei": {
         "VAPORIZE DPS": {
             "weapons": {
-                "1": "Surf's Up",
-                "2": "Vivid Notions",
-                "3": "A Thousand Floating Dreams",
-                "4": "Tome of the Eternal Flow",
-                "5": "Cashflow Supervision",
-                "6": "Flowing Purity",
-                "7": "The Widsith",
-                "8": "Sunny Morning Sleep-In",
-                "9": "Starcaller's Watch",
-                "10": "Skyward Atlas",
-                "11": "Tulaytullah's Remembrance",
-                "12": "Lost Prayer to the Sacred Winds",
-                "13": "Kagura's Verity",
-                "14": "Memory of Dust",
-                "15": "Dodoco Tales",
-                "16": "Mappa Mare"
+                "1": "Reliquary of Truth",
+                "2": "Tome of the Eternal Flow",
+                "3": "Cashflow Supervision",
+                "4": "Vivid Notions",
+                "5": "Surf's Up",
+                "6": "A Thousand Floating Dreams",
+                "7": "Starcaller's Watch",
+                "8": "Flowing Purity",
+                "9": "The Widsith",
+                "10": "Dawning Frost"
             },
             "artifacts": {
                 "1": [
