@@ -1181,7 +1181,7 @@ function GenshinWeapon(weapon) {
     // Set weapon ability
     if (abilityName) {
         document.querySelector('#genshinWeaponAbilityName').textContent = abilityName;
-        document.querySelector('#genshinWeaponAbilityDescription').textContent = abilityDescription;
+        document.querySelector('#genshinWeaponAbilityDescription').innerHTML = abilityDescription;
         document.querySelector('#genshinWeaponAbility').hidden = false;
     } else {
         document.querySelector('#genshinWeaponAbility').hidden = true;

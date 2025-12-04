@@ -757,6 +757,142 @@
             }
         }
     },
+    "Durin": {
+        "VAPORIZE/MELT OFF-FIELD DPS": {
+            "weapons": {
+                "1": "Athame Artis",
+                "2": "Primordial Jade Cutter",
+                "3": "Azurelight",
+                "4": "Mistsplitter Reforged",
+                "5": "Haran Geppaku Futsu",
+                "6": "Absolution",
+                "7": "Summit Shaper",
+                "8": "Light of Foliar Incision",
+                "9": "Freedom-Sworn",
+                "10": "Finale of the Deep",
+                "11": "Wolf-Fang",
+                "12": "Uraku Misugiri",
+                "13": "Splendor of Tranquil Waters",
+                "14": "Moonweaver's Dawn"
+            },
+            "artifacts": {
+                "1": [
+                    "Gilded Dreams"
+                ],
+                "2": [
+                    "Crimson Witch of Flames"
+                ],
+                "3": [
+                    "Emblem of Severed Fate"
+                ],
+                "4": [
+                    "Crimson Witch of Flames",
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner",
+                    "Flower of Paradise Lost",
+                    "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
+                    "Wanderer's Troupe",
+                    "Instructor",
+                    "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
+                    "Scholar",
+                    "The Exile"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "Pyro DMG",
+                    "ATK%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "ATK%",
+                "4": "Elemental Mastery",
+                "5": "Energy Recharge"
+            }
+        },
+        "BUFF SUPPORT & OFF-FIELD DPS": {
+            "weapons": {
+                "1": "Athame Artis",
+                "2": "Primordial Jade Cutter",
+                "3": "Mistsplitter Reforged",
+                "4": "Azurelight",
+                "5": "Haran Geppaku Futsu",
+                "6": "Absolution",
+                "7": "Light of Foliar Incision",
+                "8": "Freedom-Sworn",
+                "9": "Lion's Roar",
+                "10": "Wolf-Fang",
+                "11": "Finale of the Deep",
+                "12": "Uraku Misugiri",
+                "13": "Splendor of Tranquil Waters",
+                "14": "Moonweaver's Dawn"
+            },
+            "artifacts": {
+                "1": [
+                    "Noblesse Oblige"
+                ],
+                "2": [
+                    "Emblem of Severed Fate"
+                ],
+                "3": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "4": [
+                    "Crimson Witch of Flames",
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner",
+                    "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
+                    "Scholar",
+                    "The Exile"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "Pyro DMG",
+                    "ATK%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "ATK%",
+                "4": "Energy Recharge"
+            }
+        }
+    },
     "Emilie": {
         "OFF-FIELD DPS": {
             "weapons": {
@@ -2180,140 +2316,6 @@
                 "2": "Crit DMG",
                 "3": "ATK%",
                 "4": "Elemental Mastery"
-            }
-        },
-        "VAPORIZE/MELT OFF-FIELD DPS": {
-            "weapons": {
-                "1": "Athame Artis",
-                "2": "Primordial Jade Cutter",
-                "3": "Azurelight",
-                "4": "Mistsplitter Reforged",
-                "5": "Haran Geppaku Futsu",
-                "6": "Absolution",
-                "7": "Summit Shaper",
-                "8": "Light of Foliar Incision",
-                "9": "Freedom-Sworn",
-                "10": "Finale of the Deep",
-                "11": "Wolf-Fang",
-                "12": "Uraku Misugiri",
-                "13": "Splendor of Tranquil Waters",
-                "14": "Moonweaver's Dawn"
-            },
-            "artifacts": {
-                "1": [
-                    "Gilded Dreams"
-                ],
-                "2": [
-                    "Crimson Witch of Flames"
-                ],
-                "3": [
-                    "Emblem of Severed Fate"
-                ],
-                "4": [
-                    "Crimson Witch of Flames",
-                    "Echoes of an Offering",
-                    "Fragment of Harmonic Whimsy",
-                    "Gladiator's Finale",
-                    "Nighttime Whispers in the Echoing Woods",
-                    "Shimenawa's Reminiscence",
-                    "Unfinished Reverie",
-                    "Vermillion Hereafter",
-                    "Brave Heart",
-                    "Resolution of Sojourner",
-                    "Flower of Paradise Lost",
-                    "Gilded Dreams",
-                    "Night of the Sky's Unveiling",
-                    "Wanderer's Troupe",
-                    "Instructor",
-                    "Emblem of Severed Fate",
-                    "Silken Moon's Serenade",
-                    "Scholar",
-                    "The Exile"
-                ]
-            },
-            "main_stats": {
-                "Sands": [
-                    "ATK%"
-                ],
-                "Goblet": [
-                    "Pyro DMG",
-                    "ATK%"
-                ],
-                "Circlet": [
-                    "Crit Rate",
-                    "Crit DMG"
-                ]
-            },
-            "sub_stats": {
-                "1": "Crit Rate",
-                "2": "Crit DMG",
-                "3": "ATK%",
-                "4": "Elemental Mastery",
-                "5": "Energy Recharge"
-            }
-        },
-        "BUFF SUPPORT & OFF-FIELD DPS": {
-            "weapons": {
-                "1": "Athame Artis",
-                "2": "Primordial Jade Cutter",
-                "3": "Mistsplitter Reforged",
-                "4": "Azurelight",
-                "5": "Haran Geppaku Futsu",
-                "6": "Absolution",
-                "7": "Light of Foliar Incision",
-                "8": "Freedom-Sworn",
-                "9": "Lion's Roar",
-                "10": "Wolf-Fang",
-                "11": "Finale of the Deep",
-                "12": "Uraku Misugiri",
-                "13": "Splendor of Tranquil Waters",
-                "14": "Moonweaver's Dawn"
-            },
-            "artifacts": {
-                "1": [
-                    "Noblesse Oblige"
-                ],
-                "2": [
-                    "Emblem of Severed Fate"
-                ],
-                "3": [
-                    "Scroll of the Hero of Cinder City"
-                ],
-                "4": [
-                    "Crimson Witch of Flames",
-                    "Echoes of an Offering",
-                    "Fragment of Harmonic Whimsy",
-                    "Gladiator's Finale",
-                    "Nighttime Whispers in the Echoing Woods",
-                    "Shimenawa's Reminiscence",
-                    "Unfinished Reverie",
-                    "Vermillion Hereafter",
-                    "Brave Heart",
-                    "Resolution of Sojourner",
-                    "Emblem of Severed Fate",
-                    "Silken Moon's Serenade",
-                    "Scholar",
-                    "The Exile"
-                ]
-            },
-            "main_stats": {
-                "Sands": [
-                    "ATK%"
-                ],
-                "Goblet": [
-                    "Pyro DMG",
-                    "ATK%"
-                ],
-                "Circlet": [
-                    "Crit Rate",
-                    "Crit DMG"
-                ]
-            },
-            "sub_stats": {
-                "1": "Crit Rate",
-                "2": "Crit DMG",
-                "3": "ATK%",
-                "4": "Energy Recharge"
             }
         }
     },
