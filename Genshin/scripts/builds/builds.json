@@ -5757,6 +5757,44 @@
             }
         }
     },
+    "Jahoda": {
+        "OFF-FIELD REACTION DPS & HEAL SUPPORT": {
+            "weapons": {
+                "1": "Favonius Warbow",
+                "2": "Elegy for the End",
+                "3": "Rainbow Serpent's Rain Bow",
+                "4": "Snare Hook"
+            },
+            "artifacts": {
+                "1": [
+                    "Viridescent Venerer"
+                ],
+                "2": [
+                    "Silken Moon's Serenade"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "Energy Recharge",
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "ATK%"
+                ],
+                "Circlet": [
+                    "Healing Bonus",
+                    "ATK%",
+                    "Crit Rate"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "ATK%",
+                "3": "Crit Rate",
+                "4": "Elemental Mastery"
+            }
+        }
+    },
     "Kachina": {
         "SUPPORT AND OFF-FIELD DPS": {
             "weapons": {
