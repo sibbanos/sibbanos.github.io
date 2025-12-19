@@ -758,7 +758,7 @@ let genshinBuilds = {
         }
     },
     "Durin": {
-        "VAPORIZE/MELT OFF-FIELD DPS": {
+        "VAPORIZE / MELT OFF-FIELD DPS": {
             "weapons": {
                 "1": "Athame Artis",
                 "2": "Primordial Jade Cutter",
@@ -2216,9 +2216,7 @@ let genshinBuilds = {
                 "6": "Amos' Bow",
                 "7": "Polar Star",
                 "8": "Song of Stillness",
-                "9": "Prototype Crescent",
-                "10": "Scion of the Blazing Sun",
-                "11": "Blackcliff Warbow"
+                "9": "Prototype Crescent"
             },
             "artifacts": {
                 "1": [
@@ -3523,16 +3521,20 @@ let genshinBuilds = {
             "weapons": {
                 "1": "Vivid Notions",
                 "2": "Reliquary of Truth",
-                "3": "Tome of the Eternal Flow",
-                "4": "Surf's Up",
-                "5": "Kagura's Verity",
-                "6": "Lost Prayer to the Sacred Winds",
-                "7": "Cashflow Supervision",
-                "8": "Crane's Echoing Call",
+                "3": "Kagura's Verity",
+                "4": "Lost Prayer to the Sacred Winds",
+                "5": "Crane's Echoing Call",
+                "6": "Tome of the Eternal Flow",
+                "7": "Surf's Up",
+                "8": "Cashflow Supervision",
                 "9": "Tulaytullah's Remembrance",
                 "10": "The Widsith",
-                "11": "Sacrificial Jade",
-                "12": "Flowing Purity"
+                "11": "Skyward Atlas",
+                "12": "Sacrificial Jade",
+                "13": "Solar Pearl",
+                "14": "Blackcliff Agate",
+                "15": "Dawning Frost",
+                "16": "Flowing Purity"
             },
             "artifacts": {
                 "1": [
@@ -3540,6 +3542,19 @@ let genshinBuilds = {
                 ],
                 "2": [
                     "Obsidian Codex"
+                ],
+                "3": [
+                    "Long Night's Oath",
+                    "Thundering Fury",
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner"
                 ]
             },
             "main_stats": {
@@ -5796,7 +5811,7 @@ let genshinBuilds = {
         }
     },
     "Kachina": {
-        "SUPPORT AND OFF-FIELD DPS": {
+        "BUFF & REACTION SUPPORT": {
             "weapons": {
                 "1": "Favonius Lance",
                 "2": "Footprint of the Rainbow",
@@ -5806,6 +5821,15 @@ let genshinBuilds = {
             "artifacts": {
                 "1": [
                     "Scroll of the Hero of Cinder City"
+                ],
+                "2": [
+                    "Archaic Petra"
+                ],
+                "3": [
+                    "Noblesse Oblige"
+                ],
+                "4": [
+                    "Tenacity of the Millelith"
                 ]
             },
             "main_stats": {

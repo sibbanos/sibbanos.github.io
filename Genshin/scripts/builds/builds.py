@@ -80,7 +80,7 @@ correct_weapon_name = {
     "Tulaytullah's Rememberance" : "Tulaytullah's Remembrance",
     'Primoridal Jade Cutter' : 'Primordial Jade Cutter',
     'Freedom Sworn' : 'Freedom-Sworn',
-    'Oathsworn Eye R5' : 'Oathsworn Eye',
+    'Oathsworn Eye R' : 'Oathsworn Eye',
     'Lost Prayer to Sacred Winds' : 'Lost Prayer to the Sacred Winds',
     'Lions Roar' : "Lion's Roar",
     'Ash Graven Drinking Horn' : 'Ash-Graven Drinking Horn',
@@ -110,6 +110,7 @@ correct_artifact_name = {
     'Crimson Witch' : 'Crimson Witch of Flames',
     'Desert Pavillion Chronicle' : 'Desert Pavilion Chronicle',
     '18 ATK%' : '18% ATK',
+    '18%  ATK' : '18% ATK',
     '20% ER' : '20% Energy Recharge',
     '15% Hydro DMG Bonus' : '15% Hydro DMG',
 }
@@ -243,6 +244,7 @@ for character_list in soup.find_all('table') :
                     weapon = weapon.replace('!', '').split('(')[0].split(' [')[0]
                     weapon = re.sub('≈', '', weapon)
                     weapon = re.sub('[0-9]*\\.', '', weapon).strip()
+                    weapon = re.sub('[0-9]*', '', weapon).strip()
                     weapon = correctWeapon(weapon)
 
                     # Skip for Noelle
