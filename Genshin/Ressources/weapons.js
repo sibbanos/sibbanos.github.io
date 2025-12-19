@@ -83,7 +83,7 @@ let genshinWeapons = {
         "first_stat": "608",
         "second_stat": "66.2%",
         "second_stat_type": "CRIT DMG",
-        "ability": "The Moonring Sighted\nFor 12s after triggering a Swirl reaction, ATK increases by 24%~48%. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by 20%/48%~40%/96% and Elemental Burst DMG dealt is increased by 10%/24%~20%/48%.",
+        "ability": "The Moonring Sighted\nFor 12s after triggering a Swirl reaction, ATK increases by 24~48. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by 20/48~40/96 and Elemental Burst DMG dealt is increased by 10/24~20/48.",
         "link": "https://genshin-impact.fandom.com/wiki/Astral_Vulture%27s_Crimson_Plumage",
         "src": {
             "weapon": "Genshin/Weapons/Bows/Astral Vulture's Crimson Plumage.png",
@@ -499,7 +499,7 @@ let genshinWeapons = {
         "first_stat": "542",
         "second_stat": "66.2%",
         "second_stat_type": "HP",
-        "ability": "Dryas's Nocturne\nThe equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by 12%/24%/40%~24%/48%/80%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by 28%~56%. This effect will be canceled 4s after falling under 3 stacks.",
+        "ability": "Dryas's Nocturne\nThe equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by 12/24/40~24/48/80. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by 28~56. This effect will be canceled 4s after falling under 3 stacks.",
         "link": "https://genshin-impact.fandom.com/wiki/Silvershower_Heartstrings",
         "src": {
             "weapon": "Genshin/Weapons/Bows/Silvershower Heartstrings.png",
@@ -707,7 +707,7 @@ let genshinWeapons = {
         "first_stat": "608",
         "second_stat": "66.2%",
         "second_stat_type": "CRIT DMG",
-        "ability": "Parsifal the Great\nDMG dealt by Charged Attacks increased by 16~32%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 16%/32%/48%~32%/64%/96%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 4%/7%/10%~12%/15%/18%.",
+        "ability": "Parsifal the Great\nDMG dealt by Charged Attacks increased by 16~32%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 16/32/48~32/64/96. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 4/7/10~12/15/18.",
         "link": "https://genshin-impact.fandom.com/wiki/The_First_Great_Magic",
         "src": {
             "weapon": "Genshin/Weapons/Bows/The First Great Magic.png",
@@ -1227,7 +1227,7 @@ let genshinWeapons = {
         "first_stat": "565",
         "second_stat": "30.6%",
         "second_stat_type": "Energy Recharge",
-        "ability": "Radiance of the Deeps\nHas three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by 6%/10%/14%~12%/20%/28% respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field.",
+        "ability": "Radiance of the Deeps\nHas three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by 6/10/14~12/20/28 respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field.",
         "link": "https://genshin-impact.fandom.com/wiki/Fading_Twilight",
         "src": {
             "weapon": "Genshin/Weapons/Bows/Fading Twilight.png",
@@ -1708,7 +1708,7 @@ let genshinWeapons = {
         "first_stat": "565",
         "second_stat": "27.6%",
         "second_stat_type": "ATK",
-        "ability": "Secret Silver's Testament\nIncreases Elemental Burst DMG by 20~40%. When the equipping character's Energy Capacity does not exceed 60/40, their Elemental Burst DMG is increased by an additional 16%/28~32%/56%.",
+        "ability": "Secret Silver's Testament\nIncreases Elemental Burst DMG by 20~40%. When the equipping character's Energy Capacity does not exceed 60/40, their Elemental Burst DMG is increased by an additional 16/28~32/56%.",
         "link": "https://genshin-impact.fandom.com/wiki/Moonweaver%27s_Dawn",
         "src": {
             "weapon": "Genshin/Weapons/Swords/Moonweaver's Dawn.png",
@@ -2098,7 +2098,7 @@ let genshinWeapons = {
         "first_stat": "565",
         "second_stat": "30.6%",
         "second_stat_type": "Energy Recharge",
-        "ability": "Forest Sanctuary\nAfter triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60~120 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+        "ability": "Forest Sanctuary\nAfter triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60~120 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
         "link": "https://genshin-impact.fandom.com/wiki/Sapwood_Blade",
         "src": {
             "weapon": "Genshin/Weapons/Swords/Sapwood Blade.png",
