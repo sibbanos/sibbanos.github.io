@@ -34,14 +34,14 @@ for artifact in soup.find('table').find_all('tr')[1:] :
     artifact_td_bonuses = artifact_td_pieces.next_sibling.next_sibling
     artifact_bonuses = artifact_td_bonuses.get_text().strip()
     if artifact_bonuses :
-        if '4 Piece:' in artifact_bonuses :
-            _artifact_bonuses = artifact_bonuses.split('4 Piece:')
+        if '4-Piece:' in artifact_bonuses :
+            _artifact_bonuses = artifact_bonuses.split('4-Piece:')
             artifact_bonuses = {
-                2 : _artifact_bonuses[0].replace('2 Piece:', '').strip(),
+                2 : _artifact_bonuses[0].replace('2-Piece:', '').strip(),
                 4 : _artifact_bonuses[1].strip()
             }
         else :
-            artifact_bonuses = artifact_bonuses.replace('1 Piece:', '').strip()
+            artifact_bonuses = artifact_bonuses.replace('1-Piece:', '').strip()
             artifact_bonuses = {1 : artifact_bonuses}
 
     pieces = []

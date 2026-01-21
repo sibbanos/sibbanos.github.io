@@ -1,4 +1,57 @@
 let genshinArtifacts = {
+    "A Day Carved From Rising Winds": {
+        "link": "https://genshin-impact.fandom.com/wiki/A_Day_Carved_From_Rising_Winds",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Windborne Flower's Spruchdichtung",
+                "type": "Flower",
+                "src": {
+                    "artifact": "Genshin/Artifacts/A Day Carved From Rising Winds/Windborne Flower's Spruchdichtung.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Flower.png"
+                }
+            },
+            {
+                "name": "Dawn's Brilliant Oath",
+                "type": "Plume",
+                "src": {
+                    "artifact": "Genshin/Artifacts/A Day Carved From Rising Winds/Dawn's Brilliant Oath.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Plume.png"
+                }
+            },
+            {
+                "name": "A Note in Spring's Leich",
+                "type": "Sands",
+                "src": {
+                    "artifact": "Genshin/Artifacts/A Day Carved From Rising Winds/A Note in Spring's Leich.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Sands.png"
+                }
+            },
+            {
+                "name": "Heldenepos's Unspoken Tale",
+                "type": "Goblet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/A Day Carved From Rising Winds/Heldenepos's Unspoken Tale.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Goblet.png"
+                }
+            },
+            {
+                "name": "Minnesang of Love and Lament",
+                "type": "Circlet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/A Day Carved From Rising Winds/Minnesang of Love and Lament.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Circlet.png"
+                }
+            }
+        ],
+        "bonuses": {
+            "2": "ATK +18%.",
+            "4": "After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, gain the Blessing of Pastoral Winds effect for 6s: ATK is increased by 25%. If the equipping character has completed Witch's Homework, Blessing of Pastoral Winds will be upgraded to Resolve of Pastoral Winds, which also increases the CRIT Rate of the equipping character by an additional 20%. This effect can be triggered even when the character is off-field."
+        }
+    },
     "Archaic Petra": {
         "link": "https://genshin-impact.fandom.com/wiki/Archaic_Petra",
         "quality": [
@@ -50,6 +103,59 @@ let genshinArtifacts = {
         "bonuses": {
             "2": "Geo DMG Bonus +15%.",
             "4": "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+        }
+    },
+    "Aubade of Morningstar and Moon": {
+        "link": "https://genshin-impact.fandom.com/wiki/Aubade_of_Morningstar_and_Moon",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Moonlit Offering's Opulent Dream",
+                "type": "Flower",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Aubade of Morningstar and Moon/Moonlit Offering's Opulent Dream.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Flower.png"
+                }
+            },
+            {
+                "name": "Moonlit Offering's Parting Light",
+                "type": "Plume",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Aubade of Morningstar and Moon/Moonlit Offering's Parting Light.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Plume.png"
+                }
+            },
+            {
+                "name": "Moonlit Offering's Final Hour",
+                "type": "Sands",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Aubade of Morningstar and Moon/Moonlit Offering's Final Hour.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Sands.png"
+                }
+            },
+            {
+                "name": "Moonlit Offering's Libation",
+                "type": "Goblet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Aubade of Morningstar and Moon/Moonlit Offering's Libation.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Goblet.png"
+                }
+            },
+            {
+                "name": "Moonlit Offering's Silver Crown",
+                "type": "Circlet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Aubade of Morningstar and Moon/Moonlit Offering's Silver Crown.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Circlet.png"
+                }
+            }
+        ],
+        "bonuses": {
+            "2": "Increases Elemental Mastery by 80.",
+            "4": "When the equipping character is off-field, Lunar Reaction DMG is increased by 20%. When the party's Moonsign Level is at least Ascendant Gleam, Lunar Reaction DMG will be further increased by 40%. This effect will disappear after the equipping character is active for 3s."
         }
     },
     "Blizzard Strayer": {

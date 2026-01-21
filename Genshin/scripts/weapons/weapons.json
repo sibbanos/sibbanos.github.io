@@ -415,6 +415,19 @@
             "weapon_type": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
+    "Nocturne's Curtain Call": {
+        "type": "Catalyst",
+        "quality": "5",
+        "first_stat": "542",
+        "second_stat": "88.2%",
+        "second_stat_type": "CRIT DMG",
+        "ability": "Ballad of the Crossroads\nMax HP increases by 10~18%.\nWhen triggering Lunar reactions or inflicting Lunar Reaction DMG on opponents, the equipping character will recover 14~18 Energy, and receive the Bountiful Sea's Sacred Wine effect for 12s: Max HP increases by an additional 14~22%, CRIT DMG from Lunar Reaction DMG increases by 60~140%.\nThe Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field.",
+        "link": "https://genshin-impact.fandom.com/wiki/Nocturne%27s_Curtain_Call",
+        "src": {
+            "weapon": "Genshin/Weapons/Catalysts/Nocturne's Curtain Call.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
     "Peak Patrol Song": {
         "type": "Sword",
         "quality": "5",

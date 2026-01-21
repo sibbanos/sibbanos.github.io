@@ -109,6 +109,17 @@ let genshinCharacters = {
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
+    "Columbina": {
+        "element": "Hydro",
+        "quality": "5",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Columbina",
+        "src": {
+            "character": "Genshin/Characters/Hydro/Columbina.png",
+            "element": "Genshin/Ressources/Elements/Hydro.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
     "Cyno": {
         "element": "Electro",
         "quality": "5",

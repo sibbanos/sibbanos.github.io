@@ -1,16 +1,13 @@
 {
     "Albedo": {
-        "SKILL ONLY OFF-FIELD DPS": {
+        "OFF-FIELD DPS": {
             "weapons": {
                 "1": "Peak Patrol Song",
                 "2": "Uraku Misugiri",
-                "3": "Cinnabar Spindle",
-                "4": "Harbinger of Dawn",
+                "3": "Harbinger of Dawn",
+                "4": "Flute of Ezpitzal",
                 "5": "Primordial Jade Cutter",
-                "6": "Light of Foliar Incision",
-                "7": "Haran Geppaku Futsu",
-                "8": "Mistsplitter Reforged",
-                "9": "Wolf-Fang"
+                "6": "Cinnabar Spindle"
             },
             "artifacts": {
                 "1": [
@@ -41,69 +38,15 @@
                 ],
                 "Circlet": [
                     "Crit Rate",
-                    "Crit DMG",
-                    "DEF%"
+                    "Crit DMG"
                 ]
             },
             "sub_stats": {
                 "1": "Crit Rate",
                 "2": "Crit DMG",
                 "3": "DEF%",
-                "4": "ATK%",
-                "5": "Energy Recharge"
-            }
-        },
-        "SKILL + BURST OFF-FIELD DPS": {
-            "weapons": {
-                "1": "Peak Patrol Song",
-                "2": "Uraku Misugiri",
-                "3": "Primordial Jade Cutter",
-                "4": "Cinnabar Spindle",
-                "5": "Wolf-Fang",
-                "6": "Light of Foliar Incision",
-                "7": "Mistsplitter Reforged",
-                "8": "Haran Geppaku Futsu",
-                "9": "Harbinger of Dawn"
-            },
-            "artifacts": {
-                "1": [
-                    "Husk of Opulent Dreams"
-                ],
-                "2": [
-                    "Golden Troupe"
-                ],
-                "3": [
-                    "Husk of Opulent Dreams",
-                    "Archaic Petra",
-                    "Golden Troupe"
-                ],
-                "4": [
-                    "Archaic Petra"
-                ],
-                "5": [
-                    "Tenacity of the Millelith"
-                ]
-            },
-            "main_stats": {
-                "Sands": [
-                    "DEF%"
-                ],
-                "Goblet": [
-                    "Geo DMG",
-                    "DEF%"
-                ],
-                "Circlet": [
-                    "Crit Rate",
-                    "Crit DMG",
-                    "DEF%"
-                ]
-            },
-            "sub_stats": {
-                "1": "Crit Rate",
-                "2": "Crit DMG",
-                "3": "DEF%",
-                "4": "ATK%",
-                "5": "Energy Recharge"
+                "4": "Energy Recharge",
+                "5": "ATK%"
             }
         }
     },
@@ -134,6 +77,7 @@
                 "2": [
                     "Deepwood Memories",
                     "Emblem of Severed Fate",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -194,11 +138,13 @@
                 "4": [
                     "Noblesse Oblige",
                     "Blizzard Strayer",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -309,6 +255,7 @@
                     "Desert Pavilion Chronicle"
                 ],
                 "4": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -578,6 +525,58 @@
             }
         }
     },
+    "Columbina": {
+        "OFF-FIELD DPS & BUFF SUPPORT": {
+            "weapons": {
+                "1": "Nocturne's Curtain Call",
+                "2": "Prototype Amber",
+                "3": "Sacrificial Jade",
+                "4": "Favonius Codex"
+            },
+            "artifacts": {
+                "1": [
+                    "Silken Moon's Serenade"
+                ],
+                "2": [
+                    "Aubade of Morningstar and Moon"
+                ],
+                "3": [
+                    "Tenacity of the Millelith",
+                    "Vourukasha's Glow",
+                    "Aubade of Morningstar and Moon",
+                    "Flower of Paradise Lost",
+                    "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
+                    "Wanderer's Troupe",
+                    "Instructor",
+                    "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
+                    "Scholar",
+                    "The Exile"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "HP%",
+                    "Energy Recharge"
+                ],
+                "Goblet": [
+                    "HP%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "Crit Rate",
+                "3": "Crit DMG",
+                "4": "HP%",
+                "5": "Elemental Mastery"
+            }
+        }
+    },
     "Cyno": {
         "QUICKBLOOM / HYPERBLOOM DPS": {
             "weapons": {
@@ -605,6 +604,7 @@
                     "Flower of Paradise Lost"
                 ],
                 "4": [
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -716,6 +716,7 @@
                 ],
                 "3": [
                     "Crimson Witch of Flames",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -725,6 +726,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -777,16 +779,20 @@
             },
             "artifacts": {
                 "1": [
-                    "Gilded Dreams"
+                    "A Day Carved From Rising Winds"
                 ],
                 "2": [
-                    "Crimson Witch of Flames"
+                    "Gilded Dreams"
                 ],
                 "3": [
-                    "Emblem of Severed Fate"
+                    "Crimson Witch of Flames"
                 ],
                 "4": [
+                    "Emblem of Severed Fate"
+                ],
+                "5": [
                     "Crimson Witch of Flames",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -796,6 +802,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -847,16 +854,20 @@
             },
             "artifacts": {
                 "1": [
-                    "Noblesse Oblige"
+                    "A Day Carved From Rising Winds"
                 ],
                 "2": [
-                    "Emblem of Severed Fate"
+                    "Noblesse Oblige"
                 ],
                 "3": [
-                    "Scroll of the Hero of Cinder City"
+                    "Emblem of Severed Fate"
                 ],
                 "4": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "5": [
                     "Crimson Witch of Flames",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -925,6 +936,7 @@
                 "4": [
                     "Deepwood Memories",
                     "Golden Troupe",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -988,6 +1000,7 @@
                     "Golden Troupe",
                     "Blizzard Strayer",
                     "Finale of the Deep Galleries",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1058,6 +1071,7 @@
                     "Golden Troupe",
                     "Blizzard Strayer",
                     "Finale of the Deep Galleries",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1128,6 +1142,7 @@
                 "3": [
                     "Pale Flame",
                     "Bloodstained Chivalry",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1142,6 +1157,7 @@
                     "Gladiator's Finale"
                 ],
                 "5": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1202,6 +1218,7 @@
                     "Gilded Dreams"
                 ],
                 "3": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1211,6 +1228,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -1328,6 +1346,7 @@
                 ],
                 "4": [
                     "Blizzard Strayer",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1337,6 +1356,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -1383,6 +1403,7 @@
                 ],
                 "2": [
                     "Blizzard Strayer",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1436,6 +1457,7 @@
                 ],
                 "2": [
                     "Blizzard Strayer",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1497,6 +1519,7 @@
                 ],
                 "4": [
                     "Crimson Witch of Flames",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -1534,26 +1557,36 @@
                 "1": "Fractured Halo",
                 "2": "Staff of the Scarlet Sands",
                 "3": "Symphonist of Scents",
-                "4": "Staff of Homa",
-                "5": "Calamity Queller",
-                "6": "Lumidouce Elegy",
-                "7": "Engulfing Lightning",
-                "8": "Prospector's Shovel",
-                "9": "Kitain Cross Spear",
-                "10": "Skyward Spine",
-                "11": "Primordial Jade Winged-Spear",
-                "12": "Ballad of the Fjords",
-                "13": "Deathmatch",
-                "14": "Missive Windspear"
+                "4": "Lumidouce Elegy",
+                "5": "Staff of Homa",
+                "6": "Bloodsoaked Ruins",
+                "7": "Calamity Queller",
+                "8": "Sacrificer's Staff",
+                "9": "Primordial Jade Winged-Spear",
+                "10": "Crimson Moon's Semblance",
+                "11": "Deathmatch",
+                "12": "Engulfing Lightning",
+                "13": "Missive Windspear",
+                "14": "Ballad of the Fjords",
+                "15": "Vortex Vanquisher",
+                "16": "Prospector's Shovel",
+                "17": "Skyward Spine"
             },
             "artifacts": {
                 "1": [
-                    "Silken Moon's Serenade"
+                    "Aubade of Morningstar and Moon"
                 ],
                 "2": [
                     "Gilded Dreams"
                 ],
                 "3": [
+                    "Silken Moon's Serenade"
+                ],
+                "4": [
+                    "Tenacity of the Millelith"
+                ],
+                "5": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1563,29 +1596,17 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor"
-                ],
-                "4": [
-                    "Thundering Fury"
-                ],
-                "5": [
-                    "Emblem of Severed Fate"
-                ],
-                "6": [
-                    "Golden Troupe"
-                ],
-                "7": [
-                    "Tenacity of the Millelith"
                 ]
             },
             "main_stats": {
                 "Sands": [
-                    "ATK%",
-                    "Energy Recharge"
+                    "ATK%"
                 ],
                 "Goblet": [
                     "ATK%"
@@ -1636,6 +1657,7 @@
                     "Noblesse Oblige",
                     "Desert Pavilion Chronicle",
                     "Viridescent Venerer",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1737,6 +1759,7 @@
                 ],
                 "2": [
                     "Blizzard Strayer",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1748,6 +1771,7 @@
                     "Resolution of Sojourner"
                 ],
                 "3": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1814,6 +1838,7 @@
                 "4": [
                     "Heart of Depth",
                     "Nymph's Dream",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1886,11 +1911,13 @@
                 ],
                 "4": [
                     "Thundering Fury",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1952,11 +1979,13 @@
                 ],
                 "3": [
                     "Thundering Fury",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2017,6 +2046,7 @@
                 ],
                 "4": [
                     "Deepwood Memories",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2068,15 +2098,19 @@
             },
             "artifacts": {
                 "1": [
-                    "Lavawalker"
+                    "A Day Carved From Rising Winds"
                 ],
                 "2": [
-                    "Echoes of an Offering"
+                    "Lavawalker"
                 ],
                 "3": [
-                    "Desert Pavilion Chronicle"
+                    "Echoes of an Offering"
                 ],
                 "4": [
+                    "Desert Pavilion Chronicle"
+                ],
+                "5": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2089,7 +2123,7 @@
                     "Crimson Witch of Flames",
                     "Marechaussee Hunter"
                 ],
-                "5": [
+                "6": [
                     "Wanderer's Troupe"
                 ]
             },
@@ -2234,6 +2268,7 @@
                 "5": [
                     "Crimson Witch of Flames",
                     "Marechaussee Hunter",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2340,6 +2375,7 @@
                     "Noblesse Oblige",
                     "Heart of Depth",
                     "Nymph's Dream",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2349,6 +2385,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -2449,6 +2486,7 @@
                     "Vourukasha's Glow",
                     "Heart of Depth",
                     "Nymph's Dream",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -2514,6 +2552,7 @@
                     "Golden Troupe"
                 ],
                 "4": [
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -2608,15 +2647,16 @@
         "DPS": {
             "weapons": {
                 "1": "Reliquary of Truth",
-                "2": "Nightweaver's Looking Glass",
-                "3": "Sunny Morning Sleep-In",
-                "4": "Starcaller's Watch",
-                "5": "Blackmarrow Lantern",
-                "6": "A Thousand Floating Dreams",
-                "7": "Tome of the Eternal Flow",
-                "8": "Surf's Up",
-                "9": "Dawning Frost",
-                "10": "The Widsith"
+                "2": "Nocturne's Curtain Call",
+                "3": "Nightweaver's Looking Glass",
+                "4": "Sunny Morning Sleep-In",
+                "5": "Starcaller's Watch",
+                "6": "Blackmarrow Lantern",
+                "7": "A Thousand Floating Dreams",
+                "8": "Tome of the Eternal Flow",
+                "9": "Surf's Up",
+                "10": "Dawning Frost",
+                "11": "The Widsith"
             },
             "artifacts": {
                 "1": [
@@ -2719,6 +2759,7 @@
                 "2": [
                     "Tenacity of the Millelith",
                     "Vourukasha's Glow",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -2774,6 +2815,7 @@
                 "5": [
                     "Ocean-Hued Clam",
                     "Song of Days Past",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2836,6 +2878,7 @@
                 "2": [
                     "Noblesse Oblige",
                     "Thundering Fury",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2945,6 +2988,7 @@
                     "Scroll of the Hero of Cinder City"
                 ],
                 "3": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3050,6 +3094,7 @@
                 "4": [
                     "Blizzard Strayer",
                     "Finale of the Deep Galleries",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3117,6 +3162,7 @@
                 "3": [
                     "Heart of Depth",
                     "Nymph's Dream",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3131,6 +3177,7 @@
                     "Noblesse Oblige",
                     "Heart of Depth",
                     "Nymph's Dream",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3199,11 +3246,13 @@
                 ],
                 "4": [
                     "Deepwood Memories",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3406,12 +3455,14 @@
                 "2": [
                     "Desert Pavilion Chronicle",
                     "Viridescent Venerer",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
                     "Noblesse Oblige",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3477,6 +3528,7 @@
                 "3": [
                     "Archaic Petra",
                     "Noblesse Oblige",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3523,11 +3575,11 @@
                 "2": "Reliquary of Truth",
                 "3": "Kagura's Verity",
                 "4": "Lost Prayer to the Sacred Winds",
-                "5": "Crane's Echoing Call",
-                "6": "Tome of the Eternal Flow",
-                "7": "Surf's Up",
-                "8": "Cashflow Supervision",
-                "9": "Tulaytullah's Remembrance",
+                "5": "Tome of the Eternal Flow",
+                "6": "Surf's Up",
+                "7": "Cashflow Supervision",
+                "8": "Tulaytullah's Remembrance",
+                "9": "Crane's Echoing Call",
                 "10": "The Widsith",
                 "11": "Skyward Atlas",
                 "12": "Sacrificial Jade",
@@ -3546,6 +3598,7 @@
                 "3": [
                     "Long Night's Oath",
                     "Thundering Fury",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3598,15 +3651,18 @@
                     "Viridescent Venerer"
                 ],
                 "2": [
-                    "Noblesse Oblige"
+                    "A Day Carved From Rising Winds"
                 ],
                 "3": [
-                    "Scroll of the Hero of Cinder City"
+                    "Noblesse Oblige"
                 ],
                 "4": [
-                    "Gilded Dreams"
+                    "Scroll of the Hero of Cinder City"
                 ],
                 "5": [
+                    "Gilded Dreams"
+                ],
+                "6": [
                     "Emblem of Severed Fate"
                 ]
             },
@@ -3650,12 +3706,15 @@
             },
             "artifacts": {
                 "1": [
-                    "Desert Pavilion Chronicle"
+                    "A Day Carved From Rising Winds"
                 ],
                 "2": [
-                    "Echoes of an Offering"
+                    "Desert Pavilion Chronicle"
                 ],
                 "3": [
+                    "Echoes of an Offering"
+                ],
+                "4": [
                     "Viridescent Venerer"
                 ]
             },
@@ -3711,6 +3770,7 @@
                 "4": [
                     "Desert Pavilion Chronicle",
                     "Viridescent Venerer",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3776,6 +3836,7 @@
                 "4": [
                     "Desert Pavilion Chronicle",
                     "Viridescent Venerer",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3841,6 +3902,7 @@
                 ],
                 "5": [
                     "Blizzard Strayer",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3850,6 +3912,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -3902,6 +3965,7 @@
                 ],
                 "4": [
                     "Blizzard Strayer",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3961,6 +4025,7 @@
                     "Scroll of the Hero of Cinder City"
                 ],
                 "6": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4024,6 +4089,7 @@
                     "Scroll of the Hero of Cinder City"
                 ],
                 "6": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4095,6 +4161,7 @@
                     "Long Night's Oath",
                     "Desert Pavilion Chronicle",
                     "Viridescent Venerer",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4195,6 +4262,7 @@
                     "Emblem of Severed Fate"
                 ],
                 "3": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4262,11 +4330,13 @@
                 ],
                 "4": [
                     "Thundering Fury",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4439,6 +4509,7 @@
                 ],
                 "5": [
                     "Crimson Witch of Flames",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4448,6 +4519,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -4715,6 +4787,7 @@
                 "2": [
                     "Noblesse Oblige",
                     "Thundering Fury",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4884,6 +4957,7 @@
                 ],
                 "4": [
                     "Emblem of Severed Fate",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5019,11 +5093,13 @@
                 "5": [
                     "Noblesse Oblige",
                     "Blizzard Strayer",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
                     "Wanderer's Troupe",
                     "Instructor",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5335,13 +5411,17 @@
                     "Golden Troupe"
                 ],
                 "2": [
+                    "A Day Carved From Rising Winds"
+                ],
+                "3": [
                     "Golden Troupe",
                     "Thundering Fury"
                 ],
-                "3": [
+                "4": [
                     "Thundersoother"
                 ],
-                "4": [
+                "5": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5354,7 +5434,7 @@
                     "Thundering Fury",
                     "Golden Troupe"
                 ],
-                "5": [
+                "6": [
                     "Tenacity of the Millelith"
                 ]
             },
@@ -5400,6 +5480,7 @@
                     "Golden Troupe"
                 ],
                 "2": [
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5409,6 +5490,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -5418,12 +5500,15 @@
                     "Golden Troupe"
                 ],
                 "3": [
-                    "Gilded Dreams"
+                    "A Day Carved From Rising Winds"
                 ],
                 "4": [
-                    "Thundering Fury"
+                    "Gilded Dreams"
                 ],
                 "5": [
+                    "Thundering Fury"
+                ],
+                "6": [
                     "Thundersoother"
                 ]
             },
@@ -5478,6 +5563,7 @@
                     "Bloodstained Chivalry",
                     "Pale Flame",
                     "Golden Troupe",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5537,6 +5623,7 @@
                 ],
                 "2": [
                     "Blizzard Strayer",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5584,11 +5671,12 @@
                 "6": "Fruitful Hook",
                 "7": "Wolf's Gravestone",
                 "8": "Rainslasher",
-                "9": "The Unforged",
-                "10": "Mailed Flower",
-                "11": "Lithic Blade",
+                "9": "Mailed Flower",
+                "10": "Lithic Blade",
+                "11": "The Unforged",
                 "12": "Tidal Shadow",
-                "13": "\"Ultimate Overlord's Mega Magic Sword\""
+                "13": "\"Ultimate Overlord's Mega Magic Sword\"",
+                "14": "Makhaira Aquamarine"
             },
             "artifacts": {
                 "1": [
@@ -5691,6 +5779,7 @@
                 ],
                 "3": [
                     "Emblem of Severed Fate",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5880,6 +5969,7 @@
                 "3": [
                     "Blizzard Strayer",
                     "Finale of the Deep Galleries",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5940,6 +6030,7 @@
                     "Noblesse Oblige",
                     "Blizzard Strayer",
                     "Finale of the Deep Galleries",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -6109,6 +6200,7 @@
                 ],
                 "3": [
                     "Noblesse Oblige",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -6162,6 +6254,7 @@
                     "Gilded Dreams"
                 ],
                 "3": [
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -6356,6 +6449,7 @@
                 ],
                 "4": [
                     "Thundering Fury",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -6365,6 +6459,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -6434,6 +6529,7 @@
                     "Silken Moon's Serenade",
                     "Scholar",
                     "The Exile",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -6497,6 +6593,7 @@
                     "Scholar",
                     "The Exile",
                     "Noblesse Oblige",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -6609,6 +6706,7 @@
                 ],
                 "2": [
                     "Archaic Petra",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -6793,6 +6891,7 @@
                     "Flower of Paradise Lost"
                 ],
                 "3": [
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -6994,6 +7093,7 @@
                 ],
                 "4": [
                     "Thundering Fury",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -7038,6 +7138,7 @@
                 ],
                 "3": [
                     "Thundering Fury",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -7106,6 +7207,7 @@
                     "Desert Pavilion Chronicle",
                     "Viridescent Venerer",
                     "Golden Troupe",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7115,6 +7217,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -7201,6 +7304,7 @@
                     "Instructor"
                 ],
                 "3": [
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -7246,6 +7350,7 @@
                     "Gilded Dreams"
                 ],
                 "3": [
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -7313,6 +7418,7 @@
                 "4": [
                     "Noblesse Oblige",
                     "Crimson Witch of Flames",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7322,6 +7428,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -7380,6 +7487,7 @@
                 "4": [
                     "Noblesse Oblige",
                     "Crimson Witch of Flames",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7389,6 +7497,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -7449,6 +7558,7 @@
                     "Noblesse Oblige",
                     "Heart of Depth",
                     "Nymph's Dream",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7517,6 +7627,7 @@
                     "Noblesse Oblige",
                     "Heart of Depth",
                     "Nymph's Dream",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7579,6 +7690,7 @@
                 "4": [
                     "Bloodstained Chivalry",
                     "Pale Flame",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7640,6 +7752,7 @@
                 ],
                 "4": [
                     "Crimson Witch of Flames",
+                    "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7649,6 +7762,7 @@
                     "Vermillion Hereafter",
                     "Brave Heart",
                     "Resolution of Sojourner",
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",
@@ -7718,6 +7832,7 @@
                     "Gilded Dreams"
                 ],
                 "9": [
+                    "Aubade of Morningstar and Moon",
                     "Flower of Paradise Lost",
                     "Gilded Dreams",
                     "Night of the Sky's Unveiling",

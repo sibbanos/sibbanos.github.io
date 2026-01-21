@@ -113,6 +113,7 @@ correct_artifact_name = {
     '18%  ATK' : '18% ATK',
     '20% ER' : '20% Energy Recharge',
     '15% Hydro DMG Bonus' : '15% Hydro DMG',
+    'Silken Moon Serenade' : "Silken Moon's Serenade",
 }
 def correctArtifact(artifact) :
     if artifact in correct_artifact_name :
@@ -291,10 +292,13 @@ for character_list in soup.find_all('table') :
                         __artifact = __artifact.replace('+', '')
                         __artifact = __artifact.replace('*', '')
                         __artifact = __artifact.replace('≈', '')
-                        __artifact = re.sub(r'\band\b', '', __artifact, flags=re.IGNORECASE).strip()
                         __artifact = re.sub(r'\bany\b', '', __artifact, flags=re.IGNORECASE).strip()
                         __artifact = re.sub(r'\bset\b', '', __artifact, flags=re.IGNORECASE).strip()
                         __artifact = re.sub('[0-9]*\\.', '', __artifact, flags=re.IGNORECASE).strip()
+
+                        if 'Aubade of Morningstar and Moon' not in __artifact :
+                            __artifact = re.sub(r'\band\b', '', __artifact, flags=re.IGNORECASE).strip()
+
                         __artifact = correctArtifact(__artifact)
 
                         # Skip empty value and Noelle
