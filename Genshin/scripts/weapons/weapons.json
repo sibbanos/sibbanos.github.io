@@ -350,6 +350,19 @@
             "weapon_type": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
+    "Lightbearing Moonshard": {
+        "type": "Sword",
+        "quality": "5",
+        "first_stat": "542",
+        "second_stat": "88.2%",
+        "second_stat_type": "CRIT DMG",
+        "ability": "Legacy of Lang-Gan\nIncreases DEF by 20~40%. DMG inflicted by Lunar-Crystallize reactions increases by 64~128% for 5s after the equipping character uses an Elemental Skill.",
+        "link": "https://genshin-impact.fandom.com/wiki/Lightbearing_Moonshard",
+        "src": {
+            "weapon": "Genshin/Weapons/Swords/Lightbearing Moonshard.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
     "Lost Prayer to the Sacred Winds": {
         "type": "Catalyst",
         "quality": "5",

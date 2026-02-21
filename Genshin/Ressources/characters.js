@@ -681,6 +681,17 @@ let genshinCharacters = {
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },
+    "Zibai": {
+        "element": "Geo",
+        "quality": "5",
+        "weapon": "Sword",
+        "link": "https://genshin-impact.fandom.com/wiki/Zibai",
+        "src": {
+            "character": "Genshin/Characters/Geo/Zibai.png",
+            "element": "Genshin/Ressources/Elements/Geo.png",
+            "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        }
+    },
     "Aino": {
         "element": "Hydro",
         "quality": "4",
@@ -899,6 +910,17 @@ let genshinCharacters = {
             "character": "Genshin/Characters/Anemo/Ifa.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
+    "Illuga": {
+        "element": "Geo",
+        "quality": "4",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Illuga",
+        "src": {
+            "character": "Genshin/Characters/Geo/Illuga.png",
+            "element": "Genshin/Ressources/Elements/Geo.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },
     "Jahoda": {

@@ -18,6 +18,7 @@ with open('Genshin/scripts/weapons/weapons.json') as json_file:
 # Create list of 2 pieces artifacts with same effect
 artifacts_2_pieces = {
     '18% ATK' : [],
+    '30% DEF' : [],
     '80 EM' : [],
     '25% Physical DMG' : [],
     '20% HP' : [],
@@ -33,6 +34,8 @@ for artifact in artifacts_json :
         if '2' in artifact_info['bonuses'] :
             if 'ATK +18%' in artifact_info['bonuses']['2'] :
                 artifacts_2_pieces['18% ATK'].append(artifact)
+            if 'DEF +30%' in artifact_info['bonuses']['2'] :
+                artifacts_2_pieces['30% DEF'].append(artifact)
             if 'Increases Elemental Mastery by 80' in artifact_info['bonuses']['2'] :
                 artifacts_2_pieces['80 EM'].append(artifact)
             if 'Physical DMG Bonus +25%' in artifact_info['bonuses']['2'] :

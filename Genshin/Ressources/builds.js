@@ -1199,16 +1199,15 @@ let genshinBuilds = {
                 "5": "Symphonist of Scents",
                 "6": "Primordial Jade Winged-Spear",
                 "7": "Lumidouce Elegy",
-                "8": "Ballad of the Fjords",
-                "9": "Deathmatch",
-                "10": "Crimson Moon's Semblance",
-                "11": "Calamity Queller",
-                "12": "Skyward Spine",
-                "13": "Vortex Vanquisher",
-                "14": "Tamayuratei no Ohanashi",
-                "15": "Engulfing Lightning",
-                "16": "Prospector's Shovel",
-                "17": "Blackcliff Pole"
+                "8": "Crimson Moon's Semblance",
+                "9": "Vortex Vanquisher",
+                "10": "Deathmatch",
+                "11": "Ballad of the Fjords",
+                "12": "Prospector's Shovel",
+                "13": "Missive Windspear",
+                "14": "Sacrificer's Staff",
+                "15": "Blackcliff Pole",
+                "16": "Skyward Spine"
             },
             "artifacts": {
                 "1": [
@@ -1552,7 +1551,7 @@ let genshinBuilds = {
         }
     },
     "Ineffa": {
-        "OFF-FIELD DPS & BUFF AND SHIELD SUPPORT": {
+        "OFF-FIELD DPS & BUFF & SHIELD SUPPORT": {
             "weapons": {
                 "1": "Fractured Halo",
                 "2": "Staff of the Scarlet Sands",
@@ -1561,16 +1560,15 @@ let genshinBuilds = {
                 "5": "Staff of Homa",
                 "6": "Bloodsoaked Ruins",
                 "7": "Calamity Queller",
-                "8": "Sacrificer's Staff",
-                "9": "Primordial Jade Winged-Spear",
-                "10": "Crimson Moon's Semblance",
-                "11": "Deathmatch",
-                "12": "Engulfing Lightning",
-                "13": "Missive Windspear",
-                "14": "Ballad of the Fjords",
-                "15": "Vortex Vanquisher",
-                "16": "Prospector's Shovel",
-                "17": "Skyward Spine"
+                "8": "Primordial Jade Winged-Spear",
+                "9": "Crimson Moon's Semblance",
+                "10": "Deathmatch",
+                "11": "Engulfing Lightning",
+                "12": "Ballad of the Fjords",
+                "13": "Vortex Vanquisher",
+                "14": "Prospector's Shovel",
+                "15": "Sacrificer's Staff",
+                "16": "Skyward Spine"
             },
             "artifacts": {
                 "1": [
@@ -4632,6 +4630,58 @@ let genshinBuilds = {
             }
         }
     },
+    "Zibai": {
+        "DPS": {
+            "weapons": {
+                "1": "Lightbearing Moonshard",
+                "2": "Uraku Misugiri",
+                "3": "Light of Foliar Incision",
+                "4": "Harbinger of Dawn",
+                "5": "Peak Patrol Song",
+                "6": "Splendor of Tranquil Waters",
+                "7": "Haran Geppaku Futsu",
+                "8": "Athame Artis",
+                "9": "Flute of Ezpitzal"
+            },
+            "artifacts": {
+                "1": [
+                    "Night of the Sky's Unveiling"
+                ],
+                "2": [
+                    "Husk of Opulent Dreams"
+                ],
+                "3": [
+                    "Husk of Opulent Dreams",
+                    "Defender's Will",
+                    "Aubade of Morningstar and Moon",
+                    "Flower of Paradise Lost",
+                    "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
+                    "Wanderer's Troupe",
+                    "Instructor"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "DEF%"
+                ],
+                "Goblet": [
+                    "DEF%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "DEF%",
+                "4": "Energy Recharge",
+                "5": "Elemental Mastery"
+            }
+        }
+    },
     "Aino": {
         "REACTION SUPPORT": {
             "weapons": {
@@ -5480,6 +5530,9 @@ let genshinBuilds = {
                     "Golden Troupe"
                 ],
                 "2": [
+                    "A Day Carved From Rising Winds"
+                ],
+                "3": [
                     "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
@@ -5498,9 +5551,6 @@ let genshinBuilds = {
                     "Instructor",
                     "Thundering Fury",
                     "Golden Troupe"
-                ],
-                "3": [
-                    "A Day Carved From Rising Winds"
                 ],
                 "4": [
                     "Gilded Dreams"
@@ -5719,8 +5769,9 @@ let genshinBuilds = {
         "BUFF SUPPORT": {
             "weapons": {
                 "1": "Favonius Warbow",
-                "2": "Sacrificial Bow",
-                "3": "Elegy for the End"
+                "2": "Snare Hook",
+                "3": "Sacrificial Bow",
+                "4": "Elegy for the End"
             },
             "artifacts": {
                 "1": [
@@ -5731,9 +5782,7 @@ let genshinBuilds = {
                 ],
                 "3": [
                     "Emblem of Severed Fate",
-                    "Silken Moon's Serenade",
-                    "Scholar",
-                    "The Exile"
+                    "Silken Moon's Serenade"
                 ]
             },
             "main_stats": {
@@ -5858,6 +5907,46 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
+            }
+        }
+    },
+    "Illuga": {
+        "BUFF SUPPORT": {
+            "weapons": {
+                "1": "Favonius Lance",
+                "2": "Dragon's Bane",
+                "3": "Kitain Cross Spear",
+                "4": "Engulfing Lightning"
+            },
+            "artifacts": {
+                "1": [
+                    "Silken Moon's Serenade"
+                ],
+                "2": [
+                    "Aubade of Morningstar and Moon",
+                    "Flower of Paradise Lost",
+                    "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
+                    "Wanderer's Troupe",
+                    "Instructor"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "Elemental Mastery",
+                    "Energy Recharge"
+                ],
+                "Goblet": [
+                    "Elemental Mastery"
+                ],
+                "Circlet": [
+                    "Elemental Mastery"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "Elemental Mastery",
+                "3": "Crit Rate"
             }
         }
     },
