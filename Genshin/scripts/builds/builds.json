@@ -3628,6 +3628,57 @@
             }
         }
     },
+    "Varka": {
+        "DPS": {
+            "weapons": {
+                "1": "Gest of the Mighty Wolf",
+                "2": "Beacon of the Reed Sea",
+                "3": "A Thousand Blazing Suns",
+                "4": "Redhorn Stonethresher",
+                "5": "Verdict",
+                "6": "Song of Broken Pines",
+                "7": "Serpent Spine",
+                "8": "Wolf's Gravestone",
+                "9": "Fang of the Mountain King",
+                "10": "The Unforged",
+                "11": "Tidal Shadow",
+                "12": "Talking Stick",
+                "13": "Blackcliff Slasher",
+                "14": "\"Ultimate Overlord's Mega Magic Sword\""
+            },
+            "artifacts": {
+                "1": [
+                    "A Day Carved From Rising Winds"
+                ],
+                "2": [
+                    "Shimenawa's Reminiscence"
+                ],
+                "3": [
+                    "Desert Pavilion Chronicle"
+                ],
+                "4": [
+                    "Gladiator's Finale"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "ATK%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "ATK%"
+            }
+        }
+    },
     "Venti": {
         "OFF-FIELD DPS": {
             "weapons": {
@@ -5713,20 +5764,21 @@
     "Gaming": {
         "DPS": {
             "weapons": {
-                "1": "Serpent Spine",
-                "2": "Redhorn Stonethresher",
-                "3": "A Thousand Blazing Suns",
-                "4": "Verdict",
-                "5": "Beacon of the Reed Sea",
-                "6": "Fruitful Hook",
-                "7": "Wolf's Gravestone",
-                "8": "Rainslasher",
-                "9": "Mailed Flower",
-                "10": "Lithic Blade",
-                "11": "The Unforged",
-                "12": "Tidal Shadow",
-                "13": "\"Ultimate Overlord's Mega Magic Sword\"",
-                "14": "Makhaira Aquamarine"
+                "1": "Gest of the Mighty Wolf",
+                "2": "Serpent Spine",
+                "3": "Redhorn Stonethresher",
+                "4": "A Thousand Blazing Suns",
+                "5": "Verdict",
+                "6": "Beacon of the Reed Sea",
+                "7": "Fruitful Hook",
+                "8": "Wolf's Gravestone",
+                "9": "Rainslasher",
+                "10": "Mailed Flower",
+                "11": "Lithic Blade",
+                "12": "The Unforged",
+                "13": "Tidal Shadow",
+                "14": "\"Ultimate Overlord's Mega Magic Sword\"",
+                "15": "Makhaira Aquamarine"
             },
             "artifacts": {
                 "1": [

@@ -549,6 +549,17 @@
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
+    "Varka": {
+        "element": "Anemo",
+        "quality": "5",
+        "weapon": "Claymore",
+        "link": "https://genshin-impact.fandom.com/wiki/Varka",
+        "src": {
+            "character": "Genshin/Characters/Anemo/Varka.png",
+            "element": "Genshin/Ressources/Elements/Anemo.png",
+            "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
     "Venti": {
         "element": "Anemo",
         "quality": "5",

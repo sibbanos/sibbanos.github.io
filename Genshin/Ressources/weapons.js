@@ -272,6 +272,19 @@ let genshinWeapons = {
             "weapon_type": "Genshin/Ressources/Weapons/Sword.png"
         }
     },
+    "Gest of the Mighty Wolf": {
+        "type": "Claymore",
+        "quality": "5",
+        "first_stat": "608",
+        "second_stat": "33.1%",
+        "second_stat_type": "CRIT Rate",
+        "ability": "Indomitable Chivalry\nIncrease ATK SPD by 10%. Every time the equipping character's Normal Attack(s) hit opponent(s), when they cast their Elemental Skill, or when they begin their Charged Attack(s), gain 1/2/2 stacks of Four Winds' Hymn respectively: DMG dealt is increased by 7.5~15.5%, for 4s. Max 4 stacks. This effect can be triggered once every 0.01s.Additionally, when the team has the \"Hexerei: Secret Rite\" effect, each stack of Four Winds' Hymn will increase the CRIT DMG of the equipping character by 7.5~15.5%.",
+        "link": "https://genshin-impact.fandom.com/wiki/Gest_of_the_Mighty_Wolf",
+        "src": {
+            "weapon": "Genshin/Weapons/Claymores/Gest of the Mighty Wolf.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Claymore.png"
+        }
+    },
     "Haran Geppaku Futsu": {
         "type": "Sword",
         "quality": "5",
