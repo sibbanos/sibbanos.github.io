@@ -1017,6 +1017,9 @@
                 ],
                 "4": [
                     "Tenacity of the Millelith"
+                ],
+                "5": [
+                    "Scroll of the Hero of Cinder City"
                 ]
             },
             "main_stats": {
@@ -1088,6 +1091,9 @@
                 ],
                 "4": [
                     "Tenacity of the Millelith"
+                ],
+                "5": [
+                    "Scroll of the Hero of Cinder City"
                 ]
             },
             "main_stats": {
@@ -1203,11 +1209,12 @@
                 "9": "Vortex Vanquisher",
                 "10": "Deathmatch",
                 "11": "Ballad of the Fjords",
-                "12": "Prospector's Shovel",
-                "13": "Missive Windspear",
-                "14": "Sacrificer's Staff",
-                "15": "Blackcliff Pole",
-                "16": "Skyward Spine"
+                "12": "Calamity Queller",
+                "13": "Prospector's Shovel",
+                "14": "Missive Windspear",
+                "15": "Sacrificer's Staff",
+                "16": "Blackcliff Pole",
+                "17": "Skyward Spine"
             },
             "artifacts": {
                 "1": [
@@ -1555,8 +1562,8 @@
             "weapons": {
                 "1": "Fractured Halo",
                 "2": "Staff of the Scarlet Sands",
-                "3": "Symphonist of Scents",
-                "4": "Lumidouce Elegy",
+                "3": "Lumidouce Elegy",
+                "4": "Symphonist of Scents",
                 "5": "Staff of Homa",
                 "6": "Bloodsoaked Ruins",
                 "7": "Calamity Queller",
@@ -1578,12 +1585,15 @@
                     "Gilded Dreams"
                 ],
                 "3": [
-                    "Silken Moon's Serenade"
+                    "A Day Carved From Rising Winds"
                 ],
                 "4": [
-                    "Tenacity of the Millelith"
+                    "Silken Moon's Serenade"
                 ],
                 "5": [
+                    "Tenacity of the Millelith"
+                ],
+                "6": [
                     "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
@@ -1615,11 +1625,11 @@
                 ]
             },
             "sub_stats": {
-                "1": "Energy Recharge",
-                "2": "Crit Rate",
-                "3": "Crit DMG",
-                "4": "ATK%",
-                "5": "Elemental Mastery"
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "ATK%",
+                "4": "Elemental Mastery",
+                "5": "Energy Recharge"
             }
         }
     },
@@ -2024,13 +2034,14 @@
         "DPS": {
             "weapons": {
                 "1": "Fang of the Mountain King",
-                "2": "A Thousand Blazing Suns",
-                "3": "Beacon of the Reed Sea",
-                "4": "Serpent Spine",
-                "5": "Verdict",
-                "6": "Earth Shaker",
-                "7": "Wolf's Gravestone",
-                "8": "Redhorn Stonethresher"
+                "2": "Gest of the Mighty Wolf",
+                "3": "A Thousand Blazing Suns",
+                "4": "Beacon of the Reed Sea",
+                "5": "Serpent Spine",
+                "6": "Verdict",
+                "7": "Earth Shaker",
+                "8": "Wolf's Gravestone",
+                "9": "Redhorn Stonethresher"
             },
             "artifacts": {
                 "1": [
@@ -5492,20 +5503,21 @@
     "Fischl": {
         "OFF-FIELD DPS": {
             "weapons": {
-                "1": "Polar Star",
-                "2": "Aqua Simulacra",
-                "3": "Thundering Pulse",
-                "4": "Hunter's Path",
-                "5": "The First Great Magic",
-                "6": "Skyward Harp",
-                "7": "Astral Vulture's Crimson Plumage",
-                "8": "Song of Stillness",
-                "9": "Chain Breaker",
-                "10": "Amos' Bow",
-                "11": "Alley Hunter",
-                "12": "The Viridescent Hunt",
-                "13": "The Stringless",
-                "14": "Fading Twilight"
+                "1": "The Daybreak Chronicles",
+                "2": "Polar Star",
+                "3": "Aqua Simulacra",
+                "4": "Thundering Pulse",
+                "5": "Hunter's Path",
+                "6": "The First Great Magic",
+                "7": "Skyward Harp",
+                "8": "Astral Vulture's Crimson Plumage",
+                "9": "Song of Stillness",
+                "10": "Chain Breaker",
+                "11": "Amos' Bow",
+                "12": "Alley Hunter",
+                "13": "The Viridescent Hunt",
+                "14": "The Stringless",
+                "15": "Fading Twilight"
             },
             "artifacts": {
                 "1": [
@@ -5561,20 +5573,21 @@
         },
         "OFF-FIELD AGGRAVATE DPS": {
             "weapons": {
-                "1": "Polar Star",
-                "2": "Hunter's Path",
-                "3": "Aqua Simulacra",
-                "4": "The First Great Magic",
-                "5": "Skyward Harp",
-                "6": "Thundering Pulse",
-                "7": "Astral Vulture's Crimson Plumage",
-                "8": "The Stringless",
-                "9": "Song of Stillness",
-                "10": "The Viridescent Hunt",
-                "11": "Chain Breaker",
-                "12": "Windblume Ode",
-                "13": "Alley Hunter",
-                "14": "Fading Twilight"
+                "1": "The Daybreak Chronicles",
+                "2": "Polar Star",
+                "3": "Hunter's Path",
+                "4": "Aqua Simulacra",
+                "5": "The First Great Magic",
+                "6": "Skyward Harp",
+                "7": "Thundering Pulse",
+                "8": "Astral Vulture's Crimson Plumage",
+                "9": "The Stringless",
+                "10": "Song of Stillness",
+                "11": "The Viridescent Hunt",
+                "12": "Chain Breaker",
+                "13": "Windblume Ode",
+                "14": "Alley Hunter",
+                "15": "Fading Twilight"
             },
             "artifacts": {
                 "1": [
@@ -7015,49 +7028,73 @@
         }
     },
     "Razor": {
-        "HYPERBLOOM / REACTION DPS": {
+        "DPS": {
             "weapons": {
-                "1": "Mailed Flower",
-                "2": "Makhaira Aquamarine",
-                "3": "Rainslasher",
-                "4": "Bloodtainted Greatsword",
-                "5": "Favonius Greatsword",
-                "6": "Forest Regalia"
+                "1": "Gest of the Mighty Wolf",
+                "2": "A Thousand Blazing Suns",
+                "3": "Beacon of the Reed Sea",
+                "4": "Verdict",
+                "5": "Redhorn Stonethresher",
+                "6": "Fang of the Mountain King",
+                "7": "Song of Broken Pines",
+                "8": "Talking Stick",
+                "9": "Serpent Spine",
+                "10": "Skyward Pride",
+                "11": "Wolf's Gravestone",
+                "12": "The Unforged",
+                "13": "Tidal Shadow",
+                "14": "Blackcliff Slasher",
+                "15": "Akuoumaru",
+                "16": "Earth Shaker",
+                "17": "Prototype Archaic"
             },
             "artifacts": {
                 "1": [
-                    "Gilded Dreams"
+                    "A Day Carved From Rising Winds"
                 ],
                 "2": [
-                    "Flower of Paradise Lost"
+                    "Echoes of an Offering"
                 ],
                 "3": [
-                    "Aubade of Morningstar and Moon",
-                    "Flower of Paradise Lost",
-                    "Gilded Dreams",
-                    "Night of the Sky's Unveiling",
-                    "Wanderer's Troupe",
-                    "Instructor"
+                    "Emblem of Severed Fate"
                 ],
                 "4": [
+                    "Thundering Fury"
+                ],
+                "5": [
+                    "Gladiator's Finale"
+                ],
+                "6": [
+                    "A Day Carved From Rising Winds",
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner",
                     "Thundering Fury"
                 ]
             },
             "main_stats": {
                 "Sands": [
-                    "Elemental Mastery"
+                    "ATK%"
                 ],
                 "Goblet": [
-                    "Elemental Mastery"
+                    "Electro DMG"
                 ],
                 "Circlet": [
-                    "Elemental Mastery"
+                    "Crit Rate",
+                    "Crit DMG"
                 ]
             },
             "sub_stats": {
-                "1": "Elemental Mastery",
-                "2": "Energy Recharge",
-                "3": "Crit Rate"
+                "1": "Energy Recharge",
+                "2": "Crit Rate",
+                "3": "Crit DMG",
+                "4": "ATK%"
             }
         }
     },
@@ -7696,6 +7733,9 @@
                     "Nymph's Dream"
                 ],
                 "5": [
+                    "A Day Carved From Rising Winds"
+                ],
+                "6": [
                     "Noblesse Oblige",
                     "Heart of Depth",
                     "Nymph's Dream",
@@ -7765,6 +7805,9 @@
                     "Nymph's Dream"
                 ],
                 "5": [
+                    "A Day Carved From Rising Winds"
+                ],
+                "6": [
                     "Noblesse Oblige",
                     "Heart of Depth",
                     "Nymph's Dream",
