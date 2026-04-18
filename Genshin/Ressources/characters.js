@@ -340,6 +340,17 @@ let genshinCharacters = {
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
+    "Linnea": {
+        "element": "Geo",
+        "quality": "5",
+        "weapon": "Bow",
+        "link": "https://genshin-impact.fandom.com/wiki/Linnea",
+        "src": {
+            "character": "Genshin/Characters/Geo/Linnea.png",
+            "element": "Genshin/Ressources/Elements/Geo.png",
+            "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
     "Lyney": {
         "element": "Pyro",
         "quality": "5",

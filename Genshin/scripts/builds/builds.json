@@ -4,10 +4,12 @@
             "weapons": {
                 "1": "Peak Patrol Song",
                 "2": "Uraku Misugiri",
-                "3": "Harbinger of Dawn",
+                "3": "Lightbearing Moonshard",
                 "4": "Flute of Ezpitzal",
-                "5": "Primordial Jade Cutter",
-                "6": "Cinnabar Spindle"
+                "5": "Harbinger of Dawn",
+                "6": "Light of Foliar Incision",
+                "7": "Cinnabar Spindle",
+                "8": "Primordial Jade Cutter"
             },
             "artifacts": {
                 "1": [
@@ -158,6 +160,9 @@
                 ],
                 "5": [
                     "Noblesse Oblige"
+                ],
+                "6": [
+                    "Scroll of the Hero of Cinder City"
                 ]
             },
             "main_stats": {
@@ -526,7 +531,7 @@
         }
     },
     "Columbina": {
-        "OFF-FIELD DPS & BUFF SUPPORT": {
+        "HIGH ENERGY REQUIREMENT  OFF-FIELD DPS & BUFF SUPPORT": {
             "weapons": {
                 "1": "Nocturne's Curtain Call",
                 "2": "Prototype Amber",
@@ -559,6 +564,56 @@
                 "Sands": [
                     "HP%",
                     "Energy Recharge"
+                ],
+                "Goblet": [
+                    "HP%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "Crit Rate",
+                "3": "Crit DMG",
+                "4": "HP%",
+                "5": "Elemental Mastery"
+            }
+        },
+        "LOW ENERGY REQUIREMENT  OFF-FIELD DPS & BUFF SUPPORT": {
+            "weapons": {
+                "1": "Nocturne's Curtain Call",
+                "2": "Sacrificial Jade",
+                "3": "Reliquary of Truth",
+                "4": "Surf's Up",
+                "5": "Tome of the Eternal Flow",
+                "6": "Prototype Amber",
+                "7": "Dawning Frost",
+                "8": "Kagura's Verity",
+                "9": "Lost Prayer to the Sacred Winds"
+            },
+            "artifacts": {
+                "1": [
+                    "Silken Moon's Serenade"
+                ],
+                "2": [
+                    "Aubade of Morningstar and Moon"
+                ],
+                "3": [
+                    "Tenacity of the Millelith",
+                    "Vourukasha's Glow",
+                    "Aubade of Morningstar and Moon",
+                    "Flower of Paradise Lost",
+                    "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
+                    "Wanderer's Troupe",
+                    "Instructor"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "HP%"
                 ],
                 "Goblet": [
                     "HP%"
@@ -653,19 +708,16 @@
                     "Tenacity of the Millelith"
                 ],
                 "2": [
-                    "Tenacity of the Millelith",
-                    "Vourukasha's Glow"
+                    "Scroll of the Hero of Cinder City"
                 ],
                 "3": [
                     "Instructor"
                 ],
                 "4": [
-                    "Ocean-Hued Clam"
+                    "Tenacity of the Millelith",
+                    "Vourukasha's Glow"
                 ],
                 "5": [
-                    "Maiden Beloved"
-                ],
-                "6": [
                     "Deepwood Memories"
                 ]
             },
@@ -975,19 +1027,21 @@
                 "2": "Engulfing Lightning",
                 "3": "Calamity Queller",
                 "4": "Staff of Homa",
-                "5": "Lumidouce Elegy",
-                "6": "Staff of the Scarlet Sands",
-                "7": "Vortex Vanquisher",
-                "8": "Kitain Cross Spear",
-                "9": "Deathmatch",
-                "10": "Favonius Lance",
-                "11": "Skyward Spine",
-                "12": "Primordial Jade Winged-Spear",
-                "13": "Crimson Moon's Semblance",
-                "14": "Prospector's Drill",
-                "15": "Tamayuratei no Ohanashi",
-                "16": "Mountain-Bracing Bolt",
-                "17": "Wavebreaker's Fin"
+                "5": "Fractured Halo",
+                "6": "Lumidouce Elegy",
+                "7": "Staff of the Scarlet Sands",
+                "8": "Vortex Vanquisher",
+                "9": "Kitain Cross Spear",
+                "10": "Deathmatch",
+                "11": "Favonius Lance",
+                "12": "Skyward Spine",
+                "13": "Sacrificer's Staff",
+                "14": "Primordial Jade Winged-Spear",
+                "15": "Crimson Moon's Semblance",
+                "16": "Prospector's Drill",
+                "17": "Tamayuratei no Ohanashi",
+                "18": "Mountain-Bracing Bolt",
+                "19": "Wavebreaker's Fin"
             },
             "artifacts": {
                 "1": [
@@ -1049,19 +1103,21 @@
                 "2": "Calamity Queller",
                 "3": "Lumidouce Elegy",
                 "4": "Staff of Homa",
-                "5": "Deathmatch",
-                "6": "Staff of the Scarlet Sands",
-                "7": "Vortex Vanquisher",
-                "8": "Primordial Jade Winged-Spear",
-                "9": "Crimson Moon's Semblance",
-                "10": "Skyward Spine",
-                "11": "Engulfing Lightning",
-                "12": "Tamayuratei no Ohanashi",
-                "13": "Prospector's Drill",
-                "14": "Mountain-Bracing Bolt",
-                "15": "Wavebreaker's Fin",
-                "16": "Kitain Cross Spear",
-                "17": "Favonius Lance"
+                "5": "Fractured Halo",
+                "6": "Deathmatch",
+                "7": "Staff of the Scarlet Sands",
+                "8": "Vortex Vanquisher",
+                "9": "Primordial Jade Winged-Spear",
+                "10": "Crimson Moon's Semblance",
+                "11": "Skyward Spine",
+                "12": "Sacrificer's Staff",
+                "13": "Engulfing Lightning",
+                "14": "Tamayuratei no Ohanashi",
+                "15": "Prospector's Drill",
+                "16": "Mountain-Bracing Bolt",
+                "17": "Wavebreaker's Fin",
+                "18": "Kitain Cross Spear",
+                "19": "Favonius Lance"
             },
             "artifacts": {
                 "1": [
@@ -2248,6 +2304,59 @@
             }
         }
     },
+    "Linnea": {
+        "OFF-FIELD DPS & BUFF AND HEAL SUPPORT": {
+            "weapons": {
+                "1": "Golden Frostbound Oath",
+                "2": "Elegy for the End",
+                "3": "Aqua Simulacra",
+                "4": "Hunter's Path",
+                "5": "Slingshot",
+                "6": "Astral Vulture's Crimson Plumage",
+                "7": "The First Great Magic",
+                "8": "Thundering Pulse",
+                "9": "Skyward Harp",
+                "10": "Polar Star"
+            },
+            "artifacts": {
+                "1": [
+                    "Aubade of Morningstar and Moon"
+                ],
+                "2": [
+                    "Husk of Opulent Dreams"
+                ],
+                "3": [
+                    "Husk of Opulent Dreams",
+                    "Aubade of Morningstar and Moon",
+                    "Flower of Paradise Lost",
+                    "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
+                    "Wanderer's Troupe",
+                    "Instructor"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "DEF%",
+                    "Energy Recharge"
+                ],
+                "Goblet": [
+                    "DEF%"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "DEF%",
+                "4": "Elemental Mastery",
+                "5": "Energy Recharge"
+            }
+        }
+    },
     "Lyney": {
         "DPS": {
             "weapons": {
@@ -2444,6 +2553,9 @@
                     "Tenacity of the Millelith"
                 ],
                 "4": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "5": [
                     "Emblem of Severed Fate",
                     "Silken Moon's Serenade",
                     "Scholar",
@@ -2943,9 +3055,15 @@
                     "Ocean-Hued Clam"
                 ],
                 "3": [
-                    "Maiden Beloved"
+                    "Scroll of the Hero of Cinder City"
                 ],
                 "4": [
+                    "Song of Days Past"
+                ],
+                "5": [
+                    "Maiden Beloved"
+                ],
+                "6": [
                     "Ocean-Hued Clam",
                     "Song of Days Past",
                     "Tenacity of the Millelith",
@@ -3049,10 +3167,13 @@
                     "Song of Days Past"
                 ],
                 "3": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "4": [
                     "Tenacity of the Millelith",
                     "Vourukasha's Glow"
                 ],
-                "4": [
+                "5": [
                     "Tenacity of the Millelith"
                 ]
             },
@@ -3362,12 +3483,15 @@
                     "Noblesse Oblige"
                 ],
                 "2": [
-                    "Emblem of Severed Fate"
+                    "Scroll of the Hero of Cinder City"
                 ],
                 "3": [
-                    "Instructor"
+                    "Emblem of Severed Fate"
                 ],
                 "4": [
+                    "Instructor"
+                ],
+                "5": [
                     "Emblem of Severed Fate",
                     "Silken Moon's Serenade",
                     "Scholar",
@@ -3554,7 +3678,13 @@
                     "Emblem of Severed Fate"
                 ],
                 "5": [
+                    "Archaic Petra"
+                ],
+                "6": [
                     "Noblesse Oblige"
+                ],
+                "7": [
+                    "Scroll of the Hero of Cinder City"
                 ]
             },
             "main_stats": {
@@ -4805,6 +4935,9 @@
                     "Instructor"
                 ],
                 "3": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "4": [
                     "The Exile"
                 ]
             },
@@ -5017,6 +5150,9 @@
                     "Emblem of Severed Fate"
                 ],
                 "3": [
+                    "Instructor"
+                ],
+                "4": [
                     "Emblem of Severed Fate",
                     "Heart of Depth",
                     "Nymph's Dream",
@@ -5068,6 +5204,12 @@
                     "Ocean-Hued Clam"
                 ],
                 "4": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "5": [
+                    "Song of Days Past"
+                ],
+                "6": [
                     "Emblem of Severed Fate",
                     "A Day Carved From Rising Winds",
                     "Echoes of an Offering",
@@ -5082,10 +5224,10 @@
                     "Ocean-Hued Clam",
                     "Song of Days Past"
                 ],
-                "5": [
+                "7": [
                     "Maiden Beloved"
                 ],
-                "6": [
+                "8": [
                     "Blizzard Strayer"
                 ]
             },
@@ -5312,11 +5454,11 @@
                     "Noblesse Oblige"
                 ],
                 "2": [
-                    "Tenacity of the Millelith",
-                    "Vourukasha's Glow"
+                    "Scroll of the Hero of Cinder City"
                 ],
                 "3": [
-                    "Scroll of the Hero of Cinder City"
+                    "Tenacity of the Millelith",
+                    "Vourukasha's Glow"
                 ]
             },
             "main_stats": {
@@ -5846,6 +5988,9 @@
                     "Noblesse Oblige"
                 ],
                 "3": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "4": [
                     "Emblem of Severed Fate",
                     "Silken Moon's Serenade"
                 ]
@@ -6137,6 +6282,9 @@
                 ],
                 "4": [
                     "Noblesse Oblige"
+                ],
+                "5": [
+                    "Scroll of the Hero of Cinder City"
                 ]
             },
             "main_stats": {
@@ -6198,6 +6346,9 @@
                     "Noblesse Oblige"
                 ],
                 "5": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "6": [
                     "Instructor"
                 ]
             },
@@ -6800,9 +6951,15 @@
                     "Ocean-Hued Clam"
                 ],
                 "3": [
-                    "Maiden Beloved"
+                    "Song of Days Past"
                 ],
                 "4": [
+                    "Maiden Beloved"
+                ],
+                "5": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "6": [
                     "Ocean-Hued Clam",
                     "Song of Days Past",
                     "Emblem of Severed Fate",
@@ -6812,7 +6969,7 @@
                     "Tenacity of the Millelith",
                     "Vourukasha's Glow"
                 ],
-                "5": [
+                "7": [
                     "The Exile"
                 ]
             },
@@ -7566,22 +7723,23 @@
             "weapons": {
                 "1": "Staff of the Scarlet Sands",
                 "2": "Lumidouce Elegy",
-                "3": "Staff of Homa",
-                "4": "Engulfing Lightning",
-                "5": "Primordial Jade Winged-Spear",
-                "6": "Symphonist of Scents",
-                "7": "\"The Catch\"",
-                "8": "Deathmatch",
-                "9": "Ballad of the Fjords",
-                "10": "Vortex Vanquisher",
-                "11": "Calamity Queller",
-                "12": "Crimson Moon's Semblance",
-                "13": "Wavebreaker's Fin",
-                "14": "Dragon's Bane",
-                "15": "Missive Windspear",
-                "16": "Kitain Cross Spear",
-                "17": "Lithic Spear",
-                "18": "Favonius Lance"
+                "3": "Fractured Halo",
+                "4": "Staff of Homa",
+                "5": "Engulfing Lightning",
+                "6": "Primordial Jade Winged-Spear",
+                "7": "Symphonist of Scents",
+                "8": "\"The Catch\"",
+                "9": "Deathmatch",
+                "10": "Ballad of the Fjords",
+                "11": "Vortex Vanquisher",
+                "12": "Calamity Queller",
+                "13": "Crimson Moon's Semblance",
+                "14": "Wavebreaker's Fin",
+                "15": "Dragon's Bane",
+                "16": "Missive Windspear",
+                "17": "Kitain Cross Spear",
+                "18": "Lithic Spear",
+                "19": "Favonius Lance"
             },
             "artifacts": {
                 "1": [
@@ -7645,12 +7803,14 @@
                 "1": "Engulfing Lightning",
                 "2": "\"The Catch\"",
                 "3": "Staff of the Scarlet Sands",
-                "4": "Staff of Homa",
-                "5": "Skyward Spine",
-                "6": "Lumidouce Elegy",
-                "7": "Favonius Lance",
-                "8": "Kitain Cross Spear",
-                "9": "Prototype Starglitter"
+                "4": "Fractured Halo",
+                "5": "Staff of Homa",
+                "6": "Skyward Spine",
+                "7": "Lumidouce Elegy",
+                "8": "Symphonist of Scents",
+                "9": "Favonius Lance",
+                "10": "Kitain Cross Spear",
+                "11": "Prototype Starglitter"
             },
             "artifacts": {
                 "1": [
@@ -8063,6 +8223,9 @@
                 ],
                 "3": [
                     "Noblesse Oblige"
+                ],
+                "4": [
+                    "Scroll of the Hero of Cinder City"
                 ]
             },
             "main_stats": {

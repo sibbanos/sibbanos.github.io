@@ -285,6 +285,19 @@ let genshinWeapons = {
             "weapon_type": "Genshin/Ressources/Weapons/Claymore.png"
         }
     },
+    "Golden Frostbound Oath": {
+        "type": "Bow",
+        "quality": "5",
+        "first_stat": "542",
+        "second_stat": "88.2%",
+        "second_stat_type": "CRIT DMG",
+        "ability": "Dawn's Salutation Returned\nIncreases DEF by 16~32%. When the equipping character's Elemental Skill or Lunar-Crystallize attack(s) hits enemies, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by 40~80%, Lunar-Crystallize Reaction DMG increases by 40~80%.While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members Will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by 20~40% and Lunar-Crystallize Reaction DMG increases by 20~40%. This effect can be triggered even when the equipping character is off-field.",
+        "link": "https://genshin-impact.fandom.com/wiki/Golden_Frostbound_Oath",
+        "src": {
+            "weapon": "Genshin/Weapons/Bows/Golden Frostbound Oath.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
     "Haran Geppaku Futsu": {
         "type": "Sword",
         "quality": "5",

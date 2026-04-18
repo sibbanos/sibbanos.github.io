@@ -118,6 +118,7 @@ correct_artifact_name = {
     '15% Hydro DMG Bonus' : '15% Hydro DMG',
     'Silken Moon Serenade' : "Silken Moon's Serenade",
     'A Day Carved from Rising Winds' : 'A Day Carved From Rising Winds',
+    "Song of Day's Past" : 'Song of Days Past',
 }
 def correctArtifact(artifact) :
     if artifact in correct_artifact_name :
