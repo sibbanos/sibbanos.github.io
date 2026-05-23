@@ -826,10 +826,26 @@ function GenshinCharacter(character) {
         clone.querySelector('.genshinElement').parentNode.hidden = true;
     }
 
+    const builds = genshinBuilds[character];
+    let last_build_update = '';
+
+    // Get latest build update
+    for (const build in builds) {
+        const buildInfo = builds[build];
+        if (buildInfo['last_build_update'] > last_build_update) {
+            last_build_update = buildInfo['last_build_update'];
+        }
+    }
+
+    // Show latest build update if exist
+    if (last_build_update) {
+        clone.querySelector('.genshinLastBuildUpdate').parentNode.hidden = false;
+        clone.querySelector('.genshinLastBuildUpdate').textContent = `Last Build Update : ${last_build_update}`;
+    }
+
     // Add character info to page
     document.querySelector('#genshinCharacterInfo').append(clone);
 
-    const builds = genshinBuilds[character];
     let i = 1;
 
     // Create each build
@@ -1077,7 +1093,7 @@ function GenshinCharacter(character) {
                 clone.querySelector('.weaponAbilityDescription').innerHTML = abilityDescription;
     
                 return clone;
-            } else {
+            } else if (reference.dataset.type === 'artifact' || reference.dataset.type === 'artifactMultiple') {
                 const artifactName = reference.querySelector('.genshinArtifactName').textContent;
                 const artifactInfo = genshinArtifacts[artifactName];
                 const artifactMaxQuality = artifactInfo['quality'][artifactInfo['quality'].length - 1];
@@ -1114,6 +1130,8 @@ function GenshinCharacter(character) {
 
                 return clone;
             }
+
+            return clone;
         },
         followCursor: true,
         placement: 'auto',

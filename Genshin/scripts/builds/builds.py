@@ -166,6 +166,7 @@ for character_list in soup.find_all('table') :
     artifacts_multirows = False
     main_stats_multirows = False
     sub_stats_multirows = False
+    last_build_update = ''
 
     # Check each row for information
     for row in character_list.find('tbody').find_all('tr') :
@@ -194,6 +195,11 @@ for character_list in soup.find_all('table') :
         # Fix for Wanderer first build
         if (cell.find('img')) :
             cell = cell.next_sibling
+
+        # Get last build update
+        if character_name and cell.has_attr('colspan') and cell['colspan'] == '8' and cell.get_text().title() != '5 Star' :
+            last_build_update = re.findall('[0-9]*\\.[0-9]*', cell.get_text().title())[0]
+            continue
 
         # Check if current row is a top build
         if character_name and cell.get_text().find('✩') > -1 :
@@ -419,6 +425,7 @@ for character_list in soup.find_all('table') :
                 'artifacts' : artifacts,
                 'main_stats' : main_stats,
                 'sub_stats' : sub_stats,
+                'last_build_update' : last_build_update,
             }
 
     i += 1
