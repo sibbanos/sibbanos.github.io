@@ -51,6 +51,19 @@ let genshinWeapons = {
             "weapon_type": "Genshin/Ressources/Weapons/Bow.png"
         }
     },
+    "Angelos' Heptades": {
+        "type": "Catalyst",
+        "quality": "5",
+        "first_stat": "741",
+        "second_stat": "16.5%",
+        "second_stat_type": "ATK",
+        "ability": "Crown of the Final Scion\nATK is increased by 12~24%. After the equipping character creates a Shield, they gain \"Pathfinder's Light\" for 20s: Increases your active party member's DMG by 10~22% for every 1,000 ATK the equipping character has, up to a maximum of 26~58%. Additionally, when the equipping character creates a Shield, they will also gain \"Guide's Contentment\": Restores 14~18 Elemental Energy to the equipping character. The aforementioned effect can trigger once every 14s, and can also be triggered when any type of chest is opened outside of combat. The equipping character may trigger this effect even when they are an off-field.Hexerei: Secret Rite: When your own Hexerei character is off-field in the party, they will also gain 50% of the DMG increase from Pathfinder's Light.",
+        "link": "https://genshin-impact.fandom.com/wiki/Angelos%27_Heptades",
+        "src": {
+            "weapon": "Genshin/Weapons/Catalysts/Angelos' Heptades.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
     "Aqua Simulacra": {
         "type": "Bow",
         "quality": "5",
@@ -191,6 +204,19 @@ let genshinWeapons = {
         "link": "https://genshin-impact.fandom.com/wiki/Crimson_Moon%27s_Semblance",
         "src": {
             "weapon": "Genshin/Weapons/Polearms/Crimson Moon's Semblance.png",
+            "weapon_type": "Genshin/Ressources/Weapons/Polearm.png"
+        }
+    },
+    "Disaster and Remorse": {
+        "type": "Polearm",
+        "quality": "5",
+        "first_stat": "Unknown\n",
+        "second_stat": "",
+        "second_stat_type": "",
+        "ability": "",
+        "link": "https://genshin-impact.fandom.com/wiki/Disaster_and_Remorse",
+        "src": {
+            "weapon": "Genshin/Weapons/Polearms/Disaster and Remorse.png",
             "weapon_type": "Genshin/Ressources/Weapons/Polearm.png"
         }
     },

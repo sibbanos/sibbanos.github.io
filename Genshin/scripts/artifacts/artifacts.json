@@ -264,6 +264,59 @@
             "4": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
         }
     },
+    "Celestial Gift": {
+        "link": "https://genshin-impact.fandom.com/wiki/Celestial_Gift",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Heavensent Fragrance",
+                "type": "Flower",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Celestial Gift/Heavensent Fragrance.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Flower.png"
+                }
+            },
+            {
+                "name": "Heavensent Demise",
+                "type": "Plume",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Celestial Gift/Heavensent Demise.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Plume.png"
+                }
+            },
+            {
+                "name": "Heavensent Decree",
+                "type": "Sands",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Celestial Gift/Heavensent Decree.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Sands.png"
+                }
+            },
+            {
+                "name": "Heavensent Reward",
+                "type": "Goblet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Celestial Gift/Heavensent Reward.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Goblet.png"
+                }
+            },
+            {
+                "name": "Heavensent Crown",
+                "type": "Circlet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Celestial Gift/Heavensent Crown.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Circlet.png"
+                }
+            }
+        ],
+        "bonuses": {
+            "2": "Energy Recharge + 20%.",
+            "4": "If the equipping character has completed Witch's Homework, after they use an Elemental Skill, they also gain \"Light's Guidance\" for 20s: All nearby party members gain a 20% Elemental DMG Bonus corresponding to the equipping character's Elemental Type. The equipping character can trigger this effect while off-field. DMG Bonuses provided by Artifact Sets with the same name do not stack.When your party has the Hexerei: Secret Rite effect, Light's Guidance is upgraded to \"Mortal Hymn\": All nearby party members gain a 40% Elemental DMG Bonus corresponding to both the equipping character and the current active party member's Elemental Type instead. If both characters have the same Elemental Type, these bonuses will not stack."
+        }
+    },
     "Crimson Witch of Flames": {
         "link": "https://genshin-impact.fandom.com/wiki/Crimson_Witch_of_Flames",
         "quality": [
@@ -421,6 +474,59 @@
         "bonuses": {
             "2": "Anemo DMG Bonus +15%.",
             "4": "When Charged Attacks hit opponents, the equipping character's Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s."
+        }
+    },
+    "Disenchantment in Deep Shadow": {
+        "link": "https://genshin-impact.fandom.com/wiki/Disenchantment_in_Deep_Shadow",
+        "quality": [
+            4,
+            5
+        ],
+        "pieces": [
+            {
+                "name": "Iridescence That Ceased Amidst Glory",
+                "type": "Flower",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Disenchantment in Deep Shadow/Iridescence That Ceased Amidst Glory.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Flower.png"
+                }
+            },
+            {
+                "name": "Sharpness That Ceased Upon Wondrous Creation",
+                "type": "Plume",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Disenchantment in Deep Shadow/Sharpness That Ceased Upon Wondrous Creation.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Plume.png"
+                }
+            },
+            {
+                "name": "Moment That Ceased Upon Waking From Grand Dreams",
+                "type": "Sands",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Disenchantment in Deep Shadow/Moment That Ceased Upon Waking From Grand Dreams.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Sands.png"
+                }
+            },
+            {
+                "name": "Ovations That Ceased Upon Festivity",
+                "type": "Goblet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Disenchantment in Deep Shadow/Ovations That Ceased Upon Festivity.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Goblet.png"
+                }
+            },
+            {
+                "name": "Pendulum That Ceased Amidst a Great Fall",
+                "type": "Circlet",
+                "src": {
+                    "artifact": "Genshin/Artifacts/Disenchantment in Deep Shadow/Pendulum That Ceased Amidst a Great Fall.png",
+                    "artifact_type": "Genshin/Ressources/Artifacts/Circlet.png"
+                }
+            }
+        ],
+        "bonuses": {
+            "2": "ATK +18%.",
+            "4": "Increases Superconduct Reaction DMG by 80%. When the wielder attacks opponents affected by Superconduct, this attack's CRIT Rate is increased by 16%. An all-new blessing may be obtained as you make your way toward Snezhnaya..."
         }
     },
     "Echoes of an Offering": {

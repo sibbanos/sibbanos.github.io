@@ -439,6 +439,17 @@ let genshinCharacters = {
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
+    "Nicole": {
+        "element": "Pyro",
+        "quality": "5",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Nicole",
+        "src": {
+            "character": "Genshin/Characters/Pyro/Nicole.png",
+            "element": "Genshin/Ressources/Elements/Pyro.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        }
+    },
     "Nilou": {
         "element": "Hydro",
         "quality": "5",
@@ -1108,6 +1119,17 @@ let genshinCharacters = {
             "character": "Genshin/Characters/Electro/Ororon.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        }
+    },
+    "Prune": {
+        "element": "Anemo",
+        "quality": "4",
+        "weapon": "Catalyst",
+        "link": "https://genshin-impact.fandom.com/wiki/Prune",
+        "src": {
+            "character": "Genshin/Characters/Anemo/Prune.png",
+            "element": "Genshin/Ressources/Elements/Anemo.png",
+            "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
         }
     },
     "Razor": {

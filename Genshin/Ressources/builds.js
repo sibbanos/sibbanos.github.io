@@ -147,6 +147,7 @@ let genshinBuilds = {
                     "Wanderer's Troupe",
                     "Instructor",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -261,6 +262,7 @@ let genshinBuilds = {
                 ],
                 "4": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -398,15 +400,16 @@ let genshinBuilds = {
         "OFF-FIELD DPS": {
             "weapons": {
                 "1": "Uraku Misugiri",
-                "2": "Primordial Jade Cutter",
-                "3": "Peak Patrol Song",
-                "4": "Harbinger of Dawn",
-                "5": "Cinnabar Spindle",
-                "6": "Light of Foliar Incision",
-                "7": "Haran Geppaku Futsu",
-                "8": "Mistsplitter Reforged",
-                "9": "Splendor of Tranquil Waters",
-                "10": "Wolf-Fang"
+                "2": "Lightbearing Moonshard",
+                "3": "Primordial Jade Cutter",
+                "4": "Peak Patrol Song",
+                "5": "Harbinger of Dawn",
+                "6": "Cinnabar Spindle",
+                "7": "Light of Foliar Incision",
+                "8": "Haran Geppaku Futsu",
+                "9": "Mistsplitter Reforged",
+                "10": "Splendor of Tranquil Waters",
+                "11": "Wolf-Fang"
             },
             "artifacts": {
                 "1": [
@@ -769,6 +772,7 @@ let genshinBuilds = {
                 "3": [
                     "Crimson Witch of Flames",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -827,7 +831,8 @@ let genshinBuilds = {
                 "11": "Wolf-Fang",
                 "12": "Uraku Misugiri",
                 "13": "Splendor of Tranquil Waters",
-                "14": "Moonweaver's Dawn"
+                "14": "Lightbearing Moonshard",
+                "15": "Moonweaver's Dawn"
             },
             "artifacts": {
                 "1": [
@@ -845,6 +850,7 @@ let genshinBuilds = {
                 "5": [
                     "Crimson Witch of Flames",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -892,34 +898,41 @@ let genshinBuilds = {
                 "1": "Athame Artis",
                 "2": "Primordial Jade Cutter",
                 "3": "Mistsplitter Reforged",
-                "4": "Azurelight",
-                "5": "Haran Geppaku Futsu",
+                "4": "Haran Geppaku Futsu",
+                "5": "Light of Foliar Incision",
                 "6": "Absolution",
-                "7": "Light of Foliar Incision",
-                "8": "Freedom-Sworn",
-                "9": "Lion's Roar",
-                "10": "Wolf-Fang",
-                "11": "Finale of the Deep",
-                "12": "Uraku Misugiri",
-                "13": "Splendor of Tranquil Waters",
-                "14": "Moonweaver's Dawn"
+                "7": "Azurelight",
+                "8": "Uraku Misugiri",
+                "9": "Splendor of Tranquil Waters",
+                "10": "Lightbearing Moonshard",
+                "11": "Freedom-Sworn",
+                "12": "Wolf-Fang",
+                "13": "Summit Shaper",
+                "14": "Lion's Roar",
+                "15": "Moonweaver's Dawn",
+                "16": "Harbinger of Dawn",
+                "17": "Finale of the Deep"
             },
             "artifacts": {
                 "1": [
                     "A Day Carved From Rising Winds"
                 ],
                 "2": [
-                    "Noblesse Oblige"
+                    "Celestial Gift"
                 ],
                 "3": [
-                    "Emblem of Severed Fate"
+                    "Noblesse Oblige"
                 ],
                 "4": [
-                    "Scroll of the Hero of Cinder City"
+                    "Emblem of Severed Fate"
                 ],
                 "5": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "6": [
                     "Crimson Witch of Flames",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -989,6 +1002,7 @@ let genshinBuilds = {
                     "Deepwood Memories",
                     "Golden Troupe",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1055,6 +1069,7 @@ let genshinBuilds = {
                     "Blizzard Strayer",
                     "Finale of the Deep Galleries",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1131,6 +1146,7 @@ let genshinBuilds = {
                     "Blizzard Strayer",
                     "Finale of the Deep Galleries",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1205,6 +1221,7 @@ let genshinBuilds = {
                     "Pale Flame",
                     "Bloodstained Chivalry",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1220,6 +1237,7 @@ let genshinBuilds = {
                 ],
                 "5": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1281,6 +1299,7 @@ let genshinBuilds = {
                 ],
                 "3": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1409,6 +1428,7 @@ let genshinBuilds = {
                 "4": [
                     "Blizzard Strayer",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1466,6 +1486,7 @@ let genshinBuilds = {
                 "2": [
                     "Blizzard Strayer",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1520,6 +1541,7 @@ let genshinBuilds = {
                 "2": [
                     "Blizzard Strayer",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1651,6 +1673,7 @@ let genshinBuilds = {
                 ],
                 "6": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1722,6 +1745,7 @@ let genshinBuilds = {
                     "Desert Pavilion Chronicle",
                     "Viridescent Venerer",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1824,6 +1848,7 @@ let genshinBuilds = {
                 "2": [
                     "Blizzard Strayer",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1836,6 +1861,7 @@ let genshinBuilds = {
                 ],
                 "3": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1878,16 +1904,17 @@ let genshinBuilds = {
                 "2": "Primordial Jade Cutter",
                 "3": "Mistsplitter Reforged",
                 "4": "Light of Foliar Incision",
-                "5": "The Black Sword",
-                "6": "Skyward Blade",
-                "7": "Splendor of Tranquil Waters",
+                "5": "Skyward Blade",
+                "6": "Splendor of Tranquil Waters",
+                "7": "Lightbearing Moonshard",
                 "8": "Summit Shaper",
                 "9": "Finale of the Deep",
-                "10": "Kagotsurube Isshin",
-                "11": "Lion's Roar",
-                "12": "Harbinger of Dawn",
-                "13": "The Flute",
-                "14": "Sword of Narzissenkreuz"
+                "10": "The Black Sword",
+                "11": "Kagotsurube Isshin",
+                "12": "Lion's Roar",
+                "13": "Harbinger of Dawn",
+                "14": "The Flute",
+                "15": "Sword of Narzissenkreuz"
             },
             "artifacts": {
                 "1": [
@@ -1903,6 +1930,7 @@ let genshinBuilds = {
                     "Heart of Depth",
                     "Nymph's Dream",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -1952,16 +1980,17 @@ let genshinBuilds = {
                 "5": "Uraku Misugiri",
                 "6": "Harbinger of Dawn",
                 "7": "Splendor of Tranquil Waters",
-                "8": "Absolution",
-                "9": "Freedom-Sworn",
-                "10": "Wolf-Fang",
-                "11": "The Black Sword",
-                "12": "Toukabou Shigure",
-                "13": "Calamity of Eshu",
-                "14": "Iron Sting",
-                "15": "Finale of the Deep",
-                "16": "Summit Shaper",
-                "17": "Lion's Roar"
+                "8": "Lightbearing Moonshard",
+                "9": "Absolution",
+                "10": "Freedom-Sworn",
+                "11": "Wolf-Fang",
+                "12": "The Black Sword",
+                "13": "Toukabou Shigure",
+                "14": "Calamity of Eshu",
+                "15": "Iron Sting",
+                "16": "Finale of the Deep",
+                "17": "Summit Shaper",
+                "18": "Lion's Roar"
             },
             "artifacts": {
                 "1": [
@@ -1982,6 +2011,7 @@ let genshinBuilds = {
                     "Wanderer's Troupe",
                     "Instructor",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2025,14 +2055,15 @@ let genshinBuilds = {
                 "7": "Toukabou Shigure",
                 "8": "Harbinger of Dawn",
                 "9": "Splendor of Tranquil Waters",
-                "10": "Iron Sting",
-                "11": "Absolution",
-                "12": "Wolf-Fang",
-                "13": "The Black Sword",
-                "14": "Lion's Roar",
-                "15": "Calamity of Eshu",
-                "16": "Finale of the Deep",
-                "17": "Summit Shaper"
+                "10": "Lightbearing Moonshard",
+                "11": "Iron Sting",
+                "12": "Absolution",
+                "13": "Wolf-Fang",
+                "14": "The Black Sword",
+                "15": "Lion's Roar",
+                "16": "Calamity of Eshu",
+                "17": "Finale of the Deep",
+                "18": "Summit Shaper"
             },
             "artifacts": {
                 "1": [
@@ -2050,6 +2081,7 @@ let genshinBuilds = {
                     "Wanderer's Troupe",
                     "Instructor",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2112,6 +2144,7 @@ let genshinBuilds = {
                 "4": [
                     "Deepwood Memories",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2176,6 +2209,7 @@ let genshinBuilds = {
                 ],
                 "5": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2387,6 +2421,7 @@ let genshinBuilds = {
                     "Crimson Witch of Flames",
                     "Marechaussee Hunter",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2494,6 +2529,7 @@ let genshinBuilds = {
                     "Heart of Depth",
                     "Nymph's Dream",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -2937,6 +2973,7 @@ let genshinBuilds = {
                     "Ocean-Hued Clam",
                     "Song of Days Past",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3000,6 +3037,7 @@ let genshinBuilds = {
                     "Noblesse Oblige",
                     "Thundering Fury",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3116,6 +3154,7 @@ let genshinBuilds = {
                 ],
                 "3": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3225,6 +3264,7 @@ let genshinBuilds = {
                     "Blizzard Strayer",
                     "Finale of the Deep Galleries",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3293,6 +3333,7 @@ let genshinBuilds = {
                     "Heart of Depth",
                     "Nymph's Dream",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3308,6 +3349,7 @@ let genshinBuilds = {
                     "Heart of Depth",
                     "Nymph's Dream",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3383,6 +3425,7 @@ let genshinBuilds = {
                     "Wanderer's Troupe",
                     "Instructor",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3596,6 +3639,7 @@ let genshinBuilds = {
                     "Instructor",
                     "Noblesse Oblige",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3662,6 +3706,7 @@ let genshinBuilds = {
                     "Archaic Petra",
                     "Noblesse Oblige",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3738,6 +3783,7 @@ let genshinBuilds = {
                     "Long Night's Oath",
                     "Thundering Fury",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -3961,6 +4007,7 @@ let genshinBuilds = {
                     "Desert Pavilion Chronicle",
                     "Viridescent Venerer",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4027,6 +4074,7 @@ let genshinBuilds = {
                     "Desert Pavilion Chronicle",
                     "Viridescent Venerer",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4093,6 +4141,7 @@ let genshinBuilds = {
                 "5": [
                     "Blizzard Strayer",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4156,6 +4205,7 @@ let genshinBuilds = {
                 "4": [
                     "Blizzard Strayer",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4216,6 +4266,7 @@ let genshinBuilds = {
                 ],
                 "6": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4280,6 +4331,7 @@ let genshinBuilds = {
                 ],
                 "6": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4352,6 +4404,7 @@ let genshinBuilds = {
                     "Desert Pavilion Chronicle",
                     "Viridescent Venerer",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4453,6 +4506,7 @@ let genshinBuilds = {
                 ],
                 "3": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4527,6 +4581,7 @@ let genshinBuilds = {
                     "Wanderer's Troupe",
                     "Instructor",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -4700,6 +4755,7 @@ let genshinBuilds = {
                 "5": [
                     "Crimson Witch of Flames",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5033,6 +5089,7 @@ let genshinBuilds = {
                     "Noblesse Oblige",
                     "Thundering Fury",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5212,6 +5269,7 @@ let genshinBuilds = {
                 "6": [
                     "Emblem of Severed Fate",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5354,6 +5412,7 @@ let genshinBuilds = {
                     "Wanderer's Troupe",
                     "Instructor",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5677,6 +5736,7 @@ let genshinBuilds = {
                 ],
                 "5": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5740,6 +5800,7 @@ let genshinBuilds = {
                 ],
                 "3": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5820,6 +5881,7 @@ let genshinBuilds = {
                     "Pale Flame",
                     "Golden Troupe",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -5880,6 +5942,7 @@ let genshinBuilds = {
                 "2": [
                     "Blizzard Strayer",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -6039,6 +6102,7 @@ let genshinBuilds = {
                 "3": [
                     "Emblem of Severed Fate",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -6250,13 +6314,14 @@ let genshinBuilds = {
                 "3": "Light of Foliar Incision",
                 "4": "Haran Geppaku Futsu",
                 "5": "Splendor of Tranquil Waters",
-                "6": "Summit Shaper",
-                "7": "Primordial Jade Cutter",
-                "8": "Finale of the Deep",
-                "9": "Amenoma Kageuchi",
-                "10": "Harbinger of Dawn",
-                "11": "Skyward Blade",
-                "12": "Favonius Sword"
+                "6": "Lightbearing Moonshard",
+                "7": "Summit Shaper",
+                "8": "Primordial Jade Cutter",
+                "9": "Finale of the Deep",
+                "10": "Amenoma Kageuchi",
+                "11": "Harbinger of Dawn",
+                "12": "Skyward Blade",
+                "13": "Favonius Sword"
             },
             "artifacts": {
                 "1": [
@@ -6269,6 +6334,7 @@ let genshinBuilds = {
                     "Blizzard Strayer",
                     "Finale of the Deep Galleries",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -6314,15 +6380,16 @@ let genshinBuilds = {
                 "5": "Light of Foliar Incision",
                 "6": "Absolution",
                 "7": "Splendor of Tranquil Waters",
-                "8": "Freedom-Sworn",
-                "9": "Toukabou Shigure",
-                "10": "Iron Sting",
-                "11": "Harbinger of Dawn",
-                "12": "Summit Shaper",
-                "13": "Lion's Roar",
-                "14": "Finale of the Deep",
-                "15": "Skyward Blade",
-                "16": "Favonius Sword"
+                "8": "Lightbearing Moonshard",
+                "9": "Freedom-Sworn",
+                "10": "Toukabou Shigure",
+                "11": "Iron Sting",
+                "12": "Harbinger of Dawn",
+                "13": "Summit Shaper",
+                "14": "Lion's Roar",
+                "15": "Finale of the Deep",
+                "16": "Skyward Blade",
+                "17": "Favonius Sword"
             },
             "artifacts": {
                 "1": [
@@ -6506,6 +6573,7 @@ let genshinBuilds = {
                 "3": [
                     "Noblesse Oblige",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -6676,10 +6744,11 @@ let genshinBuilds = {
                 "3": "Uraku Misugiri",
                 "4": "Splendor of Tranquil Waters",
                 "5": "Light of Foliar Incision",
-                "6": "Mistsplitter Reforged",
-                "7": "Wolf-Fang",
-                "8": "Key of Khaj-Nisut",
-                "9": "Favonius Sword"
+                "6": "Lightbearing Moonshard",
+                "7": "Mistsplitter Reforged",
+                "8": "Wolf-Fang",
+                "9": "Key of Khaj-Nisut",
+                "10": "Favonius Sword"
             },
             "artifacts": {
                 "1": [
@@ -6755,6 +6824,7 @@ let genshinBuilds = {
                 "4": [
                     "Thundering Fury",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -6835,6 +6905,7 @@ let genshinBuilds = {
                     "Scholar",
                     "The Exile",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -6899,6 +6970,7 @@ let genshinBuilds = {
                     "The Exile",
                     "Noblesse Oblige",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7018,6 +7090,7 @@ let genshinBuilds = {
                 "2": [
                     "Archaic Petra",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7184,6 +7257,49 @@ let genshinBuilds = {
             }
         }
     },
+    "Prune": {
+        "BUFF SUPPORT": {
+            "weapons": {
+                "1": "Favonius Codex",
+                "2": "Angelos' Heptades",
+                "3": "Crane's Echoing Call",
+                "4": "Skyward Atlas",
+                "5": "Memory of Dust",
+                "6": "Oathsworn Eye",
+                "7": "Flowing Purity",
+                "8": "Thrilling Tales of Dragon Slayers"
+            },
+            "artifacts": {
+                "1": [
+                    "Viridescent Venerer"
+                ],
+                "2": [
+                    "Celestial Gift"
+                ],
+                "3": [
+                    "Noblesse Oblige"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "Energy Recharge",
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "ATK%"
+                ],
+                "Circlet": [
+                    "ATK%",
+                    "Crit Rate"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "ATK%",
+                "3": "Crit Rate"
+            }
+        }
+    },
     "Razor": {
         "DPS": {
             "weapons": {
@@ -7203,7 +7319,8 @@ let genshinBuilds = {
                 "14": "Blackcliff Slasher",
                 "15": "Akuoumaru",
                 "16": "Earth Shaker",
-                "17": "Prototype Archaic"
+                "17": "Prototype Archaic",
+                "18": "\"Ultimate Overlord's Mega Magic Sword\""
             },
             "artifacts": {
                 "1": [
@@ -7223,6 +7340,7 @@ let genshinBuilds = {
                 ],
                 "6": [
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7237,7 +7355,8 @@ let genshinBuilds = {
             },
             "main_stats": {
                 "Sands": [
-                    "ATK%"
+                    "ATK%",
+                    "Energy Recharge"
                 ],
                 "Goblet": [
                     "Electro DMG"
@@ -7354,6 +7473,50 @@ let genshinBuilds = {
                 "2": "Crit DMG",
                 "3": "ATK%",
                 "4": "Crit Rate"
+            }
+        },
+        "BUFF SUPPORT": {
+            "weapons": {
+                "1": "Favonius Lance",
+                "2": "Staff of the Scarlet Sands",
+                "3": "Lumidouce Elegy",
+                "4": "Deathmatch",
+                "5": "Primordial Jade Winged-Spear",
+                "6": "Engulfing Lightning",
+                "7": "Skyward Spine",
+                "8": "\"The Catch\""
+            },
+            "artifacts": {
+                "1": [
+                    "Noblesse Oblige"
+                ],
+                "2": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "3": [
+                    "Archaic Petra"
+                ],
+                "4": [
+                    "Instructor"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%",
+                    "Energy Recharge"
+                ],
+                "Goblet": [
+                    "Cryo DMG"
+                ],
+                "Circlet": [
+                    "Crit Rate"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "Crit Rate",
+                "3": "Crit DMG",
+                "4": "ATK%"
             }
         }
     },
@@ -7543,6 +7706,7 @@ let genshinBuilds = {
                     "Viridescent Venerer",
                     "Golden Troupe",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7755,6 +7919,7 @@ let genshinBuilds = {
                     "Noblesse Oblige",
                     "Crimson Witch of Flames",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7826,6 +7991,7 @@ let genshinBuilds = {
                     "Noblesse Oblige",
                     "Crimson Witch of Flames",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7900,6 +8066,7 @@ let genshinBuilds = {
                     "Heart of Depth",
                     "Nymph's Dream",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -7945,11 +8112,12 @@ let genshinBuilds = {
                 "9": "Skyward Blade",
                 "10": "Uraku Misugiri",
                 "11": "Splendor of Tranquil Waters",
-                "12": "Wolf-Fang",
-                "13": "Favonius Sword",
-                "14": "Fleuve Cendre Ferryman",
-                "15": "Finale of the Deep",
-                "16": "Amenoma Kageuchi"
+                "12": "Lightbearing Moonshard",
+                "13": "Wolf-Fang",
+                "14": "Favonius Sword",
+                "15": "Fleuve Cendre Ferryman",
+                "16": "Finale of the Deep",
+                "17": "Amenoma Kageuchi"
             },
             "artifacts": {
                 "1": [
@@ -7972,6 +8140,7 @@ let genshinBuilds = {
                     "Heart of Depth",
                     "Nymph's Dream",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -8035,6 +8204,7 @@ let genshinBuilds = {
                     "Bloodstained Chivalry",
                     "Pale Flame",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
@@ -8097,6 +8267,7 @@ let genshinBuilds = {
                 "4": [
                     "Crimson Witch of Flames",
                     "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
                     "Echoes of an Offering",
                     "Fragment of Harmonic Whimsy",
                     "Gladiator's Finale",
