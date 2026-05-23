@@ -166,6 +166,7 @@ for character_list in soup.find_all('table') :
     artifacts_multirows = False
     main_stats_multirows = False
     sub_stats_multirows = False
+    talent_priority_multirows = False
     last_build_update = ''
 
     # Check each row for information
@@ -182,6 +183,7 @@ for character_list in soup.find_all('table') :
             artifacts_multirows = False
             main_stats_multirows = False
             sub_stats_multirows = False
+            talent_priority_multirows = False
 
             character_name = cell.get_text().title().split(' (')[0]
 
@@ -208,6 +210,7 @@ for character_list in soup.find_all('table') :
             artifacts = {}
             main_stats = {}
             sub_stats = {}
+            talents_priority = {}
 
             # Get build name
             for br in cell.find_all('br'):
@@ -243,6 +246,12 @@ for character_list in soup.find_all('table') :
                 sub_stats_cell = current_cell
                 if sub_stats_cell.has_attr('rowspan') :
                     sub_stats_multirows = True
+
+            if not talent_priority_multirows :
+                current_cell = current_cell.next_sibling
+                talent_priority_cell = current_cell
+                if talent_priority_cell.has_attr('rowspan') :
+                    talent_priority_multirows = True
 
             # Get weapons list
             for br in weapons_cell.find_all('br'):
@@ -416,6 +425,39 @@ for character_list in soup.find_all('table') :
                         sub_stats[j] = _sub_stat
                         j += 1
 
+            # Get talent priority list
+            for br in talent_priority_cell.find_all('br'):
+                br.replace_with("talent_priority_separator")
+            talent_priority_list = talent_priority_cell.get_text().strip().split('talent_priority_separator')
+            talent_priority_list = list(filter(None, talent_priority_list))
+
+            # Get talent priority
+            j = 1
+            for talent_priority in talent_priority_list :
+                # Check if start with a number between 1-3 or ≈
+                if talent_priority.startswith('≈') or talent_priority[0].isdigit() :
+                    # Check if multiple talent on the same line
+                    if '=' in talent_priority :
+                        talent_priority = talent_priority.split('=')
+                    elif '/' in talent_priority :
+                        talent_priority = talent_priority.split('/')
+                    else :
+                        talent_priority = [talent_priority]
+
+                    for talent in talent_priority :
+                        if 'Burst' in talent :
+                            talents_priority[j] = 'Ultimate'
+                        elif 'Skill' in talent :
+                            talents_priority[j] = 'Spell'
+                        elif 'Normal' in talent or 'NA' in talent :
+                            talents_priority[j] = 'Normal Attack'
+                        else :
+                            print('Fix me (talent priority) : '+character_name+' '+element+' '+build_name+' '+talent)
+                            exit(1)
+
+                        j += 1
+
+
             if character_name == 'Traveler' and element.upper() not in build_name :
                 build_name = element.upper()+' '+build_name
             if character_name not in builds :
@@ -426,6 +468,7 @@ for character_list in soup.find_all('table') :
                 'main_stats' : main_stats,
                 'sub_stats' : sub_stats,
                 'last_build_update' : last_build_update,
+                'talents_priority' : talents_priority,
             }
 
     i += 1

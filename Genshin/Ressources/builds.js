@@ -50,7 +50,11 @@ let genshinBuilds = {
                 "4": "Energy Recharge",
                 "5": "ATK%"
             },
-            "last_build_update": "6.5"
+            "last_build_update": "6.5",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Alhaitham": {
@@ -111,7 +115,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "ATK%"
             },
-            "last_build_update": "5.7"
+            "last_build_update": "5.7",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Normal Attack",
+                "3": "Ultimate"
+            }
         }
     },
     "Aloy": {
@@ -188,7 +197,11 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "3.2"
+            "last_build_update": "3.2",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Arataki Itto": {
@@ -237,7 +250,12 @@ let genshinBuilds = {
                 "4": "DEF%",
                 "5": "ATK%"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         }
     },
     "Arlecchino": {
@@ -302,7 +320,12 @@ let genshinBuilds = {
                 "3": "Elemental Mastery",
                 "4": "ATK%"
             },
-            "last_build_update": "4.8"
+            "last_build_update": "4.8",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell",
+                "3": "Ultimate"
+            }
         }
     },
     "Baizhu": {
@@ -353,7 +376,11 @@ let genshinBuilds = {
                 "3": "Flat HP",
                 "4": "Crit Rate"
             },
-            "last_build_update": "4.2"
+            "last_build_update": "4.2",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Chasca": {
@@ -400,7 +427,11 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Chiori": {
@@ -450,7 +481,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "4.5"
+            "last_build_update": "4.5",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Citlali": {
@@ -492,7 +527,11 @@ let genshinBuilds = {
                 "2": "Elemental Mastery",
                 "3": "Crit Rate"
             },
-            "last_build_update": "6.0"
+            "last_build_update": "6.0",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Clorinde": {
@@ -540,7 +579,11 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "5.2"
+            "last_build_update": "5.2",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Columbina": {
@@ -593,7 +636,11 @@ let genshinBuilds = {
                 "4": "HP%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "6.5"
+            "last_build_update": "6.5",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         },
         "LOW ENERGY REQUIREMENT  OFF-FIELD DPS & BUFF SUPPORT": {
             "weapons": {
@@ -644,7 +691,11 @@ let genshinBuilds = {
                 "4": "HP%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "6.5"
+            "last_build_update": "6.5",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Cyno": {
@@ -707,7 +758,11 @@ let genshinBuilds = {
                 "4": "Crit DMG",
                 "5": "ATK%"
             },
-            "last_build_update": "4.8"
+            "last_build_update": "4.8",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Dehya": {
@@ -754,7 +809,10 @@ let genshinBuilds = {
                 "2": "Flat HP",
                 "3": "Crit Rate"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Spell"
+            }
         }
     },
     "Diluc": {
@@ -827,7 +885,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell",
+                "3": "Ultimate"
+            }
         }
     },
     "Durin": {
@@ -907,7 +970,11 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "6.2"
+            "last_build_update": "6.2",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         },
         "BUFF SUPPORT & OFF-FIELD DPS": {
             "weapons": {
@@ -983,7 +1050,11 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Energy Recharge"
             },
-            "last_build_update": "6.2"
+            "last_build_update": "6.2",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Emilie": {
@@ -1049,7 +1120,11 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Energy Recharge"
             },
-            "last_build_update": "5.7"
+            "last_build_update": "5.7",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Escoffier": {
@@ -1129,7 +1204,11 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%"
             },
-            "last_build_update": "6.4"
+            "last_build_update": "6.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         },
         "LOW ENERGY REQUIREMENT (OFF-FIELD DPS)": {
             "weapons": {
@@ -1206,7 +1285,11 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%"
             },
-            "last_build_update": "6.4"
+            "last_build_update": "6.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Eula": {
@@ -1287,7 +1370,12 @@ let genshinBuilds = {
                 "3": "Energy Recharge",
                 "4": "ATK%"
             },
-            "last_build_update": "4.3"
+            "last_build_update": "4.3",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         }
     },
     "Flins": {
@@ -1361,7 +1449,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "6.4"
+            "last_build_update": "6.4",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Furina": {
@@ -1419,7 +1511,11 @@ let genshinBuilds = {
                 "4": "Crit DMG",
                 "5": "Flat HP"
             },
-            "last_build_update": "4.5"
+            "last_build_update": "4.5",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Ganyu": {
@@ -1488,7 +1584,12 @@ let genshinBuilds = {
                 "3": "Elemental Mastery",
                 "4": "ATK%"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell",
+                "3": "Ultimate"
+            }
         },
         "FREEZE DPS": {
             "weapons": {
@@ -1543,7 +1644,12 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Energy Recharge"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Normal Attack",
+                "3": "Spell"
+            }
         },
         "MONO CRYO DPS": {
             "weapons": {
@@ -1597,7 +1703,12 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Energy Recharge"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         }
     },
     "Hu Tao": {
@@ -1659,7 +1770,12 @@ let genshinBuilds = {
                 "4": "HP%",
                 "5": "ATK%"
             },
-            "last_build_update": "5.3"
+            "last_build_update": "5.3",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell",
+                "3": "Ultimate"
+            }
         }
     },
     "Ineffa": {
@@ -1737,7 +1853,11 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "6.4"
+            "last_build_update": "6.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Jean": {
@@ -1810,7 +1930,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "5.3"
+            "last_build_update": "5.3",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Kaedehara Kazuha": {
@@ -1851,7 +1975,12 @@ let genshinBuilds = {
                 "2": "Elemental Mastery",
                 "3": "Crit Rate"
             },
-            "last_build_update": "5.3"
+            "last_build_update": "5.3",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell",
+                "3": "Normal Attack"
+            }
         }
     },
     "Kamisato Ayaka": {
@@ -1925,7 +2054,12 @@ let genshinBuilds = {
                 "3": "Energy Recharge",
                 "4": "Crit Rate"
             },
-            "last_build_update": "4.0"
+            "last_build_update": "4.0",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Normal Attack",
+                "3": "Spell"
+            }
         }
     },
     "Kamisato Ayato": {
@@ -1999,7 +2133,11 @@ let genshinBuilds = {
                 "5": "HP%",
                 "6": "Elemental Mastery"
             },
-            "last_build_update": "4.2"
+            "last_build_update": "4.2",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Keqing": {
@@ -2075,7 +2213,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         },
         "QUICKBLOOM DPS": {
             "weapons": {
@@ -2149,7 +2292,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "ATK%"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         }
     },
     "Kinich": {
@@ -2209,7 +2357,11 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Energy Recharge"
             },
-            "last_build_update": "6.4"
+            "last_build_update": "6.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Klee": {
@@ -2279,7 +2431,12 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%"
             },
-            "last_build_update": "6.3"
+            "last_build_update": "6.3",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         }
     },
     "Lauma": {
@@ -2325,7 +2482,11 @@ let genshinBuilds = {
                 "3": "Crit Rate",
                 "4": "Crit DMG"
             },
-            "last_build_update": "6.1"
+            "last_build_update": "6.1",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         },
         "BUFF SUPPORT (LOW-ENERGY REQUIREMENT)": {
             "weapons": {
@@ -2373,7 +2534,11 @@ let genshinBuilds = {
                 "3": "Crit Rate",
                 "4": "Crit DMG"
             },
-            "last_build_update": "6.1"
+            "last_build_update": "6.1",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Linnea": {
@@ -2427,7 +2592,11 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "6.5"
+            "last_build_update": "6.5",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Lyney": {
@@ -2498,7 +2667,12 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Energy Recharge"
             },
-            "last_build_update": "5.1"
+            "last_build_update": "5.1",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell",
+                "3": "Ultimate"
+            }
         }
     },
     "Mavuika": {
@@ -2543,7 +2717,10 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Elemental Mastery"
             },
-            "last_build_update": "6.1"
+            "last_build_update": "6.1",
+            "talents_priority": {
+                "1": "Ultimate"
+            }
         }
     },
     "Mona": {
@@ -2610,7 +2787,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "3.7"
+            "last_build_update": "3.7",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         },
         "BUFF SUPPORT": {
             "weapons": {
@@ -2658,7 +2839,10 @@ let genshinBuilds = {
                 "2": "Crit Rate",
                 "3": "ATK%"
             },
-            "last_build_update": "3.7"
+            "last_build_update": "3.7",
+            "talents_priority": {
+                "1": "Ultimate"
+            }
         }
     },
     "Mualani": {
@@ -2717,7 +2901,11 @@ let genshinBuilds = {
                 "4": "HP%",
                 "5": "Flat HP"
             },
-            "last_build_update": "6.1"
+            "last_build_update": "6.1",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Nahida": {
@@ -2789,7 +2977,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "ATK%"
             },
-            "last_build_update": "6.0"
+            "last_build_update": "6.0",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate",
+                "3": "Normal Attack"
+            }
         }
     },
     "Navia": {
@@ -2843,7 +3036,12 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate",
+                "3": "Normal Attack"
+            }
         }
     },
     "Nefer": {
@@ -2883,7 +3081,11 @@ let genshinBuilds = {
                 "2": "Crit DMG",
                 "3": "Elemental Mastery"
             },
-            "last_build_update": "6.3"
+            "last_build_update": "6.3",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Neuvillette": {
@@ -2946,7 +3148,12 @@ let genshinBuilds = {
                 "4": "HP%",
                 "5": "Flat HP"
             },
-            "last_build_update": "5.2"
+            "last_build_update": "5.2",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         }
     },
     "Nilou": {
@@ -2991,7 +3198,11 @@ let genshinBuilds = {
                 "2": "Flat HP",
                 "3": "Elemental Mastery"
             },
-            "last_build_update": "6.0"
+            "last_build_update": "6.0",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Qiqi": {
@@ -3058,7 +3269,11 @@ let genshinBuilds = {
                 "4": "Crit Rate",
                 "5": "DEF%"
             },
-            "last_build_update": "5.2"
+            "last_build_update": "5.2",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Raiden Shogun": {
@@ -3124,7 +3339,11 @@ let genshinBuilds = {
                 "4": "Energy Recharge",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Sangonomiya Kokomi": {
@@ -3178,7 +3397,11 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Flat HP"
             },
-            "last_build_update": "6.0"
+            "last_build_update": "6.0",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Shenhe": {
@@ -3238,7 +3461,11 @@ let genshinBuilds = {
                 "4": "Crit DMG",
                 "5": "Flat ATK"
             },
-            "last_build_update": "6.0"
+            "last_build_update": "6.0",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Sigewinne": {
@@ -3286,7 +3513,10 @@ let genshinBuilds = {
                 "2": "Flat HP",
                 "3": "Crit Rate"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Spell"
+            }
         }
     },
     "Skirk": {
@@ -3352,7 +3582,11 @@ let genshinBuilds = {
                 "2": "Crit DMG",
                 "3": "ATK%"
             },
-            "last_build_update": "5.7"
+            "last_build_update": "5.7",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Tartaglia": {
@@ -3438,7 +3672,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate",
+                "3": "Normal Attack"
+            }
         }
     },
     "Tighnari": {
@@ -3517,7 +3756,12 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "5.1"
+            "last_build_update": "5.1",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         }
     },
     "Traveler": {
@@ -3569,7 +3813,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "DEF%"
             },
-            "last_build_update": "6.5"
+            "last_build_update": "6.5",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         },
         "ELECTRO ENERGY SUPPORT": {
             "weapons": {
@@ -3617,7 +3865,11 @@ let genshinBuilds = {
                 "3": "Crit Rate",
                 "4": "Crit DMG"
             },
-            "last_build_update": "3.1"
+            "last_build_update": "3.1",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         },
         "DENDRO REACTION SUPPORT": {
             "weapons": {
@@ -3666,7 +3918,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "4.0"
+            "last_build_update": "4.0",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         },
         "ANEMO DPS": {
             "weapons": {
@@ -3734,7 +3990,11 @@ let genshinBuilds = {
                 "4": "Crit Rate",
                 "5": "Crit DMG"
             },
-            "last_build_update": "2.7"
+            "last_build_update": "2.7",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         },
         "GEO DPS": {
             "weapons": {
@@ -3811,7 +4071,11 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Energy Recharge"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Varesa": {
@@ -3875,7 +4139,12 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%"
             },
-            "last_build_update": "6.2"
+            "last_build_update": "6.2",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         }
     },
     "Varka": {
@@ -3927,7 +4196,10 @@ let genshinBuilds = {
                 "2": "Crit DMG",
                 "3": "ATK%"
             },
-            "last_build_update": "6.4"
+            "last_build_update": "6.4",
+            "talents_priority": {
+                "1": "Spell"
+            }
         }
     },
     "Venti": {
@@ -3986,7 +4258,11 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "6.2"
+            "last_build_update": "6.2",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         },
         "ON-FIELD DPS": {
             "weapons": {
@@ -4038,7 +4314,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "6.2"
+            "last_build_update": "6.2",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         }
     },
     "Wanderer": {
@@ -4108,7 +4389,12 @@ let genshinBuilds = {
                 "5": "Elemental Mastery",
                 "6": "Energy Recharge"
             },
-            "last_build_update": "4.7"
+            "last_build_update": "4.7",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell",
+                "3": "Ultimate"
+            }
         },
         "DPS (WITH EXTERNAL ATK BUFFS)": {
             "weapons": {
@@ -4176,7 +4462,12 @@ let genshinBuilds = {
                 "5": "Elemental Mastery",
                 "6": "Energy Recharge"
             },
-            "last_build_update": "4.7"
+            "last_build_update": "4.7",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell",
+                "3": "Ultimate"
+            }
         }
     },
     "Wriothesley": {
@@ -4246,7 +4537,12 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Elemental Mastery"
             },
-            "last_build_update": "4.1"
+            "last_build_update": "4.1",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell",
+                "3": "Ultimate"
+            }
         },
         "MONO CRYO / FREEZE DPS": {
             "weapons": {
@@ -4304,7 +4600,12 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Energy Recharge"
             },
-            "last_build_update": "4.1"
+            "last_build_update": "4.1",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell",
+                "3": "Ultimate"
+            }
         }
     },
     "Xianyun": {
@@ -4366,7 +4667,10 @@ let genshinBuilds = {
                 "2": "ATK%",
                 "3": "Flat ATK"
             },
-            "last_build_update": "5.0"
+            "last_build_update": "5.0",
+            "talents_priority": {
+                "1": "Ultimate"
+            }
         },
         "LOW ENERGY REQUIREMENT  BUFF & HEAL SUPPORT": {
             "weapons": {
@@ -4432,7 +4736,10 @@ let genshinBuilds = {
                 "2": "ATK%",
                 "3": "Flat ATK"
             },
-            "last_build_update": "5.0"
+            "last_build_update": "5.0",
+            "talents_priority": {
+                "1": "Ultimate"
+            }
         }
     },
     "Xiao": {
@@ -4508,7 +4815,12 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%"
             },
-            "last_build_update": "5.8"
+            "last_build_update": "5.8",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         }
     },
     "Xilonen": {
@@ -4554,7 +4866,11 @@ let genshinBuilds = {
                 "3": "Flat DEF",
                 "4": "Crit Rate"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Yae Miko": {
@@ -4620,7 +4936,11 @@ let genshinBuilds = {
                 "4": "Energy Recharge",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         },
         "OFF-FIELD AGGRAVATE DPS": {
             "weapons": {
@@ -4697,7 +5017,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Yelan": {
@@ -4746,7 +5070,12 @@ let genshinBuilds = {
                 "4": "Crit DMG",
                 "5": "Flat HP"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell",
+                "3": "Normal Attack"
+            }
         },
         "LOW ENERGY REQUIREMENT (OFF-FIELD DPS)": {
             "weapons": {
@@ -4801,7 +5130,12 @@ let genshinBuilds = {
                 "4": "Crit DMG",
                 "5": "Flat HP"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell",
+                "3": "Normal Attack"
+            }
         }
     },
     "Yoimiya": {
@@ -4871,7 +5205,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell",
+                "3": "Ultimate"
+            }
         }
     },
     "Yumemizuki Mizuki": {
@@ -4909,7 +5248,11 @@ let genshinBuilds = {
                 "2": "Elemental Mastery",
                 "3": "Crit Rate"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Zhongli": {
@@ -4956,7 +5299,11 @@ let genshinBuilds = {
                 "2": "Flat HP",
                 "3": "Energy Recharge"
             },
-            "last_build_update": "5.2"
+            "last_build_update": "5.2",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Zibai": {
@@ -5009,7 +5356,11 @@ let genshinBuilds = {
                 "4": "Energy Recharge",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "6.3"
+            "last_build_update": "6.3",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Aino": {
@@ -5055,7 +5406,11 @@ let genshinBuilds = {
                 "2": "Elemental Mastery",
                 "3": "Crit Rate"
             },
-            "last_build_update": "6.0"
+            "last_build_update": "6.0",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Amber": {
@@ -5100,7 +5455,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "4.0"
+            "last_build_update": "4.0",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Barbara": {
@@ -5145,7 +5504,11 @@ let genshinBuilds = {
                 "1": "HP%",
                 "2": "Flat HP"
             },
-            "last_build_update": "6.0"
+            "last_build_update": "6.0",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Beidou": {
@@ -5213,7 +5576,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Bennett": {
@@ -5271,7 +5638,11 @@ let genshinBuilds = {
                 "5": "ATK%",
                 "6": "Flat HP"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Candace": {
@@ -5326,7 +5697,10 @@ let genshinBuilds = {
                 "3": "HP%",
                 "4": "Flat HP"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Ultimate"
+            }
         }
     },
     "Charlotte": {
@@ -5398,7 +5772,11 @@ let genshinBuilds = {
                 "4": "Flat ATK",
                 "5": "Crit DMG"
             },
-            "last_build_update": "4.2"
+            "last_build_update": "4.2",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Chevreuse": {
@@ -5455,7 +5833,11 @@ let genshinBuilds = {
                 "4": "Flat HP",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Chongyun": {
@@ -5536,7 +5918,11 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Collei": {
@@ -5587,7 +5973,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Dahlia": {
@@ -5630,7 +6020,10 @@ let genshinBuilds = {
                 "3": "Crit Rate",
                 "4": "Flat HP"
             },
-            "last_build_update": "5.7"
+            "last_build_update": "5.7",
+            "talents_priority": {
+                "1": "Ultimate"
+            }
         }
     },
     "Diona": {
@@ -5690,7 +6083,11 @@ let genshinBuilds = {
                 "3": "Crit Rate",
                 "4": "Flat HP"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Dori": {
@@ -5737,7 +6134,11 @@ let genshinBuilds = {
                 "3": "HP%",
                 "4": "Elemental Mastery"
             },
-            "last_build_update": "3.2"
+            "last_build_update": "3.2",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Faruzan": {
@@ -5794,7 +6195,11 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%"
             },
-            "last_build_update": "6.0"
+            "last_build_update": "6.0",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Fischl": {
@@ -5868,7 +6273,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "6.3"
+            "last_build_update": "6.3",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         },
         "OFF-FIELD AGGRAVATE DPS": {
             "weapons": {
@@ -5946,7 +6355,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "6.3"
+            "last_build_update": "6.3",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Freminet": {
@@ -6016,7 +6429,12 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Normal Attack",
+                "3": "Ultimate"
+            }
         },
         "CRYO DPS": {
             "weapons": {
@@ -6076,7 +6494,12 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Normal Attack",
+                "3": "Ultimate"
+            }
         }
     },
     "Gaming": {
@@ -6133,7 +6556,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "ATK%"
             },
-            "last_build_update": "6.4"
+            "last_build_update": "6.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate",
+                "3": "Normal Attack"
+            }
         }
     },
     "Gorou": {
@@ -6178,7 +6606,10 @@ let genshinBuilds = {
                 "2": "DEF%",
                 "3": "Crit Rate"
             },
-            "last_build_update": "6.3"
+            "last_build_update": "6.3",
+            "talents_priority": {
+                "1": "Spell"
+            }
         }
     },
     "Iansan": {
@@ -6234,7 +6665,10 @@ let genshinBuilds = {
                 "2": "ATK%",
                 "3": "Crit Rate"
             },
-            "last_build_update": "5.6"
+            "last_build_update": "5.6",
+            "talents_priority": {
+                "1": "Ultimate"
+            }
         }
     },
     "Ifa": {
@@ -6285,7 +6719,8 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "5.7"
+            "last_build_update": "5.7",
+            "talents_priority": {}
         }
     },
     "Illuga": {
@@ -6326,7 +6761,10 @@ let genshinBuilds = {
                 "2": "Elemental Mastery",
                 "3": "Crit Rate"
             },
-            "last_build_update": "6.3"
+            "last_build_update": "6.3",
+            "talents_priority": {
+                "1": "Ultimate"
+            }
         }
     },
     "Jahoda": {
@@ -6365,7 +6803,11 @@ let genshinBuilds = {
                 "3": "Crit Rate",
                 "4": "Elemental Mastery"
             },
-            "last_build_update": "6.2"
+            "last_build_update": "6.2",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Kachina": {
@@ -6410,7 +6852,11 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "DEF%"
             },
-            "last_build_update": "5.0"
+            "last_build_update": "5.0",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Kaeya": {
@@ -6477,7 +6923,12 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Crit Rate"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Normal Attack",
+                "3": "Spell"
+            }
         },
         "REVERSE MELT": {
             "weapons": {
@@ -6548,7 +6999,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Kaveh": {
@@ -6601,7 +7056,12 @@ let genshinBuilds = {
                 "2": "Elemental Mastery",
                 "3": "Crit Rate"
             },
-            "last_build_update": "5.8"
+            "last_build_update": "5.8",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Normal Attack",
+                "3": "Spell"
+            }
         }
     },
     "Kirara": {
@@ -6651,7 +7111,11 @@ let genshinBuilds = {
                 "3": "Crit Rate",
                 "4": "Flat HP"
             },
-            "last_build_update": "4.2"
+            "last_build_update": "4.2",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Kujou Sara": {
@@ -6717,7 +7181,11 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%"
             },
-            "last_build_update": "5.0"
+            "last_build_update": "5.0",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Kuki Shinobu": {
@@ -6766,7 +7234,10 @@ let genshinBuilds = {
                 "2": "HP%",
                 "3": "Energy Recharge"
             },
-            "last_build_update": "4.1"
+            "last_build_update": "4.1",
+            "talents_priority": {
+                "1": "Spell"
+            }
         }
     },
     "Lan Yan": {
@@ -6803,7 +7274,11 @@ let genshinBuilds = {
                 "3": "Elemental Mastery",
                 "4": "Crit Rate"
             },
-            "last_build_update": "5.3"
+            "last_build_update": "5.3",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Layla": {
@@ -6850,7 +7325,11 @@ let genshinBuilds = {
                 "3": "Crit Rate",
                 "4": "Flat HP"
             },
-            "last_build_update": "5.0"
+            "last_build_update": "5.0",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         },
         "SHIELD SUPPORT AND DAMAGE": {
             "weapons": {
@@ -6907,7 +7386,11 @@ let genshinBuilds = {
                 "5": "ATK%",
                 "6": "Flat HP"
             },
-            "last_build_update": "5.0"
+            "last_build_update": "5.0",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Lisa": {
@@ -6978,7 +7461,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "6.1"
+            "last_build_update": "6.1",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell",
+                "3": "Normal Attack"
+            }
         },
         "OFF-FIELD DPS & SUPPORT": {
             "weapons": {
@@ -7056,7 +7544,12 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "6.1"
+            "last_build_update": "6.1",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell",
+                "3": "Normal Attack"
+            }
         }
     },
     "Lynette": {
@@ -7119,7 +7612,11 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%"
             },
-            "last_build_update": "4.0"
+            "last_build_update": "4.0",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Mika": {
@@ -7183,7 +7680,11 @@ let genshinBuilds = {
                 "3": "HP%",
                 "4": "Flat HP"
             },
-            "last_build_update": "5.7"
+            "last_build_update": "5.7",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Ningguang": {
@@ -7250,7 +7751,12 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Energy Recharge"
             },
-            "last_build_update": "5.3"
+            "last_build_update": "5.3",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Normal Attack",
+                "3": "Spell"
+            }
         }
     },
     "Noelle": {
@@ -7291,7 +7797,12 @@ let genshinBuilds = {
                 "3": "Energy Recharge",
                 "4": "DEF%"
             },
-            "last_build_update": "4.2"
+            "last_build_update": "4.2",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         },
         "DRIVER": {
             "weapons": {
@@ -7322,7 +7833,12 @@ let genshinBuilds = {
                 "3": "Energy Recharge",
                 "4": "DEF%"
             },
-            "last_build_update": "4.2"
+            "last_build_update": "4.2",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Normal Attack",
+                "3": "Ultimate"
+            }
         }
     },
     "Ororon": {
@@ -7378,7 +7894,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Prune": {
@@ -7422,7 +7942,11 @@ let genshinBuilds = {
                 "2": "ATK%",
                 "3": "Crit Rate"
             },
-            "last_build_update": "6.6"
+            "last_build_update": "6.6",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Razor": {
@@ -7497,7 +8021,12 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%"
             },
-            "last_build_update": "6.5"
+            "last_build_update": "6.5",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell",
+                "3": "Ultimate"
+            }
         }
     },
     "Rosaria": {
@@ -7551,7 +8080,11 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "ATK%"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         },
         "FREEZE": {
             "weapons": {
@@ -7601,7 +8134,12 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Crit Rate"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell",
+                "3": "Normal Attack"
+            }
         },
         "BUFF SUPPORT": {
             "weapons": {
@@ -7646,7 +8184,11 @@ let genshinBuilds = {
                 "3": "Crit DMG",
                 "4": "ATK%"
             },
-            "last_build_update": "5.5"
+            "last_build_update": "5.5",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Sayu": {
@@ -7699,7 +8241,11 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Crit Rate"
             },
-            "last_build_update": "4.8"
+            "last_build_update": "4.8",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Sethos": {
@@ -7750,7 +8296,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "ATK%"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Normal Attack",
+                "3": "Spell"
+            }
         },
         "CHARGED ATTACK DPS": {
             "weapons": {
@@ -7796,7 +8347,11 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "ATK%"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Spell"
+            }
         }
     },
     "Shikanoin Heizou": {
@@ -7875,7 +8430,12 @@ let genshinBuilds = {
                 "4": "Energy Recharge",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Normal Attack",
+                "3": "Ultimate"
+            }
         },
         "REACTION DPS": {
             "weapons": {
@@ -7914,7 +8474,12 @@ let genshinBuilds = {
                 "3": "Energy Recharge",
                 "4": "Crit Rate"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Normal Attack",
+                "3": "Ultimate"
+            }
         }
     },
     "Sucrose": {
@@ -7963,7 +8528,11 @@ let genshinBuilds = {
                 "4": "Crit Rate",
                 "5": "Crit DMG"
             },
-            "last_build_update": "5.4"
+            "last_build_update": "5.4",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Thoma": {
@@ -8015,7 +8584,11 @@ let genshinBuilds = {
                 "4": "Flat HP",
                 "5": "Crit Rate"
             },
-            "last_build_update": "5.0"
+            "last_build_update": "5.0",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
         }
     },
     "Xiangling": {
@@ -8098,7 +8671,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "6.4"
+            "last_build_update": "6.4",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         },
         "OFF-FIELD DPS": {
             "weapons": {
@@ -8171,7 +8748,11 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "6.4"
+            "last_build_update": "6.4",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Xingqiu": {
@@ -8236,7 +8817,11 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Energy Recharge"
             },
-            "last_build_update": "6.4"
+            "last_build_update": "6.4",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         },
         "LOW ENERGY REQUIREMENT (OFF-FIELD DPS)": {
             "weapons": {
@@ -8311,7 +8896,11 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Energy Recharge"
             },
-            "last_build_update": "6.4"
+            "last_build_update": "6.4",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Xinyan": {
@@ -8378,7 +8967,10 @@ let genshinBuilds = {
                 "4": "Energy Recharge",
                 "5": "DEF%"
             },
-            "last_build_update": "3.8"
+            "last_build_update": "3.8",
+            "talents_priority": {
+                "1": "Normal Attack"
+            }
         }
     },
     "Yanfei": {
@@ -8446,7 +9038,12 @@ let genshinBuilds = {
                 "4": "Elemental Mastery",
                 "5": "Energy Recharge"
             },
-            "last_build_update": "6.2"
+            "last_build_update": "6.2",
+            "talents_priority": {
+                "1": "Normal Attack",
+                "2": "Ultimate",
+                "3": "Spell"
+            }
         }
     },
     "Yaoyao": {
@@ -8515,7 +9112,11 @@ let genshinBuilds = {
                 "3": "Crit Rate",
                 "4": "Flat HP"
             },
-            "last_build_update": "4.5"
+            "last_build_update": "4.5",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     },
     "Yun Jin": {
@@ -8561,7 +9162,11 @@ let genshinBuilds = {
                 "3": "Flat DEF",
                 "4": "Crit Rate"
             },
-            "last_build_update": "3.2"
+            "last_build_update": "3.2",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
         }
     }
 };

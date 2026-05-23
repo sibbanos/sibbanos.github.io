@@ -953,6 +953,21 @@ function GenshinCharacter(character) {
             cloneBuildContent.querySelector('.genshinSubStats').appendChild(clone);
         }
 
+        // Fill talent priority
+        for (const talentPriorityIndex in buildInfo['talents_priority']) {
+            const talentPriority = buildInfo['talents_priority'][talentPriorityIndex];
+
+            // Create talent
+            const span = document.createElement('span');
+            span.classList = 'text-lg';
+            span.innerHTML = talentPriority;
+            // If there is another talent, separate them with a >
+            if (typeof buildInfo['talents_priority'][Number(talentPriorityIndex) + 1] !== 'undefined') {
+                span.innerHTML += '&nbsp;>';
+            }
+            cloneBuildContent.querySelector('.genshinTalentPriority').appendChild(span);
+        }
+
         let j = 1;
         // Create weapons
         for (const weaponIndex in buildInfo['weapons']) {
