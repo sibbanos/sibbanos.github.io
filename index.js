@@ -40,6 +40,7 @@ const genshinMainStats = {
 const genshinCharactersWithoutElements = ['Traveler', 'Wonderland Manekin'];
 
 let delegateInstance = {};
+let drawChangelog = true;
 
 window.addEventListener('hashchange', () => {
     init();
@@ -564,6 +565,7 @@ function genshinPage(page = null) {
     document.querySelector('#genshinArtifact').hidden = true;
     document.querySelector('#genshinBuildFinder').hidden = true;
     document.querySelector('#genshinCharacter').hidden = true;
+    document.querySelector('#genshinChangelog').hidden = true;
     document.querySelector('#genshinWeapon').hidden = true;
     document.querySelector('#genshinList').hidden = true;
 
@@ -768,6 +770,35 @@ function GenshinBuildFinder() {
     // Show default content
     genshinPage('BuildFinder');
     document.querySelector('#genshinBuildFinder').hidden = false;
+}
+
+/**
+ * Show genshin changelog
+ */
+function GenshinChangelog() {
+    // Show default content
+    genshinPage('Changelog');
+    document.querySelector('#genshinChangelog').hidden = false;
+
+    // Draw changelog on first load only
+    if (drawChangelog) {
+        drawChangelog = false;
+
+        for (const changelogIndex in genshinChangelog) {
+            const changelog = genshinChangelog[changelogIndex];
+
+            const template = document.querySelector("#genshinChangelogRow");
+            const clone = document.importNode(template.content, true);
+        
+            // Set changelog content
+            clone.querySelector('.genshinChangelogDate').textContent = changelog['date'];
+            clone.querySelector('.genshinChangelogVersion').textContent = changelog['version'];
+            clone.querySelector('.genshinChangelogInfo').textContent = changelog['info'];
+        
+            // Add changelog row to page
+            document.querySelector('#genshinChangelogBody').append(clone);
+        }
+    }
 }
 
 /**

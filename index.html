@@ -30,6 +30,7 @@
     <script src="Genshin/Ressources/artifacts.js"></script>
     <script src="Genshin/Ressources/builds.js"></script>
     <script src="Genshin/Ressources/characters.js"></script>
+    <script src="Genshin/Ressources/changelog.js"></script>
     <script src="Genshin/Ressources/weapons.js"></script>
 
     <!-- Ext. -->
@@ -52,22 +53,26 @@
         <!-- Genshin container -->
         <div id="genshinPage" class="container mx-auto pb-4">
             <!-- Genshin navigation -->
-            <nav class="flex gap-x-2 md:gap-x-8 justify-end sm:justify-center pr-2 sm:pr-0 pt-4" role="tablist">
+            <nav class="flex gap-x-2 lg:gap-x-8 justify-end sm:justify-center pr-2 sm:pr-0 pt-4" role="tablist">
                 <a id="genshinNavCharacters" href="#Characters" class="genshinNav" aria-selected="false">
                     <img src="Genshin/Ressources/Icons/Group.svg" class="">
-                    <span class="hidden md:block font-bold">Characters</span>
+                    <span class="hidden lg:block font-bold">Characters</span>
                 </a>
                 <a id="genshinNavWeapons" href="#Weapons" class="genshinNav" aria-selected="false">
                     <img src="Genshin/Ressources/Icons/Weapon.svg" class="">
-                    <span class="hidden md:block font-bold">Weapons</span>
+                    <span class="hidden lg:block font-bold">Weapons</span>
                 </a>
                 <a id="genshinNavArtifacts" href="#Artifacts" class="genshinNav" aria-selected="false">
                     <img src="Genshin/Ressources/Icons/Crown.svg" class="">
-                    <span class="hidden md:block font-bold">Artifacts</span>
+                    <span class="hidden lg:block font-bold">Artifacts</span>
                 </a>
                 <a id="genshinNavBuildFinder" href="#BuildFinder" class="genshinNav" aria-selected="false">
                     <img src="Genshin/Ressources/Icons/Search.svg" class="">
-                    <span class="hidden md:block font-bold">Build Finder</span>
+                    <span class="hidden lg:block font-bold">Build Finder</span>
+                </a>
+                <a id="genshinNavChangelog" href="#Changelog" class="genshinNav" aria-selected="false">
+                    <img src="Genshin/Ressources/Icons/Changelog.svg" class="">
+                    <span class="hidden lg:block font-bold">Changelog</span>
                 </a>
             </nav>
 
@@ -609,7 +614,30 @@
                             Nobody
                         </div>
                     </div>
+
+                    <div id="genshinChangelog">
+                        <div class="overflow-x-auto shadow-xs rounded-md border border-lavender-purple-500">
+                            <table class="w-full">
+                                <thead class="text-center font-bold text-lg bg-white">
+                                    <tr>
+                                        <th class="px-6 py-3 font-medium min-w-48">Date</th>
+                                        <th class="px-6 py-3 font-medium min-w-48 border-l border-lavender-purple-500">Version</th>
+                                        <th class="px-6 py-3 font-medium min-w-96 border-l border-lavender-purple-500">Changes Applied</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="genshinChangelogBody" class="text-left bg-fuchsia-50"></tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
+
+                <template id="genshinChangelogRow">
+                    <tr class="border-t border-lavender-purple-500">
+                        <td class="genshinChangelogDate px-4 py-2"></td>
+                        <td class="genshinChangelogVersion px-4 py-2 border-l border-lavender-purple-500"></td>
+                        <td class="genshinChangelogInfo px-4 py-2 border-l border-lavender-purple-500"></td>
+                    </tr>
+                </template>
 
                 <!-- Genshin card template -->
                 <template id="genshinCard">
