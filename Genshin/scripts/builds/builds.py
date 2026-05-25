@@ -177,7 +177,7 @@ for character_list in soup.find_all('table') :
         cell = row.find_all('td')[1]
 
         # Check if current row is the name of the character
-        if (cell.has_attr('colspan') and cell.has_attr('rowspan')) or cell.get_text().title() == 'Mavuika' or cell.get_text().title() == 'Durin' :
+        if (cell.has_attr('colspan') and cell.has_attr('rowspan')) or cell.get_text().title() == 'Mavuika' or cell.get_text().title() == 'Durin' or cell.get_text().title() == 'Nicole' :
             # Reset
             weapons_multirows = False
             artifacts_multirows = False

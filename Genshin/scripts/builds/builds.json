@@ -3156,6 +3156,73 @@
             }
         }
     },
+    "Nicole": {
+        "SHIELD & BUFF SUPPORT": {
+            "weapons": {
+                "1": "Angelos' Heptades",
+                "2": "Memory of Dust",
+                "3": "Crane's Echoing Call",
+                "4": "Skyward Atlas",
+                "5": "Starcaller's Watch",
+                "6": "Oathsworn Eye",
+                "7": "Hakushin Ring",
+                "8": "Flowing Purity",
+                "9": "Favonius Codex",
+                "10": "Thrilling Tales of Dragon Slayers"
+            },
+            "artifacts": {
+                "1": [
+                    "Celestial Gift"
+                ],
+                "2": [
+                    "Scroll of the Hero of Cinder City"
+                ],
+                "3": [
+                    "Noblesse Oblige"
+                ],
+                "4": [
+                    "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner",
+                    "Emblem of Severed Fate",
+                    "Silken Moon's Serenade",
+                    "Scholar",
+                    "The Exile"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "Energy Recharge",
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "ATK%"
+                ],
+                "Circlet": [
+                    "ATK%",
+                    "Crit Rate"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "ATK%",
+                "3": "Crit Rate"
+            },
+            "last_build_update": "6.6",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
+        }
+    },
     "Nilou": {
         "BLOOM SUPPORT": {
             "weapons": {
