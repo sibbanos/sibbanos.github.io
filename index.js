@@ -783,6 +783,7 @@ function GenshinChangelog() {
     // Draw changelog on first load only
     if (drawChangelog) {
         drawChangelog = false;
+        genshinChangelog = genshinChangelog.reverse();
 
         for (const changelogIndex in genshinChangelog) {
             const changelog = genshinChangelog[changelogIndex];

@@ -7310,12 +7310,13 @@ let genshinBuilds = {
     "Lan Yan": {
         "SHIELD & BUFF SUPPORT": {
             "weapons": {
-                "1": "Starcaller's Watch",
-                "2": "Thrilling Tales of Dragon Slayers",
-                "3": "Favonius Codex",
-                "4": "Crane's Echoing Call",
-                "5": "Hakushin Ring",
-                "6": "Prototype Amber"
+                "1": "Angelos' Heptades",
+                "2": "Starcaller's Watch",
+                "3": "Thrilling Tales of Dragon Slayers",
+                "4": "Favonius Codex",
+                "5": "Crane's Echoing Call",
+                "6": "Hakushin Ring",
+                "7": "Prototype Amber"
             },
             "artifacts": {
                 "1": [
@@ -7341,7 +7342,7 @@ let genshinBuilds = {
                 "3": "Elemental Mastery",
                 "4": "Crit Rate"
             },
-            "last_build_update": "5.3",
+            "last_build_update": "6.6",
             "talents_priority": {
                 "1": "Spell",
                 "2": "Ultimate"

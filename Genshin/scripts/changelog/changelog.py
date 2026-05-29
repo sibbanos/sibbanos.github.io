@@ -1,9 +1,8 @@
 from bs4 import BeautifulSoup
 import json
 
-changelog = {}
+changelog = []
 date = ''
-i = 0
 info = ''
 rowspan_date = 1
 row_info = ''
@@ -59,13 +58,13 @@ for row in soup.find_all('tr') :
     if row_info == '' :
         break
 
-    changelog[i] = {
+    changelog.append({
         'date' : row_date,
         'version' : row_version,
         'info' : row_info,
-    }
+    })
 
-    i += 1
+changelog.reverse()
 
 with open('Genshin/scripts/changelog/changelog.json', 'w') as file:
     file.write(json.dumps(changelog, indent=4))
