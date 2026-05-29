@@ -1000,6 +1000,28 @@ function GenshinCharacter(character) {
             cloneBuildContent.querySelector('.genshinTalentPriority').appendChild(span);
         }
 
+        // Create stat value if exist
+        if (Object.keys(characterInfo.stats).length > 0) {
+            for (const stat in characterInfo.stats) {
+                const value = characterInfo.stats[stat]
+                let statImage = stat;
+
+                if (['ATK', 'HP', 'DEF'].includes(stat)) {
+                    statImage = `Flat ${statImage}`
+                }
+
+                // Create stat value
+                const template = document.querySelector("#genshinCharacterBuildStatValue");
+                const clone = document.importNode(template.content, true);
+                clone.querySelector('img').src = `Genshin/Ressources/Stats/${statImage}.png`;
+                clone.querySelector('.statName').textContent = `${stat} :`;
+                clone.querySelector('.statValue').textContent = value;
+                cloneBuildContent.querySelector('.genshinStatsRow').appendChild(clone);
+            }
+        } else {
+            cloneBuildContent.querySelector('.genshinStatsRow').remove();
+        }
+
         let j = 1;
         // Create weapons
         for (const weaponIndex in buildInfo['weapons']) {

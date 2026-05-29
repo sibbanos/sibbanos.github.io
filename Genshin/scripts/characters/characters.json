@@ -8,6 +8,12 @@
             "character": "Genshin/Characters/Geo/Albedo.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit Rate": "60-80%",
+            "Crit DMG": "120-190%",
+            "DEF": "2,600",
+            "ATK": "1,200"
         }
     },
     "Alhaitham": {
@@ -19,6 +25,12 @@
             "character": "Genshin/Characters/Dendro/Alhaitham.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit Rate": "70-80%",
+            "Crit DMG": "195%",
+            "Elemental Mastery": "385",
+            "ATK": "1,200"
         }
     },
     "Aloy": {
@@ -30,6 +42,11 @@
             "character": "Genshin/Characters/Cryo/Aloy.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Crit Rate": "50%",
+            "Crit DMG": "135%",
+            "ATK": "1,700"
         }
     },
     "Arataki Itto": {
@@ -41,6 +58,13 @@
             "character": "Genshin/Characters/Geo/Arataki Itto.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "80%",
+            "Crit DMG": "205%",
+            "DEF": "2,400-2,700",
+            "Energy Recharge": "120%",
+            "ATK": "1,200"
         }
     },
     "Arlecchino": {
@@ -52,6 +76,11 @@
             "character": "Genshin/Characters/Pyro/Arlecchino.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Crit Rate": "80%",
+            "Crit DMG": "165-195%",
+            "ATK": "1,900-2,300"
         }
     },
     "Baizhu": {
@@ -63,6 +92,11 @@
             "character": "Genshin/Characters/Dendro/Baizhu.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Energy Recharge": "170%",
+            "HP": "40,000-46,000",
+            "ATK": "1,100"
         }
     },
     "Chasca": {
@@ -74,6 +108,12 @@
             "character": "Genshin/Characters/Anemo/Chasca.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Crit Rate": "40%",
+            "Crit DMG": "200-230%",
+            "ATK": "2,400",
+            "Energy Recharge": "120%"
         }
     },
     "Chiori": {
@@ -85,6 +125,12 @@
             "character": "Genshin/Characters/Geo/Chiori.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit Rate": "70-80%",
+            "Crit DMG": "205-220%",
+            "DEF": "1,800-2,000",
+            "ATK": "1,100-1,200"
         }
     },
     "Citlali": {
@@ -96,6 +142,10 @@
             "character": "Genshin/Characters/Cryo/Citlali.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Energy Recharge": "185%",
+            "Elemental Mastery": "900"
         }
     },
     "Clorinde": {
@@ -107,6 +157,12 @@
             "character": "Genshin/Characters/Electro/Clorinde.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit Rate": "65%",
+            "Crit DMG": "200%",
+            "ATK": "2,000",
+            "Energy Recharge": "120%"
         }
     },
     "Columbina": {
@@ -118,6 +174,12 @@
             "character": "Genshin/Characters/Hydro/Columbina.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Energy Recharge": "220%",
+            "Crit Rate": "55-85%",
+            "Crit DMG": "140-170%",
+            "HP": "31,000-35,000"
         }
     },
     "Cyno": {
@@ -129,6 +191,13 @@
             "character": "Genshin/Characters/Electro/Cyno.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Energy Recharge": "120%",
+            "Crit Rate": "80%",
+            "Crit DMG": "205%",
+            "ATK": "1,300-1,800",
+            "Elemental Mastery": "265-345"
         }
     },
     "Dehya": {
@@ -140,6 +209,12 @@
             "character": "Genshin/Characters/Pyro/Dehya.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "75%",
+            "Crit DMG": "155%",
+            "ATK": "1,400-2,100",
+            "HP": "33,000-40,000"
         }
     },
     "Diluc": {
@@ -151,6 +226,12 @@
             "character": "Genshin/Characters/Pyro/Diluc.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "70-85%",
+            "Crit DMG": "140-165%",
+            "ATK": "2,200",
+            "Elemental Mastery": "80-275"
         }
     },
     "Durin": {
@@ -162,6 +243,12 @@
             "character": "Genshin/Characters/Pyro/Durin.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit Rate": "70-80%",
+            "Crit DMG": "150-180%",
+            "ATK": "2,100",
+            "Energy Recharge": "130%"
         }
     },
     "Emilie": {
@@ -173,6 +260,11 @@
             "character": "Genshin/Characters/Dendro/Emilie.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Crit Rate": "70-80%",
+            "Crit DMG": "170-180%",
+            "ATK": "2,400"
         }
     },
     "Escoffier": {
@@ -184,6 +276,12 @@
             "character": "Genshin/Characters/Cryo/Escoffier.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Crit Rate": "70-80%",
+            "Crit DMG": "150-160%",
+            "ATK": "1,900-2,100",
+            "Energy Recharge": "160%"
         }
     },
     "Eula": {
@@ -195,6 +293,11 @@
             "character": "Genshin/Characters/Cryo/Eula.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "60-75%",
+            "Crit DMG": "155-185%",
+            "ATK": "2,400-2,700"
         }
     },
     "Flins": {
@@ -206,6 +309,13 @@
             "character": "Genshin/Characters/Electro/Flins.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Crit Rate": "50-70%",
+            "Crit DMG": "180-200%",
+            "ATK": "2,000",
+            "Elemental Mastery": "160",
+            "Energy Recharge": "130%"
         }
     },
     "Furina": {
@@ -217,6 +327,12 @@
             "character": "Genshin/Characters/Hydro/Furina.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Energy Recharge": "170%",
+            "HP": "32,000-39,000",
+            "Crit Rate": "80%",
+            "Crit DMG": "210%"
         }
     },
     "Ganyu": {
@@ -228,6 +344,11 @@
             "character": "Genshin/Characters/Cryo/Ganyu.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Crit Rate": "25%",
+            "Crit DMG": "230%",
+            "ATK": "2,400"
         }
     },
     "Hu Tao": {
@@ -239,6 +360,13 @@
             "character": "Genshin/Characters/Pyro/Hu Tao.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Crit Rate": "70-80%",
+            "Crit DMG": "205%",
+            "Elemental Mastery": "80-265",
+            "HP": "28,000-35,000",
+            "ATK": "3,300-4,000"
         }
     },
     "Ineffa": {
@@ -250,6 +378,12 @@
             "character": "Genshin/Characters/Electro/Ineffa.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Crit Rate": "70%",
+            "Crit DMG": "140-170%",
+            "ATK": "2,000",
+            "Elemental Mastery": "200"
         }
     },
     "Jean": {
@@ -261,6 +395,11 @@
             "character": "Genshin/Characters/Anemo/Jean.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "ATK": "2,200",
+            "Energy Recharge": "165-180%",
+            "Healing Bonus": "60%"
         }
     },
     "Kaedehara Kazuha": {
@@ -272,6 +411,11 @@
             "character": "Genshin/Characters/Anemo/Kaedehara Kazuha.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Energy Recharge": "120-195%",
+            "Elemental Mastery": "1,030",
+            "ATK": "1,400"
         }
     },
     "Kamisato Ayaka": {
@@ -283,6 +427,11 @@
             "character": "Genshin/Characters/Cryo/Kamisato Ayaka.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit DMG": "255%",
+            "ATK": "2,100",
+            "Crit Rate": "35-50%"
         }
     },
     "Kamisato Ayato": {
@@ -294,6 +443,12 @@
             "character": "Genshin/Characters/Hydro/Kamisato Ayato.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit Rate": "80%",
+            "Crit DMG": "185-205%",
+            "ATK": "2,100",
+            "HP": "21,000-24,000"
         }
     },
     "Keqing": {
@@ -305,6 +460,12 @@
             "character": "Genshin/Characters/Electro/Keqing.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit Rate": "75%",
+            "Crit DMG": "165-215%",
+            "ATK": "2,100",
+            "Elemental Mastery": "80"
         }
     },
     "Kinich": {
@@ -316,6 +477,12 @@
             "character": "Genshin/Characters/Dendro/Kinich.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "40%",
+            "Crit DMG": "180%",
+            "ATK": "2,000-2,200",
+            "Energy Recharge": "120%"
         }
     },
     "Klee": {
@@ -327,6 +494,12 @@
             "character": "Genshin/Characters/Pyro/Klee.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "75%",
+            "Crit DMG": "155%",
+            "ATK": "1,900",
+            "Elemental Mastery": "80"
         }
     },
     "Lauma": {
@@ -338,6 +511,12 @@
             "character": "Genshin/Characters/Dendro/Lauma.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Elemental Mastery": "1,050",
+            "Energy Recharge": "180%",
+            "Crit Rate": "40%",
+            "Crit DMG": "80%"
         }
     },
     "Linnea": {
@@ -349,6 +528,12 @@
             "character": "Genshin/Characters/Geo/Linnea.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Energy Recharge": "180%",
+            "Crit Rate": "70-80%",
+            "Crit DMG": "140-180%",
+            "DEF": "2,000-2,500"
         }
     },
     "Lyney": {
@@ -360,6 +545,11 @@
             "character": "Genshin/Characters/Pyro/Lyney.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Crit Rate": "55-65%",
+            "Crit DMG": "235-260%",
+            "ATK": "2,700"
         }
     },
     "Mavuika": {
@@ -371,6 +561,12 @@
             "character": "Genshin/Characters/Pyro/Mavuika.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "40%",
+            "Crit DMG": "200-220%",
+            "ATK": "1,800",
+            "Elemental Mastery": "200"
         }
     },
     "Mona": {
@@ -382,6 +578,12 @@
             "character": "Genshin/Characters/Hydro/Mona.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Energy Recharge": "215%",
+            "Crit Rate": "60%",
+            "Crit DMG": "120%",
+            "ATK": "1,500-1,700"
         }
     },
     "Mualani": {
@@ -393,6 +595,12 @@
             "character": "Genshin/Characters/Hydro/Mualani.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "40%",
+            "Crit DMG": "180%",
+            "HP": "30,000",
+            "Elemental Mastery": "150-200"
         }
     },
     "Nahida": {
@@ -404,6 +612,13 @@
             "character": "Genshin/Characters/Dendro/Nahida.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Energy Recharge": "130%",
+            "Elemental Mastery": "745-940",
+            "Crit Rate": "30-45%",
+            "Crit DMG": "95-125%",
+            "ATK": "1,200-1,500"
         }
     },
     "Navia": {
@@ -415,6 +630,11 @@
             "character": "Genshin/Characters/Geo/Navia.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "80%",
+            "Crit DMG": "165-175%",
+            "ATK": "2,500-2,700"
         }
     },
     "Nefer": {
@@ -426,6 +646,11 @@
             "character": "Genshin/Characters/Dendro/Nefer.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "50-70%",
+            "Crit DMG": "200-250%",
+            "Elemental Mastery": "900-1,100"
         }
     },
     "Neuvillette": {
@@ -437,6 +662,11 @@
             "character": "Genshin/Characters/Hydro/Neuvillette.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "65%",
+            "Crit DMG": "240%",
+            "HP": "33,000"
         }
     },
     "Nicole": {
@@ -448,7 +678,8 @@
             "character": "Genshin/Characters/Pyro/Nicole.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
+        },
+        "stats": {}
     },
     "Nilou": {
         "element": "Hydro",
@@ -459,6 +690,11 @@
             "character": "Genshin/Characters/Hydro/Nilou.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "HP": "70,000",
+            "Energy Recharge": "120-150%",
+            "Elemental Mastery": "280-445"
         }
     },
     "Qiqi": {
@@ -470,6 +706,10 @@
             "character": "Genshin/Characters/Cryo/Qiqi.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "ATK": "2,000-2,600",
+            "Healing Bonus": "75%"
         }
     },
     "Raiden Shogun": {
@@ -481,6 +721,12 @@
             "character": "Genshin/Characters/Electro/Raiden Shogun.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Crit Rate": "60%",
+            "Crit DMG": "120%",
+            "ATK": "2,000",
+            "Energy Recharge": "280%"
         }
     },
     "Sangonomiya Kokomi": {
@@ -492,6 +738,11 @@
             "character": "Genshin/Characters/Hydro/Sangonomiya Kokomi.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "HP": "48,000",
+            "ATK": "1,100-1,200",
+            "Healing Bonus": "60%"
         }
     },
     "Shenhe": {
@@ -503,6 +754,10 @@
             "character": "Genshin/Characters/Cryo/Shenhe.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Energy Recharge": "180-215%",
+            "ATK": "4,100"
         }
     },
     "Sigewinne": {
@@ -514,6 +769,9 @@
             "character": "Genshin/Characters/Hydro/Sigewinne.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "HP": "60,000"
         }
     },
     "Skirk": {
@@ -525,6 +783,11 @@
             "character": "Genshin/Characters/Cryo/Skirk.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit Rate": "70-80%",
+            "Crit DMG": "150-190%",
+            "ATK": "1,200"
         }
     },
     "Tartaglia": {
@@ -536,6 +799,12 @@
             "character": "Genshin/Characters/Hydro/Tartaglia.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Crit Rate": "75%",
+            "Crit DMG": "155%",
+            "ATK": "1,900-2,000",
+            "Elemental Mastery": "80"
         }
     },
     "Tighnari": {
@@ -547,6 +816,12 @@
             "character": "Genshin/Characters/Dendro/Tighnari.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Crit Rate": "80%",
+            "Crit DMG": "170%",
+            "Elemental Mastery": "345",
+            "ATK": "1,100-1,300"
         }
     },
     "Traveler": {
@@ -558,6 +833,13 @@
             "character": "Genshin/Characters/None/Traveler.png",
             "element": "Genshin/Ressources/Elements/None.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Energy Recharge": "175-180%",
+            "Crit Rate": "60%",
+            "Crit DMG": "125%",
+            "ATK": "1,300",
+            "Elemental Mastery": "265"
         }
     },
     "Varesa": {
@@ -569,6 +851,12 @@
             "character": "Genshin/Characters/Electro/Varesa.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "70%",
+            "Crit DMG": "150-170%",
+            "ATK": "1,800-2,100",
+            "Energy Recharge": "130%"
         }
     },
     "Varka": {
@@ -580,6 +868,11 @@
             "character": "Genshin/Characters/Anemo/Varka.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "70%",
+            "Crit DMG": "160-220%",
+            "ATK": "2,500"
         }
     },
     "Venti": {
@@ -591,6 +884,11 @@
             "character": "Genshin/Characters/Anemo/Venti.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Elemental Mastery": "780",
+            "Energy Recharge": "205-215%",
+            "ATK": "1,400"
         }
     },
     "Wanderer": {
@@ -602,6 +900,11 @@
             "character": "Genshin/Characters/Anemo/Wanderer.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "80%",
+            "Crit DMG": "165-185%",
+            "ATK": "2,100"
         }
     },
     "Wonderland Manekin": {
@@ -613,7 +916,8 @@
             "character": "Genshin/Characters/None/Wonderland Manekin.png",
             "element": "Genshin/Ressources/Elements/None.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
-        }
+        },
+        "stats": {}
     },
     "Wriothesley": {
         "element": "Cryo",
@@ -624,6 +928,11 @@
             "character": "Genshin/Characters/Cryo/Wriothesley.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "65%",
+            "Crit DMG": "205%",
+            "ATK": "2,300"
         }
     },
     "Xianyun": {
@@ -635,6 +944,10 @@
             "character": "Genshin/Characters/Anemo/Xianyun.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Energy Recharge": "170%",
+            "ATK": "2,700"
         }
     },
     "Xiao": {
@@ -646,6 +959,11 @@
             "character": "Genshin/Characters/Anemo/Xiao.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Crit Rate": "80%",
+            "Crit DMG": "165-195%",
+            "ATK": "2,300-2,400"
         }
     },
     "Xilonen": {
@@ -657,6 +975,10 @@
             "character": "Genshin/Characters/Geo/Xilonen.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Energy Recharge": "180%",
+            "DEF": "2,800-3,000"
         }
     },
     "Yae Miko": {
@@ -668,6 +990,12 @@
             "character": "Genshin/Characters/Electro/Yae Miko.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "80%",
+            "Crit DMG": "185%",
+            "ATK": "2,000-2,600",
+            "Elemental Mastery": "80-160"
         }
     },
     "Yelan": {
@@ -679,6 +1007,13 @@
             "character": "Genshin/Characters/Hydro/Yelan.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Energy Recharge": "140-200%",
+            "HP": "28,000-35,000",
+            "Crit Rate": "80%",
+            "Crit DMG": "205%",
+            "ATK": "1,300"
         }
     },
     "Yoimiya": {
@@ -690,6 +1025,11 @@
             "character": "Genshin/Characters/Pyro/Yoimiya.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Crit Rate": "80%",
+            "Crit DMG": "185%",
+            "ATK": "2,300"
         }
     },
     "Yumemizuki Mizuki": {
@@ -701,6 +1041,10 @@
             "character": "Genshin/Characters/Anemo/Yumemizuki Mizuki.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Elemental Mastery": "800-900",
+            "Energy Recharge": "120%"
         }
     },
     "Zhongli": {
@@ -712,6 +1056,10 @@
             "character": "Genshin/Characters/Geo/Zhongli.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "HP": "56,000",
+            "ATK": "1,000"
         }
     },
     "Zibai": {
@@ -723,6 +1071,11 @@
             "character": "Genshin/Characters/Geo/Zibai.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit Rate": "40-70%",
+            "Crit DMG": "200%",
+            "DEF": "2,000"
         }
     },
     "Aino": {
@@ -734,6 +1087,12 @@
             "character": "Genshin/Characters/Hydro/Aino.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Energy Recharge": "140-180%",
+            "Elemental Mastery": "700-900",
+            "Crit Rate": "35%",
+            "Crit DMG": "200%"
         }
     },
     "Amber": {
@@ -745,6 +1104,12 @@
             "character": "Genshin/Characters/Pyro/Amber.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Crit Rate": "60%",
+            "Crit DMG": "120%",
+            "ATK": "2,300",
+            "Elemental Mastery": "240"
         }
     },
     "Barbara": {
@@ -756,6 +1121,11 @@
             "character": "Genshin/Characters/Hydro/Barbara.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "HP": "36,000",
+            "Healing Bonus": "60%",
+            "ATK": "1,200"
         }
     },
     "Beidou": {
@@ -767,6 +1137,12 @@
             "character": "Genshin/Characters/Electro/Beidou.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "60-75%",
+            "Crit DMG": "120-150%",
+            "ATK": "2,000",
+            "Energy Recharge": "190%"
         }
     },
     "Bennett": {
@@ -778,6 +1154,11 @@
             "character": "Genshin/Characters/Pyro/Bennett.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Energy Recharge": "200-255%",
+            "HP": "27,000",
+            "ATK": "1,500"
         }
     },
     "Candace": {
@@ -789,6 +1170,13 @@
             "character": "Genshin/Characters/Hydro/Candace.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Energy Recharge": "190-205%",
+            "Crit Rate": "50%",
+            "Crit DMG": "60%",
+            "HP": "32,000-37,000",
+            "ATK": "1,100"
         }
     },
     "Charlotte": {
@@ -800,6 +1188,10 @@
             "character": "Genshin/Characters/Cryo/Charlotte.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Energy Recharge": "175-220%",
+            "ATK": "1,500"
         }
     },
     "Chevreuse": {
@@ -811,6 +1203,10 @@
             "character": "Genshin/Characters/Pyro/Chevreuse.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Energy Recharge": "120-150%",
+            "HP": "40,000"
         }
     },
     "Chongyun": {
@@ -822,6 +1218,11 @@
             "character": "Genshin/Characters/Cryo/Chongyun.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "50-65%",
+            "Crit DMG": "135-165%",
+            "ATK": "2,600"
         }
     },
     "Collei": {
@@ -833,6 +1234,13 @@
             "character": "Genshin/Characters/Dendro/Collei.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Energy Recharge": "170-175%",
+            "Crit Rate": "60%",
+            "Crit DMG": "120%",
+            "ATK": "1,900",
+            "Elemental Mastery": "120"
         }
     },
     "Dahlia": {
@@ -844,6 +1252,11 @@
             "character": "Genshin/Characters/Hydro/Dahlia.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "HP": "36,000-40,000",
+            "Energy Recharge": "190-220%",
+            "Crit Rate": "35%"
         }
     },
     "Diona": {
@@ -855,6 +1268,10 @@
             "character": "Genshin/Characters/Cryo/Diona.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "HP": "33,000",
+            "ATK": "1,200"
         }
     },
     "Dori": {
@@ -866,6 +1283,11 @@
             "character": "Genshin/Characters/Electro/Dori.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Energy Recharge": "150-180%",
+            "HP": "39,000",
+            "ATK": "1,100"
         }
     },
     "Faruzan": {
@@ -877,6 +1299,12 @@
             "character": "Genshin/Characters/Anemo/Faruzan.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Energy Recharge": "225-235%",
+            "Crit Rate": "60%",
+            "Crit DMG": "120%",
+            "ATK": "1,500"
         }
     },
     "Fischl": {
@@ -888,6 +1316,12 @@
             "character": "Genshin/Characters/Electro/Fischl.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Crit Rate": "60-75%",
+            "Crit DMG": "120-150%",
+            "ATK": "1,800-2,200",
+            "Elemental Mastery": "80-245"
         }
     },
     "Freminet": {
@@ -899,6 +1333,11 @@
             "character": "Genshin/Characters/Cryo/Freminet.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "60-75%",
+            "Crit DMG": "120-150%",
+            "ATK": "2,400"
         }
     },
     "Gaming": {
@@ -910,6 +1349,12 @@
             "character": "Genshin/Characters/Pyro/Gaming.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "60%",
+            "Crit DMG": "190%",
+            "Elemental Mastery": "160",
+            "ATK": "1,900-2,100"
         }
     },
     "Gorou": {
@@ -921,6 +1366,12 @@
             "character": "Genshin/Characters/Geo/Gorou.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Energy Recharge": "255%",
+            "DEF": "1,100",
+            "Crit Rate": "60%",
+            "ATK": "1,100"
         }
     },
     "Iansan": {
@@ -932,6 +1383,11 @@
             "character": "Genshin/Characters/Electro/Iansan.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Energy Recharge": "180-200%",
+            "ATK": "2,800",
+            "Crit Rate": "30%"
         }
     },
     "Ifa": {
@@ -943,6 +1399,9 @@
             "character": "Genshin/Characters/Anemo/Ifa.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Energy Recharge": "160\u00e2\u20ac\u201c195%"
         }
     },
     "Illuga": {
@@ -954,6 +1413,11 @@
             "character": "Genshin/Characters/Geo/Illuga.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Energy Recharge": "240%",
+            "Elemental Mastery": "550",
+            "Crit Rate": "35%"
         }
     },
     "Jahoda": {
@@ -965,6 +1429,11 @@
             "character": "Genshin/Characters/Anemo/Jahoda.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Energy Recharge": "230%",
+            "ATK": "1,550-1,850",
+            "Crit Rate": "30%"
         }
     },
     "Kachina": {
@@ -976,6 +1445,12 @@
             "character": "Genshin/Characters/Geo/Kachina.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Energy Recharge": "120%",
+            "Crit Rate": "60%",
+            "Crit DMG": "120%",
+            "DEF": "1,800"
         }
     },
     "Kaeya": {
@@ -987,6 +1462,12 @@
             "character": "Genshin/Characters/Cryo/Kaeya.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Energy Recharge": "230%",
+            "Crit Rate": "50-75%",
+            "Crit DMG": "135-180%",
+            "ATK": "1,500-1,600"
         }
     },
     "Kaveh": {
@@ -998,6 +1479,11 @@
             "character": "Genshin/Characters/Dendro/Kaveh.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Energy Recharge": "200%",
+            "Elemental Mastery": "550-715",
+            "ATK": "1,100-1,400"
         }
     },
     "Kirara": {
@@ -1009,6 +1495,10 @@
             "character": "Genshin/Characters/Dendro/Kirara.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "HP": "52,000-57,000",
+            "ATK": "1,100"
         }
     },
     "Kujou Sara": {
@@ -1020,6 +1510,12 @@
             "character": "Genshin/Characters/Electro/Kujou Sara.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Energy Recharge": "190-220%",
+            "Crit Rate": "80%",
+            "Crit DMG": "145%",
+            "ATK": "1,600"
         }
     },
     "Kuki Shinobu": {
@@ -1031,6 +1527,11 @@
             "character": "Genshin/Characters/Electro/Kuki Shinobu.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Elemental Mastery": "965",
+            "HP": "22,000",
+            "ATK": "1,100"
         }
     },
     "Lan Yan": {
@@ -1042,6 +1543,9 @@
             "character": "Genshin/Characters/Anemo/Lan Yan.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Energy Recharge": "280%"
         }
     },
     "Layla": {
@@ -1053,6 +1557,10 @@
             "character": "Genshin/Characters/Cryo/Layla.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "HP": "41,000",
+            "ATK": "1,100"
         }
     },
     "Lisa": {
@@ -1064,6 +1572,12 @@
             "character": "Genshin/Characters/Electro/Lisa.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "75%",
+            "Crit DMG": "150%",
+            "ATK": "1,600",
+            "Elemental Mastery": "175"
         }
     },
     "Lynette": {
@@ -1075,6 +1589,12 @@
             "character": "Genshin/Characters/Anemo/Lynette.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit Rate": "70%",
+            "Crit DMG": "150%",
+            "Energy Recharge": "170-180%",
+            "ATK": "1,300-1,600"
         }
     },
     "Mika": {
@@ -1086,6 +1606,11 @@
             "character": "Genshin/Characters/Cryo/Mika.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Energy Recharge": "205%",
+            "HP": "31,000",
+            "ATK": "1,000"
         }
     },
     "Ningguang": {
@@ -1097,6 +1622,11 @@
             "character": "Genshin/Characters/Geo/Ningguang.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "75%",
+            "Crit DMG": "155%",
+            "ATK": "1,900-2,300"
         }
     },
     "Noelle": {
@@ -1108,6 +1638,12 @@
             "character": "Genshin/Characters/Geo/Noelle.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "70%",
+            "Crit DMG": "190%",
+            "DEF": "2,200-2,500",
+            "ATK": "1,200"
         }
     },
     "Ororon": {
@@ -1119,6 +1655,12 @@
             "character": "Genshin/Characters/Electro/Ororon.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Crit Rate": "70%",
+            "Crit DMG": "120-160%",
+            "ATK": "1,600-1,800",
+            "Energy Recharge": "160%"
         }
     },
     "Prune": {
@@ -1130,7 +1672,8 @@
             "character": "Genshin/Characters/Anemo/Prune.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
-        }
+        },
+        "stats": {}
     },
     "Razor": {
         "element": "Electro",
@@ -1141,6 +1684,11 @@
             "character": "Genshin/Characters/Electro/Razor.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "60-75%",
+            "Crit DMG": "120-150%",
+            "ATK": "2,500"
         }
     },
     "Rosaria": {
@@ -1152,6 +1700,11 @@
             "character": "Genshin/Characters/Cryo/Rosaria.png",
             "element": "Genshin/Ressources/Elements/Cryo.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Crit Rate": "70%",
+            "Crit DMG": "100%",
+            "ATK": "1,900"
         }
     },
     "Sayu": {
@@ -1163,6 +1716,11 @@
             "character": "Genshin/Characters/Anemo/Sayu.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Elemental Mastery": "445",
+            "ATK": "2,400",
+            "Healing Bonus": "35%"
         }
     },
     "Sethos": {
@@ -1174,6 +1732,12 @@
             "character": "Genshin/Characters/Electro/Sethos.png",
             "element": "Genshin/Ressources/Elements/Electro.png",
             "weapon": "Genshin/Ressources/Weapons/Bow.png"
+        },
+        "stats": {
+            "Crit Rate": "80%",
+            "Crit DMG": "160%",
+            "Elemental Mastery": "350",
+            "ATK": "1,350"
         }
     },
     "Shikanoin Heizou": {
@@ -1185,6 +1749,11 @@
             "character": "Genshin/Characters/Anemo/Shikanoin Heizou.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "60-75%",
+            "Crit DMG": "120-150%",
+            "ATK": "2,200"
         }
     },
     "Sucrose": {
@@ -1196,6 +1765,10 @@
             "character": "Genshin/Characters/Anemo/Sucrose.png",
             "element": "Genshin/Ressources/Elements/Anemo.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Elemental Mastery": "755",
+            "ATK": "1,100"
         }
     },
     "Thoma": {
@@ -1207,6 +1780,12 @@
             "character": "Genshin/Characters/Pyro/Thoma.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Energy Recharge": "220%",
+            "HP": "23,000-34,000",
+            "Crit Rate": "70%",
+            "ATK": "1,500"
         }
     },
     "Xiangling": {
@@ -1218,6 +1797,13 @@
             "character": "Genshin/Characters/Pyro/Xiangling.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "Energy Recharge": "190-245%",
+            "Crit Rate": "60-65%",
+            "Crit DMG": "120-130%",
+            "ATK": "1,900",
+            "Elemental Mastery": "155-345"
         }
     },
     "Xingqiu": {
@@ -1229,6 +1815,13 @@
             "character": "Genshin/Characters/Hydro/Xingqiu.png",
             "element": "Genshin/Ressources/Elements/Hydro.png",
             "weapon": "Genshin/Ressources/Weapons/Sword.png"
+        },
+        "stats": {
+            "Crit Rate": "60-80%",
+            "Crit DMG": "120-170%",
+            "ATK": "1,600-1,700",
+            "Energy Recharge": "180-190%",
+            "HP": "17,000-19,000"
         }
     },
     "Xinyan": {
@@ -1240,6 +1833,12 @@
             "character": "Genshin/Characters/Pyro/Xinyan.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Claymore.png"
+        },
+        "stats": {
+            "Crit Rate": "60%",
+            "Crit DMG": "120%",
+            "ATK": "2,800",
+            "DEF": "1,000-1,700"
         }
     },
     "Yanfei": {
@@ -1251,6 +1850,12 @@
             "character": "Genshin/Characters/Pyro/Yanfei.png",
             "element": "Genshin/Ressources/Elements/Pyro.png",
             "weapon": "Genshin/Ressources/Weapons/Catalyst.png"
+        },
+        "stats": {
+            "Crit Rate": "75%",
+            "Crit DMG": "155%",
+            "ATK": "1,800",
+            "Elemental Mastery": "160"
         }
     },
     "Yaoyao": {
@@ -1262,6 +1867,11 @@
             "character": "Genshin/Characters/Dendro/Yaoyao.png",
             "element": "Genshin/Ressources/Elements/Dendro.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "HP": "39,000-47,000",
+            "Crit Rate": "30%",
+            "ATK": "1,100"
         }
     },
     "Yun Jin": {
@@ -1273,6 +1883,12 @@
             "character": "Genshin/Characters/Geo/Yun Jin.png",
             "element": "Genshin/Ressources/Elements/Geo.png",
             "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {
+            "DEF": "2,500",
+            "Energy Recharge": "195-215%",
+            "Crit Rate": "60%",
+            "ATK": "1,200"
         }
     }
 }

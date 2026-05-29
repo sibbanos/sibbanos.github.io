@@ -41,6 +41,7 @@ for character in soup.find('table').find_all('tr')[1:] :
                 'element' : 'Genshin/Ressources/Elements/'+character_element+'.png',
                 'weapon' : 'Genshin/Ressources/Weapons/'+character_weapon+'.png',
             },
+            'stats' : {},
         }
 
 # Sort by name
