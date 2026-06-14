@@ -99,6 +99,8 @@ correct_weapon_name = {
     'Sacrifical Jade' : 'Sacrificial Jade',
     'Fruit of Fulfilment' : 'Fruit of Fulfillment',
     "Ultimate Overlord's Mega Magic Sword" : '"Ultimate Overlord\'s Mega Magic Sword"',
+    'Gest of the Might Wolf' : 'Gest of the Mighty Wolf',
+    'Engufing Lightning' : 'Engulfing Lightning',
 }
 def correctWeapon(weapon) :
     if weapon in correct_weapon_name :

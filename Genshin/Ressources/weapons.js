@@ -5,7 +5,7 @@ let genshinWeapons = {
         "first_stat": "741",
         "second_stat": "11.0%",
         "second_stat_type": "CRIT Rate",
-        "ability": "Sunset Reignites the Dawn\nGain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by 20~40% and ATK increased by 28~56% for 6s. This effect can trigger once every 10s.\nWhile a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.\nAdditionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off\u2014field.",
+        "ability": "Sunset Reignites the Dawn\nGain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by 20~40% and ATK increased by 28~56% for 6s. This effect can trigger once every 10s.While a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.Additionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off\u2014field.",
         "link": "https://genshin-impact.fandom.com/wiki/A_Thousand_Blazing_Suns",
         "src": {
             "weapon": "Genshin/Weapons/Claymores/A Thousand Blazing Suns.png",
@@ -96,7 +96,7 @@ let genshinWeapons = {
         "first_stat": "608",
         "second_stat": "66.2%",
         "second_stat_type": "CRIT DMG",
-        "ability": "The Moonring Sighted\nFor 12s after triggering a Swirl reaction, ATK increases by 24~48. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by 20/48~40/96 and Elemental Burst DMG dealt is increased by 10/24~20/48.",
+        "ability": "The Moonring Sighted\nFor 12s after triggering a Swirl reaction, ATK increases by 24~48%. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by 20/48~40/96% and Elemental Burst DMG dealt is increased by 10/24~20/48%.",
         "link": "https://genshin-impact.fandom.com/wiki/Astral_Vulture%27s_Crimson_Plumage",
         "src": {
             "weapon": "Genshin/Weapons/Bows/Astral Vulture's Crimson Plumage.png",
@@ -109,7 +109,7 @@ let genshinWeapons = {
         "first_stat": "608",
         "second_stat": "33.1%",
         "second_stat_type": "CRIT Rate",
-        "ability": "Day King's Splendor Solis\nCRIT DMG from Elemental Bursts is increased by 16~32%. When an Elemental Burst hits an opponent, gain the Blade of the Daylight Hours effect: ATK is increased by 20~40%. Nearby active party members other than the equipping character have their ATK increased by 16~32% for 3s.\nAdditionally, when the party possesses Hexerei: Secret Rite effects, the effects of Blade of the Daylight Hours are increased by an additional 75%. This effect can be triggered even if the equipping character is off-field.",
+        "ability": "Day King's Splendor Solis\nCRIT DMG from Elemental Bursts is increased by 16~32%. When an Elemental Burst hits an opponent, gain the Blade of the Daylight Hours effect: ATK is increased by 20~40%. Nearby active party members other than the equipping character have their ATK increased by 16~32% for 3s.Additionally, when the party possesses Hexerei: Secret Rite effects, the effects of Blade of the Daylight Hours are increased by an additional 75%. This effect can be triggered even if the equipping character is off-field.",
         "link": "https://genshin-impact.fandom.com/wiki/Athame_Artis",
         "src": {
             "weapon": "Genshin/Weapons/Swords/Athame Artis.png",
@@ -122,7 +122,7 @@ let genshinWeapons = {
         "first_stat": "674",
         "second_stat": "22.1%",
         "second_stat_type": "CRIT Rate",
-        "ability": "White Mountain's Bounty\nWithin 12s after an Elemental Skill is used, ATK is increased by 24~48%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 24~48%, and CRIT DMG will be increased by 40~80%.",
+        "ability": "Whitehill's Bestowal\nWithin 12s after an Elemental Skill is used, ATK is increased by 24~48%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 24~48%, and CRIT DMG will be increased by 40~80%.",
         "link": "https://genshin-impact.fandom.com/wiki/Azurelight",
         "src": {
             "weapon": "Genshin/Weapons/Swords/Azurelight.png",
@@ -210,10 +210,10 @@ let genshinWeapons = {
     "Disaster and Remorse": {
         "type": "Polearm",
         "quality": "5",
-        "first_stat": "Unknown\n",
-        "second_stat": "",
-        "second_stat_type": "",
-        "ability": "",
+        "first_stat": "674",
+        "second_stat": "22.1%",
+        "second_stat_type": "CRIT Rate",
+        "ability": "Dolorous Stroke\nAfter the equipping character uses an Elemental Skill, they gain \"Path of Conflict\" for 17s, as well as \"Unforgivable\" and \"Irreparable\" for 3s each. This effect can trigger once every 18s.\nUnforgivable: Increases the equipping character's Normal Attack and Charged Attack DMG by 40~80%.\nIrreparable: Increases the equipping character's Elemental Skill and Elemental Burst DMG by 40~80%.\nWhile Path of Conflict is in effect, when the equipping character hits an opponent with a Normal Attack or Charged Attack, Irreparable's duration will be increased by 1s. When the equipping character hits an opponent with their Elemental Skill or Elemental Burst, Unforgivable's duration will be increased by 1s. Each of the above effects can be triggered once every 0.1s. When Path of Conflict ends or the equipping character leaves the field, both Unforgivable and Irreparable will be removed.\nHexerei: Secret Rite: The above DMG boosts are increased by 75%.",
         "link": "https://genshin-impact.fandom.com/wiki/Disaster_and_Remorse",
         "src": {
             "weapon": "Genshin/Weapons/Polearms/Disaster and Remorse.png",
@@ -470,7 +470,7 @@ let genshinWeapons = {
     "Nightweaver's Looking Glass": {
         "type": "Catalyst",
         "quality": "5",
-        "first_stat": "565",
+        "first_stat": "542",
         "second_stat": "265",
         "second_stat_type": "Elemental Mastery",
         "ability": "Millennial Hymn\nWhen the equipping character's Elemental Skill deals Hydro or Dendro DMG, they will gain Prayer of the Far North: Elemental Mastery is increased by 60~120 for 4.5s. When nearby party members trigger Lunar-Bloom reactions, the equipping character gains New Moon Verse: Elemental Mastery is increased by 60~120 for 10s. When both Prayer of the Far North and New Moon Verse are in effect, all nearby party members' Bloom DMG is increased by 120~240%, their Hyperbloom and Burgeon DMG is increased by 80~160%, and their Lunar-Bloom DMG is increased by 40~80%. This effect cannot stack. The aforementioned effects can be triggered even if the equipping character is off-field.",
@@ -486,7 +486,7 @@ let genshinWeapons = {
         "first_stat": "542",
         "second_stat": "88.2%",
         "second_stat_type": "CRIT DMG",
-        "ability": "Ballad of the Crossroads\nMax HP increases by 10~18%.\nWhen triggering Lunar reactions or inflicting Lunar Reaction DMG on opponents, the equipping character will recover 14~18 Energy, and receive the Bountiful Sea's Sacred Wine effect for 12s: Max HP increases by an additional 14~22%, CRIT DMG from Lunar Reaction DMG increases by 60~140%.\nThe Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field.",
+        "ability": "Ballad of the Crossroads\nMax HP increases by 10~18%. When triggering Lunar reactions or inflicting Lunar Reaction DMG on opponents, the equipping character will recover 14~18 Energy, and receive the Bountiful Sea's Sacred Wine effect for 12s: Max HP increases by an additional 14~22%, CRIT DMG from Lunar Reaction DMG increases by 60~140%. The Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field.",
         "link": "https://genshin-impact.fandom.com/wiki/Nocturne%27s_Curtain_Call",
         "src": {
             "weapon": "Genshin/Weapons/Catalysts/Nocturne's Curtain Call.png",
@@ -772,7 +772,7 @@ let genshinWeapons = {
         "first_stat": "674",
         "second_stat": "44.1%",
         "second_stat_type": "CRIT DMG",
-        "ability": "Dawning Song of Daybreak\nThe equipping character gains Stirring Dawn Breeze: 3s after leaving combat, Normal Attack, Elemental Skill, and Elemental Burst DMG is increased by 60~120%. While in combat, this DMG Bonus will decrease by 10~20% per second until it reaches 0%. When the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for the corresponding DMG type is increased by 10~20% until it reaches 60~120%. This effect can be triggered once every 0.1s for each of the attack types mentioned above. This effect can be triggered even if the equipping character is off-field.\nAdditionally, when the party possesses Hexerei: Secret Rite effects, when the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for all these DMG types is increased by 20~40% instead.",
+        "ability": "Dawning Song of Daybreak\nThe equipping character gains Stirring Dawn Breeze: 3s after leaving combat, Normal Attack, Elemental Skill, and Elemental Burst DMG is increased by 60~120%. While in combat, this DMG Bonus will decrease by 10~20% per second until it reaches 0%. When the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for the corresponding DMG type is increased by 10~20% until it reaches 60~120%. This effect can be triggered once every 0.1s for each of the attack types mentioned above. This effect can be triggered even if the equipping character is off-field.Additionally, when the party possesses Hexerei: Secret Rite effects, when the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for all these DMG types is increased by 20~40% instead.",
         "link": "https://genshin-impact.fandom.com/wiki/The_Daybreak_Chronicles",
         "src": {
             "weapon": "Genshin/Weapons/Bows/The Daybreak Chronicles.png",
@@ -785,7 +785,7 @@ let genshinWeapons = {
         "first_stat": "608",
         "second_stat": "66.2%",
         "second_stat_type": "CRIT DMG",
-        "ability": "Parsifal the Great\nDMG dealt by Charged Attacks increased by 16~32%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 16/32/48~32/64/96. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 4/7/10~12/15/18.",
+        "ability": "Parsifal the Great\nDMG dealt by Charged Attacks increased by 16~32%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 16/32/48~32/64/96%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 4/7/10~12/15/18%.",
         "link": "https://genshin-impact.fandom.com/wiki/The_First_Great_Magic",
         "src": {
             "weapon": "Genshin/Weapons/Bows/The First Great Magic.png",
@@ -863,7 +863,7 @@ let genshinWeapons = {
         "first_stat": "674",
         "second_stat": "22.1%",
         "second_stat_type": "CRIT Rate",
-        "ability": "Many Oaths of Dawn and Dusk\nIncreases ATK by 20~40%. When characters in your party obtain Elemental Shards from Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 18~36%. The Seal lasts for 15s, and the equipped may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG.",
+        "ability": "Many Oaths of Dawn and Dusk\nIncreases ATK by 20~40%. When characters in your party obtain Elemental Shards from Crystallize or trigger Lunar-Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 18~36%. The Seal lasts for 15s, and the equipped may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG. Up to 1 Seal may be obtained every second through the Lunar-Crystallize reaction.",
         "link": "https://genshin-impact.fandom.com/wiki/Verdict",
         "src": {
             "weapon": "Genshin/Weapons/Claymores/Verdict.png",
@@ -1409,7 +1409,7 @@ let genshinWeapons = {
         "first_stat": "510",
         "second_stat": "165",
         "second_stat_type": "Elemental Mastery",
-        "ability": "Mind in Bloom\nWhen Electro-Charged, Lunar-Charged, Bloom, or Lunar-Bloom is triggered, restore 12~24 Elemental Energy and increase Elemental Mastery by 60~120 for 15 seconds. This effect can be triggered once every 15s and can be triggered even when the equipping character is off-field.",
+        "ability": "Mind in Bloom\nWhen Electro-Charged, Lunar-Charged, Bloom, Lunar-Bloom, Crystallize or Lunar-Crystallize is triggered, restore 12~24 Elemental Energy and increase Elemental Mastery by 60~120 for 15 seconds. This effect can be triggered once every 15s and can be triggered even when the equipping character is off-field.",
         "link": "https://genshin-impact.fandom.com/wiki/Flame-Forged_Insight",
         "src": {
             "weapon": "Genshin/Weapons/Claymores/Flame-Forged Insight.png",
@@ -1487,7 +1487,7 @@ let genshinWeapons = {
         "first_stat": "565",
         "second_stat": "30.6%",
         "second_stat_type": "Energy Recharge",
-        "ability": "Forest Sanctuary\nAfter triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60~120 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+        "ability": "Forest Sanctuary\nAfter triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60~120 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
         "link": "https://genshin-impact.fandom.com/wiki/Forest_Regalia",
         "src": {
             "weapon": "Genshin/Weapons/Claymores/Forest Regalia.png",
@@ -1773,7 +1773,7 @@ let genshinWeapons = {
         "first_stat": "565",
         "second_stat": "110",
         "second_stat_type": "Elemental Mastery",
-        "ability": "Stillwood Moonshadow\nAfter triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 16~32% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+        "ability": "Stillwood Moonshadow\nAfter triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 16~32% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
         "link": "https://genshin-impact.fandom.com/wiki/Moonpiercer",
         "src": {
             "weapon": "Genshin/Weapons/Polearms/Moonpiercer.png",
@@ -1851,7 +1851,7 @@ let genshinWeapons = {
         "first_stat": "510",
         "second_stat": "41.3%",
         "second_stat_type": "ATK",
-        "ability": "Strong Strike\nEffective only on the following platform:\n\"PlayStation Network\"\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
+        "ability": "Strong Strike\nEffective only on the following platform:\"PlayStation Network\"Dealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
         "link": "https://genshin-impact.fandom.com/wiki/Predator",
         "src": {
             "weapon": "Genshin/Weapons/Bows/Predator.png",
@@ -1955,7 +1955,7 @@ let genshinWeapons = {
         "first_stat": "510",
         "second_stat": "45.9%",
         "second_stat_type": "Energy Recharge",
-        "ability": "Astral Whispers Beyond the Sacred Throne\nATK is increased by 28~?% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+        "ability": "Astral Whispers Beyond the Sacred Throne\nATK is increased by 28~56% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
         "link": "https://genshin-impact.fandom.com/wiki/Rainbow_Serpent%27s_Rain_Bow",
         "src": {
             "weapon": "Genshin/Weapons/Bows/Rainbow Serpent's Rain Bow.png",
@@ -2306,7 +2306,7 @@ let genshinWeapons = {
         "first_stat": "440",
         "second_stat": "35.2%",
         "second_stat_type": "ATK",
-        "ability": "Descension\nEffective only on the following platform:\n\"PlayStation Network\"\nHitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s.\nAdditionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
+        "ability": "Descension\nEffective only on the following platform:\"PlayStation Network\"Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
         "link": "https://genshin-impact.fandom.com/wiki/Sword_of_Descension",
         "src": {
             "weapon": "Genshin/Weapons/Swords/Sword of Descension.png",
@@ -2449,7 +2449,7 @@ let genshinWeapons = {
         "first_stat": "510",
         "second_stat": "55.1%",
         "second_stat_type": "CRIT DMG",
-        "ability": "Debut\nWhen a character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s.\nRecitative: ATK is increased by 60~120%.\nAria: Increases all Elemental DMG by 48~96%.\nInterlude: Elemental Mastery is increased by 240~480.",
+        "ability": "Debut\nWhen a character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by 60~120%. Aria: Increases all Elemental DMG by 48~96%. Interlude: Elemental Mastery is increased by 240~480.",
         "link": "https://genshin-impact.fandom.com/wiki/The_Widsith",
         "src": {
             "weapon": "Genshin/Weapons/Catalysts/The Widsith.png",

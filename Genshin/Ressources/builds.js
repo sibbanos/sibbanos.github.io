@@ -702,17 +702,19 @@ let genshinBuilds = {
         "QUICKBLOOM / HYPERBLOOM DPS": {
             "weapons": {
                 "1": "Staff of the Scarlet Sands",
-                "2": "Ballad of the Fjords",
+                "2": "Disaster and Remorse",
                 "3": "Primordial Jade Winged-Spear",
-                "4": "Deathmatch",
+                "4": "Ballad of the Fjords",
                 "5": "Lumidouce Elegy",
-                "6": "Staff of Homa",
-                "7": "White Tassel",
-                "8": "Missive Windspear",
-                "9": "Kitain Cross Spear",
-                "10": "Dragon's Bane",
-                "11": "Skyward Spine",
-                "12": "Favonius Lance"
+                "6": "Fractured Halo",
+                "7": "Staff of Homa",
+                "8": "White Tassel",
+                "9": "Deathmatch",
+                "10": "Symphonist of Scents",
+                "11": "Kitain Cross Spear",
+                "12": "Missive Windspear",
+                "13": "Skyward Spine",
+                "14": "Favonius Lance"
             },
             "artifacts": {
                 "1": [
@@ -758,7 +760,86 @@ let genshinBuilds = {
                 "4": "Crit DMG",
                 "5": "ATK%"
             },
-            "last_build_update": "4.8",
+            "last_build_update": "6.6",
+            "talents_priority": {
+                "1": "Ultimate",
+                "2": "Spell"
+            }
+        },
+        "AGGRAVATE DPS": {
+            "weapons": {
+                "1": "Staff of the Scarlet Sands",
+                "2": "Disaster and Remorse",
+                "3": "Primordial Jade Winged-Spear",
+                "4": "Lumidouce Elegy",
+                "5": "Fractured Halo",
+                "6": "Ballad of the Fjords",
+                "7": "Deathmatch",
+                "8": "Staff of Homa",
+                "9": "White Tassel",
+                "10": "Skyward Spine",
+                "11": "Crimson Moon's Semblance",
+                "12": "Bloodsoaked Ruins",
+                "13": "Kitain Cross Spear",
+                "14": "Sacrificer's Staff",
+                "15": "Favonius Lance"
+            },
+            "artifacts": {
+                "1": [
+                    "Thundering Fury"
+                ],
+                "2": [
+                    "Gladiator's Finale"
+                ],
+                "3": [
+                    "Gilded Dreams"
+                ],
+                "4": [
+                    "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner",
+                    "Thundering Fury",
+                    "Emblem of Severed Fate",
+                    "Aubade of Morningstar and Moon",
+                    "Flower of Paradise Lost",
+                    "Gilded Dreams",
+                    "Night of the Sky's Unveiling",
+                    "Wanderer's Troupe",
+                    "Instructor"
+                ],
+                "5": [
+                    "Thundersoother"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "Elemental Mastery",
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "Electro DMG"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Energy Recharge",
+                "2": "Crit Rate",
+                "3": "Crit DMG",
+                "4": "ATK%",
+                "5": "Elemental Mastery"
+            },
+            "last_build_update": "6.6",
             "talents_priority": {
                 "1": "Ultimate",
                 "2": "Spell"
@@ -1388,16 +1469,17 @@ let genshinBuilds = {
                 "5": "Symphonist of Scents",
                 "6": "Primordial Jade Winged-Spear",
                 "7": "Lumidouce Elegy",
-                "8": "Crimson Moon's Semblance",
-                "9": "Vortex Vanquisher",
-                "10": "Deathmatch",
-                "11": "Ballad of the Fjords",
-                "12": "Calamity Queller",
-                "13": "Prospector's Shovel",
-                "14": "Missive Windspear",
-                "15": "Sacrificer's Staff",
-                "16": "Blackcliff Pole",
-                "17": "Skyward Spine"
+                "8": "Disaster and Remorse",
+                "9": "Crimson Moon's Semblance",
+                "10": "Vortex Vanquisher",
+                "11": "Deathmatch",
+                "12": "Ballad of the Fjords",
+                "13": "Calamity Queller",
+                "14": "Prospector's Shovel",
+                "15": "Missive Windspear",
+                "16": "Sacrificer's Staff",
+                "17": "Blackcliff Pole",
+                "18": "Skyward Spine"
             },
             "artifacts": {
                 "1": [
@@ -1449,7 +1531,7 @@ let genshinBuilds = {
                 "4": "ATK%",
                 "5": "Elemental Mastery"
             },
-            "last_build_update": "6.4",
+            "last_build_update": "6.6",
             "talents_priority": {
                 "1": "Ultimate",
                 "2": "Spell"
@@ -2599,6 +2681,89 @@ let genshinBuilds = {
             }
         }
     },
+    "Lohen": {
+        "DPS": {
+            "weapons": {
+                "1": "Disaster and Remorse",
+                "2": "Fractured Halo",
+                "3": "Primordial Jade Winged-Spear",
+                "4": "Staff of Homa",
+                "5": "Symphonist of Scents",
+                "6": "Crimson Moon's Semblance",
+                "7": "Lumidouce Elegy",
+                "8": "Calamity Queller",
+                "9": "Bloodsoaked Ruins",
+                "10": "Staff of the Scarlet Sands",
+                "11": "Skyward Spine",
+                "12": "Deathmatch",
+                "13": "Vortex Vanquisher",
+                "14": "Sacrificer's Staff",
+                "15": "Blackcliff Pole",
+                "16": "Engulfing Lightning",
+                "17": "Missive Windspear",
+                "18": "Favonius Lance",
+                "19": "White Tassel",
+                "20": "Prospector's Shovel",
+                "21": "Tamayuratei no Ohanashi",
+                "22": "Crescent Pike",
+                "23": "Prototype Starglitter"
+            },
+            "artifacts": {
+                "1": [
+                    "A Day Carved From Rising Winds"
+                ],
+                "2": [
+                    "Blizzard Strayer"
+                ],
+                "3": [
+                    "Shimenawa's Reminiscence"
+                ],
+                "4": [
+                    "Desert Pavilion Chronicle"
+                ],
+                "5": [
+                    "Blizzard Strayer",
+                    "Finale of the Deep Galleries",
+                    "A Day Carved From Rising Winds",
+                    "Disenchantment in Deep Shadow",
+                    "Echoes of an Offering",
+                    "Fragment of Harmonic Whimsy",
+                    "Gladiator's Finale",
+                    "Nighttime Whispers in the Echoing Woods",
+                    "Shimenawa's Reminiscence",
+                    "Unfinished Reverie",
+                    "Vermillion Hereafter",
+                    "Brave Heart",
+                    "Resolution of Sojourner",
+                    "Marechaussee Hunter"
+                ]
+            },
+            "main_stats": {
+                "Sands": [
+                    "ATK%"
+                ],
+                "Goblet": [
+                    "Cryo DMG"
+                ],
+                "Circlet": [
+                    "Crit Rate",
+                    "Crit DMG"
+                ]
+            },
+            "sub_stats": {
+                "1": "Crit Rate",
+                "2": "Crit DMG",
+                "3": "ATK%",
+                "4": "Flat ATK",
+                "5": "Energy Recharge"
+            },
+            "last_build_update": "6.6",
+            "talents_priority": {
+                "1": "Spell",
+                "2": "Ultimate"
+            }
+        }
+    },
     "Lyney": {
         "DPS": {
             "weapons": {
@@ -2679,16 +2844,17 @@ let genshinBuilds = {
         "DPS & BUFF SUPPORT": {
             "weapons": {
                 "1": "A Thousand Blazing Suns",
-                "2": "Redhorn Stonethresher",
-                "3": "Verdict",
-                "4": "Beacon of the Reed Sea",
-                "5": "Mailed Flower",
-                "6": "Wolf's Gravestone",
-                "7": "The Unforged",
-                "8": "Serpent Spine",
-                "9": "Fang of the Mountain King",
-                "10": "Tidal Shadow",
-                "11": "Rainslasher"
+                "2": "Gest of the Mighty Wolf",
+                "3": "Redhorn Stonethresher",
+                "4": "Verdict",
+                "5": "Beacon of the Reed Sea",
+                "6": "Mailed Flower",
+                "7": "Wolf's Gravestone",
+                "8": "The Unforged",
+                "9": "Serpent Spine",
+                "10": "Fang of the Mountain King",
+                "11": "Tidal Shadow",
+                "12": "Rainslasher"
             },
             "artifacts": {
                 "1": [
@@ -2717,7 +2883,7 @@ let genshinBuilds = {
                 "3": "ATK%",
                 "4": "Elemental Mastery"
             },
-            "last_build_update": "6.1",
+            "last_build_update": "6.6",
             "talents_priority": {
                 "1": "Ultimate"
             }

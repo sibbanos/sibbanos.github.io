@@ -54,6 +54,10 @@ for row in soup.find_all('tr') :
             row_info = text
             break
 
+    # Skip April 1st row
+    if date == 'March 32, 2026' :
+        continue
+
     # Stop if row is empty
     if row_info == '' :
         break

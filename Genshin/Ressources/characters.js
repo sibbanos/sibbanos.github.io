@@ -536,6 +536,18 @@ let genshinCharacters = {
             "DEF": "2,000-2,500"
         }
     },
+    "Lohen": {
+        "element": "Cryo",
+        "quality": "5",
+        "weapon": "Polearm",
+        "link": "https://genshin-impact.fandom.com/wiki/Lohen",
+        "src": {
+            "character": "Genshin/Characters/Cryo/Lohen.png",
+            "element": "Genshin/Ressources/Elements/Cryo.png",
+            "weapon": "Genshin/Ressources/Weapons/Polearm.png"
+        },
+        "stats": {}
+    },
     "Lyney": {
         "element": "Pyro",
         "quality": "5",

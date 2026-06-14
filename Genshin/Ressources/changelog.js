@@ -2615,11 +2615,6 @@ let genshinChangelog = [
         "info": "Added Fractured Halo to Xiangling section. Added Scroll of the Hero of Cinder City (4) to: Amber, Xinyan, Thoma, Dehya, Candace, Dahlia, Hydro Traveler, Mona, Kokomi, Sigewinne, Kaeya, Mika Charlotte, Aloy, Gorou, Yun Jin, and Geo Traveler sections, as well as a few minor adjustments therein. Not a thorough update so \"last updated\" was not changed."
     },
     {
-        "date": "March 32, 2026",
-        "version": "Luna V (6.4)",
-        "info": "Created a tier list and categorized characters based on spiral abyss usage statistics. Placed Hydro Traveler in the SSS+ META-DEFINING Tier."
-    },
-    {
         "date": "April 1, 2026",
         "version": "Luna V (6.4)",
         "info": "Added a note regarding Emblem of Severed Fate (4) to Durin section."
@@ -2668,5 +2663,20 @@ let genshinChangelog = [
         "date": "May 26, 2026",
         "version": "Luna VII (6.6)",
         "info": "Added Angelos' Heptades to Lan Yan sections."
+    },
+    {
+        "date": "June 9, 2026",
+        "version": "Luna VII (6.6)",
+        "info": "Added Lohen section. Added Missive Windspear and Sacrificer's Staff + Blizzard Strayer notes to his section because I forgot. Added a combo to his notes section."
+    },
+    {
+        "date": "June 12, 2026",
+        "version": "Luna VII (6.6)",
+        "info": "Added Gest of the Mighty Wolf to Mavuika section. Massively updated Cyno section."
+    },
+    {
+        "date": "June 13, 2026",
+        "version": "Luna VII (6.6)",
+        "info": "Added Disaster and Remorse to Cyno section."
     }
 ];
